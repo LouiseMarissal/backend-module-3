@@ -1,6 +1,7 @@
 const express = require("express");
 const UserProModel = require("./../models/UserPro");
 const cocktailModel = require("./../models/Cocktail");
+const uploadCloud = require("./../config/cloudinary");
 const router = express.Router();
 
 router.get("/:id", (req, res) => {
@@ -35,7 +36,10 @@ router.get("/:id", (req, res) => {
 });
 
 //Create User
-router.post("/", (eq, res) => {
+router.post("/", uploadCloud.single("Image"), (req, res) => {
+  if (req.file) {
+    req.body.Image = req.file.secure_url;
+  }
   UserProModel.create(req.body)
     .then(dbRes => {
       res.status(201).send(dbRes);
