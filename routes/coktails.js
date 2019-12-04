@@ -6,6 +6,7 @@ const router = express.Router();
 router.get("/", (req, res) => {
   cocktailModel
     .find()
+    .populate("tag")
     .then(dbRes => {
       res.status(200).send(dbRes);
     })
@@ -15,7 +16,7 @@ router.get("/", (req, res) => {
 });
 
 // Show One Cocktail
-router.get("/", (req, res) => {
+router.get("/:id", (req, res) => {
   cocktailModel
     .findById(req.params.id)
     .then(dbRes => {
@@ -38,10 +39,26 @@ router.post("/", (req, res) => {
     });
 });
 // findbyId and update
-// router
-//   .patch("/", (req, res) => {
-//     cocktailModel.findByIdAndUpdate(req.params.id);
-//   })
-//   .then()
-//   .catch();
+router.patch("/:id", (req, res) => {
+  cocktailModel
+    .findByIdAndUpdate(req.params.id, req.body)
+    .then(dbRes => {
+      res.status(200).send(dbRes);
+    })
+    .catch(dbErr => {
+      res.status(500).send(dbErr);
+    });
+});
+
+// Delete cocktails
+router.delete("/:id", (req, res) => {
+  cocktailModel
+    .findByIdAndDelete(req.params.id)
+    .then(dbRes => {
+      res.status(200).send(dbRes);
+    })
+    .catch(dbErr => {
+      res.status(500).send(dbErr);
+    });
+});
 module.exports = router;
