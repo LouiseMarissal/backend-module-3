@@ -19,19 +19,7 @@ const CocktailSchema = new Schema({
       ref: "Tag"
     }
   },
-  rates: [
-    {
-      rate: Number,
-      author: {
-        type: Schema.Types.ObjectId,
-        ref: "User"
-      },
-      date: {
-        type: Date,
-        default: Date.now()
-      }
-    }
-  ]
+  likes: Number
 });
 
 const CocktailModel = mongoose.model("Cocktail", CocktailSchema);

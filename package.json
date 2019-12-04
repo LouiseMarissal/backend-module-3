@@ -18,5 +18,17 @@
     "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bin": {
+    "backend": "seeds.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LouiseMarissal/backend-module-3.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/LouiseMarissal/backend-module-3/issues"
+  },
+  "homepage": "https://github.com/LouiseMarissal/backend-module-3#readme"
 }
