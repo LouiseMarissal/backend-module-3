@@ -14,7 +14,13 @@ const UserProSchema = new Schema({
   etablissement: {
     name: String,
     website: String
-  }
+  },
+  favorites: [
+    {
+      type: Schema.Types.ObjectId,
+      ref: "Cocktail"
+    }
+  ]
 });
 
 const UserProModel = mongoose.model("UserPro", UserProSchema);
