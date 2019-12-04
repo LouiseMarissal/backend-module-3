@@ -3,7 +3,7 @@ let drinks = [
   {
     Name: "Mojito",
     Tags: "IBA,ContemporaryClassic,Alcoholic,USA,Christmas",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Muddle mint leaves with sugar and lime juice. Add a splash of soda water and fill the glass with cracked ice. Pour the rum and top with soda water. Garnish and serve with straw.",
@@ -39,12 +39,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-11-04 09:17:09"
+    Date: "2016-11-04 09:17:09",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Old Fashioned",
     Tags: "IBA,Classic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Place sugar cube in old fashioned glass and saturate with bitters, add a dash of plain water. Muddle until dissolved.\r\nFill the glass with ice cubes and add whiskey.\r\n\r\nGarnish with orange twist, and a cocktail cherry.",
@@ -80,12 +93,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2016-11-04 09:46:42"
+    Date: "2016-11-04 09:46:42",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Long Island Tea",
     Tags: "Strong,Asia",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Combine all ingredients (except cola) and pour over ice in a highball glass. Add the splash of cola for color. Decorate with a slice of lemon and serve.",
@@ -121,12 +147,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-08-18 14:54:32"
+    Date: "2015-08-18 14:54:32",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Negroni",
     Tags: "IBA,Classic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions: "Stir into glass over ice, garnish and serve.",
     Image:
@@ -161,12 +200,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-08-18 15:12:07"
+    Date: "2015-08-18 15:12:07",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Whiskey Sour",
     Tags: "IBA,Classic,Alcoholic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Shake with ice. Strain into chilled glass, garnish and serve. If served 'On the rocks', strain ingredients into old-fashioned glass filled with ice.",
@@ -202,12 +254,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 12:45:25"
+    Date: "2017-09-02 12:45:25",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Dry Martini",
     Tags: "IBA,Classic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Straight: Pour all ingredients into mixing glass with ice cubes. Stir well. Strain in chilled martini cocktail glass. Squeeze oil from lemon peel onto the drink, or garnish with olive.",
@@ -243,12 +308,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 12:51:35"
+    Date: "2017-09-02 12:51:35",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Daiquiri",
     Tags: "IBA,Classic,Beach",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Pour all ingredients into shaker with ice cubes. Shake well. Strain in chilled cocktail glass.",
@@ -284,12 +362,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-08-18 15:06:37"
+    Date: "2015-08-18 15:06:37",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Margarita",
     Tags: "IBA,ContemporaryClassic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
@@ -325,12 +416,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-08-18 14:42:59"
+    Date: "2015-08-18 14:42:59",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Manhattan",
     Tags: "IBA,Classic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Stirred over ice, strained into a chilled glass, garnished, and served up.",
@@ -366,13 +470,26 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 12:07:09"
+    Date: "2017-09-02 12:07:09",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Moscow Mule",
     
     Tags: "IBA,ContemporaryClassic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Copper Mug",
     Instructions:
       "Combine vodka and ginger beer in a highball glass filled with ice. Add lime juice. Stir gently. Garnish.",
@@ -408,13 +525,26 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 17:49:48"
+    Date: "2017-09-02 17:49:48",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "After Dinner Cocktail",
     
     Tags: "DinnerParty",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake all ingredients (except lime wedge) with ice and strain into a cocktail glass. Add the wedge of lime and serve.",
@@ -450,13 +580,26 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-01-02 20:06:18"
+    Date: "2017-01-02 20:06:18",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "After Supper Cocktail",
     
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -492,13 +635,26 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-01-02 20:06:50"
+    Date: "2017-01-02 20:06:50",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Alabama Slammer",
     
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Pour all ingredients (except for lemon juice) over ice in a highball glass. Stir, add a dash of lemon juice, and serve.",
@@ -534,12 +690,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-01-02 20:07:27"
+    Date: "2017-01-02 20:07:27",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Alaska Cocktail",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Stir all ingredients with ice, strain contents into a cocktail glass. Drop in a twist of lemon and serve.",
@@ -575,12 +744,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-01-02 20:08:40"
+    Date: "2017-01-02 20:08:40",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Alexander",
     Tags: "IBA,Classic,Dairy",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake all ingredients with ice and strain contents into a cocktail glass. Sprinkle nutmeg on top and serve.",
@@ -616,12 +798,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-11-04 09:50:39"
+    Date: "2016-11-04 09:50:39",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Brandy Alexander",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake all ingredients (except nutmeg) with ice and strain contents into a cocktail glass. Sprinkle nutmeg on top and serve.",
@@ -657,12 +852,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-01-02 20:09:06"
+    Date: "2017-01-02 20:09:06",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Alfie Cocktail",
-    Tags: "Alcoholic",
-    Alcoholic: "Alcoholic",
+    Tags: True,
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Combine and shake all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -698,12 +906,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-01-02 20:10:29"
+    Date: "2017-01-02 20:10:29",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Algonquin",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Combine and shake all ingredients with ice, strain contents into a cocktail glass, and serve.",
@@ -739,12 +960,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-01-02 20:11:13"
+    Date: "2017-01-02 20:11:13",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Allegheny",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake all ingredients (except lemon peel) with ice and strain into a cocktail glass. Top with the twist of lemon peel and serve.",
@@ -780,12 +1014,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-01-02 20:12:14"
+    Date: "2017-01-02 20:12:14",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Allies Cocktail",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Stir all ingredients with ice, strain contents into a cocktail glass, and serve.",
@@ -821,12 +1068,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-01-02 20:15:04"
+    Date: "2017-01-02 20:15:04",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Almeria",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass.",
@@ -862,12 +1122,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-01-02 20:16:21"
+    Date: "2017-01-02 20:16:21",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Almond Joy",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -903,12 +1176,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-01-02 20:18:16"
+    Date: "2017-01-02 20:18:16",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Amaretto And Cream",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake well with cracked ice, strain contents into a cocktail glass, and serve.",
@@ -944,12 +1230,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 18:56:58"
+    Date: "2017-09-02 18:56:58",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Amaretto Mist",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Pour amaretto in an old-fashioned glass over crushed ice. Add the wedge of lime and serve. (A wedge of lemon may be substituted for lime, if preferred.)",
@@ -985,12 +1284,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-01-02 20:19:31"
+    Date: "2017-01-02 20:19:31",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Amaretto Rose",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions:
       "Pour amaretto and lime juice over ice in a collins glass. Fill with club soda and serve.",
@@ -1026,12 +1338,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-04-24 22:32:59"
+    Date: "2017-04-24 22:32:59",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Amaretto Stinger",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake ingredients well with cracked ice, strain into a cocktail glass, and serve.",
@@ -1067,12 +1392,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-04-24 22:38:54"
+    Date: "2017-04-24 22:38:54",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Amaretto Tea",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Pousse cafe glass",
     Instructions:
       "Pour hot tea into a pousse-cafe glass, using a spoon in glass to prevent cracking. Add amaretto, but do not stir. Top with chilled whipped cream and serve.",
@@ -1108,12 +1446,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-04-24 22:42:47"
+    Date: "2017-04-24 22:42:47",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Angel Face",
     Tags: "IBA,Classic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake all ingredients with ice and strain contents into a cocktail glass.",
@@ -1149,12 +1500,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-11-04 09:52:58"
+    Date: "2016-11-04 09:52:58",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Applecar",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -1190,12 +1554,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 23:02:44"
+    Date: "2017-09-02 23:02:44",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Apricot Lady",
     Tags: "Cold",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "In a shaker half-filled with ice cubes, combine the rum, apricot brandy, triple sec, lemon juice, and egg white. Shake well. Strain into an old-fashioned glass almost filled with ice cubes. Garnish with the orange slice.",
@@ -1231,12 +1608,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 23:03:34"
+    Date: "2017-09-02 23:03:34",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Archbishop",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "In an old-fashioned glass almost filled with ice cubes, combine all of the ingredients. Stir well.",
@@ -1272,12 +1662,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-02 16:21:47"
+    Date: "2015-09-02 16:21:47",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Arise My Love",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Champagne flute",
     Instructions:
       "Put creme de menthe into a champagne flute. Fill with chilled champagne and serve.",
@@ -1313,12 +1716,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-02 16:23:52"
+    Date: "2015-09-02 16:23:52",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Arthur Tompkins",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Whiskey sour glass",
     Instructions:
       "In a shaker half-filled with ice cubes, combine the gin, Grand Marnier, and lemon juice. Shake well. Strain into a sour glass and garnish with the lemon twist.",
@@ -1354,12 +1770,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-04-24 22:05:21"
+    Date: "2017-04-24 22:05:21",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Artillery",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Stir all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -1395,12 +1824,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-04-24 22:02:27"
+    Date: "2017-04-24 22:02:27",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Balmoral",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "In a mixing glass half-filled with ice cubes, combine all of the ingredients. Stir well. Strain into a cocktail glass.",
@@ -1436,12 +1878,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-02 16:04:57"
+    Date: "2015-09-02 16:04:57",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Banana Daiquiri",
     Tags: "Fruity",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Champagne flute",
     Instructions:
       "Pour all ingredients into shaker with ice cubes. Shake well. Strain in chilled cocktail glass.",
@@ -1477,12 +1932,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 22:55:01"
+    Date: "2017-09-02 22:55:01",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Bermuda Highball",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Pour brandy, gin, and dry vermouth into a highball glass over ice cubes. Fill with carbonated water and stir. Add the twist of lemon and serve. (Ginger ale may be substituted for carbonated water, if preferred.)",
@@ -1518,12 +1986,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-02 16:08:48"
+    Date: "2015-09-02 16:08:48",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Black Russian",
     Tags: "IBA,ContemporaryClassic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Pour the ingredients into an old fashioned glass filled with ice cubes. Stir gently.",
@@ -1559,12 +2040,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 16:54:49"
+    Date: "2017-09-02 16:54:49",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Blackthorn",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Stir sloe gin and vermouth with ice and strain into a cocktail glass. Add the twist of lemon peel and serve.",
@@ -1600,12 +2094,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-02 16:57:10"
+    Date: "2015-09-02 16:57:10",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Bloody Maria",
     Tags: "Breakfast,Brunch,Hangover",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Shake all ingredients (except lemon slice) with cracked ice and strain into an old-fashioned glass over ice cubes. Add the slice of lemon and serve.",
@@ -1641,12 +2148,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 22:57:41"
+    Date: "2017-09-02 22:57:41",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Bloody Mary",
     Tags: "IBA,ContemporaryClassic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Stirring gently, pour all ingredients into highball glass. Garnish.",
@@ -1682,12 +2202,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-08-18 15:09:14"
+    Date: "2015-08-18 15:09:14",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Blue Lagoon",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Pour vodka and curacao over ice in a highball glass. Fill with lemonade, top with the cherry, and serve.",
@@ -1723,12 +2256,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 22:58:25"
+    Date: "2017-09-02 22:58:25",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Blue Margarita",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Rub rim of cocktail glass with lime juice. Dip rim in coarse salt. Shake tequila, blue curacao, and lime juice with ice, strain into the salt-rimmed glass, and serve.",
@@ -1764,12 +2310,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-08-18 14:51:53"
+    Date: "2015-08-18 14:51:53",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Blue Mountain",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into an old-fashioned glass alomst filled with ice cubes.",
@@ -1805,12 +2364,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-02 17:04:13"
+    Date: "2015-09-02 17:04:13",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Bluebird",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "In a mixing glass half-filled with crushed ice, combine the gin, triple sec, Curacao, and bitters. Stir well. Strain into a cocktail glass and garnish with the lemon twist and the cherry.",
@@ -1846,12 +2418,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-02 17:06:11"
+    Date: "2015-09-02 17:06:11",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Bobby Burns Cocktail",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Stir all ingredients (except lemon peel) with ice and strain into a cocktail glass. Add the twist of lemon peel and serve.",
@@ -1887,12 +2472,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-01-14 16:33:28"
+    Date: "2017-01-14 16:33:28",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Boomerang",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "In a mixing glass half-filled with ice cubes, combine the gin, vermouth, bitters, and maraschino liqueur. Stir well. Strain into a cocktail glass and garnish with the cherry.",
@@ -1928,12 +2526,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 22:59:12"
+    Date: "2017-09-02 22:59:12",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Boston Sidecar",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -1969,12 +2580,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 16:26:02"
+    Date: "2017-09-02 16:26:02",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Boston Sour",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Whiskey sour glass",
     Instructions:
       "Shake juice of lemon, powdered sugar, blended whiskey, and egg white with cracked ice and strain into a whiskey sour glass. Add the slice of lemon, top with the cherry, and serve.",
@@ -2010,12 +2634,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 16:28:20"
+    Date: "2017-09-02 16:28:20",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Classic Old-Fashioned",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "In an old-fashioned glass, muddle the bitters and water into the sugar cube, using the back of a teaspoon. Almost fill the glass with ice cubes and add the bourbon. Garnish with the orange slice and the cherry. Serve with a swizzle stick.",
@@ -2051,12 +2688,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 16:29:33"
+    Date: "2017-09-02 16:29:33",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Bourbon Sling",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "In a shaker half-filled with ice cubes, combine the sugar, water, lemon juice, and bourbon. Shake well. Strain well. Strain into a highball glass. Garnish with the lemon twist.",
@@ -2092,12 +2742,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 16:31:00"
+    Date: "2017-09-02 16:31:00",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Bourbon Sour",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Whiskey sour glass",
     Instructions:
       "In a shaker half-filled with ice cubes, combine the bourbon, lemon juice, and sugar. Shake well. Strain into a whiskey sour glass, garnish with the orange slice and cherry.",
@@ -2133,12 +2796,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 16:31:58"
+    Date: "2017-09-02 16:31:58",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Boxcar",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Whiskey sour glass",
     Instructions:
       "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a sour glass.",
@@ -2174,12 +2850,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 16:32:57"
+    Date: "2017-09-02 16:32:57",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Brandy Cobbler",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "In an old-fashioned glass, dissolve the sugar in the club soda. Add crushed ice until the glass is almost full. Add the brandy. Stir well. Garnish with the cherry and the orange and lemon slices.",
@@ -2215,12 +2904,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-08-13 12:37:16"
+    Date: "2015-08-13 12:37:16",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Brandy Flip",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Whiskey sour glass",
     Instructions:
       "In a shaker half-filled with ice cubes, combine the brandy, egg, sugar, and cream. Shake well. Strain into a sour glass and garnish with the nutmeg.",
@@ -2256,12 +2958,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 16:34:21"
+    Date: "2017-09-02 16:34:21",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Brandy Sour",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Whiskey sour glass",
     Instructions:
       "Shake brandy, juice of lemon, and powdered sugar with ice and strain into a whiskey sour glass. Decorate with the lemon slice, top with the cherry, and serve.",
@@ -2297,12 +3012,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 16:35:40"
+    Date: "2017-09-02 16:35:40",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Caipirinha",
     Tags: "ContemporaryClassic,IBA",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Place lime and sugar into old fashioned glass and muddle (mash the two ingredients together using a muddler or a wooden spoon). Fill the glass with ice and add the Cacha\u00e7a.",
@@ -2338,12 +3066,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-21 09:42:01"
+    Date: "2016-07-21 09:42:01",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "California Lemonade",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions:
       "Shake all ingredients (except carbonated water) with ice and strain into a collins glass over shaved ice. Fill with carbonated water and stir. Decorate with slices of orange and lemon. Add the cherry and serve with a straw.",
@@ -2379,12 +3120,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-08-28 18:47:04"
+    Date: "2016-08-28 18:47:04",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Casa Blanca",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -2420,12 +3174,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-06 16:36:02"
+    Date: "2015-09-06 16:36:02",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Casino Royale",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Whiskey sour glass",
     Instructions:
       "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a sour glass.",
@@ -2461,12 +3228,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 16:38:19"
+    Date: "2017-09-02 16:38:19",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Champagne Cocktail",
     Tags: "IBA,ContemporaryClassic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Champagne flute",
     Instructions:
       "Add dash of Angostura bitter onto sugar cube and drop it into champagne flute. Add cognac followed by gently pouring chilled champagne. Garnish with orange slice and maraschino cherry.",
@@ -2502,12 +3282,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 16:40:11"
+    Date: "2017-09-02 16:40:11",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Cherry Rum",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -2543,12 +3336,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-06 16:47:04"
+    Date: "2015-09-06 16:47:04",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Chicago Fizz",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Shake all ingredients (except carbonated water) with ice and strain into a highball glass over two ice cubes. Fill with carbonated water, stir, and serve.",
@@ -2584,12 +3390,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-02 16:29:23"
+    Date: "2015-09-02 16:29:23",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Chocolate Black Russian",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Champagne flute",
     Instructions:
       "Combine all ingredients in an electric blender and blend at a low speed for a short length of time. Pour into a chilled champagne flute and serve.",
@@ -2625,12 +3444,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-01 10:07:59"
+    Date: "2016-09-01 10:07:59",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "City Slicker",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass.",
@@ -2666,12 +3498,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 16:42:29"
+    Date: "2017-09-02 16:42:29",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Clove Cocktail",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Stir all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -2707,12 +3552,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-04-28 19:19:39"
+    Date: "2016-04-28 19:19:39",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Cuba Libre",
     Tags: "IBA,ContemporaryClassic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Build all ingredients in a Collins glass filled with ice. Garnish with lime wedge.",
@@ -2748,12 +3606,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-06 23:41:03"
+    Date: "2016-09-06 23:41:03",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Dragonfly",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "In a highball glass almost filled with ice cubes, combine the gin and ginger ale. Stir well. Garnish with the lime wedge.",
@@ -2789,12 +3660,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 22:51:40"
+    Date: "2017-09-02 22:51:40",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Dry Rob Roy",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "In a mixing glass half-filled with ice cubes, combine the Scotch and vermouth. Stir well. Strain into a cocktail glass. Garnish with the lemon twist.",
@@ -2830,12 +3714,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: null
+    Date: null,
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Dubonnet Cocktail",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Stir all ingredients (except lemon peel) with ice and strain into a cocktail glass. Add the twist of lemon peel and serve.",
@@ -2871,12 +3768,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-08-13 10:12:27"
+    Date: "2015-08-13 10:12:27",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "English Highball",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Pour brandy, gin, and sweet vermouth into a highball glass over ice cubes. Fill with carbonated water. Add the twist of lemon peel, stir, and serve. (Ginger ale may be substituted for carbonated water, if preferred.)",
@@ -2912,12 +3822,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-04 11:09:12"
+    Date: "2017-09-04 11:09:12",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "English Rose Cocktail",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Rub rim of cocktail glass with lemon juice and dip rim of glass in powdered sugar. Shake all ingredients (except cherry) with ice and strain into sugar-rimmed glass. Top with the cherry and serve.",
@@ -2953,12 +3876,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-02 16:44:57"
+    Date: "2015-09-02 16:44:57",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Flying Dutchman",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "In an old-fashioned glass almost filled with ice cubes, combine the gin and triple sec. Stir well.",
@@ -2994,12 +3930,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-04 11:12:38"
+    Date: "2017-09-04 11:12:38",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Flying Scotchman",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -3035,12 +3984,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-04 11:14:00"
+    Date: "2017-09-04 11:14:00",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Foxy Lady",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake all ingredients with ice, strain into a chilled cocktail glass, and serve.",
@@ -3076,12 +4038,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-04 11:10:44"
+    Date: "2017-09-04 11:10:44",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: 'French "75"',
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions:
       "In a shaker half-filled with ice cubes, combine the gin, sugar, and lemon juice. Shake well. Pour into a collins glass. Top with the Champagne. Stir well and garnish with the orange slice and the cherry.",
@@ -3117,12 +4092,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-08-18 15:08:23"
+    Date: "2015-08-18 15:08:23",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Frisco Sour",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Whiskey sour glass",
     Instructions:
       "Shake all ingredients (except slices of lemon and lime) with ice and strain into a whiskey sour glass. Decorate with the slices of lemon and lime and serve.",
@@ -3158,12 +4146,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 16:22:30"
+    Date: "2017-09-08 16:22:30",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Frozen Daiquiri",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Champagne flute",
     Instructions:
       "Combine all ingredients (except for the cherry) in an electric blender and blend at a low speed for five seconds, then blend at a high speed until firm. Pour contents into a champagne flute, top with the cherry, and serve.",
@@ -3199,12 +4200,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 16:26:53"
+    Date: "2017-09-08 16:26:53",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Frozen Mint Daiquiri",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Combine all ingredients with 1 cup of crushed ice in an electric blender. Blend at a low speed for a short length of time. Pour into an old-fashioned glass and serve.",
@@ -3240,12 +4254,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 16:27:49"
+    Date: "2017-09-08 16:27:49",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Frozen Pineapple Daiquiri",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Champagne flute",
     Instructions:
       "Combine all ingredients with 1 cup of crushed ice in an electric blender. Blend at a low speed for a short length of time. Pour into a champagne flute and serve.",
@@ -3281,12 +4308,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-06 23:14:57"
+    Date: "2017-09-06 23:14:57",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Gentleman's Club",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "In an old-fashioned glass almost filled with ice cubes, combine all of the ingredients. Stir well.",
@@ -3322,12 +4362,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 16:08:56"
+    Date: "2017-09-08 16:08:56",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Gin And Tonic",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Pour the gin and the tonic water into a highball glass almost filled with ice cubes. Stir well. Garnish with the lime wedge.",
@@ -3363,12 +4416,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-08-28 18:37:11"
+    Date: "2016-08-28 18:37:11",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Gin Cooler",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions:
       "Stir powdered sugar and 2 oz. carbonated water in a collins glass. Fill glass with ice and add gin. Fill with carbonated water and stir. Add the lemon peel and the orange spiral so that the end of the orange spiral dangles over rim of glass.",
@@ -3404,12 +4470,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-11-10 23:21:49"
+    Date: "2016-11-10 23:21:49",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Gin Daisy",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "In a shaker half-filled with ice cubes, combine the wine, lemon juice, sugar, and grenadine. Shake well. Pour into an old-fashioned glass and garnish with the cherry and the orange slice.",
@@ -3445,12 +4524,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-11-10 23:19:04"
+    Date: "2016-11-10 23:19:04",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Gin Fizz",
     Tags: "IBA,Classic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Shake all ingredients with ice cubes, except soda water. Pour into glass. Top with soda water.",
@@ -3486,12 +4578,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 12:29:32"
+    Date: "2017-09-02 12:29:32",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Gin Sling",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Dissolve powdered sugar in mixture of water and juice of lemon. Add gin. Pour into an old-fashioned glass over ice cubes and stir. Add the twist of orange peel and serve.",
@@ -3527,12 +4632,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 16:10:40"
+    Date: "2017-09-08 16:10:40",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Gin Smash",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Muddle sugar with carbonated water and mint sprigs in an old-fashioned glass. Add gin and 1 ice cube. Stir, add the orange slice and the cherry, and serve.",
@@ -3568,12 +4686,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 16:14:16"
+    Date: "2017-09-08 16:14:16",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Gin Sour",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Whiskey sour glass",
     Instructions:
       "In a shaker half-filled with ice cubes, combine the gin, lemon juice, and sugar. Shake well. Strain into a sour glass and garnish with the orange slice and the cherry.",
@@ -3609,12 +4740,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 16:12:03"
+    Date: "2017-09-08 16:12:03",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Gin Squirt",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Stir gin, grenadine, and powdered sugar with ice and strain into a highball glass over ice cubes. Fill with carbonated water and stir. Decorate with the pineapple chunks and the strawberries and serve.",
@@ -3650,12 +4794,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 16:15:02"
+    Date: "2017-09-08 16:15:02",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Gin Swizzle",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "In a shaker half-filled with ice cubes, combine the lime juice, sugar, gin, and bitters. Shake well. Almost fill a colling glass with ice cubes. Stir until the glass is frosted. Strain the mixture in the shaker into the glass and add the club soda.",
@@ -3691,12 +4848,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 16:20:26"
+    Date: "2017-09-08 16:20:26",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Gin Toddy",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Mix powdered sugar and water in an old-fashioned glass. Add gin and one ice cube. Stir, add the twist of lemon peel, and serve.",
@@ -3732,12 +4902,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-07 22:45:24"
+    Date: "2017-09-07 22:45:24",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Godchild",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Champagne flute",
     Instructions:
       "Shake all ingredients well with cracked ice, strain into a champagne flute, and serve.",
@@ -3773,12 +4956,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-07 22:47:09"
+    Date: "2017-09-07 22:47:09",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Godfather",
     Tags: "IBA,ContemporaryClassic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Pour all ingredients directly into old fashioned glass filled with ice cubes. Stir gently.",
@@ -3814,12 +5010,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 17:15:28"
+    Date: "2017-09-02 17:15:28",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Godmother",
     Tags: "IBA,ContemporaryClassic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Pour vodka and amaretto into an old-fashioned glass over ice and serve.",
@@ -3855,12 +5064,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 17:16:24"
+    Date: "2017-09-02 17:16:24",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Grass Skirt",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "In a shaker half-filled with ice cubes, combine the gin, triple sec, pineapple juice, and grenadine. Shake well. Pour into an old-fashioned glass and garnish with the pineapple slice.",
@@ -3896,12 +5118,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-14 23:19:46"
+    Date: "2016-09-14 23:19:46",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Harvey Wallbanger",
     Tags: "IBA,ContemporaryClassic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions:
       "Stir the vodka and orange juice with ice in the glass, then float the Galliano on top. Garnish and serve.",
@@ -3937,12 +5172,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 17:28:45"
+    Date: "2017-09-02 17:28:45",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Havana Cocktail",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass.",
@@ -3978,12 +5226,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 16:01:40"
+    Date: "2017-09-08 16:01:40",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Hawaiian Cocktail",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -4019,12 +5280,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 16:03:07"
+    Date: "2017-09-08 16:03:07",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Highland Fling Cocktail",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Stir all ingredients (except olive) with ice and strain into a cocktail glass. Add the olive and serve.",
@@ -4060,12 +5334,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-04-23 20:25:53"
+    Date: "2017-04-23 20:25:53",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Imperial Fizz",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Shake all ingredients (except carbonated water) with ice and strain into a highball glass over two ice cubes. Fill with carbonated water, stir, and serve.",
@@ -4101,12 +5388,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 16:29:08"
+    Date: "2017-09-08 16:29:08",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Irish Spring",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions:
       "Pour all ingredients (except orange slice and cherry) into a collins glass over ice cubes. Garnish with the slice of orange, add the cherry on top, and serve.",
@@ -4142,12 +5442,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 16:33:03"
+    Date: "2017-09-08 16:33:03",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Jack Rose Cocktail",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -4183,12 +5496,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-08-18 15:11:08"
+    Date: "2015-08-18 15:11:08",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Japanese Fizz",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Shake all ingredients (except carbonated water) with ice and strain into a highball glass over two ice cubes. Fill with carbonated water, stir, and serve.",
@@ -4224,12 +5550,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 16:33:51"
+    Date: "2017-09-08 16:33:51",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Jewel Of The Nile",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "In a mixing glass half-filled with ice cubes, combine all of the ingredients. Stir well. Strain into a cocktail glass.",
@@ -4265,12 +5604,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 16:35:48"
+    Date: "2017-09-08 16:35:48",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "John Collins",
     Tags: "IBA",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions:
       "Pour all ingredients directly into highball glass filled with ice. Stir gently. Garnish. Add a dash of Angostura bitters.",
@@ -4306,12 +5658,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 12:04:31"
+    Date: "2017-09-02 12:04:31",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Kamikaze",
     Tags: "IBA,NewEra",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake all ingredients together with ice. Strain into glass, garnish and serve.",
@@ -4347,12 +5712,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 18:26:44"
+    Date: "2017-09-02 18:26:44",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Kentucky B And B",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Brandy snifter",
     Instructions: "Pour the bourbon and Benedictine into a brandy snifter.",
     Image:
@@ -4387,12 +5765,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-11-10 23:23:56"
+    Date: "2016-11-10 23:23:56",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Kentucky Colonel",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "In a shaker half-filled with ice cubes combine the courbon and Benedictine. Shake and strain into a cocktail glass. Garnish with the lemon twist.",
@@ -4428,12 +5819,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-11-10 23:25:48"
+    Date: "2016-11-10 23:25:48",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Lady Love Fizz",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake all ingredients (except carbonated water) with ice and strain into a cocktail glass over two ice cubes. Fill with carbonated water, stir, and serve.",
@@ -4469,12 +5873,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 16:41:03"
+    Date: "2017-09-08 16:41:03",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Loch Lomond",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "In a mixing glass half-filled with ice cubes, combine the Scotch, Drambuie, and vermouth. Stir well. Strain into a cocktail glass. Garnish with the lemon twist.",
@@ -4510,12 +5927,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-19 11:24:41"
+    Date: "2016-07-19 11:24:41",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "London Town",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "In a mixing glass half-filled with ice cubes, combine all of the ingredients. Stir well. Strain into a cocktail glass.",
@@ -4551,12 +5981,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-19 11:18:27"
+    Date: "2016-07-19 11:18:27",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Lone Tree Cocktail",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Stir ingredients with ice, strain into a cocktail glass, and serve.",
@@ -4592,12 +6035,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-19 11:16:57"
+    Date: "2016-07-19 11:16:57",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Lone Tree Cooler",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions:
       "Stir powdered sugar and 2 oz. carbonated water in a collins glass. Fill glass with ice, add gin and vermouth, and stir. Fill with carbonated water and stir again. Add the twist of lemon peel and the orange spiral so that the end dangles over rim of glass.",
@@ -4633,12 +6089,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-11-16 12:14:45"
+    Date: "2016-11-16 12:14:45",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Lord And Lady",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Pour the rum and Tia Maria into an old-fashioned glass almost filled with ice cubes. Stir well.",
@@ -4674,12 +6143,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-19 11:13:39"
+    Date: "2016-07-19 11:13:39",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Mai Tai",
     Tags: "IBA,ContemporaryClassic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions:
       "Shake all ingredients with ice. Strain into glass. Garnish and serve with straw.",
@@ -4715,12 +6197,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-08-18 15:17:50"
+    Date: "2015-08-18 15:17:50",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Martinez Cocktail",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Stir all ingredients (except cherry) with ice and strain into a cocktail glass. Top with the cherry and serve.",
@@ -4756,12 +6251,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-08-18 15:00:52"
+    Date: "2015-08-18 15:00:52",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Martini",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Straight: Pour all ingredients into mixing glass with ice cubes. Stir well. Strain in chilled martini cocktail glass. Squeeze oil from lemon peel onto the drink, or garnish with olive.",
@@ -4797,12 +6305,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 12:51:35"
+    Date: "2017-09-02 12:51:35",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Midnight Cowboy",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass.",
@@ -4838,12 +6359,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-02 16:35:33"
+    Date: "2015-09-02 16:35:33",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Mississippi Planters Punch",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions:
       "Shake all ingredients (except carbonated water) with ice and strain into a collins glass over ice cubes. Fill with carbonated water, stir, and serve.",
@@ -4879,12 +6413,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-08-18 15:18:51"
+    Date: "2015-08-18 15:18:51",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Monkey Wrench",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Pour all of the ingredients into an old-fashioned glass almost filled with ice cubes. Stir well.",
@@ -4920,12 +6467,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 12:55:14"
+    Date: "2017-09-02 12:55:14",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "New York Sour",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Whiskey sour glass",
     Instructions:
       "Shake blended whiskey, juice of lemon, and powdered sugar with ice and strain into a whiskey sour glass. Float claret on top. Decorate with the half-slice of lemon and the cherry and serve.",
@@ -4961,12 +6521,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 15:59:55"
+    Date: "2017-09-08 15:59:55",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Orange Oasis",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Shake brandy, gin, and orange juice with ice and strain into a highball glass over ice cubes. Fill with ginger ale, stir, and serve.",
@@ -5002,12 +6575,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-02 05:25:23"
+    Date: "2015-09-02 05:25:23",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Orgasm",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake all ingredients with ice, strain into a chilled cocktail glass, and serve.",
@@ -5043,12 +6629,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 16:55:14"
+    Date: "2017-09-08 16:55:14",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Pink Gin",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "White wine glass",
     Instructions:
       "Pour the bitters into a wine glass. Swirl the glass to coat the inside with the bitters, shake out the excess. Pour the gin into the glass. Do not add ice.",
@@ -5084,12 +6683,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 17:36:58"
+    Date: "2017-09-08 17:36:58",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Pink Lady",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -5125,12 +6737,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 17:23:49"
+    Date: "2017-09-08 17:23:49",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Poppy Cocktail",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake ingredients with ice, strain into a cocktail glass, and serve.",
@@ -5166,12 +6791,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 23:05:15"
+    Date: "2017-09-02 23:05:15",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Port And Starboard",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Pousse cafe glass",
     Instructions:
       "Pour carefully into a pousse-cafe glass, so that creme de menthe floats on grenadine. Serve without mixing.",
@@ -5207,12 +6845,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-06 16:38:31"
+    Date: "2015-09-06 16:38:31",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Port Wine Cocktail",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Stir ingredients with ice, strain into a cocktail glass, and serve.",
@@ -5248,12 +6899,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-06 16:39:36"
+    Date: "2015-09-06 16:39:36",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Port Wine Flip",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Whiskey sour glass",
     Instructions:
       "Shake all ingredients (except nutmeg) with ice and strain into a whiskey sour glass. Sprinkle nutmeg on top and serve.",
@@ -5289,12 +6953,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-06 16:37:24"
+    Date: "2015-09-06 16:37:24",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Quaker's Cocktail",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -5330,12 +7007,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-11-12 14:51:54"
+    Date: "2016-11-12 14:51:54",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Quarter Deck Cocktail",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Stir all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -5371,12 +7061,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-11-12 15:03:37"
+    Date: "2016-11-12 15:03:37",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Queen Bee",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -5412,12 +7115,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-11-12 15:06:34"
+    Date: "2016-11-12 15:06:34",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Queen Charlotte",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions:
       "Pour red wine and grenadine into a collins glass over ice cubes. Fill with lemon-lime soda, stir, and serve.",
@@ -5453,12 +7169,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-11-12 15:07:29"
+    Date: "2016-11-12 15:07:29",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Queen Elizabeth",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Stir all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -5494,12 +7223,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-11-12 15:08:59"
+    Date: "2016-11-12 15:08:59",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Quentin",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "In a shaker half-filled with ice cubes, combine the rum, Kahlua, and cream. Shake well. Strain into a cocktail glass and garnish with the nutmeg.",
@@ -5535,12 +7277,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-11-12 15:09:58"
+    Date: "2016-11-12 15:09:58",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Royal Fizz",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions:
       "Shake all ingredients (except cola) with ice and strain into a chilled collins glass. Fill with cola and serve.",
@@ -5576,12 +7331,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 23:16:49"
+    Date: "2017-09-02 23:16:49",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Royal Gin Fizz",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Shake all ingredients (except carbonated water) with ice and strain into a highball glass over two ice cubes. Fill with carbonated water, stir, and serve.",
@@ -5617,12 +7385,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-06 23:07:52"
+    Date: "2017-09-06 23:07:52",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Rum Cobbler",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "In an old-fashioned glass, dissolve the sugar in the club soda. Add crushed ice until the glass is almost full. Add the rum. Stir well. Garnish with the cherry and the orange and lemon slices.",
@@ -5658,12 +7439,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 23:18:03"
+    Date: "2017-09-02 23:18:03",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Rum Cooler",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions:
       "Pour the rum and soda into a collins glass almost filled with ice cubes. Stir well and garnish with the lemon wedge.",
@@ -5699,12 +7493,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 17:37:54"
+    Date: "2017-09-08 17:37:54",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Rum Milk Punch",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions:
       "Shake all ingredients (except nutmeg) with ice and strain into a collins glass. Sprinkle nutmeg on top and serve.",
@@ -5740,12 +7547,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 17:40:10"
+    Date: "2017-09-08 17:40:10",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Rum Old-fashioned",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Stir powdered sugar, water, and bitters in an old-fashioned glass. When sugar has dissolved add ice cubes and light rum. Add the twist of lime peel, float 151 proof rum on top, and serve.",
@@ -5781,12 +7601,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-07 22:44:09"
+    Date: "2017-09-07 22:44:09",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Rum Screwdriver",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Pour rum into a highball glass over ice cubes. Add orange juice, stir, and serve.",
@@ -5822,12 +7655,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-11-27 11:28:14"
+    Date: "2017-11-27 11:28:14",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Rum Sour",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Whiskey sour glass",
     Instructions:
       "In a shaker half-filled with ice cubes, combine the rum, lemon juice, and sugar. Shake well. Strain into a sour glass and garnish with the orange slice and the cherry.",
@@ -5863,12 +7709,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 16:58:44"
+    Date: "2017-09-08 16:58:44",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Rum Toddy",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Dissolve powdered sugar in water in an old-fashioned glass. Add rum and one ice cube and stir. Add the twist of lemon peel and serve.",
@@ -5904,12 +7763,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 16:58:06"
+    Date: "2017-09-08 16:58:06",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Rusty Nail",
     Tags: "IBA,Classic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Pour the Scotch and Drambuie into an old-fashioned glass almost filled with ice cubes. Stir well. Garnish with the lemon twist.",
@@ -5945,12 +7817,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-11-04 09:49:42"
+    Date: "2016-11-04 09:49:42",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Salty Dog",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Pour all ingredients over ice cubes in a highball glass. Stir well and serve. (Vodka may be substituted for gin, if preferred.)",
@@ -5986,12 +7871,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 18:03:36"
+    Date: "2017-09-08 18:03:36",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Sazerac",
     Tags: "IBA,Classic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Rinse a chilled old-fashioned glass with the absinthe, add crushed ice, and set it aside. Stir the remaining ingredients over ice and set it aside. Discard the ice and any excess absinthe from the prepared glass, and strain the drink into the glass. Add the lemon peel for garnish.",
@@ -6027,12 +7925,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-08-18 15:13:28"
+    Date: "2015-08-18 15:13:28",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Scooter",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake all ingredients well with cracked ice, strain into a cocktail glass, and serve.",
@@ -6068,12 +7979,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-01-02 20:18:27"
+    Date: "2017-01-02 20:18:27",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Scotch Cobbler",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Pour scotch, brandy, and curacao over ice in an old-fashioned glass. Add the orange slice, top with the mint sprig, and serve.",
@@ -6109,12 +8033,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-06 23:17:07"
+    Date: "2017-09-06 23:17:07",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Scotch Sour",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Whiskey sour glass",
     Instructions:
       "Shake scotch, juice of lime, and powdered sugar with ice and strain into a whiskey sour glass. Decorate with 1/2 slice lemon, top with the cherry, and serve.",
@@ -6150,12 +8087,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 18:07:16"
+    Date: "2017-09-08 18:07:16",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Screwdriver",
     Tags: "IBA",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions: "Mix in a highball glass with ice. Garnish and serve.",
     Image:
@@ -6190,12 +8140,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 12:36:47"
+    Date: "2017-09-02 12:36:47",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Shanghai Cocktail",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -6231,12 +8194,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-11-10 23:31:18"
+    Date: "2016-11-10 23:31:18",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Sherry Eggnog",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions:
       "Shake sherry, powdered sugar, and egg with ice and strain into a collins glass. Fill with milk and stir. Sprinkle nutmeg on top and serve.",
@@ -6272,12 +8248,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-11-10 23:29:01"
+    Date: "2016-11-10 23:29:01",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Sherry Flip",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Nick and Nora Glass",
     Instructions:
       "Shake all ingredients (except nutmeg) with ice and strain into a whiskey sour glass. Sprinkle nutmeg on top and serve.",
@@ -6313,12 +8302,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-11-10 23:27:08"
+    Date: "2016-11-10 23:27:08",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Sidecar",
     Tags: "IBA,Classic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Pour all ingredients into cocktail shaker filled with ice. Shake well and strain into cocktail glass.",
@@ -6354,12 +8356,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-08-18 15:07:32"
+    Date: "2015-08-18 15:07:32",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Sidecar Cocktail",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -6395,12 +8410,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-07 22:40:28"
+    Date: "2017-09-07 22:40:28",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Singapore Sling",
     Tags: "IBA,ContemporaryClassic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Hurricane glass",
     Instructions:
       "Pour all ingredients into cocktail shaker filled with ice cubes. Shake well. Strain into highball glass. Garnish with pineapple and cocktail cherry.",
@@ -6436,12 +8464,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-08-18 14:58:08"
+    Date: "2015-08-18 14:58:08",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Sloe Gin Cocktail",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Stir all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -6477,12 +8518,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 17:52:12"
+    Date: "2017-09-08 17:52:12",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Sol Y Sombra",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Brandy snifter",
     Instructions:
       'Shake ingredients with ice, strain into a brandy snifter, and serve. (The English translation of the Name: of this drink is "Sun and Shade", and after sampling this drink, you\'ll understand why. Thanks, Kirby.)',
@@ -6518,12 +8572,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-08-22 19:19:43"
+    Date: "2017-08-22 19:19:43",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Stone Sour",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Whiskey sour glass",
     Instructions:
       "Shake all ingredients with ice, strain into a chilled whiskey sour glass, and serve.",
@@ -6559,12 +8626,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-01 09:51:35"
+    Date: "2016-09-01 09:51:35",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Strawberry Daiquiri",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Pour all ingredients into shaker with ice cubes. Shake well. Strain in chilled cocktail glass.",
@@ -6600,12 +8680,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-06 23:15:36"
+    Date: "2017-09-06 23:15:36",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Strawberry Margarita",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Rub rim of cocktail glass with lemon juice and dip rim in salt. Shake schnapps, tequila, triple sec, lemon juice, and strawberries with ice, strain into the salt-rimmed glass, and serve.",
@@ -6641,12 +8734,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-08-18 14:41:51"
+    Date: "2015-08-18 14:41:51",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Tequila Fizz",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions:
       "Shake all ingredients (except ginger ale) with ice and strain into a collins glass over ice cubes. Fill with ginger ale, stir, and serve.",
@@ -6682,12 +8788,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 17:53:57"
+    Date: "2017-09-08 17:53:57",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Tequila Sour",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Whiskey sour glass",
     Instructions:
       "Shake tequila, juice of lemon, and powdered sugar with ice and strain into a whiskey sour glass. Add the half-slice of lemon, top with the cherry, and serve.",
@@ -6723,12 +8842,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-07 22:43:21"
+    Date: "2017-09-07 22:43:21",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Thriller",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass.",
@@ -6764,12 +8896,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-04-28 19:21:54"
+    Date: "2016-04-28 19:21:54",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Tom Collins",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions:
       "In a shaker half-filled with ice cubes, combine the gin, lemon juice, and sugar. Shake well. Strain into a collins glass alomst filled with ice cubes. Add the club soda. Stir and garnish with the cherry and the orange slice.",
@@ -6805,12 +8950,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-08-18 15:21:22"
+    Date: "2015-08-18 15:21:22",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Turf Cocktail",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Stir all ingredients (except orange peel) with ice and strain into a cocktail glass. Add the twist of orange peel and serve.",
@@ -6846,12 +9004,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-06 16:46:07"
+    Date: "2015-09-06 16:46:07",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Tuxedo Cocktail",
     Tags: "IBA,Classic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Stir all ingredients with ice and strain into a cocktail glass. Garnish with a cherry and a twist of lemon zest.",
@@ -6887,12 +9058,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 12:42:31"
+    Date: "2017-09-02 12:42:31",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Valencia Cocktail",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -6928,12 +9112,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-04-23 20:27:20"
+    Date: "2017-04-23 20:27:20",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Van Vleet",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Shake all ingredients with ice, strain into an old-fashioned glass over ice cubes, and serve.",
@@ -6969,12 +9166,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-04-23 20:29:31"
+    Date: "2017-04-23 20:29:31",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Vermouth Cassis",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Stir vermouth and creme de cassis in a highball glass with ice cubes. Fill with carbonated water, stir again, and serve.",
@@ -7010,12 +9220,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-06 16:51:14"
+    Date: "2015-09-06 16:51:14",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Vesuvio",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Shake all ingredients with ice, strain into an old-fashioned glass over ice cubes, and serve.",
@@ -7051,12 +9274,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-04-23 20:36:43"
+    Date: "2017-04-23 20:36:43",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Veteran",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Pour the rum and cherry brandy into an old-fashioned glass almost filled with ice cubes. Stir well.",
@@ -7092,12 +9328,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-04-23 20:37:36"
+    Date: "2017-04-23 20:37:36",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Victor",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -7133,12 +9382,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-04-23 20:40:16"
+    Date: "2017-04-23 20:40:16",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Victory Collins",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions:
       "Shake all ingredients (except orange slice) with ice and strain into a collins glass over ice cubes. Add the slice of orange and serve.",
@@ -7174,12 +9436,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-04-23 20:43:39"
+    Date: "2017-04-23 20:43:39",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Vodka And Tonic",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Pour vodka into a highball glass over ice cubes. Fill with tonic water, stir, and serve.",
@@ -7215,12 +9490,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-07 22:41:40"
+    Date: "2017-09-07 22:41:40",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Waikiki Beachcomber",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -7256,12 +9544,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-02 16:43:03"
+    Date: "2015-09-02 16:43:03",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Whisky Mac",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Pour both of the ingredients into a wine goblet with no ice.",
@@ -7297,12 +9598,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-04-28 19:24:18"
+    Date: "2016-04-28 19:24:18",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "White Russian",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Pour vodka and coffee liqueur over ice cubes in an old-fashioned glass. Fill with light cream and serve.",
@@ -7338,12 +9652,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-08-28 18:35:32"
+    Date: "2016-08-28 18:35:32",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Afterglow",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Highball Glass",
     Instructions: "Mix. Serve over ice.",
     Image:
@@ -7378,12 +9705,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-18 22:07:32"
+    Date: "2016-07-18 22:07:32",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Alice Cocktail",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Cocktail glass",
     Instructions: "Shake well, strain into a large cocktail glass.",
     Image:
@@ -7418,12 +9758,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-18 22:09:04"
+    Date: "2016-07-18 22:09:04",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Apple Karate",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Highball Glass",
     Instructions:
       "Place all ingredients in the blender jar - cover and whiz on medium speed until well blended. Pour in one tall, 2 medium or 3 small glasses and drink up.",
@@ -7459,12 +9812,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-18 22:17:14"
+    Date: "2016-07-18 22:17:14",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Bora Bora",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Highball glass",
     Instructions:
       "Prepare in a blender or shaker, serve in a highball glass on the rocks. Garnish with 1 slice of pineapple and one cherry.",
@@ -7500,12 +9866,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-06 23:43:31"
+    Date: "2016-09-06 23:43:31",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Orangeade",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Highball glass",
     Instructions:
       "Place some ice cubes in a large tumbler or highball glass, add lemon juice, orange juice, sugar syrup, and stir well. Top up with cold soda water, serve with a drinking straw.",
@@ -7541,12 +9920,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-02 05:22:12"
+    Date: "2015-09-02 05:22:12",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Rail Splitter",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Highball glass",
     Instructions:
       "Mix sugar syrup with lemon juice in a tall glass. Fill up with ginger ale.",
@@ -7582,12 +9974,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-02 16:27:40"
+    Date: "2015-09-02 16:27:40",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Banana Milk Shake",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "White wine glass",
     Instructions:
       "Blend very well, preferably in a household mixer. Serve in a wine glass, garnish with whipped cream and a piece of banana.",
@@ -7623,12 +10028,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-01 09:58:27"
+    Date: "2016-09-01 09:58:27",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Banana Strawberry Shake",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Highball Glass",
     Instructions: "Blend all together in a blender until smooth.",
     Image:
@@ -7663,12 +10081,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-01 10:03:54"
+    Date: "2016-09-01 10:03:54",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Banana Strawberry Shake Daiquiri-type",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Cocktail Glass",
     Instructions: "Blend all together in a blender until smooth.",
     Image:
@@ -7703,12 +10134,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-01 10:03:01"
+    Date: "2016-09-01 10:03:01",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Egg Cream",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Coffee mug",
     Instructions:
       "Mix syrup and milk in a fountain glass. Add soda water, serve with a straw.",
@@ -7744,12 +10188,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-01-14 21:47:26"
+    Date: "2017-01-14 21:47:26",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Fruit Cooler",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Highball Glass",
     Instructions:
       "Toss strawberries with sugar, and let sit overnight in refrigerator. Cut lemon, reserve two slices. Juice the rest. Mix together the lemon juice, strawberries, apple juice, and soda water. Add slices of lemon (decor, really). In glasses, put ice cubes, and a slice of apple. Pour drink in, and serve.",
@@ -7785,12 +10242,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-01-14 21:48:19"
+    Date: "2017-01-14 21:48:19",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Fruit Flip-Flop",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Highball Glass",
     Instructions:
       "Place all ingredients in the blender jar - cover and whiz on medium speed until well blended. Pour in one tall, 2 medium or 3 small glasses and drink up.",
@@ -7826,12 +10296,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-01-14 21:50:33"
+    Date: "2017-01-14 21:50:33",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Fruit Shake",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Highball Glass",
     Instructions: "Blend til smooth.",
     Image:
@@ -7866,12 +10349,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-01-14 21:51:44"
+    Date: "2017-01-14 21:51:44",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Just a Moonmint",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Highball Glass",
     Instructions:
       "Place all ingredients in the blender jar - cover and whiz on medium speed until well blended. Pour in one tall, 2 medium or 3 small glasses and drink up.",
@@ -7907,12 +10403,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 15:20:36"
+    Date: "2017-02-20 15:20:36",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Lassi - A South Indian Drink",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Highball Glass",
     Instructions:
       "Blend in a blender for 3 seconds. Lassi is one of the easiest things to make, and there are many ways of making it. Basically, it is buttermilk (yoghurt whisked with water), and you can choose almost any consistency that you like, from the thinnest to the thickest. Serve cold.",
@@ -7948,12 +10457,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 15:19:40"
+    Date: "2017-02-20 15:19:40",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Lassi Khara",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Highball Glass",
     Instructions:
       "Blend (frappe) in blender until frothy. Add torn curry leaves and serve cold.",
@@ -7989,12 +10511,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 15:19:30"
+    Date: "2017-02-20 15:19:30",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Lassi Raita",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Highball Glass",
     Instructions:
       "Blend the yoghurt and ice cubes together, until the yoghurt becomes more liquid. Add sugar to taste. The lemon/lime is optional but it gives it a slightly tart taste. Dash of salt. Raita is also good for the summer. Instead of having a traditional salad you can make raita instead.",
@@ -8030,12 +10565,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 15:18:53"
+    Date: "2017-02-20 15:18:53",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Lassi - Sweet",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Highball glass",
     Instructions:
       "Put all ingredients into a blender and blend until nice and frothy. Serve chilled.",
@@ -8071,12 +10619,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 15:18:05"
+    Date: "2017-02-20 15:18:05",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Lassi - Mango",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Highball glass",
     Instructions:
       "Put it all in a blender and pour over crushed ice. You can also use other fruits like strawberries and bananas.",
@@ -8112,12 +10673,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 15:16:56"
+    Date: "2017-02-20 15:16:56",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Lemouroudji",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Highball Glass",
     Instructions:
       "Juice the lemons. Peel and grate the ginger. Place the grated ginger and a liberal dash of the cayenne pepper into a piece of cheesecloth, and tie it into a knot. Let soak in the water. After 15 minutes or so, add the sugar, and the lemon juice. Chill, and serve.",
@@ -8153,12 +10727,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 15:15:45"
+    Date: "2017-02-20 15:15:45",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Limeade",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Highball glass",
     Instructions:
       "In a large glass, put the lime juice and sugar, and stir well. Add cold seltzer water to fill. Put the lime peels in the glass. Drink. Repeat until limes or soda run out.",
@@ -8194,12 +10781,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 15:14:40"
+    Date: "2017-02-20 15:14:40",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Imperial Cocktail",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions: "Shake with ice and strain into cocktail glass.",
     Image:
@@ -8234,12 +10834,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 15:13:45"
+    Date: "2017-02-20 15:13:45",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Banana Cantaloupe Smoothie",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Highball Glass",
     Instructions:
       "Juice cantaloupe, pour juice into blender, add banana, and liquify.",
@@ -8275,12 +10888,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-18 22:18:23"
+    Date: "2016-07-18 22:18:23",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Apple Berry Smoothie",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Highball Glass",
     Instructions: "Throw everything into a blender and liquify.",
     Image:
@@ -8315,12 +10941,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-18 22:14:33"
+    Date: "2016-07-18 22:14:33",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Grape lemon pineapple Smoothie",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Highball glass",
     Instructions: "Throw everything into a blender and liquify.",
     Image:
@@ -8355,12 +10994,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 15:13:03"
+    Date: "2017-02-20 15:13:03",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Kiwi Papaya Smoothie",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Highball Glass",
     Instructions: "Throw everything into a blender and liquify.",
     Image:
@@ -8395,12 +11047,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 15:12:51"
+    Date: "2017-02-20 15:12:51",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Mango Orange Smoothie",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Highball Glass",
     Instructions: "Throw everything into a blender and liquify.",
     Image:
@@ -8435,12 +11100,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 15:12:01"
+    Date: "2017-02-20 15:12:01",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Pineapple Gingerale Smoothie",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Highball Glass",
     Instructions: "Throw everything into a blender and liquify.",
     Image:
@@ -8475,12 +11153,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 15:11:09"
+    Date: "2017-02-20 15:11:09",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Kill the cold Smoothie",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Highball glass",
     Instructions:
       "Juice ginger and lemon and add it to hot water. You may add cardomom.",
@@ -8516,12 +11207,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 15:10:15"
+    Date: "2017-02-20 15:10:15",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Strawberry Shivers",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Highball glass",
     Instructions:
       "Place all ingredients in the blender jar - cover and whiz on medium speed until well blended. Pour in one tall, 2 medium or 3 small glasses and drink up.",
@@ -8557,12 +11261,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 15:10:04"
+    Date: "2017-02-20 15:10:04",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Sweet Bananas",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Highball Glass",
     Instructions:
       "Place all ingredients in the blender jar - cover and whiz on medium speed until well blended. Pour in one tall, 2 medium or 3 small glasses and drink up.",
@@ -8598,12 +11315,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 15:09:05"
+    Date: "2017-02-20 15:09:05",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Tomato Tang",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Highball glass",
     Instructions:
       "Place all ingredients in the blender jar - cover and whiz on medium speed until well blended. Pour in one tall, 2 medium or 3 small glasses and drink up.",
@@ -8639,12 +11369,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 15:07:58"
+    Date: "2017-02-20 15:07:58",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Yoghurt Cooler",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Highball Glass",
     Instructions:
       "Place all ingredients in the blender jar - cover and whiz on medium speed until well blended. Pour in one tall, 2 medium or 3 small glasses and drink up. Note: Use lots of ice in this one - great on hot days! To add ice: Remove the center of the cover while the blender is on - drop 3 or 4 ice cubs and blend until they're completely crushed.",
@@ -8680,12 +11423,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 05:27:46"
+    Date: "2015-09-03 05:27:46",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Castillian Hot Chocolate",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Coffee mug",
     Instructions:
       "Shift the cocoa and sugar together into a medium-sized saucepan. Dissolve the cornstarch in the water, and stir into the cocoa and sugar until it is a smooth paste. Begin heating the mixture, stirring it with a whisk, and gradually pour in the milk. Continue stirring with the whisk as you bring the liquid to a simmer. Allow the chocolate to simmer for about 10 minutes, stirring often, until it is thick, glossy and completely smooth. Serve steaming hot in coffee mug. Serves six.",
@@ -8721,12 +11477,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 15:06:36"
+    Date: "2017-02-20 15:06:36",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Chocolate Beverage",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Coffee mug",
     Instructions:
       "Boil milk in the top of a deep double boiler five minutes. Remove from fire and add chocolate, mixed with the cinnamon, a little at a time, beating with molinillo or egg beater after each addition. When the chocolate is thoroughly blended, heat to the boiling point. Place over bottom of double boiler and add eggs, whipping constantly, until they are thoroughly blended and the mixture is frothing. Serve in coffee mug. Serves eight.",
@@ -8762,12 +11531,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 15:06:26"
+    Date: "2017-02-20 15:06:26",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Chocolate Drink",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Coffee mug",
     Instructions:
       "Melt the bar in a small amount of boiling water. Add milk. Cook over low heat, whipping gently (with a whisk, i would assume) until heated well. Don't let it boil! Serve in coffee mug.",
@@ -8803,12 +11585,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 15:06:20"
+    Date: "2017-02-20 15:06:20",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Drinking Chocolate",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Coffee mug",
     Instructions:
       "Heat the cream and milk with the cinnamon and vanilla bean very slowly for 15-20 minutes. (If you don't have any beans add 1-2 tsp of vanilla after heating). Remove the bean and cinnamon. Add the chocolate. Mix until fully melted. Serve topped with some very dense fresh whipped cream. Serves 1-2 depending upon how much of a glutton you are. For a richer chocolate, use 4 oz of milk, 4 oz of cream, 4 oz of chocolate. Serve in coffee mug.",
@@ -8844,12 +11639,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 15:06:13"
+    Date: "2017-02-20 15:06:13",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Hot Chocolate to Die for",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Coffee mug",
     Instructions:
       "Melt the chocolate, butter and vanilla in a double boiler. When just smooth stir in the cream.",
@@ -8885,12 +11693,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 15:06:06"
+    Date: "2017-02-20 15:06:06",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Microwave Hot Cocoa",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Coffee mug",
     Instructions:
       "Combine sugar, cocoa, salt and hot water in 1-quart micro-proof measuring cup (or coffee mug). Microwave at HIGH (100%) for 1 to 1 1/2 minutes or until boiling. Add milk, sitr and microwave an additonal 1 1/2 to 2 minutes or until hot. Stir in vanilla, blend well.",
@@ -8926,12 +11747,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 15:05:51"
+    Date: "2017-02-20 15:05:51",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Nuked Hot Chocolate",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Coffee mug",
     Instructions:
       "Mix with a bit of milk (1 oz or so) in coffee mug. Nuke mug for about 30-50 seconds. Stir until the heated cocoa dissolves. Fill mug with milk. Nuke for 1-2 minutes, depending on wattage and preferences as to burnt mouth parts.",
@@ -8967,12 +11801,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 15:05:43"
+    Date: "2017-02-20 15:05:43",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Orange Scented Hot Chocolate",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Coffee mug",
     Instructions:
       "Combine all ingredients in heavy medium saucepan. Stir over low heat until chocolate melts. Increase heat and bring just to a boil, stirring often. Remove from heat and whisk untily frothy. Return to heat and bring to boil again. Remove from heat, whisk until frothy. Repeat heating and whisking once again. Discard orange peel. (Can be prepared 2 hours ahead. Let stand at room temperature. Before serving, bring just to boil, remove from heat and whisk until frothy.) Pour hot chocolate into coffee mugs. Makes 2 servings.",
@@ -9008,12 +11855,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 15:05:31"
+    Date: "2017-02-20 15:05:31",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Spanish chocolate",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Coffee mug",
     Instructions:
       "Stir the milk with the chocolate and the cinnamon over low heat until the chocolate dissolves. Add the eggs and beat the mixture until it becomes thick, taking care not to boil. Serve in coffee mug.",
@@ -9049,12 +11909,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 15:04:14"
+    Date: "2017-02-20 15:04:14",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Lemon Shot",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions:
       "Mix Galliano and Absolut Citron in a shot glass, lay lemon wedge sprinkled with sugar over glass and pour a rum over wedge and glass. light rum with a lighter and let burn for a second. Do shot quickly and suck on lemon. If it is done correctly, this will taste like a shot of sweet lemonade.",
@@ -9090,12 +11963,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 15:02:59"
+    Date: "2017-02-20 15:02:59",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Sex on the Beach",
     Tags: "IBA,ContemporaryClassic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Build all ingredients in a highball glass filled with ice. Garnish with orange slice.",
@@ -9131,12 +12017,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-21 10:12:45"
+    Date: "2016-07-21 10:12:45",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Autodaf\u00e9",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Mix and fill up with soda water. Drunk by finns on a sunny day any time of the year and day.",
@@ -9172,12 +12071,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 15:02:08"
+    Date: "2017-02-20 15:02:08",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Gagliardo",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake well and serve in a cocktail glass. This is a home cocktail of American/Internet Bar del Pozzo, Pavia, Italy.",
@@ -9213,12 +12125,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 15:01:18"
+    Date: "2017-02-20 15:01:18",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Surf City Lifesaver",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Lots of ice and soda top up in tall glass with cherry and a grin.",
@@ -9254,12 +12179,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 14:58:19"
+    Date: "2017-02-20 14:58:19",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Grizzly Bear",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions: "Served over ice. Sounds nasty, but tastes great.",
     Image:
@@ -9294,12 +12232,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 14:55:50"
+    Date: "2017-02-20 14:55:50",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Karsk",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Put a copper coin in a coffe-cup and fill up with coffee until you no longer see the coin, then add alcohol until you see the coin. Norwegian speciality.",
@@ -9335,12 +12286,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 14:54:31"
+    Date: "2017-02-20 14:54:31",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Happy Skipper",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       'Pour Captain Morgan\'s Spiced Rum over ice, fill glass to top with Ginger Ale. Garnish with lime. Tastes like a cream soda. Name:d for the Gilligan\'s Island reference ("The Captain" *in* "Ginger" is a Happy Skipper!)',
@@ -9376,12 +12340,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 14:54:09"
+    Date: "2017-02-20 14:54:09",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Frapp\u00e9",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Highball Glass",
     Instructions:
       "Mix together. Blend at highest blender speed for about 1 minute. Pour into a glass and drink with a straw. Notes: This works best if everything is cold (if you make fresh coffee, mix it with the milk and let it sit in the fridge for 1/2 hour. If it is not frothy, add more milk, or even just some more milk powder. The froth gradually turns to liquid at the bottom of the glass, so you will find that you can sit and drink this for about 1/2 hour, with more iced coffee continually appearing at the bottom. Very refreshing.",
@@ -9417,12 +12394,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 03:05:28"
+    Date: "2015-09-03 03:05:28",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Iced Coffee",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Coffee mug",
     Instructions:
       "Mix together until coffee and sugar is dissolved. Add milk. Shake well. Using a blender or milk shake maker produces a very foamy drink. Serve in coffee mug.",
@@ -9458,12 +12448,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-02-03 15:37:35"
+    Date: "2016-02-03 15:37:35",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Iced Coffee Fillip",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Coffee mug",
     Instructions: "Mix together in a coffee mug and chill before serving.",
     Image:
@@ -9498,12 +12501,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-02-03 15:43:43"
+    Date: "2016-02-03 15:43:43",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Masala Chai",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Coffee Mug",
     Instructions:
       "Bring 2 cups of water to boil. Add all the ingredients and boil again for about 15 seconds. Let stand for a minute. Warm milk in a pot. Filter tea into cups. Add milk and sugar. That's IT.",
@@ -9539,12 +12555,25 @@ let drinks = [
     Measure13: " ",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 03:13:04"
+    Date: "2015-09-03 03:13:04",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Melya",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Coffee mug",
     Instructions:
       "Brew espresso. In a coffee mug, place 1 teaspoon of unsweetened powdered cocoa, then cover a teaspoon with honey and drizzle it into the cup. Stir while the coffee brews, this is the fun part. The cocoa seems to coat the honey without mixing, so you get a dusty, sticky mass that looks as though it will never mix. Then all at once, presto! It looks like dark chocolate sauce. Pour hot espresso over the honey, stirring to dissolve. Serve with cream.",
@@ -9580,12 +12609,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 03:32:59"
+    Date: "2015-09-03 03:32:59",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Spiking coffee",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Coffee mug",
     Instructions:
       "Incidentally, a pinch of cinnamon is indeed a nice addition to coffee but true heaven is a cardamom seed. Of course, you serve it in a coffee mug.",
@@ -9621,12 +12663,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-02-20 14:52:55"
+    Date: "2017-02-20 14:52:55",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Thai Coffee",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Highball glass",
     Instructions:
       "Place the coffee and spices in the filter cone of your coffee maker. Brew coffee as usual, let it cool. In a tall glass, dissolve 1 or 2 teaspoons of sugar in an ounce of the coffee (it's easier to dissolve than if you put it right over ice). Add 5-6 ice cubes and pour coffee to within about 1 inch of the top of the glass. Rest a spoon on top of the coffee and slowly pour whipping cream into the spoon. This will make the cream float on top of the coffee rather than dispersing into it right away.",
@@ -9662,12 +12717,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 03:23:45"
+    Date: "2015-09-03 03:23:45",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Thai Iced Coffee",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Highball glass",
     Instructions:
       "Prepare a pot of coffee at a good European strength. In the ground coffee, add 2 or 3 freshly ground cardamom pods. Sweeten while hot, then cool quickly. Serve in highball glass over ice, with cream. To get the layered effect, place a spoon atop the coffee and pour the milk carefully into the spoon so that it floats on the top of the coffee.",
@@ -9703,12 +12771,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 03:00:50"
+    Date: "2015-09-03 03:00:50",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Thai Iced Tea",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Highball glass",
     Instructions:
       "Combine Thai tea (i.e., the powder), boiling water, and sweetened condensed milk, stir until blended. Pour into 2 tall glasses filled with ice cubes. Garnish with mint leaves. Makes 2 servings.",
@@ -9744,12 +12825,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 02:59:28"
+    Date: "2015-09-03 02:59:28",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Absinthe #2",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Jar",
     Instructions:
       "Mix together and let sit a few days. Strain through a coffee filter. To serve mix 1 part absinthe to 4 parts water, add ice, enjoy.",
@@ -9785,12 +12879,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-08-31 19:13:17"
+    Date: "2016-08-31 19:13:17",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Amaretto Liqueur",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Combine sugar and 3/4 cup water in a small saucepan. Bring to a boil, stirring constantly. Reduce heat and simmer until all sugar is dissolved. Remove from heat and cool. In an aging container, combine apricot halves, almond extract, grain alcohol with 1/2 cup water, and brandy. Stir in cooled sugar syrup mixture. Cap and let age for 2 days. Remove apricot halves. (Save apricot halves, can be used for cooking). Add food coloring and glycerine. Stir, recap and continue aging for 1 to 2 months. Re-bottle as desired. Liqueur is ready to serve but will continue to improve with additional aging.",
@@ -9826,12 +12933,25 @@ let drinks = [
     Measure13: " ",
     Measure14: " ",
     Measure15: " ",
-    Date: "2016-09-01 09:47:29"
+    Date: "2016-09-01 09:47:29",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Angelica Liqueur",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Combine all herbs, nuts and spices with vodka in a 1 quart or larger aging container. Cap tightly and shake daily for 2 weeks. Strain through a fine muslin cloth or coffee filter, discarding solids. Clean out aging container. Place liquid back in container. Place sugar and water in saucepan and stir to combine over medium heat. When sugar is completely dissolved, set aside and let cool. When cool combine with food coloring and add to liqueur liquid. Cap and allow to age and mellow in a cool, dark place for one month.",
@@ -9867,12 +12987,25 @@ let drinks = [
     Measure13: " ",
     Measure14: " ",
     Measure15: " ",
-    Date: "2016-08-31 19:21:12"
+    Date: "2016-08-31 19:21:12",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Caribbean Orange Liqueur",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Pare very thinly the bright-colored rind from the oranges (no white). Blot the peel on paper towels to remove any excess oil. Put peel in a 4 cup screw-top jar. Add 2 cups vodka. Close jar. Store in a cool, dark place for 2 days or until the vodka has absorbed the flavor. Remove peel and add remaining vodka. Close jar and add remaining cup of vodka. Close the jar and store in a cool dark place at least 1 month to age.",
@@ -9908,12 +13041,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-08-31 19:19:30"
+    Date: "2016-08-31 19:19:30",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Coffee Liqueur",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Combine coffee, sugar and water. Simmer 1 hour and let cool. Add vanilla and vodka. Age in sealed jar 2 to 3 weeks.",
@@ -9949,12 +13095,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 05:17:31"
+    Date: "2015-09-03 05:17:31",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Coffee-Vodka",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Boil water and sugar until dissolved. Turn off heat. Slowly add dry instant coffee and continue stirring. Add a chopped vanilla bean to the vodka, then combine the cooled sugar syrup and coffee solution with the vodka. Cover tightly and shake vigorously each day for 3 weeks. Strain and filter. Its also best to let the sugar mixture cool completely so the vodka won't evaporate when its added. If you like a smoother feel to the liqueur you can add about 1 teaspoon of glycerine to the finished product.",
@@ -9990,12 +13149,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-08-31 19:18:14"
+    Date: "2016-08-31 19:18:14",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Cranberry Cordial",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Place the chopped cranberries in a 2 liter jar that has a tight-fitting lid. Add the sugar and rum. Adjust the lid securely and place the jar in a cool, dark place. Invert the jar and shake it every day for six weeks. Strain the cordial into bottles and seal with corks.",
@@ -10031,12 +13203,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-08-31 19:16:32"
+    Date: "2016-08-31 19:16:32",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Creme de Menthe",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Bring sugar and water to a boil and simmer for 10 minutes. Cool. Add the remaining ingredients and stir. Cover and let ripen for 1 month.",
@@ -10072,12 +13257,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 05:18:38"
+    Date: "2015-09-03 05:18:38",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Irish Cream",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Irish coffee cup",
     Instructions: "Mix scotch and milk. Add half-and-half. Add rest.",
     Image:
@@ -10112,12 +13310,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 16:31:39"
+    Date: "2017-09-08 16:31:39",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Scottish Highland Liqueur",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Combine all ingreds in aging container. Cover tightly and shake gently several times during the first 24 hrs. After 24 hrs, remove the lemon zest. Cover again and let stand in a cool, dark place for 2 weeks, shaking gently every other day. Strain through a wire sieve to remove the angelica root and fennel. Return to aging container, cover and let stand undisturbed in a cool dark place for 6 months. Siphon or pour clear liqueur into a sterile bottle. The cloudy dregs may be saved for cooking.",
@@ -10153,12 +13364,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 05:10:41"
+    Date: "2015-09-03 05:10:41",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Tia-Maria",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Boil water, sugar and coffe for 10 mins and let cool. Add rum and vanilla. Put in clean bottle(s) and leave for 1 week before using.",
@@ -10194,12 +13418,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 16:44:58"
+    Date: "2017-09-02 16:44:58",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Aloha Fruit punch",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Collins Glass",
     Instructions:
       "Add 1/4 cup water to ginger root. Boil 3 minutes. Strain. Add the liquid to the guava, lemon and pineapple juices. Make a syrup of sugar and remaining water. Cool. Combine with juices and pineapple. Chill throroughly.",
@@ -10235,7 +13472,20 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-18 22:11:07"
+    Date: "2016-07-18 22:11:07",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Apple Cider Punch #1",
@@ -10276,12 +13526,25 @@ let drinks = [
     Measure13: " ",
     Measure14: "",
     Measure15: "",
-    Date: "2016-02-03 15:26:58"
+    Date: "2016-02-03 15:26:58",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Artillery Punch",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Punch bowl",
     Instructions:
       "Combine all the ingredients in a large punch bowl with a block of ice. If found too dry, sugar syrup may be added. Decorate with twists of lemon peel.",
@@ -10317,12 +13580,25 @@ let drinks = [
     Measure13: " ",
     Measure14: "",
     Measure15: "",
-    Date: "2017-04-24 22:01:32"
+    Date: "2017-04-24 22:01:32",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Berry Deadly",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Add all ingredients to large bowl. Stir gently. Serve chilled.",
@@ -10358,12 +13634,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-04-28 19:17:57"
+    Date: "2016-04-28 19:17:57",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Cranberry Punch",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Punch Bowl",
     Instructions:
       "Combine first four ingredients. Stir until sugar is dissolved, chill. Then add ginger ale just before serving. Add ice ring to keep punch cold.",
@@ -10399,7 +13688,20 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 22:54:08"
+    Date: "2017-09-02 22:54:08",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Egg Nog #4",
@@ -10440,7 +13742,20 @@ let drinks = [
     Measure13: " ",
     Measure14: " ",
     Measure15: " ",
-    Date: "2016-07-18 22:02:27"
+    Date: "2016-07-18 22:02:27",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Egg-Nog - Classic Cooked",
@@ -10481,7 +13796,20 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-18 21:58:25"
+    Date: "2016-07-18 21:58:25",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Egg Nog - Healthy",
@@ -10522,7 +13850,20 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-18 21:55:08"
+    Date: "2016-07-18 21:55:08",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Gluehwein",
@@ -10563,12 +13904,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-18 21:56:58"
+    Date: "2016-07-18 21:56:58",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Holloween Punch",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Punch bowl",
     Instructions:
       'Take a bunch of grape juice and a bunch of fizzy stuff (club soda, ginger ale, lemonlime, whatever). Mix them in a punch bowl. Take orange sherbet and lime sherbet. Scoop out scoops and float them in the punch, let them melt a little so that a nasty film spreads all over the top of the punch but there are still "bubbles" in it in the form of sherbet scoops. Looks horrible, tastes just fine.',
@@ -10604,12 +13958,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 17:42:05"
+    Date: "2017-09-08 17:42:05",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Mulled Wine",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       'Simmer 3 cups water with, sugar, cloves, cinnamon sticks, and lemon peel in a stainless steel pot for 10 minutes. Add wine heat to a "coffee temperature" (DO NOT BOIL) then add the brandy.',
@@ -10645,12 +14012,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-06 23:08:44"
+    Date: "2017-09-06 23:08:44",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Sangria #1",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Pitcher",
     Instructions:
       "Mix all together in a pitcher and refrigerate. Add cloves and cinnamon sticks to taste. Serve in wine glasses.",
@@ -10686,12 +14066,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 04:01:20"
+    Date: "2015-09-03 04:01:20",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Sweet Sangria",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Pitcher",
     Instructions:
       "Dissolve the sugar in hot water and cool. Peel the citrus fruits and break into wedges. Mix the wine, sugar syrup, fruit, and Fresca in a pitcher and put in the fridge for a few hours. Serve in tall glasses with a straw.",
@@ -10727,12 +14120,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-19 11:30:28"
+    Date: "2016-07-19 11:30:28",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Sangria - The World's Best",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Pitcher",
     Instructions:
       "Mix wine, sugar and fruit, and let sit in the fridge for 18-24 hours. The mixture will have a somewhat syrupy consistency. Before serving stir in brandy and cut the mixture with soda water until it have a thinner, more wine like consistency. Serve from a pitcher in wine glasses.",
@@ -10768,12 +14174,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-19 11:31:04"
+    Date: "2016-07-19 11:31:04",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Spiced Peach Punch",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Collins Glass",
     Instructions:
       "Combine peach nectar, orange juice and brown sugar in a large saucepan. Tie cinnamon and cloves in a small cheesecloth bag. Drop into saucepan. Heat slowly, stirring constantly, until sugar dissolves. Simmer 10 minutes. Stir in lime juice. Serve in hot mugs.",
@@ -10809,12 +14228,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-19 11:32:11"
+    Date: "2016-07-19 11:32:11",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Strawberry Lemonade",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Collins Glass",
     Instructions:
       "Throw everything into a blender and mix until fairly smooth. Serve over ice.",
@@ -10850,7 +14282,20 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-19 11:33:45"
+    Date: "2016-07-19 11:33:45",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Sunny Holiday Punch",
@@ -10890,7 +14335,20 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-19 11:39:18"
+    Date: "2016-07-19 11:39:18",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Wine Cooler",
@@ -10930,12 +14388,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-08 15:16:50"
+    Date: "2016-09-08 15:16:50",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Wine Punch",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Combine all of the ingredients and pour over a block of ice.",
@@ -10971,12 +14442,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-08 15:18:30"
+    Date: "2016-09-08 15:18:30",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Bruce's Puce",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions:
       "In a regular-sized shot glass, layer, with a spoon or cherry, the grenadine , the Kahlua , then the Bailey's Irish cream in equal portions. It goes down really smooth ,and you don't even need a chaser. It tastes just like chocolate milk.(Really!)",
@@ -11012,12 +14496,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-08 15:22:38"
+    Date: "2016-09-08 15:22:38",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Brave Bull Shooter",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions:
       "Pour Tabasco into bottom of shot glass and fill with tequila.",
@@ -11053,12 +14550,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-08 15:23:45"
+    Date: "2016-09-08 15:23:45",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Fahrenheit 5000",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions:
       "Cover bottom of shot glass with Tabasco Sauce and then fill with half Firewater and half Absolut Peppar.",
@@ -11094,12 +14604,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-08 15:24:52"
+    Date: "2016-09-08 15:24:52",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Popped cherry",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Served over ice in a tall glass with a popped cherry (can add more popped cherries if in the mood)!",
@@ -11135,12 +14658,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-08 15:27:05"
+    Date: "2016-09-08 15:27:05",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Atomic Lokade",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "In a shaker, place lemonade, vodka, blue Curacao, and triple sec together. Shake with ice and strain into glass. Add sugar to taste",
@@ -11176,12 +14712,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-04-24 21:56:52"
+    Date: "2017-04-24 21:56:52",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Diesel",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Pint glass",
     Instructions:
       "Pour the lager first then add the blackcurrant cordial. Top up with the cider. The colour sholud be very dark approaching the colour of Guiness.",
@@ -11217,12 +14766,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-02-03 15:20:52"
+    Date: "2016-02-03 15:20:52",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Afternoon",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Build into a suiting glass, with no ice. Cream on top if wanted. Served directly.",
@@ -11258,12 +14820,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-08-31 19:22:57"
+    Date: "2016-08-31 19:22:57",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Kool-Aid Shot",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Pour into a large glass with ice and stir. Add a little cranberry juice to taste.",
@@ -11299,12 +14874,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-08-24 09:56:06"
+    Date: "2017-08-24 09:56:06",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "National Aquarium",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Pour all ingredients into a shaker of ice. Shake well. Serve on the rocks.",
@@ -11340,12 +14928,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-08-24 09:57:01"
+    Date: "2017-08-24 09:57:01",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Damned if you do",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions:
       "Pour into shot glass. Put in mouth. Repeat as deemed necessary.",
@@ -11381,12 +14982,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-08-24 09:58:26"
+    Date: "2017-08-24 09:58:26",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Long vodka",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Shake a tall glass with ice cubes and Angostura, coating the inside of the glass. Por the vodka onto this, add 1 slice of lime and squeeze juice out of remainder, mix with tonic, stir and voila you have a Long Vodka",
@@ -11422,12 +15036,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-08-24 10:00:12"
+    Date: "2017-08-24 10:00:12",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Quick F**K",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions:
       "In a shot glass add 1/3 Kahlua first. Then 1/3 Miduri, topping it off with a 1/3 bailey's irish cream",
@@ -11463,12 +15090,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-11-12 15:10:54"
+    Date: "2016-11-12 15:10:54",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Owen's Grandmother's Revenge",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions: "Add ingredients and mix in blender.",
     Image:
@@ -11503,12 +15143,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-08-24 10:02:02"
+    Date: "2017-08-24 10:02:02",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Flaming Dr. Pepper",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Add Amaretto, Bacardi, and vodka. Mix in the Dr. Pepper and beer",
@@ -11544,12 +15197,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-08-24 10:03:04"
+    Date: "2017-08-24 10:03:04",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "New York Lemonade",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Serve in a chilled cocktail glass. Lemon and sugar the rim. Stir and Strain.",
@@ -11585,12 +15251,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-08-24 10:04:33"
+    Date: "2017-08-24 10:04:33",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Caipirissima",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Same as Caipirinha but instead of cachaca you add WHITE RUM. It's great!!!!!!!!",
@@ -11626,12 +15305,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-08-24 10:05:15"
+    Date: "2017-08-24 10:05:15",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Pisco Sour",
     Tags: "IBA,NewEra",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Vigorously shake and strain contents in a cocktail shaker with ice cubes, then pour into glass and garnish with bitters.[1]",
@@ -11667,12 +15359,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-08-18 15:20:22"
+    Date: "2015-08-18 15:20:22",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Big Red",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions: "Pour ingredients into 1 ounce shot glass",
     Image:
@@ -11707,12 +15412,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 03:41:56"
+    Date: "2015-09-03 03:41:56",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Black & Tan",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Pint glass",
     Instructions:
       "Fill pint glass half full with Bass. Next pour Guiness over a spoon slowly until glass is full. If done correctly the Guiness will stay on top and the Bass on bottom hence the Name: Black & Tan.",
@@ -11748,12 +15466,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-02-03 14:50:17"
+    Date: "2016-02-03 14:50:17",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Chocolate Milk",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot Glass",
     Instructions:
       "Put the milk in the bottom, pour the Liquer on top and add the dash of amaretto. Do not mix. SLAM IT!",
@@ -11789,12 +15520,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 17:49:59"
+    Date: "2017-09-08 17:49:59",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "B-53",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Layer the Kahlua, Sambucca and Grand Marnier into a shot glas in that order. Better than B-52",
@@ -11830,12 +15574,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-04-28 18:53:43"
+    Date: "2016-04-28 18:53:43",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Sea breeze",
     Tags: "IBA,ContemporaryClassic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Build all ingredients in a highball glass filled with ice. Garnish with lime wedge.",
@@ -11871,12 +15628,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 17:59:22"
+    Date: "2017-09-02 17:59:22",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Snake Bite (UK)",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Pint glass",
     Instructions: "Pour ingredients into a pint glass. Drink. Fall over.",
     Image:
@@ -11911,12 +15681,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 03:52:14"
+    Date: "2015-09-03 03:52:14",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Bob Marley",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions: "Layer in a 2 oz shot glass or pony glass",
     Image:
@@ -11951,12 +15734,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-10-22 13:51:04"
+    Date: "2016-10-22 13:51:04",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Brainteaser",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot Glass",
     Instructions:
       "layered erin first, then sambuca and then avocart(should sit in middle of other two. To drink: use a straw to suck up avocart then shot the rest and then suck fumes up through straw.",
@@ -11992,12 +15788,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-04-28 18:54:26"
+    Date: "2016-04-28 18:54:26",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Atlantic Sun",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Shake all the ingredients, top the drink with soda. Garnish with a slice of orange.",
@@ -12033,12 +15842,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-04-24 21:59:16"
+    Date: "2017-04-24 21:59:16",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Green Goblin",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Pint glass",
     Instructions: "Cider First, Lager then Curacao",
     Image:
@@ -12073,12 +15895,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-02-03 14:58:40"
+    Date: "2016-02-03 14:58:40",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Oreo Mudslide",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Blend Vodka, Kahlua, Bailey's, ice-cream and the Oreo well in a blender. Pour into a large frosted glass. Garnish with whipped cream and a cherry.",
@@ -12114,12 +15949,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-19 11:43:37"
+    Date: "2016-07-19 11:43:37",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "ABC",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions: "Layered in a shot glass.",
     Image:
@@ -12154,12 +16002,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-08-31 19:32:08"
+    Date: "2016-08-31 19:32:08",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Pink Panty Pulldowns",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions: "Shake well",
     Image:
@@ -12194,12 +16055,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-19 12:10:57"
+    Date: "2016-07-19 12:10:57",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Ice Pick #1",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Put Vodka in glass fill with iced tea. Stir in lemon to taste.",
@@ -12235,12 +16109,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-21 10:02:06"
+    Date: "2016-07-21 10:02:06",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "410 Gone",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions: "",
     Image:
@@ -12275,12 +16162,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-08-31 19:43:46"
+    Date: "2016-08-31 19:43:46",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Tequila Sunrise",
     Tags: "IBA,ContemporaryClassic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Pour the tequila and orange juice into glass over ice. Add the grenadine, which will sink to the bottom. Stir gently to create the sunrise effect. Garnish and serve.",
@@ -12316,12 +16216,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-12-04 19:18:23"
+    Date: "2016-12-04 19:18:23",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Screaming Orgasm",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Pour first vodka, then Bailey's, then Kahlua into a cocktail glass over crushed ice. Stir. Caution: use only high quality vodka. Cheap vodka can cause the Bailey's to curdle. Test your brand of vodka by mixing 1 Tsp each of vodka and Bailey's first.",
@@ -12357,12 +16270,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 22:44:30"
+    Date: "2017-09-02 22:44:30",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Flander's Flake-Out",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions: "Bang 'em both in.",
     Image:
@@ -12397,12 +16323,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-04-28 19:05:05"
+    Date: "2016-04-28 19:05:05",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Apple Slammer",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions:
       "pour into a shot glass and present to consumer, they are expected to cover the top of the shotglass with thier palm, raise the glass, slam it on the bar and the swallow quickly.",
@@ -12438,12 +16377,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-04-24 22:37:32"
+    Date: "2017-04-24 22:37:32",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Amaretto Sour",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Shake and strain. Garnish with a cherry and an orange slice.",
@@ -12479,12 +16431,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-04-24 22:43:32"
+    Date: "2017-04-24 22:43:32",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Cuba Libra",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Fill tall glass with ice cubes. Add rum. Rub cut edge of lime on rim of glass then squeeze juice into glass. Fill with Coca-Cola. Garnish with lime slice. Enjoy!",
@@ -12520,12 +16485,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 22:44:56"
+    Date: "2017-09-02 22:44:56",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Jelly Bean",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cordial glass",
     Instructions:
       "mix equal parts in pony glass-tastes just like a jelly bean!",
@@ -12561,12 +16539,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 22:46:37"
+    Date: "2017-09-02 22:46:37",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "After Five",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions:
       "1. Pour Kahlua into shot glass to about 1/2 full. 2. Using a spoon(inverted), slowly pour in the Peppermint Schnapps until glass is about 3/4 full. Done correctly, the Schnapps will flow under the Kahlua for a clear layer. 3. Again using a spoon, but this time right side up, slowly top off the glass with a layer of Bailey's. Be careful to place the spoon right at the top of the Kahlua layer and to raise it as the glass fills up. Done correctly, this will provide a layer of Bailey's floating over the Kahlua. 4. Toss it down all at once for something like a Peppermint Pattie, WITH A BANG!!! NOTE: Best if all ingredients are chilled",
@@ -12602,12 +16593,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-04-24 22:16:35"
+    Date: "2017-04-24 22:16:35",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Midnight Manx",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Fill a mixer with ice and add Baileys, Kahlua, Goldshlager, and cream. Shake for 5 seconds and Strain into a double rocks glass filled with ice. Add chilled coffee Stir and enjoy!",
@@ -12643,12 +16647,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-02 16:37:11"
+    Date: "2015-09-02 16:37:11",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Kir Royale",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Champagne Flute",
     Instructions:
       "Pour Creme de cassis in glass, gently pour champagne on top",
@@ -12684,12 +16701,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 17:39:48"
+    Date: "2017-09-02 17:39:48",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Jackhammer",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions: "Serve over ice- Warning,Deadly!",
     Image:
@@ -12724,12 +16754,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 22:48:16"
+    Date: "2017-09-02 22:48:16",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Nutty Irishman",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball Glass",
     Instructions: "Serve over ice",
     Image:
@@ -12764,12 +16807,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 03:40:14"
+    Date: "2015-09-03 03:40:14",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "3 Wise Men",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions: "put them them in a glass... and slam it to tha head.",
     Image:
@@ -12804,12 +16860,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-18 22:34:37"
+    Date: "2016-07-18 22:34:37",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Miami Vice",
     Tags: "IBA",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "First: Mix pina colada with 2.5 oz. of rum with ice(set aside). Second: Mix daiquiri with 2.5 oz. of rum with ice. Third: While frozen, add pina colda mix then daiquiri mix in glass (Making sure they do not get mixed together).",
@@ -12845,12 +16914,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-02 16:49:15"
+    Date: "2015-09-02 16:49:15",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "AT&T",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball Glass",
     Instructions: "Pour Vodka and Gin over ice, add Tonic and Stir",
     Image:
@@ -12885,12 +16967,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-04-24 22:00:19"
+    Date: "2017-04-24 22:00:19",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "69 Special",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Pour 2 oz. gin. Add 4 oz. 7-up. Add Lemon Juice for flavor. If you are weak, top up glass with more 7-Up.",
@@ -12926,12 +17021,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-08-31 19:44:55"
+    Date: "2016-08-31 19:44:55",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Irish Coffee",
     Tags: "IBA,ContemporaryClassic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Irish coffee cup",
     Instructions:
       "Heat the coffee, whiskey and sugar; do not boil. Pour into glass and top with cream; serve hot.",
@@ -12967,12 +17075,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-08-18 15:09:59"
+    Date: "2015-08-18 15:09:59",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "'57 Chevy with a White License Plate",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "1. Fill a rocks glass with ice 2.add white creme de cacao and vodka 3.stir",
@@ -13008,12 +17129,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-18 22:49:04"
+    Date: "2016-07-18 22:49:04",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Mother's Milk",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions: "Shake over ice, strain. Serves two.",
     Image:
@@ -13048,12 +17182,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 16:43:19"
+    Date: "2017-09-08 16:43:19",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Zippy's Revenge",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Mix Kool-Aid to taste then add Rum and ammaretto. shake well to disolve the sugar in the Kool-Aid... serve cold",
@@ -13089,12 +17236,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-01-28 16:18:33"
+    Date: "2017-01-28 16:18:33",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Belgian Blue",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions: "Just pour all ingredients in the glass and stir...",
     Image:
@@ -13129,12 +17289,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 02:56:59"
+    Date: "2015-09-03 02:56:59",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Red Snapper",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions: "One shot each, shake n shoot",
     Image:
@@ -13169,12 +17342,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-06 23:02:23"
+    Date: "2017-09-06 23:02:23",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Jamaica Kiss",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Hurricane glass",
     Instructions:
       "Fill a tumbler with ice cubes. Add a shot of Tia Maria and a shot of Jamaican light rum. Fill the tumbler with milk. Blend until smooth and serve immediately.",
@@ -13210,12 +17396,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 04:05:49"
+    Date: "2015-09-03 04:05:49",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Absolut Summertime",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions:
       "Add all ingredients except lemon to shaker filled with ice. Cover and shake vigorously. Strain contents into ice filled collins glass. Garnish with lemon.",
@@ -13251,12 +17450,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-08-31 19:54:22"
+    Date: "2016-08-31 19:54:22",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Cosmopolitan Martini",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail Glass",
     Instructions:
       "Pour all ingredients in mixing glass half filled with ice, shake and strain into chilled Martini glass.",
@@ -13292,12 +17504,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-08-18 15:19:40"
+    Date: "2015-08-18 15:19:40",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Ziemes Martini Apfelsaft",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Serve without ice. At least the juice shold have room temperature.",
@@ -13333,12 +17558,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-01-28 16:08:07"
+    Date: "2017-01-28 16:08:07",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Vodka Martini",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake the vodka and vermouth together with a number of ice cubes, strain into a cocktail glass, add the olive and serve.",
@@ -13374,12 +17612,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-08-18 15:02:08"
+    Date: "2015-08-18 15:02:08",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Cafe Savoy",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Coffee mug",
     Instructions:
       "Fill mug almost to top with coffee.Add milk, triple sec and brandy. Stir.",
@@ -13415,12 +17666,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 03:35:11"
+    Date: "2015-09-03 03:35:11",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Snowball",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Place one ice cube in the glass and add 1 1/2 oz of Advocaat. Fill up the glass with lemonade and decorate with a slice of lemon. Serve at once.",
@@ -13456,12 +17720,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-06 23:03:36"
+    Date: "2017-09-06 23:03:36",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Mocha-Berry",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Irish coffee cup",
     Instructions:
       "pour 6 oz. of coffee in a mug or Irish coffee cup. add coca mix and chambord, mix well and top off with whipped cream.",
@@ -13497,12 +17774,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 03:14:08"
+    Date: "2015-09-03 03:14:08",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "747",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions:
       "pour kaluha, then Baileys, then Frangelico not chilled and not layered -- SERVE!!!",
@@ -13538,12 +17828,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-08-31 19:28:26"
+    Date: "2016-08-31 19:28:26",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Addison Special",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Combine ingredients in the order listed into a shaker. Fill half full with ice and shake well. Strain into glass with ice and garnish with a cherry and orange wedge.",
@@ -13579,12 +17882,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-04-24 22:14:53"
+    Date: "2017-04-24 22:14:53",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "California Root Beer",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions: "Put Kahlua and Galliano in highball glass fill with soda",
     Image:
@@ -13619,12 +17935,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-01 09:45:26"
+    Date: "2016-09-01 09:45:26",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Amaretto Stone Sour",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions: "Shake and Serve over ice",
     Image:
@@ -13659,12 +17988,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-01 09:52:01"
+    Date: "2016-09-01 09:52:01",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Blind Russian",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions: "Fill glass with ice. Add all liquers. Add milk. shake.",
     Image:
@@ -13699,12 +18041,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-01 10:00:08"
+    Date: "2016-09-01 10:00:08",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Absolut Sex",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Shake Absolut Kurant, Midori, and Cranberry juice in shaker with ice: Strain into rocks glass: Splash of seven on top.Absolut Sex.",
@@ -13740,12 +18095,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-08-31 19:33:56"
+    Date: "2016-08-31 19:33:56",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Aztec Punch",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Punch bowl",
     Instructions:
       "Mix all ingredients in a pitcher. Mix thoroughly and pour into whatever is available, the bigger the better! This drink packs a big punch, so don't over do it.",
@@ -13781,12 +18149,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-02-03 15:49:51"
+    Date: "2016-02-03 15:49:51",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Lemon Drop",
     Tags: "IBA,NewEra",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake and strain into a chilled cocktail glass rimmed with sugar.",
@@ -13822,12 +18203,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 18:28:17"
+    Date: "2017-09-02 18:28:17",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Absolut limousine",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Fill Absolut into a glass. Add Lime juice. Add Ice and lime wedges.",
@@ -13863,12 +18257,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-01 09:50:44"
+    Date: "2016-09-01 09:50:44",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Absolut Evergreen",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions: "Mix, pour over ice and top up with Bitter Lemon.",
     Image:
@@ -13903,12 +18310,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-02 11:36:49"
+    Date: "2016-09-02 11:36:49",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Lunch Box",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Pint glass",
     Instructions:
       "Fill a pint glass almost full with beer. Then fill the rest with orange juice (careful not to fill it to the top). Then take the shot of Amaretto and drop it in.",
@@ -13944,12 +18364,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-02-03 15:15:46"
+    Date: "2016-02-03 15:15:46",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Kool-Aid Slammer",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions:
       "Fill half the shot glass with the kool-aid first. Then put a paper towel over the top of the glass and slowly pour in the vodka. If you do it right, you should be able to see that the two liquids are separated, with the vodka on top. Now slam it! The last thing you'll taste is the kool-aid.",
@@ -13985,12 +18418,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-06 23:04:33"
+    Date: "2017-09-06 23:04:33",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Kurant Tea",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Champagne flute",
     Instructions:
       "Pour Absolut Kurant into a comfortably big tea-cup. Add the not too hot(!) apple tea and, if you like, some sugar. Enjoy!",
@@ -14026,12 +18472,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 03:31:04"
+    Date: "2015-09-03 03:31:04",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Dirty Nipple",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions: "This is a layered shot - the Bailey's must be on top",
     Image:
@@ -14066,12 +18525,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-04-28 19:01:49"
+    Date: "2016-04-28 19:01:49",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Darkwood Sling",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "There are many good cherry liqueurs you can use, but I prefere Heering. Add one share of the liqueur. Then you add one share of Soda. For a sour sling use Tonic (most people prefer the drink without Tonic). Afterwards you fill the glass with Orange Juice and ice cubes.",
@@ -14107,12 +18579,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-01 09:41:43"
+    Date: "2016-09-01 09:41:43",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Bailey's Dream Shake",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions:
       "Blend ingredients for 30 seconds. Definitely refreshing for a hot summer's day !",
@@ -14148,12 +18633,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-01 09:35:59"
+    Date: "2016-09-01 09:35:59",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Bumble Bee #1",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions:
       "This is a layered shot. First pour the Bailey's into the shot glass. Then take an upside down spoon and touch it to the inside wall of the glass. Carefully add the Kahlua. Repeat this process for the Sambuca. If done properly, the alcohol will stay separated and resemble a bumble bee. Enjoy!!!",
@@ -14189,12 +18687,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-04-28 18:59:38"
+    Date: "2016-04-28 18:59:38",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "A.D.M. (After Dinner Mint)",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Irish coffee cup",
     Instructions: "shake vigorously",
     Image:
@@ -14229,12 +18740,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-08-31 19:53:20"
+    Date: "2016-08-31 19:53:20",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "A Splash of Nash",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Drop shot glass with banana & melon liquers into a 9 oz hi- ball glass containing soda water and cranberry juice. Drink in one shot.",
@@ -14270,12 +18794,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-08-31 19:30:01"
+    Date: "2016-08-31 19:30:01",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Amaretto Sunrise",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Mix together the amaretto and orange juice. Pour into glass and then add the grenadine untill you see the sunrise.",
@@ -14311,12 +18848,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-04-24 22:44:27"
+    Date: "2017-04-24 22:44:27",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Arizona Stingers",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Hurricane glass",
     Instructions:
       "Place ice cubes in the hurricane glass . Add the 2 HEAPING shots of Absolute Vodka (Note: You can add as many shots of Absolute as you want!) Fill the rest of glass with the Arizona Icetea with lemon. Stir to mix using a spoon. Drink up and enjoy!!!!!!!",
@@ -14352,12 +18902,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-04-24 22:10:55"
+    Date: "2017-04-24 22:10:55",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Orange Push-up",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Hurricane glass",
     Instructions:
       "Combine liquors in a blender. Add a half scoop of ice and blend. Garnish with an orange and cherry flag. So good it will melt in your mouth!!!",
@@ -14393,12 +18956,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-08-24 10:09:41"
+    Date: "2017-08-24 10:09:41",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "151 Florida Bushwacker",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Beer mug",
     Instructions:
       "Combine all ingredients. Blend until smooth. Garnish with chocolate shavings if desired.",
@@ -14434,12 +19010,25 @@ let drinks = [
     Measure13: " ",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-18 22:28:43"
+    Date: "2016-07-18 22:28:43",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Zizi Coin-coin",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Margarita/Coupette glass",
     Instructions:
       "Pour 5cl of Cointreau on ice, add 2cl of fresh lemon (or lime) juice, stir gently, and finally add slices of lemon/lime in glass.",
@@ -14475,12 +19064,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-01-28 16:25:52"
+    Date: "2017-01-28 16:25:52",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "50/50",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "fill glass with crushed ice. Add vodka. Add a splash of grand-marnier. Fill with o.j.",
@@ -14516,12 +19118,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-04-29 09:41:56"
+    Date: "2016-04-29 09:41:56",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Tequila Surprise",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions:
       "Fill shot glass with Tequila. Add drops of Tobasco sauce.",
@@ -14557,12 +19172,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-06 23:06:21"
+    Date: "2017-09-06 23:06:21",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Cream Soda",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Pour 1oz of Spiced Rum into a highball glass with ice. Fill with Ginger Ale.",
@@ -14598,12 +19226,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-11-15 11:29:27"
+    Date: "2016-11-15 11:29:27",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "ACID",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions:
       "Poor in the 151 first followed by the 101 served with a Coke or Dr Pepper chaser.",
@@ -14639,12 +19280,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-11-15 11:28:37"
+    Date: "2016-11-15 11:28:37",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Arctic Fish",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Beer pilsner",
     Instructions:
       "Fill glass with ice and fish, add vodka, grape soda and orange juice. DO NOT STIR!!!!! Serve well chilled.",
@@ -14680,12 +19334,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-08-31 19:39:41"
+    Date: "2016-08-31 19:39:41",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Grim Reaper",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Mix Kahlua and 151 in glass. Quickly add ice and pour grenadine over ice to give ice red tint.",
@@ -14721,12 +19388,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 16:06:32"
+    Date: "2017-09-08 16:06:32",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Freddy Kruger",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions: "make it an ample size shot!!",
     Image:
@@ -14761,12 +19441,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-04-28 19:06:38"
+    Date: "2016-04-28 19:06:38",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Bubble Gum",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions: "Layer in order into a shot glass.",
     Image:
@@ -14801,12 +19494,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-18 22:53:03"
+    Date: "2016-07-18 22:53:03",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Kiwi Lemon",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Mix in highball glass. Stirr. Garnish with slice of kiwi.",
@@ -14842,12 +19548,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-11-04 09:28:17"
+    Date: "2016-11-04 09:28:17",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Hot Creamy Bush",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Irish coffee cup",
     Instructions: "Combine all ingredients in glass",
     Image:
@@ -14882,12 +19601,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-08-31 19:27:17"
+    Date: "2016-08-31 19:27:17",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Midnight Mint",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "If available, rim cocktail (Martini) glass with sugar syrup then dip into chocolate flakes or powder. Add ingredients into shaker with ice. Shake well then strain into cocktail glass.",
@@ -14923,12 +19655,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-02 16:38:30"
+    Date: "2015-09-02 16:38:30",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Talos Coffee",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Brandy snifter",
     Instructions: "Add your GM and then add your coffee.",
     Image:
@@ -14963,12 +19708,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 03:15:18"
+    Date: "2015-09-03 03:15:18",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Zinger",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Get a shot glass and pour in three shots of the schnapps. Do the same with the Surge Cola. Then down it like Scheetz would.",
@@ -15004,12 +19762,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-01-28 16:13:34"
+    Date: "2017-01-28 16:13:34",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Jello shots",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions:
       "Boil 3 cups of water then add jello. Mix jello and water until jello is completely disolved. Add the two cups of vodka and mix together. Pour mixture into plastic shot glasses and chill until firm. Then, eat away...",
@@ -15045,12 +19816,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 16:35:04"
+    Date: "2017-09-08 16:35:04",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Rum Punch",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Punch bowl",
     Instructions: "Mix all ingredients in a punch bowl and serve.",
     Image:
@@ -15085,12 +19869,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-06 16:48:58"
+    Date: "2015-09-06 16:48:58",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Turkeyball",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions: "Shake with ice and strain into a shot glass.",
     Image:
@@ -15125,12 +19922,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-06 16:44:53"
+    Date: "2015-09-06 16:44:53",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Absolutely Cranberry Smash",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions: "Stir ingredients together. Serve over ice.",
     Image:
@@ -15165,12 +19975,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-02 11:24:44"
+    Date: "2016-09-02 11:24:44",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Kiss me Quick",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions: "mix in the glass",
     Image:
@@ -15205,12 +20028,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 16:38:39"
+    Date: "2017-09-08 16:38:39",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Royal Flush",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Pour all the ingredients into tumbler over ice. Strain into glass.",
@@ -15246,12 +20082,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 17:35:27"
+    Date: "2017-09-08 17:35:27",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Limona Corona",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Beer Glass",
     Instructions:
       "Open the Corona. Fill the empty space in the neck in the bottle with the rum. The bottle should be filled to the top. Plug the bottle with your thumb or the palm of your hand. Turn the bottle upside-down so the rum and beer mix. Turn the bottle rightside-up, unplug, and drink.",
@@ -15287,12 +20136,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 03:51:02"
+    Date: "2015-09-03 03:51:02",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Pysch Vitamin Light",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Collins Glass",
     Instructions: "Shake with ice.",
     Image:
@@ -15327,12 +20189,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-06 16:33:00"
+    Date: "2015-09-06 16:33:00",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Apello",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Collins Glass",
     Instructions: "Stirr. Grnish with maraschino cherry.",
     Image:
@@ -15367,12 +20242,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-18 22:13:35"
+    Date: "2016-07-18 22:13:35",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Texas Rattlesnake",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Mix all ingredients and Shake well. Sweet at first, with a BITE at the end...",
@@ -15408,12 +20296,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 17:55:50"
+    Date: "2017-09-08 17:55:50",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "After sex",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Pour the vodka and creme over some ice cubes in a tall glass and fill up with juice. to make it beuty full make the top of the glass with a grenadine and sugar",
@@ -15449,12 +20350,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-04-24 22:18:22"
+    Date: "2017-04-24 22:18:22",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "San Francisco",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       'Take a tall glass and put in a few ice cubes, fill the vodka over it and fill with juice then the "creme", to end fill in the grenadine but very carefully at the side of the glass so it will lay down in the bottom. garnish with orange and strawberry.',
@@ -15490,12 +20404,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 17:59:21"
+    Date: "2017-09-08 17:59:21",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Amaretto Shake",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Combine all ingredients in a blender and blend at high speed until smooth. Serve in chilled glass garnished with bittersweet chocolate shavings.",
@@ -15531,12 +20458,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-04-24 22:34:16"
+    Date: "2017-04-24 22:34:16",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "A Day at the Beach",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Shake Rum, Amaretto, and Orange Juice in a shaker filled with ice. Strain over ice into a highball glass. Add Grenadine and garnish with a Pineapple Wedge and a Strawberry.",
@@ -15572,12 +20512,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-02-03 15:47:54"
+    Date: "2016-02-03 15:47:54",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Malibu Twister",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions: "Add rum & trister then, add cranberry jucie,stir",
     Image:
@@ -15612,12 +20565,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 16:42:01"
+    Date: "2017-09-08 16:42:01",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Space Odyssey",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Fill glass with ice and add shots of Bacardi and Malibu. Add splash of pineapple juice and top with orange juice. Add grenadine for color and garnish with cherries.",
@@ -15653,12 +20619,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-07 21:57:23"
+    Date: "2017-09-07 21:57:23",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Zenmeister",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions: "Mix together and enjoy",
     Image:
@@ -15693,12 +20672,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-11-15 11:31:02"
+    Date: "2016-11-15 11:31:02",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Avalon",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Fill a tall glass with ice. Layer the Finlandia Vodka, lemon and apple juices, Pisang Ambon, and top up with lemonade. Stir slightly and garnish with a spiralled cucumber skin and a red cherry. The cucumber provides zest and looks attractive. This drink, created by Timo Haimi, took first prize in the 1991 Finlandia Vodka Long Drink Competition.",
@@ -15734,12 +20726,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-04-24 22:22:11"
+    Date: "2017-04-24 22:22:11",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "252",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions:
       "Add both ingredients to shot glass, shoot, and get drunk quick",
@@ -15775,12 +20780,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-18 22:32:42"
+    Date: "2016-07-18 22:32:42",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "3-Mile Long Island Iced Tea",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Fill 14oz glass with ice and alcohol. Fill 2/3 glass with cola and remainder with sweet & sour. Top with dash of bitters and lemon wedge.",
@@ -15816,12 +20834,25 @@ let drinks = [
     Measure13: " ",
     Measure14: "",
     Measure15: "",
-    Date: "2016-08-31 19:42:52"
+    Date: "2016-08-31 19:42:52",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Zorro",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Coffee Mug",
     Instructions:
       "add all and pour black coffee and add whipped cream on top.",
@@ -15857,12 +20888,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-01-28 16:34:43"
+    Date: "2017-01-28 16:34:43",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Orange Crush",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions: "Add all ingredients to tumbler-Pour as shot",
     Image:
@@ -15897,12 +20941,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 16:52:06"
+    Date: "2017-09-08 16:52:06",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "155 Belmont",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "White wine glass",
     Instructions:
       "Blend with ice. Serve in a wine glass. Garnish with carrot.",
@@ -15938,12 +20995,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-10-05 12:36:28"
+    Date: "2016-10-05 12:36:28",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "1-900-FUK-MEUP",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Shake ingredients in a mixing tin filled with ice cubes. Strain into a rocks glass.",
@@ -15979,12 +21049,25 @@ let drinks = [
     Measure13: " ",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-18 22:27:04"
+    Date: "2016-07-18 22:27:04",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Vodka Russian",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions: "Mix it as a ordinary drink .",
     Image:
@@ -16019,12 +21102,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-02-03 15:58:49"
+    Date: "2016-02-03 15:58:49",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Danbooka",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Coffee Mug",
     Instructions: "pour it in and mix it.",
     Image:
@@ -16059,12 +21155,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 03:07:55"
+    Date: "2015-09-03 03:07:55",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "110 in the shade",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Beer Glass",
     Instructions: "Drop shooter in glass. Fill with beer",
     Image:
@@ -16099,12 +21208,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-02-03 14:51:57"
+    Date: "2016-02-03 14:51:57",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Grand Blue",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions: "Serve in an old fashioned glass.",
     Image:
@@ -16139,12 +21261,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-01 21:29:09"
+    Date: "2016-09-01 21:29:09",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Baby Eskimo",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Leave ice-cream out for about 10 minutes. Add ingredients in order, stir with chopstick (butter knife or spoon works too). Consume immediately and often. Nice and light, great for following a heavy drink.",
@@ -16180,12 +21315,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-01 09:57:07"
+    Date: "2016-09-01 09:57:07",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Tennesee Mud",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Coffee Mug",
     Instructions: "Mix Coffee, Jack Daniels and Amaretto. Add Cream on top.",
     Image:
@@ -16220,12 +21368,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 03:02:50"
+    Date: "2015-09-03 03:02:50",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Swedish Coffee",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Coffee Mug",
     Instructions:
       "Pour the coffee in an ordinary coffee cup. Add the aquavit. Add sugar by taste. Stir and have a nice evening (morning)",
@@ -16261,12 +21422,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 03:19:43"
+    Date: "2015-09-03 03:19:43",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Adam Sunrise",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Fill blender up with ice. Fill half with Bartons Vodka. Put 10 tsp of sugar, add 1/2 can lemonade concentrate, fill to top with water. Blend for 60 seconds.",
@@ -16302,12 +21476,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-02 11:28:32"
+    Date: "2016-09-02 11:28:32",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Absolut Stress #2",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions: "Mix well. Garnish with Orange and Cherry. Enjoy",
     Image:
@@ -16342,7 +21529,20 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-02 11:23:45"
+    Date: "2016-09-02 11:23:45",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Chocolate Monkey",
@@ -16383,12 +21583,25 @@ let drinks = [
     Measure13: " ",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-18 21:53:32"
+    Date: "2016-07-18 21:53:32",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Texas Sling",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Wine Glass",
     Instructions:
       "Blend with Ice until smooth. Serve in a tulip glass, top with whip cream.",
@@ -16424,12 +21637,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 18:02:39"
+    Date: "2017-09-08 18:02:39",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "A midsummernight dream",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Mix the strawberrys in a blender Pour it together with the vodka,kirch and strawberry liquer over ice in a shaker. Shake well and pour in a highballglass. Fill up with the Russchian water",
@@ -16465,12 +21691,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-04-28 19:14:52"
+    Date: "2016-04-28 19:14:52",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Zoksel",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Beer pilsner",
     Instructions:
       "No specific mixinginstructions, just poor every ingredient in one glass. The lemon goes with it.",
@@ -16506,12 +21745,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-01-28 16:28:50"
+    Date: "2017-01-28 16:28:50",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Fuzzy Asshole",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Coffee mug",
     Instructions:
       "fill coffe mug half full of coffee. Fill the other half full of Peach Schnapps. Stir and drink while hot.",
@@ -16547,12 +21799,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-08-31 19:24:58"
+    Date: "2016-08-31 19:24:58",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Quick-sand",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Simply add the orange juice, quite a quick pour in order to mix the sambucca with the orange juice. The juice MUST have fruit pulp!",
@@ -16588,12 +21853,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-11-12 15:12:13"
+    Date: "2016-11-12 15:12:13",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Snakebite and Black",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Pint glass",
     Instructions:
       "Put blackcurrant squash in first up to about 1cm in glass. Then add the larger and cider one after another.",
@@ -16629,12 +21907,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 03:54:23"
+    Date: "2015-09-03 03:54:23",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Zimadori Zinger",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions:
       "Pour Zima in a collins glass over ice and then pour the shot of Midori. Don't stir. Garnish with a cherry.",
@@ -16670,12 +21961,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-01-28 16:12:00"
+    Date: "2017-01-28 16:12:00",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Herbal flame",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Mason jar",
     Instructions:
       "Pour Hot Damn 100 in bottom of a jar or regular glass. Fill the rest of the glass with sweet tea. Stir with spoon, straw, or better yet a cinnamon stick and leave it in.",
@@ -16711,12 +22015,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 03:09:44"
+    Date: "2015-09-03 03:09:44",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Jamaican Coffee",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Champagne flute",
     Instructions:
       "Stir the rum, coffee and water together. Top with the whipped cream. Sprinkle with a pinch of well ground coffee and drink with a straw.",
@@ -16752,12 +22069,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 03:27:37"
+    Date: "2015-09-03 03:27:37",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Mojito #3",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions:
       "Put mint with lemon juice in a glas, mash the mint with a spoon, ice, rum & fill up with club soda. Top it with Angostura.",
@@ -16793,12 +22123,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-11-04 09:24:43"
+    Date: "2016-11-04 09:24:43",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Apricot punch",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Punch bowl",
     Instructions:
       "Pour all ingrediants into a large punch bowl. Add ice and 4 oranges that are peeled and divided.",
@@ -16834,12 +22177,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-08-31 19:37:47"
+    Date: "2016-08-31 19:37:47",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "B-52",
     Tags: "IBA,NewEra",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions:
       "Layer ingredients into a shot glass. Serve with a stirrer.",
@@ -16875,12 +22231,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 18:07:51"
+    Date: "2017-09-02 18:07:51",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Zambeer",
     Tags : null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions: "Mix sambuca with rootbeer and stir. Add ice",
     Image:
@@ -16915,12 +22284,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-01-28 16:06:18"
+    Date: "2017-01-28 16:06:18",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Americano",
     Tags: "IBA,Classic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions:
       "Pour the Campari and vermouth over ice into glass, add a splash of soda water and garnish with half orange slice.",
@@ -16956,12 +22338,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-11-04 09:52:06"
+    Date: "2016-11-04 09:52:06",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Black Forest Shake",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "In a blender put ice cubes, chocolate syrup, cherry brandy, vodka, and milk. Blend very well.",
@@ -16997,7 +22392,20 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-01 10:01:45"
+    Date: "2016-09-01 10:01:45",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "GG",
@@ -17038,12 +22446,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-18 22:06:00"
+    Date: "2016-07-18 22:06:00",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Radler",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Pour beer into large mug, slowly add the 7-up (or Sprite).",
@@ -17079,12 +22500,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 17:43:15"
+    Date: "2017-09-08 17:43:15",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Mudslinger",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Punch bowl",
     Instructions:
       "Add all contents to a large jug or punch bowl. Stir well!",
@@ -17120,12 +22554,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 16:45:55"
+    Date: "2017-09-08 16:45:55",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Campari Beer",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Beer mug",
     Instructions: "Use a 15 oz glass. Add Campari first. Fill with beer.",
     Image:
@@ -17160,12 +22607,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 03:58:50"
+    Date: "2015-09-03 03:58:50",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Almond Chocolate Coffee",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Coffee mug",
     Instructions:
       "Pour in order into coffee cup. Top with whipped creme and chocolate shcvings.",
@@ -17201,12 +22661,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-04-24 22:30:41"
+    Date: "2017-04-24 22:30:41",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Amaretto Stone Sour #3",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Shake sour mix, tequila and amaretto with ice. Strain into highball glass. Add a splash of OJ. Garnish with orange slice and a cherry.",
@@ -17242,12 +22715,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-01 09:53:32"
+    Date: "2016-09-01 09:53:32",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "9 1/2 Weeks",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Combine all ingredients in glass mixer. Chill and strain into Cocktail glass. Garnish with sliced strawberry.",
@@ -17283,12 +22769,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-08-31 19:48:22"
+    Date: "2016-08-31 19:48:22",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Absolutly Screwed Up",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions:
       "Shake it up it tasts better that way, but you can stir it if you want. 6 of those and you will be wasted for the rest of the night.",
@@ -17324,12 +22823,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-08-31 19:55:28"
+    Date: "2016-08-31 19:55:28",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Whitecap Margarita",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Margarita/Coupette glass",
     Instructions:
       "Place all ingredients in a blender and blend until smooth. This makes one drink.",
@@ -17365,12 +22877,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-02 17:00:22"
+    Date: "2015-09-02 17:00:22",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Bellini Martini",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Add ice cubes to shaker.\r\nAdd vodka.\r\nAdd peach schnapps.\r\nAdd peach nectar.\r\nShake.\r\nStrain into glass.\r\nAdd lemon twist peel.",
@@ -17406,12 +22931,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 22:56:19"
+    Date: "2017-09-02 22:56:19",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Jitterbug",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail Glass",
     Instructions:
       "Wet glass, dip rim in sugar. Then add Ice. Then add everything else. It's that simple!",
@@ -17447,12 +22985,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 02:55:18"
+    Date: "2015-09-03 02:55:18",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Moranguito",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions:
       "first you put rhe absinthe, then put tequila, then put the Granadine syrup.",
@@ -17488,12 +23039,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-10-05 12:35:35"
+    Date: "2016-10-05 12:35:35",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Amaretto Sweet & Sour",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Margarita/Coupette glass",
     Instructions:
       'Fill the blender with 3/4 ice. Add sweet & sour mix to the top of the ice. Add about 1" of pineapple juice, 1/2" of melon liqeur, and 1/2 to 1/4" of amaretto. Then blend the mix until it is of margaritta consistency or thinner.',
@@ -17529,12 +23093,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-08-31 19:35:46"
+    Date: "2016-08-31 19:35:46",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Rum Runner",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions: "Mix all ingredients in glass & add ice.",
     Image:
@@ -17569,12 +23146,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-08 17:40:57"
+    Date: "2017-09-08 17:40:57",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "H.D.",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Beer mug",
     Instructions:
       "Mix the whisky and Baileys Cream in a beer-glass (at least 50 cl). Fill the rest of the glass with coffee.",
@@ -17610,12 +23200,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-08-31 19:26:18"
+    Date: "2016-08-31 19:26:18",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "The Evil Blue Thing",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       'Pour ingredients into glass, and drop in a blue whale! The blue whale isn\'t really necessary, but it makes the drink more "fun".',
@@ -17651,12 +23254,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-07 15:04:19"
+    Date: "2017-09-07 15:04:19",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Shark Attack",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Pitcher",
     Instructions:
       "Mix lemonade and water according to instructions on back of can. If the instructions say to add 4 1/3 cans of water do so. Mix into pitcher. Add 1 1/2 cup of Vodka (Absolut). Mix well. Pour into glass of crushed ice. Excellent!",
@@ -17692,12 +23308,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-07 15:07:37"
+    Date: "2017-09-07 15:07:37",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Jack's Vanilla Coke",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "After pouring in your ingredients, and adding 3-5 ice cubes, according to taste. Stir the drink with a stirrer to get the Vanilla off the bottom.",
@@ -17733,12 +23362,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-07 15:08:39"
+    Date: "2017-09-07 15:08:39",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Apple Grande",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Punch Bowl",
     Instructions: "Chill both ingredients!! Mix in a tumbler and enjoy!",
     Image:
@@ -17773,12 +23415,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-08-31 19:37:02"
+    Date: "2016-08-31 19:37:02",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Bleeding Surgeon",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions:
       "Pour Shot of Rum over slice of orange. Fill the remaining space in glass half way full of surge or similar drink. Finish off glass with cranberry juice. Be carefull, warm surge may foam over the glass.",
@@ -17814,12 +23469,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-01 09:38:38"
+    Date: "2016-09-01 09:38:38",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Applejack",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Add all ingredients into mixing glass, chill and strain into cocktail glass",
@@ -17855,12 +23523,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-11-15 11:24:22"
+    Date: "2016-11-15 11:24:22",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Adam Bomb",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Margarita/Coupette glass",
     Instructions:
       "Add ice to blender (or to glass if prefer on the rocks) then fruit, and fruite juice depending on personal prefference then add the Rum, Vodka, Tequila, and triple sec. blend till smooth, rim glass with sugar or salt and pour mixture in. garnish with lemon or lime slice.",
@@ -17896,12 +23577,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-02-03 15:23:36"
+    Date: "2016-02-03 15:23:36",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Arizona Antifreeze",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions: "Pour all ingredients into shot glass and slam !!!!",
     Image:
@@ -17936,12 +23630,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-04-24 21:54:22"
+    Date: "2017-04-24 21:54:22",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Black and Brown",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Beer pilsner",
     Instructions:
       "CAREFULLY to avoid explosive head formation: Pour Beer glass half full of favorite rootbeer and top off with Guinness.",
@@ -17977,12 +23684,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-08-31 19:41:39"
+    Date: "2016-08-31 19:41:39",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "A Piece of Ass",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions: "Put ice in glass. Pour in shots. Fill with Sour Mix.",
     Image:
@@ -18017,12 +23737,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-01 09:48:57"
+    Date: "2016-09-01 09:48:57",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Avalanche",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions: "Mix in highball glass over ice, shake well.",
     Image:
@@ -18057,12 +23790,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-01 09:56:05"
+    Date: "2016-09-01 09:56:05",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Brandon and Will's Coke Float",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Beer mug",
     Instructions:
       "Scoop two large scoops of vanilla ice-cream into frosted beer mug. Next, add 2 ounces Maker's Mark. Then, pour in coke. Gently stir and enjoy.",
@@ -18098,12 +23844,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-01 09:39:45"
+    Date: "2016-09-01 09:39:45",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Flaming Lamborghini",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Pour the Sambuca and Kahlua into the Cocktail Glass and give the drinker a straw. Pour the Baileys and Blue Curacao into two sepsrate shot glasses either side of the cocktail glass. Set light the concotion in the cocktail glass and start to drink through the straw (this drink should be drunk in one) , as the bottom of the glass is reached put out the fire by pouring the Baileys and Blue Curacao into the cocktail glass and keep drinking till it's all gone!!",
@@ -18139,12 +23898,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-04-28 19:03:07"
+    Date: "2016-04-28 19:03:07",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Zipperhead",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Whiskey sour glass",
     Instructions:
       "Fill glass with rocks, add straw before putting in liquor. Then add the ingredients in order, trying to keep layered as much as possible (i.e. Chambord on bottom, then Vodka, Then soda on top).",
@@ -18180,12 +23952,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-01-28 16:17:15"
+    Date: "2017-01-28 16:17:15",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "A Gilligan's Island",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions: "Shaken, not stirred!",
     Image:
@@ -18220,12 +24005,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-04-28 19:12:56"
+    Date: "2016-04-28 19:12:56",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Kioki Coffee",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Coffee mug",
     Instructions: "Stir. Add whipped cream to the top.",
     Image:
@@ -18260,12 +24058,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 03:29:34"
+    Date: "2015-09-03 03:29:34",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Apple Pie with A Crust",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Just mix the two liquids and sprinkle in the cinnamon. Serve either cold or heated.",
@@ -18301,12 +24112,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-01 09:54:38"
+    Date: "2016-09-01 09:54:38",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Zorbatini",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions: "Prepare like a Martini. Garnish with a green olive.",
     Image:
@@ -18341,12 +24165,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-01-28 16:32:35"
+    Date: "2017-01-28 16:32:35",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Vodka Fizz",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "White wine glass",
     Instructions:
       "Blend all ingredients, save nutmeg. Pour into large white wine glass and sprinkle nutmeg on top.",
@@ -18382,12 +24219,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 05:24:03"
+    Date: "2015-09-03 05:24:03",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Radioactive Long Island Iced Tea",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Pour all ingredients over ice in a very tall glass. Sip cautiously.",
@@ -18423,12 +24273,25 @@ let drinks = [
     Measure13: " ",
     Measure14: "",
     Measure15: "",
-    Date: "2017-08-24 09:31:52"
+    Date: "2017-08-24 09:31:52",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Shot-gun",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions:
       "Pour one part Jack Daneils and one part Jim Beam into shot glass then float Wild Turkey on top.",
@@ -18464,12 +24327,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-08-24 09:33:03"
+    Date: "2017-08-24 09:33:03",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Bible Belt",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions: "Mix all ingredients, and pour over ice.",
     Image:
@@ -18504,12 +24380,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-08-24 09:34:35"
+    Date: "2017-08-24 09:34:35",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Irish Curdling Cow",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Pour Irish Cream, Vodka, and Bourbon in a glass. Add some ice and mix in the orange juice.",
@@ -18545,12 +24434,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-08-24 09:35:30"
+    Date: "2017-08-24 09:35:30",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Sweet Tooth",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball Glass",
     Instructions:
       "Put 2 shots Godiva Liquour into a glass, add as much or as little milk as you would like.",
@@ -18586,12 +24488,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-08-24 09:37:01"
+    Date: "2017-08-24 09:37:01",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Downshift",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Hurricane glass",
     Instructions:
       "Start with the Sprite. Next comes the tequila. After that, add the Minute Maid Fruit Punch, then float the 151. Rocks optional.",
@@ -18627,12 +24542,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-08-24 09:38:31"
+    Date: "2017-08-24 09:38:31",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Pink Penocha",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Punch bowl",
     Instructions: "mix all ingredients into bowl keep iced stir frequently",
     Image:
@@ -18667,12 +24595,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-08-24 09:40:07"
+    Date: "2017-08-24 09:40:07",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Orange Whip",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions: "Pour ingredients over ice and stir.",
     Image:
@@ -18707,12 +24648,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-02-03 15:52:39"
+    Date: "2016-02-03 15:52:39",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Bruised Heart",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions:
       "Pour all ingredients in a mixing tin over ice, stir, and strain into shot glass",
@@ -18748,12 +24702,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-08-24 09:43:29"
+    Date: "2017-08-24 09:43:29",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Gideon's Green Dinosaur",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions: "Add all ingredients in collins glass with ice and stir.",
     Image:
@@ -18788,12 +24755,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-08-24 09:50:36"
+    Date: "2017-08-24 09:50:36",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "A True Amaretto Sour",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       'Rub the rim of an old fashioned glass with lemon, and dip repeatedly into granulated sugar until it has a good "frosted" rim. Shake a jigger of Amaretto with the juice of 1/2 a lemon. Strain into glass and add ice. Garnish with a Marachino Cherry.',
@@ -18829,12 +24809,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-08-31 19:49:32"
+    Date: "2016-08-31 19:49:32",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Kool First Aid",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions:
       "Add Kool Aid to a double shot glass, and top with rum. Slam and shoot.",
@@ -18870,12 +24863,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-08-24 09:53:44"
+    Date: "2017-08-24 09:53:44",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Irish Russian",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Add the ingredients in the order listed in the recipe. Care must be taken when adding the Guinness to prevent an excess of foam. Do Not add ice.",
@@ -18911,12 +24917,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-02-03 15:18:50"
+    Date: "2016-02-03 15:18:50",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Auburn Headbanger",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions:
       "Mix in spread glass over ice. Strain and pour in shot glass. Sit down before shotting. ENJOY!!",
@@ -18952,12 +24971,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-04-24 21:55:20"
+    Date: "2017-04-24 21:55:20",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Zima Blaster",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Hurricane glass",
     Instructions:
       "Fill glass with ice. Pour in Chambord, then fill with Zima. Mix and enjoy.",
@@ -18993,12 +25025,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-01-28 16:09:57"
+    Date: "2017-01-28 16:09:57",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Buccaneer",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Beer pilsner",
     Instructions:
       "Pour the corona into an 18oz beer glass pour the bacardi limon into the beer stir very gently",
@@ -19034,12 +25079,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 03:57:03"
+    Date: "2015-09-03 03:57:03",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Homemade Kahlua",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       'Dissolve sugar in 2 cups of boiling water and add corn syrup. Dissolve the instant coffee in the remaining water. Pour syrup and coffee in a gallon jug. Let it cool. Add vodka and vanilla when cold. For the best result, let the mixture "mature" for 4-5 weeks.',
@@ -19075,12 +25133,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 05:20:25"
+    Date: "2015-09-03 05:20:25",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "24k nightmare",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions: "Add over ice,shake and pour.",
     Image:
@@ -19115,12 +25186,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-07-18 22:31:38"
+    Date: "2016-07-18 22:31:38",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Caribbean Boilermaker",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Beer pilsner",
     Instructions:
       "Pour the Corona into an 18oz beer glass pour the rum into the beer.",
@@ -19156,12 +25240,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-02-03 15:01:06"
+    Date: "2016-02-03 15:01:06",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Army special",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Pour Vodka, Gin and lime cordial into glass, and top up with crushed ice. Wait for ice to melt slightly and sip without a straw.",
@@ -19197,12 +25294,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-04-24 22:07:42"
+    Date: "2017-04-24 22:07:42",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Arizona Twister",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Hurricane glass",
     Instructions:
       "Just mix in the shots of rum, vodka, and tequila. Add splashes of the three juices, heavy on the pineapple. Top off with grenadine. Crushed ice should already be in glass. Top off the glass with a pineapple wedge.",
@@ -19238,12 +25348,25 @@ let drinks = [
     Measure13: " ",
     Measure14: " ",
     Measure15: "",
-    Date: "2017-04-24 22:08:55"
+    Date: "2017-04-24 22:08:55",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Baby Guinness",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions:
       'Pour Kahlua, almost filling shot glass. Then, carefully pour Baileys, using wall of shot glass. This will give the "Guinness" its "head".',
@@ -19279,12 +25402,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-10 05:39:19"
+    Date: "2016-09-10 05:39:19",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Alice in Wonderland",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions: "Just mix the three ingredients one to one to one",
     Image:
@@ -19319,12 +25455,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-04-24 22:29:51"
+    Date: "2017-04-24 22:29:51",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "501 Blue",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions: "Mix equal amounts into a glass with ice.",
     Image:
@@ -19359,12 +25508,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-04-28 19:11:37"
+    Date: "2016-04-28 19:11:37",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Coke and Drops",
     Tags: null,
-    Alcoholic: "Non alcoholic",
+    Alcoholic: False,
     Glass: "Cocktail glass",
     Instructions:
       "Take a glass, pour the Coke in the glass, then you take 7 drops of lemon juice. Granish with a lemon slice on the rim of the glass.",
@@ -19400,12 +25562,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-01 09:42:47"
+    Date: "2016-09-01 09:42:47",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Ruby Tuesday",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Pour gin and cranberry into a highball filled with ice cubes. Add grenadine and stir.",
@@ -19441,12 +25616,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-06 16:30:37"
+    Date: "2015-09-06 16:30:37",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Arctic Mouthwash",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Blend all ingredients in a blender on high until ice is finely crushed. It should be of a slushy consistency. Pour immediately and serve.",
@@ -19482,12 +25670,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-11-12 15:15:35"
+    Date: "2016-11-12 15:15:35",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Brain Fart",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Punch bowl",
     Instructions:
       "Mix all ingredients together. Slowly and gently. Works best if ice is added to punch bowl and soda's are very cold.",
@@ -19523,12 +25724,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 23:01:42"
+    Date: "2017-09-02 23:01:42",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Royal Bitch",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions:
       "Into a shot glass layer the Crown Royal on top of the Frangelico.",
@@ -19564,12 +25778,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-02 17:08:10"
+    Date: "2015-09-02 17:08:10",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Citrus Coke",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball Glass",
     Instructions:
       "Pour half of coke in a glass. Then add Bacardi and top it off with the remaining coke. Stir and drink up!",
@@ -19605,12 +25832,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-11-18 12:46:54"
+    Date: "2016-11-18 12:46:54",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Smut",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Beer mug",
     Instructions: "Throw it all together and serve real cold.",
     Image:
@@ -19645,12 +25885,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 16:23:32"
+    Date: "2017-09-02 16:23:32",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Raspberry Cooler",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Pour the raspberry vodka and soda into a highball glass almost filled with ice cubes. Stir well.",
@@ -19686,12 +25939,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-09-03 05:25:46"
+    Date: "2015-09-03 05:25:46",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Amaretto Sunset",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins Glass",
     Instructions:
       "Shake ingredients in bartender's mixer quickly, just 5 shakes. Strain out ice, serve in glass immediately with a slice of orange.",
@@ -19727,7 +25993,20 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-04-24 22:36:00"
+    Date: "2017-04-24 22:36:00",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Cherry Electric Lemonade",
@@ -19768,12 +26047,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2015-12-28 10:45:48"
+    Date: "2015-12-28 10:45:48",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Girl From Ipanema",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Wine Glass",
     Instructions:
       "Add the cachaca, lemon juice and syrup to your boston glass. Add ice and shake until ice cold. Pour into a chilled flute and top-up with Champagne",
@@ -19809,7 +26101,20 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2016-07-21 09:43:53"
+    Date: "2016-07-21 09:43:53",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Ipamena",
@@ -19850,12 +26155,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2016-07-21 09:49:52"
+    Date: "2016-07-21 09:49:52",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Dark Caipirinha",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Muddle the sugar into the lime wedges in an old-fashioned glass.\r\nFill the glass with ice cubes.\r\nPour the cachaca into the glass.\r\nStir well.",
@@ -19891,12 +26209,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2016-08-28 18:40:58"
+    Date: "2016-08-28 18:40:58",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Jam Donut",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Shot glass",
     Instructions:
       "Coat the rim of a shot glass with sugar using sugar syrup to stick. Add the Chambord raspberry liqueur to the shot glass, and carefully layer the Baileys Irish Cream on top. Serve.",
@@ -19932,12 +26263,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2016-09-16 16:30:04"
+    Date: "2016-09-16 16:30:04",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Aviation",
     Tags: "IBA,Classic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Add all ingredients into cocktail shaker filled with ice. Shake well and strain into cocktail glass. Garnish with a cherry.",
@@ -19973,12 +26317,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2016-11-04 09:55:28"
+    Date: "2016-11-04 09:55:28",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Dirty Martini",
     Tags: "IBA,NewEra",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Pour the vodka, dry vermouth and olive brine into a cocktail shaker with a handful of ice and shake well.\r\nRub the rim of a martini glass with the wedge of lemon.\r\nStrain the contents of the cocktail shaker into the glass and add the olive.\r\nA dirty Martini contains a splash of olive brine or olive juice and is typically garnished with an olive.",
@@ -20014,12 +26371,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2017-01-22 11:08:20"
+    Date: "2017-01-22 11:08:20",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Duchamp's Punch",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Shake all ingredients.\r\nDouble strain in a chilled double old fashioned glass with abig ice cube.\r\nGarnish with a couple of lavender sprigs",
@@ -20055,12 +26425,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2017-01-22 11:31:25"
+    Date: "2017-01-22 11:31:25",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Bacardi Cocktail",
     Tags: "IBA,Classic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions: "Shake together with ice. Strain into glass and serve.",
     Image:
@@ -20095,12 +26478,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 11:30:59"
+    Date: "2017-09-02 11:30:59",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Between The Sheets",
     Tags: "IBA,Classic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Pour all ingredients into shaker with ice cubes, shake, strain into chilled cocktail glass.",
@@ -20136,12 +26532,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 11:32:26"
+    Date: "2017-09-02 11:32:26",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Casino",
     Tags: "IBA",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Pour all ingredients into shaker with ice cubes. Shake well. Strain into chilled cocktail glass. Garnish with a lemon twist and a maraschino cherry. Serve without a straw.",
@@ -20177,12 +26586,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 11:36:19"
+    Date: "2017-09-02 11:36:19",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Clover Club",
     Tags: "IBA,Classic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Dry shake ingredients to emulsify, add ice, shake and served straight up.",
@@ -20218,12 +26640,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 11:38:35"
+    Date: "2017-09-02 11:38:35",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Derby",
     Tags: "Classic,IBA",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Pour all ingredients into a mixing glass with ice. Stir. Strain into a cocktail glass. Garnish with a sprig of fresh mint in the drink.",
@@ -20259,12 +26694,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 11:45:56"
+    Date: "2017-09-02 11:45:56",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Mary Pickford",
     Tags: "IBA,Classic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions: "Shake and strain into a chilled large cocktail glass",
     Image:
@@ -20299,12 +26747,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 12:09:17"
+    Date: "2017-09-02 12:09:17",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Monkey Gland",
     Tags: "IBA,Classic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake well over ice cubes in a shaker, strain into a chilled cocktail glass.",
@@ -20340,12 +26801,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 12:11:31"
+    Date: "2017-09-02 12:11:31",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Paradise",
     Tags: "IBA",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake together over ice. Strain into cocktail glass and serve chilled.",
@@ -20381,12 +26855,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 12:17:40"
+    Date: "2017-09-02 12:17:40",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Planter's Punch",
     Tags: "IBA,Classic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions:
       'Pour all ingredients, except the bitters, into shaker filled with ice. Shake well. Pour into large glass, filled with ice. Add Angostura bitters, "on top". Garnish with cocktail cherry and pineapple.',
@@ -20422,12 +26909,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 12:23:04"
+    Date: "2017-09-02 12:23:04",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Porto flip",
     Tags: "IBA,Classic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake ingredients together in a mixer with ice. Strain into glass, garnish and serve.",
@@ -20463,12 +26963,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 12:25:18"
+    Date: "2017-09-02 12:25:18",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Stinger",
     Tags: "IBA,Classic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Pour in a mixing glass with ice, stir and strain into a cocktail glass. May also be served on rocks in a rocks glass.",
@@ -20504,12 +27017,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 12:40:33"
+    Date: "2017-09-02 12:40:33",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "White Lady",
     Tags: "IBA,Classic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Add all ingredients into cocktail shaker filled with ice. Shake well and strain into large cocktail glass.",
@@ -20545,12 +27071,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 12:49:52"
+    Date: "2017-09-02 12:49:52",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Bellini",
     Tags: "ContemporaryClassic,IBA",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Champagne Flute",
     Instructions:
       "Pour peach pur\u00e9e into chilled flute, add sparkling wine. Stir gently.",
@@ -20586,12 +27125,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 16:52:23"
+    Date: "2017-09-02 16:52:23",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Cosmopolitan",
     Tags: "IBA,ContemporaryClassic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Add all ingredients into cocktail shaker filled with ice. Shake well and double strain into large cocktail glass. Garnish with lime wheel.",
@@ -20627,12 +27179,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 17:06:02"
+    Date: "2017-09-02 17:06:02",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "French 75",
     Tags: "IBA,ContemporaryClassic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions:
       "Combine gin, sugar, and lemon juice in a cocktail shaker filled with ice. Shake vigorously and strain into a chilled champagne glass. Top up with Champagne. Stir gently.",
@@ -20668,12 +27233,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 17:10:15"
+    Date: "2017-09-02 17:10:15",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "French Connection",
     Tags: "IBA,ContemporaryClassic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Pour all ingredients directly into old fashioned glass filled with ice cubes. Stir gently.",
@@ -20709,12 +27287,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 17:12:39"
+    Date: "2017-09-02 17:12:39",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Golden dream",
     Tags: "IBA,ContemporaryClassic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions: "Shake with cracked ice. Strain into glass and serve.",
     Image:
@@ -20749,12 +27340,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 17:23:45"
+    Date: "2017-09-02 17:23:45",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Grasshopper",
     Tags: "IBA,ContemporaryClassic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Pour ingredients into a cocktail shaker with ice. Shake briskly and then strain into a chilled cocktail glass.",
@@ -20790,12 +27394,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 17:26:53"
+    Date: "2017-09-02 17:26:53",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Hemingway Special",
     Tags: "IBA,ContemporaryClassic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions: "Pour all ingredients into a shaker with ice. Shake.",
     Image:
@@ -20830,12 +27447,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 17:31:28"
+    Date: "2017-09-02 17:31:28",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Horse's Neck",
     Tags: "IBA,ContemporaryClassic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Pour brandy and ginger ale directly into highball glass with ice cubes. Stir gently. Garnish with lemon zest. If desired, add dashes of Angostura Bitter.",
@@ -20871,12 +27501,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 17:34:52"
+    Date: "2017-09-02 17:34:52",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Kir",
     Tags: "IBA,ContemporaryClassic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Wine Glass",
     Instructions:
       "Add the cr\u00e8me de cassis to the bottom of the glass, then top up with wine.",
@@ -20912,12 +27555,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 17:38:14"
+    Date: "2017-09-02 17:38:14",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Long Island Iced Tea",
     Tags: "IBA,ContemporaryClassic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Mix all contents in a highball glass and sitr gently. Add dash of Coca-Cola for the coloring and garnish with lemon or lime twist.",
@@ -20953,12 +27609,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 17:41:50"
+    Date: "2017-09-02 17:41:50",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Mimosa",
     Tags: "IBA,ContemporaryClassic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Champagne flute",
     Instructions:
       "Ensure both ingredients are well chilled, then mix into the glass. Serve cold.",
@@ -20994,12 +27663,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 17:44:45"
+    Date: "2017-09-02 17:44:45",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Mint Julep",
     Tags: "IBA,ContemporaryClassic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions:
       "In a highball glass gently muddle the mint, sugar and water. Fill the glass with cracked ice, add Bourbon and stir well until the glass is well frosted. Garnish with a mint sprig.",
@@ -21035,12 +27717,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2015-08-18 15:15:12"
+    Date: "2015-08-18 15:15:12",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Pina Colada",
     Tags: "IBA,ContemporaryClassic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions:
       "Mix with crushed ice in blender until smooth. Pour into chilled glass, garnish and serve.",
@@ -21076,12 +27771,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 17:55:46"
+    Date: "2017-09-02 17:55:46",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Rose",
     Tags: "IBA,ContemporaryClassic",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake together in a cocktail shaker, then strain into chilled glass. Garnish and serve.",
@@ -21117,12 +27825,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 17:57:42"
+    Date: "2017-09-02 17:57:42",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Barracuda",
     Tags: "IBA,NewEra",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Margarita glass",
     Instructions:
       "Shake pour ingredients with ice. Strain into glass, top with Sparkling wine.",
@@ -21158,12 +27879,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 18:12:17"
+    Date: "2017-09-02 18:12:17",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Bramble",
     Tags: "IBA,NewEra",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-Fashioned glass",
     Instructions:
       "Fill glass with crushed ice. Build gin, lemon juice and simple syrup over. Stir, and then pour blackberry liqueur over in a circular fashion to create marbling effect. Garnish with two blackberries and lemon slice.",
@@ -21199,12 +27933,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 18:15:26"
+    Date: "2017-09-02 18:15:26",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Dark and Stormy",
     Tags: "IBA,NewEra",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "In a highball glass filled with ice add 6cl dark rum and top with ginger beer. Garnish with lime wedge.",
@@ -21240,12 +27987,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 18:55:05"
+    Date: "2017-09-02 18:55:05",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Espresso Martini",
     Tags: "IBA,NewEra",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Pour ingredients into shaker filled with ice, shake vigorously, and strain into chilled martini glass",
@@ -21281,12 +28041,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2017-09-02 18:22:31"
+    Date: "2017-09-02 18:22:31",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "French Martini",
     Tags: "NewEra,IBA",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Pour all ingredients into shaker with ice cubes. Shake well and strain into a chilled cocktail glass. Squeeze oil from lemon peel onto the drink.",
@@ -21322,12 +28095,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2017-09-02 18:25:34"
+    Date: "2017-09-02 18:25:34",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Russian Spring Punch",
     Tags: "IBA,NewEra",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Pour the ingredients into an highball glass, top with Sparkling wine.",
@@ -21363,12 +28149,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 18:31:28"
+    Date: "2017-09-02 18:31:28",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Spritz",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-Fashioned glass",
     Instructions: "Build into glass over ice, garnish and serve.",
     Image:
@@ -21403,12 +28202,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 18:34:25"
+    Date: "2017-09-02 18:34:25",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Tommy's Margarita",
     Tags: "IBA,NewEra",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-Fashioned glass",
     Instructions: "Shake and strain into a chilled cocktail glass.",
     Image:
@@ -21443,12 +28255,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 18:37:54"
+    Date: "2017-09-02 18:37:54",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Vampiro",
     Tags: "IBA,NewEra",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-Fashioned glass",
     Instructions:
       'Vampiros may be made in a tall glass or an old fashioned glass. Bartenders may first "rim" the glass with Kosher Salt, which is done by placing a layer of Kosher Salt on a chopping board, moistening the glass\' rim with lime juice or water, and then placing the upside down glass rim onto the Kosher Salt, so that the salt sticks to the moistened rim. The second step is to fill half the glass with ice and add one or two shooter glasses full of high quality Tequila. The next stage is to add the flavouring elements. This is done by squeezing a fresh lime into the glass, adding a few grains of salt, adding citrus-flavoured soda pop, until the glass is 4/5 full, and then adding spicy Viuda de Sanchez (or orange juice, lime juice and pico de gallo). The final step is to stir the ingredients so that the flavours are properly blended.',
@@ -21484,12 +28309,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 18:44:06"
+    Date: "2017-09-02 18:44:06",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Vesper",
     Tags: "IBA,NewEra",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake over ice until well chilled, then strain into a deep goblet and garnish with a thin slice of lemon peel.",
@@ -21525,12 +28363,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 18:48:34"
+    Date: "2017-09-02 18:48:34",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Yellow Bird",
     Tags: "IBA,NewEra",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions: "Shake and strain into a chilled cocktail glass",
     Image:
@@ -21565,12 +28416,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2017-09-02 18:53:31"
+    Date: "2017-09-02 18:53:31",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Butter Baby",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Beer mug",
     Instructions:
       "Blend together in a blender. Serve in a chilled Beer mug with Fresh Blueberries and caramel for topping.",
@@ -21606,12 +28470,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2017-09-07 12:29:23"
+    Date: "2017-09-07 12:29:23",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Boozy Snickers Milkshake",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Mason jar",
     Instructions:
       "Place the snickers bars in a plastic bag and roll over them with a rolling pin until crushed. Add crushed snickers pieces, ice cream, milk, caramel sauce, chocolate sauce, and chocolate liquor to a blender. Blend until shake is thick and frothy. Pour into glasses and top with chocolate liquor and whip cream.",
@@ -21647,12 +28524,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2017-09-07 12:36:04"
+    Date: "2017-09-07 12:36:04",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "A1",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Pour all ingredients into a cocktail shaker, mix and serve over ice into a chilled glass.",
@@ -21688,12 +28578,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2017-09-07 21:42:09"
+    Date: "2017-09-07 21:42:09",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Abbey Martini",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Put all ingredients into a shaker and mix, then strain contents into a chilled cocktail glass.",
@@ -21729,12 +28632,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2017-09-07 21:50:03"
+    Date: "2017-09-07 21:50:03",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Absolutely Fabulous",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Champagne flute",
     Instructions:
       "Mix the Vodka and Cranberry juice together in a shaker and strain into a glass. Top up with Champagne.",
@@ -21770,12 +28686,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2017-09-07 21:55:34"
+    Date: "2017-09-07 21:55:34",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Ace",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Martini Glass",
     Instructions:
       "Shake all the ingredients in a cocktail shaker and ice then strain in a cold glass.",
@@ -21811,12 +28740,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2017-09-07 22:05:06"
+    Date: "2017-09-07 22:05:06",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Adam & Eve",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake together all the ingredients and strain into a cold glass.",
@@ -21852,12 +28794,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2017-09-07 22:17:58"
+    Date: "2017-09-07 22:17:58",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Addington",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Mix both the vermouth's in a shaker and strain into a cold glass. Top up with a squirt of Soda Water. ",
@@ -21893,12 +28848,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2017-09-07 22:15:25"
+    Date: "2017-09-07 22:15:25",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Addison",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Martini Glass",
     Instructions:
       "Shake together all the ingredients and strain into a cold glass.",
@@ -21934,12 +28902,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2017-09-07 22:38:20"
+    Date: "2017-09-07 22:38:20",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Adios Amigos Cocktail",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Martini Glass",
     Instructions:
       "Shake together all the ingredients and strain into a cold glass.",
@@ -21975,12 +28956,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2017-09-07 22:31:33"
+    Date: "2017-09-07 22:31:33",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Gin Rickey",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Half-fill a tall glass with ice. Mix the gin and Grenadine together and pour over the ice. Add the lime or lemon juice and top off with soda water. Decorate the glass with lime and/or lemon slices.",
@@ -22016,12 +29010,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2017-09-08 16:19:05"
+    Date: "2017-09-08 16:19:05",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Salted Toffee Martini",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Add ice, toffee gin, chocolate liqueur and Amaretto to a cocktail shaker and shake vigorously. \r\nPour the chocolate syrup into a saucer and dip the top of a martini glass into the sauce. Grate some of the Willie\\'s sea salt chocolate into another saucer and dip the coated glass, so the flakes stick to the sauce, creating a chocolate rim!\r\nPour the contents of the shaker into your chocolatey glass and sprinkle with more grated chocolate - enjoy!  ",
@@ -22057,12 +29064,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2017-11-01 15:46:51"
+    Date: "2017-11-01 15:46:51",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Hunter's Moon",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Balloon Glass",
     Instructions:
       "Put the Bombay Sapphire, Martini Bianco, sugar syrup & blackberries in a cocktail shaker with lots of ice and shake vigorously before pouring into a balloon glass, topping up with lemonade and garnishing with a wedge of orange.",
@@ -22098,12 +29118,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2017-11-01 17:18:32"
+    Date: "2017-11-01 17:18:32",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Zombie",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Hurricane glass",
     Instructions:
       "\r\nBlend at high speed for no more than 5 seconds.\r\n\r\nPour into a glass, add ice cubes to fill, then add the garnish.\r\n\r\n*Donn\u2019s mix: Bring 3 crushed cinnamon sticks, 1 cup of sugar and 1 cup of water to a boil, stirring until the sugar is dissolved.\r\n\r\nSimmer for 2 minutes, then remove from the heat and let sit for at least 2 hours before straining into a clean glass bottle.\r\n\r\nThen add 1 part of the syrup and 2 parts of fresh grapefruit juice together.",
@@ -22139,12 +29172,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2017-11-01 17:35:26"
+    Date: "2017-11-01 17:35:26",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Bombay Cassis",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Balloon Glass",
     Instructions:
       "Add the Bombay Sapphire, Cr\u00e8me de Cassis and lime juice to a balloon glass and swirl well to mix.\r\nFill the glass with good quality cubed ice.\r\nTop up with chilled and freshly opened Fever-Tree Ginger Beer.\r\nGently stir to combine, top with a gently squeezed lime wedge and finish with a fresh ginger slice.",
@@ -22180,12 +29226,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2017-11-08 10:28:28"
+    Date: "2017-11-08 10:28:28",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Rosemary Blue",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Balloon Glass",
     Instructions:
       "1) Add the Bombay Sapphire, Blue Curacao, rosemary sprig and gently squeezed lemon wedge to a balloon glass. Swirl well to combine.\r\n2) Fill with cubed ice and top with the Fever-Tree Light Tonic Water.\r\n3) Gently fold with a bar spoon to mix.",
@@ -22221,12 +29280,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2017-12-04 16:55:43"
+    Date: "2017-12-04 16:55:43",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Empell\u00f3n Cocina's Fat-Washed Mezcal",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Beer Glass",
     Instructions:
       'To ensure that your pork fat is just as delicious as theirs, here\u2019s their adobo marinade and what to do with it (you\u2019ll also need a rack of ribs):\r\n\r\n4 ancho chiles, 8 guajillo chiles and 4 chipotle chiles, plus 4 cloves roasted garlic, half a cup of cider vinegar, a quarter teaspoon of Mexican oregano, 1 teaspoon of ground black pepper, a whole clove, a quarter teaspoon of ground cinnamon and a half teaspoon of ground cumin.\r\n\r\nToast the dried chiles and soak in water for at least an hour until they are rehydrated. Drain and discard the soaking liquid. Combine the soaked chiles with the remaining ingredients and pur\u00e9e until smooth.\r\n\r\nCold smoke a rack of baby back pork ribs by taking a large hotel pan with woodchips on one side and charcoal on the other. Place another, smaller, pan with pork ribs, above the charcoal/woodchip pan. Ignite the charcoal, being careful to not ignite the woodchips. Cover both pans with foil and allow to smoke for 10-15 minutes, until desired level of smoke is achieved, then coat with adobo marinade and wrap in tin foil prior to placing ribs in a 300 degree oven for 7 hours. When the ribs have cooled, strain off the fat and use for the infusion.\r\n\r\nIf you\u2019re having a hard time coming up to the same kind of volume of fat, make up the balance with pork lard from a butcher. To get the same depth of flavor without the ribs, heat up the fat in a pot with a few spoons of the marinade.\r\n\r\nOnce you\u2019ve got your tub of seasoned pork fat in cooled liquid form, pour equal amounts of Ilegal Joven mezcal and fat into a sealable container. Seal the container and give it a really good shake, then put it in the freezer overnight. When the whole thing is separated and congealed, pour it through a fine mesh chinoise. If you don\u2019t have a chinoise, try a fine mesh strainer, or if you don\u2019t have one of those, try spooning off most of the fat. There will be some beads of orange fat left in the strained mezcal: run that through a few layers of cheesecloth (or coffee filters in a pinch) to get rid of the last of it.\r\n\r\nThe mezcal is now ready for drinking, straight-up or in a cocktail. \r\n\r\nHabanero tincture\r\n\r\nSlice habaneros and add 2 ounces Ilegal Joven mezcal.\r\nAllow to sit overnight or until desired level of heat is achieved.\r\nCocktail\r\n\r\nCombine mezcal and chocolate liqueur in a mixing glass with ice and stir for 45 seconds.\r\nStrain into chilled coupe.\r\nCarefully "sink" the coffee liqueur down the inside of the coupe over a spoon.\r\nGarnish with 5 drops habanero tincture.',
@@ -22262,12 +29334,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2017-12-18 11:11:49"
+    Date: "2017-12-18 11:11:49",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "The Last Word",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions: "Shake with ice and strain into a cocktail glass.",
     Image:
@@ -22302,12 +29387,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2017-12-19 16:57:04"
+    Date: "2017-12-19 16:57:04",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "French Negroni",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Martini Glass",
     Instructions:
       "Add ice to a shaker and pour in all ingredients.\nUsing a bar spoon, stir 40 to 45 revolutions or until thoroughly chilled.\nStrain into a martini glass or over ice into a rocks glass. Garnish with orange twist.",
@@ -22343,12 +29441,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2017-12-19 17:06:07"
+    Date: "2017-12-19 17:06:07",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Pegu Club",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions: "Shake, strain, up, cocktail glass",
     Image:
@@ -22383,12 +29494,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2017-12-19 17:18:23"
+    Date: "2017-12-19 17:18:23",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Corpse Reviver #2",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake, strain, straight up, cocktail glass rinsed with absinthe\r\n",
@@ -22424,12 +29548,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2017-12-19 17:25:34"
+    Date: "2017-12-19 17:25:34",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Boulevardier",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Martini Glass",
     Instructions: "Stir with ice, strain, garnish and serve.",
     Image:
@@ -22464,12 +29601,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2017-12-19 17:51:08"
+    Date: "2017-12-19 17:51:08",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Greyhound",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions:
       "Add the vodka to a Collins glass filled with ice.\nTop with grapefruit juice and stir.\n\n",
@@ -22505,12 +29655,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2017-12-19 18:05:32"
+    Date: "2017-12-19 18:05:32",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Paloma",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Collins glass",
     Instructions: "Stir together and serve over ice.",
     Image:
@@ -22545,12 +29708,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2017-12-19 17:59:53"
+    Date: "2017-12-19 17:59:53",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Bijou",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions: "Stir in mixing glass with ice and strain\r\n",
     Image:
@@ -22585,12 +29761,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2017-12-19 18:09:45"
+    Date: "2017-12-19 18:09:45",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Gimlet",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Martini Glass",
     Instructions:
       "Add all the ingredients to a shaker and fill with ice.\r\n\r\nShake, and strain into a chilled cocktail glass or an Old Fashioned glass filled with fresh ice.\r\n\r\nGarnish with a lime wheel.",
@@ -22626,12 +29815,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2017-12-19 18:14:32"
+    Date: "2017-12-19 18:14:32",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Martinez 2",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Add all ingredients to a mixing glass and fill with ice.\r\n\r\nStir until chilled, and strain into a chilled coupe glass.",
@@ -22667,12 +29869,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2017-12-19 18:34:15"
+    Date: "2017-12-19 18:34:15",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Oatmeal Cookie",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Mason jar",
     Instructions:
       "Just mix it all together.\r\nIt's meant to be a shot, but it works just fine as a proper adult-sized drink over lots of ice.\r\n\r\nTastes like an oatmeal cookie.",
@@ -22708,12 +29923,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2018-01-12 21:31:33"
+    Date: "2018-01-12 21:31:33",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Bahama Mama",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Add 2 parts club soda or more or less to taste.\r\n\r\nMix it all together and pour over a bunch of ice. Drink with a straw.",
@@ -22749,12 +29977,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2018-01-12 21:42:19"
+    Date: "2018-01-12 21:42:19",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Blue Hurricane",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "If each part is 1/2 oz then use about 2.5 cups of ice.\r\n\r\nBlend it all together. \r\nDrink it with a big straw if you have one.\r\n\r\n",
@@ -22790,12 +30031,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2018-01-12 22:23:42"
+    Date: "2018-01-12 22:23:42",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "The Laverstoke",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Balloon Glass",
     Instructions:
       "1) Squeeze two lime wedges into a balloon glass then add the cordial, Bombay Sapphire and MARTINI Rosso Vermouth, swirl to mix.\r\n\r\n2) Fully fill the glass with cubed ice and stir to chill.\r\n\r\n3) Top with Fever-Tree Ginger Ale and gently stir again to combine.\r\n\r\n4) Garnish with a snapped ginger slice and an awoken mint sprig.",
@@ -22831,12 +30085,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2018-02-04 12:46:52"
+    Date: "2018-02-04 12:46:52",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Brigadier",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Coupe Glass",
     Instructions: "Mix ingredients in a warmed mug and stir.",
     Image:
@@ -22871,12 +30138,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2018-02-18 09:50:01"
+    Date: "2018-02-18 09:50:01",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "The Jimmy Conway",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Whiskey sour glass",
     Instructions:
       "Fill glass with ice\r\nPour in The Irishman and Disaronno\r\nFill to the top with Cranberry Juice\r\nGarnish with a slice of lemon\u2026Enjoy!",
@@ -22912,12 +30192,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2018-09-01 10:34:38"
+    Date: "2018-09-01 10:34:38",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Old Pal",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Nick and Nora Glass",
     Instructions:
       "Chill cocktail glass. Add ingredients to a mixing glass, and fill 2/3 full with ice. Stir about 20 seconds. Empty cocktail glass and strain into the glass. Garnish with a twist of lemon peel.",
@@ -22953,12 +30246,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2018-03-22 23:23:30"
+    Date: "2018-03-22 23:23:30",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Tipperary",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Nick and Nora Glass",
     Instructions:
       "Stir over ice. Strain into chilled glass. Cut a wide swath of orange peel, and express the orange oils over the drink. Discard orange twist.",
@@ -22994,12 +30300,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2018-03-22 23:33:30"
+    Date: "2018-03-22 23:33:30",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Penicillin",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Shake blended Scotch, lemon juice, honey syrup and ginger syrup with ice. Strain over large ice in chilled rocks glass. Float smoky Scotch on top (be sure to use a smoky Scotch such as an Islay single malt). Garnish with candied ginger.",
@@ -23035,12 +30354,25 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2018-03-24 00:58:16"
+    Date: "2018-03-24 00:58:16",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Corn n Oil",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Cut the half lime in half again. Add the lime, falernum, and bitters to a rocks glass. Muddle. Add the rum. (Aged Barbados rum such as Plantation 5 Year is recommended). Add ice and stir. Float the blackstrap rum on top. Serve with a straw.",
@@ -23076,7 +30408,20 @@ let drinks = [
     Measure13: null,
     Measure14: null,
     Measure15: null,
-    Date: "2018-06-27 15:15:09"
+    Date: "2018-06-27 15:15:09",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "A Furlong Too Late",
@@ -23087,7 +30432,7 @@ let drinks = [
     "strDrinkZH-HANS": "\u5f17\u9686\u592a\u665a\u4e86",
     "test": "\u5f17\u9686\u592a\u665a\u4e86",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Pour the rum and ginger beer into a highball glass almost filled with ice cubes. Stir well. Garnish with the lemon twist.",
@@ -23123,7 +30468,20 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-08-31 19:46:06"
+    Date: "2016-08-31 19:46:06",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "A Night In Old Mandalay",
@@ -23134,7 +30492,7 @@ let drinks = [
     "strDrinkZH-HANS": "\u5728\u66fc\u5fb7\u52d2\u7684\u591c\u665a",
     "test": "\u5728\u66fc\u5fb7\u52d2\u7684\u591c\u665a",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "In a shaker half-filled with ice cubes, combine the light rum, a\u00f1ejo rum, orange juice, and lemon juice. Shake well. Strain into a highball glass almost filled with ice cubes. Top with the ginger ale. Garnish with the lemon twist.",
@@ -23170,12 +30528,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-04-29 09:43:00"
+    Date: "2016-04-29 09:43:00",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "A. J.",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake ingredients with ice, strain into a cocktail glass, and serve.",
@@ -23211,7 +30582,20 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-02 11:16:58"
+    Date: "2016-09-02 11:16:58",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Abbey Cocktail",
@@ -23222,7 +30606,7 @@ let drinks = [
     "strDrinkZH-HANS": "\u4fee\u9053\u9662\u9e21\u5c3e\u9152",
     "test": "\u4fee\u9053\u9662\u96de\u5c3e\u9152",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Shake all ingredients (except for the cherry) with ice and strain into a cocktail glass. Top with the cherry and serve.",
@@ -23258,12 +30642,25 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-02 11:19:28"
+    Date: "2016-09-02 11:19:28",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Abilene",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Pour all of the ingredients into a highball glass almost filled with ice cubes. Stir well.",
@@ -23299,7 +30696,20 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-04-29 09:44:25"
+    Date: "2016-04-29 09:44:25",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Acapulco",
@@ -23310,7 +30720,7 @@ let drinks = [
     "strDrinkZH-HANS": "\u963f\u5361\u666e\u5c14\u79d1",
     "test": "\u963f\u5361\u666e\u723e\u79d1",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Old-fashioned glass",
     Instructions:
       "Combine and shake all ingredients (except mint) with ice and strain into an old-fashioned glass over ice cubes. Add the sprig of mint and serve.",
@@ -23346,7 +30756,20 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-02 11:26:16"
+    Date: "2016-09-02 11:26:16",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Adam",
@@ -23357,7 +30780,7 @@ let drinks = [
     "strDrinkZH-HANS": "\u4e9a\u5f53",
     "test": "\u4e9e\u7576",
     Tags: "Alcoholic,Holiday",
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass.",
@@ -23393,7 +30816,20 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-02 11:29:29"
+    Date: "2016-09-02 11:29:29",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Adonis Cocktail",
@@ -23404,7 +30840,7 @@ let drinks = [
     "strDrinkZH-HANS": "\u963f\u591a\u5c3c\u65af\u9e21\u5c3e\u9152",
     "test": "\u963f\u591a\u5c3c\u65af\u96de\u5c3e\u9152",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "Stir all ingredients with ice, strain contents into a cocktail glass, and serve.",
@@ -23440,7 +30876,20 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-02 11:27:11"
+    Date: "2016-09-02 11:27:11",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Affair",
@@ -23451,7 +30900,7 @@ let drinks = [
     "strDrinkZH-HANS": "\u4e8b\u52a1",
     "test": "\u4e8b\u52d9",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Highball glass",
     Instructions:
       "Pour schnapps, orange juice, and cranberry juice over ice in a highball glass. Top with club soda and serve.",
@@ -23487,7 +30936,20 @@ let drinks = [
     Measure13: "",
     Measure14: "",
     Measure15: "",
-    Date: "2016-09-01 10:05:34"
+    Date: "2016-09-01 10:05:34",
+    isPublic: True,
+  UserProID: {
+    type: Schema.Types.ObjectId,
+    ref: "UserPro"
+  },
+  tagID: {
+    type: Schema.Types.ObjectId,
+    ref: "Tag"
+  },
+  like: {
+    type: Number,
+    default: 0
+  }
   },
   {
     Name: "Affinity",
@@ -23498,7 +30960,7 @@ let drinks = [
     "strDrinkZH-HANS": "\u4eb2\u548c",
     "test": "\u89aa\u548c",
     Tags: null,
-    Alcoholic: "Alcoholic",
+    Alcoholic: True,
     Glass: "Cocktail glass",
     Instructions:
       "In a mixing glass half-filled with ice cubes, combine all of the ingredients. Stir well. Strain into a cocktail glass.",
