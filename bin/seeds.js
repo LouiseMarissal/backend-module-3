@@ -1,7 +1,5 @@
 const mongoose = require("mongoose");
-const Schema = mongoose.Schema
 const Cocktail = require("./../models/Cocktail");
-const Tag = require("./../models/Tag")
 
 const cocktails = [
   {

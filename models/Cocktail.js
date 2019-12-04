@@ -6,7 +6,11 @@ const CocktailSchema = new Schema({
   Alcoholic: Boolean,
   Tags: String,
   Glass: String,
-  Image: String,
+  Image: {
+    type: String,
+    default:
+      "https://icon-library.net/images/default-profile-icon/default-profile-icon-24.jpg"
+  },
   Instructions: String,
   Ingredient1: String,
   Ingredient2: String,

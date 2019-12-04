@@ -32,7 +32,7 @@ router.post("/", (req, res) => {
   cocktailModel
     .create(req.body)
     .then(dbRes => {
-      res.status(200).send(dbRes);
+      res.status(201).send(dbRes);
     })
     .catch(dbErr => {
       res.status(500).send(dbErr);
