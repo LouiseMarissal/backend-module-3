@@ -38,10 +38,10 @@ router.post("/", (req, res) => {
     });
 });
 // findbyId and update
-router
-  .patch("/", (req, res) => {
-    cocktailModel.findByIdAndUpdate(req.params.id);
-  })
-  .then()
-  .catch();
+// router
+//   .patch("/", (req, res) => {
+//     cocktailModel.findByIdAndUpdate(req.params.id);
+//   })
+//   .then()
+//   .catch();
 module.exports = router;
