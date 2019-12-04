@@ -34,4 +34,35 @@ router.get("/:id", (req, res) => {
     });
 });
 
-//
+//Create User
+router.post("/", (eq, res) => {
+  UserProModel.create(req.body)
+    .then(dbRes => {
+      res.status(201).send(dbRes);
+    })
+    .catch(dbErr => {
+      res.status(500).send(dbErr);
+    });
+});
+
+// Modify User profile
+router.patch("/:id", (req, res) => {
+  UserProModel.findByIdAndUpdate(req.params.id, req.body)
+    .then(dbRes => {
+      res.status(201).send(dbRes);
+    })
+    .catch(dbErr => {
+      res.status(500).send(dbErr);
+    });
+});
+
+// Delete user Profile
+router.delete("/:id", (req, res) => {
+  UserProModel.findByIdAndDelete(req.params.id)
+    .then(dbRes => {
+      res.status(200).send(dbRes);
+    })
+    .catch(dbErr => {
+      res.status(500).send(dberr);
+    });
+});
