@@ -45,7 +45,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-11-04 09:17:09",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Old Fashioned",
@@ -88,7 +88,7 @@ const cocktails = [
     Measure15: null,
     Date: "2016-11-04 09:46:42",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Long Island Tea",
@@ -131,7 +131,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-08-18 14:54:32",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Negroni",
@@ -173,7 +173,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-08-18 15:12:07",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Whiskey Sour",
@@ -216,7 +216,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 12:45:25",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Dry Martini",
@@ -259,7 +259,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 12:51:35",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Daiquiri",
@@ -302,7 +302,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-08-18 15:06:37",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Margarita",
@@ -345,7 +345,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-08-18 14:42:59",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Manhattan",
@@ -388,7 +388,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 12:07:09",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Moscow Mule",
@@ -432,7 +432,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 17:49:48",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "After Dinner Cocktail",
@@ -476,7 +476,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-01-02 20:06:18",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "After Supper Cocktail",
@@ -520,7 +520,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-01-02 20:06:50",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Alabama Slammer",
@@ -564,7 +564,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-01-02 20:07:27",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Alaska Cocktail",
@@ -607,7 +607,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-01-02 20:08:40",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Alexander",
@@ -650,7 +650,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-11-04 09:50:39",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Brandy Alexander",
@@ -693,7 +693,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-01-02 20:09:06",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Alfie Cocktail",
@@ -736,7 +736,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-01-02 20:10:29",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Algonquin",
@@ -779,7 +779,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-01-02 20:11:13",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Allegheny",
@@ -822,7 +822,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-01-02 20:12:14",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Allies Cocktail",
@@ -865,7 +865,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-01-02 20:15:04",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Almeria",
@@ -908,7 +908,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-01-02 20:16:21",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Almond Joy",
@@ -951,7 +951,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-01-02 20:18:16",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Amaretto And Cream",
@@ -994,7 +994,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 18:56:58",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Amaretto Mist",
@@ -1037,7 +1037,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-01-02 20:19:31",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Amaretto Rose",
@@ -1080,7 +1080,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-04-24 22:32:59",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Amaretto Stinger",
@@ -1123,7 +1123,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-04-24 22:38:54",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Amaretto Tea",
@@ -1166,7 +1166,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-04-24 22:42:47",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Angel Face",
@@ -1209,7 +1209,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-11-04 09:52:58",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Applecar",
@@ -1252,7 +1252,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 23:02:44",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Apricot Lady",
@@ -1295,7 +1295,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 23:03:34",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Archbishop",
@@ -1338,7 +1338,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-02 16:21:47",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Arise My Love",
@@ -1381,7 +1381,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-02 16:23:52",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Arthur Tompkins",
@@ -1424,7 +1424,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-04-24 22:05:21",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Artillery",
@@ -1467,7 +1467,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-04-24 22:02:27",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Balmoral",
@@ -1510,7 +1510,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-02 16:04:57",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Banana Daiquiri",
@@ -1553,7 +1553,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 22:55:01",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Bermuda Highball",
@@ -1596,7 +1596,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-02 16:08:48",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Black Russian",
@@ -1639,7 +1639,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 16:54:49",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Blackthorn",
@@ -1682,7 +1682,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-02 16:57:10",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Bloody Maria",
@@ -1725,7 +1725,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 22:57:41",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Bloody Mary",
@@ -1768,7 +1768,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-08-18 15:09:14",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Blue Lagoon",
@@ -1811,7 +1811,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 22:58:25",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Blue Margarita",
@@ -1854,7 +1854,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-08-18 14:51:53",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Blue Mountain",
@@ -1897,7 +1897,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-02 17:04:13",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Bluebird",
@@ -1940,7 +1940,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-02 17:06:11",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Bobby Burns Cocktail",
@@ -1983,7 +1983,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-01-14 16:33:28",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Boomerang",
@@ -2026,7 +2026,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 22:59:12",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Boston Sidecar",
@@ -2069,7 +2069,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 16:26:02",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Boston Sour",
@@ -2112,7 +2112,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 16:28:20",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Classic Old-Fashioned",
@@ -2155,7 +2155,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 16:29:33",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Bourbon Sling",
@@ -2198,7 +2198,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 16:31:00",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Bourbon Sour",
@@ -2241,7 +2241,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 16:31:58",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Boxcar",
@@ -2284,7 +2284,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 16:32:57",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Brandy Cobbler",
@@ -2327,7 +2327,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-08-13 12:37:16",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Brandy Flip",
@@ -2370,7 +2370,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 16:34:21",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Brandy Sour",
@@ -2413,7 +2413,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 16:35:40",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Caipirinha",
@@ -2456,7 +2456,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-21 09:42:01",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "California Lemonade",
@@ -2499,7 +2499,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-08-28 18:47:04",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Casa Blanca",
@@ -2542,7 +2542,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-06 16:36:02",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Casino Royale",
@@ -2585,7 +2585,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 16:38:19",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Champagne Cocktail",
@@ -2628,7 +2628,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 16:40:11",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Cherry Rum",
@@ -2671,7 +2671,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-06 16:47:04",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Chicago Fizz",
@@ -2714,7 +2714,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-02 16:29:23",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Chocolate Black Russian",
@@ -2757,7 +2757,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-01 10:07:59",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "City Slicker",
@@ -2800,7 +2800,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 16:42:29",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Clove Cocktail",
@@ -2843,7 +2843,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-04-28 19:19:39",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Cuba Libre",
@@ -2886,7 +2886,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-06 23:41:03",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Dragonfly",
@@ -2929,7 +2929,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 22:51:40",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Dry Rob Roy",
@@ -2972,7 +2972,7 @@ const cocktails = [
     Measure15: "",
     Date: null,
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Dubonnet Cocktail",
@@ -3015,7 +3015,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-08-13 10:12:27",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "English Highball",
@@ -3058,7 +3058,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-04 11:09:12",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "English Rose Cocktail",
@@ -3101,7 +3101,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-02 16:44:57",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Flying Dutchman",
@@ -3144,7 +3144,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-04 11:12:38",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Flying Scotchman",
@@ -3187,7 +3187,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-04 11:14:00",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Foxy Lady",
@@ -3230,7 +3230,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-04 11:10:44",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: 'French "75"',
@@ -3273,7 +3273,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-08-18 15:08:23",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Frisco Sour",
@@ -3316,7 +3316,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 16:22:30",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Frozen Daiquiri",
@@ -3359,7 +3359,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 16:26:53",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Frozen Mint Daiquiri",
@@ -3402,7 +3402,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 16:27:49",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Frozen Pineapple Daiquiri",
@@ -3445,7 +3445,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-06 23:14:57",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Gentleman's Club",
@@ -3488,7 +3488,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 16:08:56",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Gin And Tonic",
@@ -3531,7 +3531,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-08-28 18:37:11",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Gin Cooler",
@@ -3574,7 +3574,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-11-10 23:21:49",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Gin Daisy",
@@ -3617,7 +3617,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-11-10 23:19:04",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Gin Fizz",
@@ -3660,7 +3660,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 12:29:32",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Gin Sling",
@@ -3703,7 +3703,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 16:10:40",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Gin Smash",
@@ -3746,7 +3746,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 16:14:16",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Gin Sour",
@@ -3789,7 +3789,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 16:12:03",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Gin Squirt",
@@ -3832,7 +3832,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 16:15:02",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Gin Swizzle",
@@ -3875,7 +3875,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 16:20:26",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Gin Toddy",
@@ -3918,7 +3918,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-07 22:45:24",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Godchild",
@@ -3961,7 +3961,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-07 22:47:09",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Godfather",
@@ -4004,7 +4004,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 17:15:28",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Godmother",
@@ -4047,7 +4047,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 17:16:24",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Grass Skirt",
@@ -4090,7 +4090,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-14 23:19:46",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Harvey Wallbanger",
@@ -4133,7 +4133,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 17:28:45",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Havana Cocktail",
@@ -4176,7 +4176,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 16:01:40",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Hawaiian Cocktail",
@@ -4219,7 +4219,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 16:03:07",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Highland Fling Cocktail",
@@ -4262,7 +4262,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-04-23 20:25:53",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Imperial Fizz",
@@ -4305,7 +4305,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 16:29:08",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Irish Spring",
@@ -4348,7 +4348,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 16:33:03",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Jack Rose Cocktail",
@@ -4391,7 +4391,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-08-18 15:11:08",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Japanese Fizz",
@@ -4434,7 +4434,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 16:33:51",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Jewel Of The Nile",
@@ -4477,7 +4477,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 16:35:48",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "John Collins",
@@ -4520,7 +4520,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 12:04:31",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Kamikaze",
@@ -4563,7 +4563,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 18:26:44",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Kentucky B And B",
@@ -4605,7 +4605,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-11-10 23:23:56",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Kentucky Colonel",
@@ -4648,7 +4648,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-11-10 23:25:48",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Lady Love Fizz",
@@ -4691,7 +4691,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 16:41:03",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Loch Lomond",
@@ -4734,7 +4734,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-19 11:24:41",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "London Town",
@@ -4777,7 +4777,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-19 11:18:27",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Lone Tree Cocktail",
@@ -4820,7 +4820,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-19 11:16:57",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Lone Tree Cooler",
@@ -4863,7 +4863,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-11-16 12:14:45",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Lord And Lady",
@@ -4906,7 +4906,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-19 11:13:39",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Mai Tai",
@@ -4949,7 +4949,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-08-18 15:17:50",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Martinez Cocktail",
@@ -4992,7 +4992,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-08-18 15:00:52",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Martini",
@@ -5035,7 +5035,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 12:51:35",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Midnight Cowboy",
@@ -5078,7 +5078,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-02 16:35:33",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Mississippi Planters Punch",
@@ -5121,7 +5121,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-08-18 15:18:51",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Monkey Wrench",
@@ -5164,7 +5164,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 12:55:14",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "New York Sour",
@@ -5207,7 +5207,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 15:59:55",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Orange Oasis",
@@ -5250,7 +5250,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-02 05:25:23",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Orgasm",
@@ -5293,7 +5293,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 16:55:14",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Pink Gin",
@@ -5336,7 +5336,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 17:36:58",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Pink Lady",
@@ -5379,7 +5379,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 17:23:49",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Poppy Cocktail",
@@ -5422,7 +5422,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 23:05:15",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Port And Starboard",
@@ -5465,7 +5465,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-06 16:38:31",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Port Wine Cocktail",
@@ -5508,7 +5508,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-06 16:39:36",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Port Wine Flip",
@@ -5551,7 +5551,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-06 16:37:24",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Quaker's Cocktail",
@@ -5594,7 +5594,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-11-12 14:51:54",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Quarter Deck Cocktail",
@@ -5637,7 +5637,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-11-12 15:03:37",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Queen Bee",
@@ -5680,7 +5680,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-11-12 15:06:34",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Queen Charlotte",
@@ -5723,7 +5723,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-11-12 15:07:29",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Queen Elizabeth",
@@ -5766,7 +5766,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-11-12 15:08:59",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Quentin",
@@ -5809,7 +5809,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-11-12 15:09:58",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Royal Fizz",
@@ -5852,7 +5852,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 23:16:49",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Royal Gin Fizz",
@@ -5895,7 +5895,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-06 23:07:52",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Rum Cobbler",
@@ -5938,7 +5938,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 23:18:03",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Rum Cooler",
@@ -5981,7 +5981,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 17:37:54",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Rum Milk Punch",
@@ -6024,7 +6024,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 17:40:10",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Rum Old-fashioned",
@@ -6067,7 +6067,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-07 22:44:09",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Rum Screwdriver",
@@ -6110,7 +6110,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-11-27 11:28:14",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Rum Sour",
@@ -6153,7 +6153,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 16:58:44",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Rum Toddy",
@@ -6196,7 +6196,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 16:58:06",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Rusty Nail",
@@ -6239,7 +6239,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-11-04 09:49:42",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Salty Dog",
@@ -6282,7 +6282,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 18:03:36",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Sazerac",
@@ -6325,7 +6325,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-08-18 15:13:28",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Scooter",
@@ -6368,7 +6368,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-01-02 20:18:27",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Scotch Cobbler",
@@ -6411,7 +6411,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-06 23:17:07",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Scotch Sour",
@@ -6454,7 +6454,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 18:07:16",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Screwdriver",
@@ -6496,7 +6496,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 12:36:47",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Shanghai Cocktail",
@@ -6539,7 +6539,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-11-10 23:31:18",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Sherry Eggnog",
@@ -6582,7 +6582,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-11-10 23:29:01",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Sherry Flip",
@@ -6625,7 +6625,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-11-10 23:27:08",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Sidecar",
@@ -6668,7 +6668,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-08-18 15:07:32",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Sidecar Cocktail",
@@ -6711,7 +6711,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-07 22:40:28",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Singapore Sling",
@@ -6754,7 +6754,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-08-18 14:58:08",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Sloe Gin Cocktail",
@@ -6797,7 +6797,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 17:52:12",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Sol Y Sombra",
@@ -6840,7 +6840,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-08-22 19:19:43",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Stone Sour",
@@ -6883,7 +6883,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-01 09:51:35",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Strawberry Daiquiri",
@@ -6926,7 +6926,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-06 23:15:36",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Strawberry Margarita",
@@ -6969,7 +6969,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-08-18 14:41:51",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Tequila Fizz",
@@ -7012,7 +7012,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 17:53:57",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Tequila Sour",
@@ -7055,7 +7055,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-07 22:43:21",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Thriller",
@@ -7098,7 +7098,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-04-28 19:21:54",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Tom Collins",
@@ -7141,7 +7141,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-08-18 15:21:22",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Turf Cocktail",
@@ -7184,7 +7184,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-06 16:46:07",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Tuxedo Cocktail",
@@ -7227,7 +7227,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 12:42:31",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Valencia Cocktail",
@@ -7270,7 +7270,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-04-23 20:27:20",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Van Vleet",
@@ -7313,7 +7313,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-04-23 20:29:31",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Vermouth Cassis",
@@ -7356,7 +7356,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-06 16:51:14",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Vesuvio",
@@ -7399,7 +7399,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-04-23 20:36:43",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Veteran",
@@ -7442,7 +7442,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-04-23 20:37:36",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Victor",
@@ -7485,7 +7485,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-04-23 20:40:16",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Victory Collins",
@@ -7528,7 +7528,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-04-23 20:43:39",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Vodka And Tonic",
@@ -7571,7 +7571,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-07 22:41:40",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Waikiki Beachcomber",
@@ -7614,7 +7614,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-02 16:43:03",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Whisky Mac",
@@ -7657,7 +7657,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-04-28 19:24:18",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "White Russian",
@@ -7700,7 +7700,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-08-28 18:35:32",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Afterglow",
@@ -7742,7 +7742,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-18 22:07:32",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Alice Cocktail",
@@ -7784,7 +7784,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-18 22:09:04",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Apple Karate",
@@ -7827,7 +7827,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-18 22:17:14",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Bora Bora",
@@ -7870,7 +7870,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-06 23:43:31",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Orangeade",
@@ -7913,7 +7913,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-02 05:22:12",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Rail Splitter",
@@ -7956,7 +7956,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-02 16:27:40",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Banana Milk Shake",
@@ -7999,7 +7999,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-01 09:58:27",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Banana Strawberry Shake",
@@ -8041,7 +8041,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-01 10:03:54",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Banana Strawberry Shake Daiquiri-type",
@@ -8083,7 +8083,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-01 10:03:01",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Egg Cream",
@@ -8126,7 +8126,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-01-14 21:47:26",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Fruit Cooler",
@@ -8169,7 +8169,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-01-14 21:48:19",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Fruit Flip-Flop",
@@ -8212,7 +8212,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-01-14 21:50:33",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Fruit Shake",
@@ -8254,7 +8254,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-01-14 21:51:44",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Just a Moonmint",
@@ -8297,7 +8297,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 15:20:36",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Lassi - A South Indian Drink",
@@ -8305,7 +8305,7 @@ const cocktails = [
     Alcoholic: false,
     Glass: "Highball Glass",
     Instructions:
-      "Blend in a blender for 3 seconds. Lassi is one of the easiest things to make, and there are many ways of making it. Basically, it is buttermilk (yoghurt whisked with water), and you can choose almost any consistency that you like, from the thinnest to the thickest. Serve cold.",
+      "Blend in a blender for 3 seconds. Lassi is one of the easiest things to make, and there are many ways of making it. Basically, it is buttermilk (yoghurt whisked with water), and you can choose almost any consistency that you Like, from the thinnest to the thickest. Serve cold.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/iq6scx1487603980.jpg",
     Ingredient1: "Yoghurt",
@@ -8340,7 +8340,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 15:19:40",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Lassi Khara",
@@ -8383,7 +8383,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 15:19:30",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Lassi Raita",
@@ -8426,7 +8426,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 15:18:53",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Lassi - Sweet",
@@ -8469,7 +8469,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 15:18:05",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Lassi - Mango",
@@ -8477,7 +8477,7 @@ const cocktails = [
     Alcoholic: false,
     Glass: "Highball glass",
     Instructions:
-      "Put it all in a blender and pour over crushed ice. You can also use other fruits like strawberries and bananas.",
+      "Put it all in a blender and pour over crushed ice. You can also use other fruits Like strawberries and bananas.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/1bw6sd1487603816.jpg",
     Ingredient1: "Mango",
@@ -8512,7 +8512,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 15:16:56",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Lemouroudji",
@@ -8555,7 +8555,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 15:15:45",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Limeade",
@@ -8598,7 +8598,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 15:14:40",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Imperial Cocktail",
@@ -8640,7 +8640,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 15:13:45",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Banana Cantaloupe Smoothie",
@@ -8683,7 +8683,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-18 22:18:23",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Apple Berry Smoothie",
@@ -8725,7 +8725,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-18 22:14:33",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Grape lemon pineapple Smoothie",
@@ -8767,7 +8767,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 15:13:03",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Kiwi Papaya Smoothie",
@@ -8809,7 +8809,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 15:12:51",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Mango Orange Smoothie",
@@ -8851,7 +8851,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 15:12:01",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Pineapple Gingerale Smoothie",
@@ -8893,7 +8893,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 15:11:09",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Kill the cold Smoothie",
@@ -8936,7 +8936,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 15:10:15",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Strawberry Shivers",
@@ -8979,7 +8979,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 15:10:04",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Sweet Bananas",
@@ -9022,7 +9022,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 15:09:05",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Tomato Tang",
@@ -9065,7 +9065,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 15:07:58",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Yoghurt Cooler",
@@ -9108,7 +9108,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 05:27:46",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Castillian Hot Chocolate",
@@ -9151,7 +9151,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 15:06:36",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Chocolate Beverage",
@@ -9194,7 +9194,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 15:06:26",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Chocolate Drink",
@@ -9237,7 +9237,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 15:06:20",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Drinking Chocolate",
@@ -9280,7 +9280,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 15:06:13",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Hot Chocolate to Die for",
@@ -9323,7 +9323,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 15:06:06",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Microwave Hot Cocoa",
@@ -9366,7 +9366,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 15:05:51",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Nuked Hot Chocolate",
@@ -9409,7 +9409,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 15:05:43",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Orange Scented Hot Chocolate",
@@ -9452,7 +9452,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 15:05:31",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Spanish chocolate",
@@ -9495,7 +9495,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 15:04:14",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Lemon Shot",
@@ -9503,7 +9503,7 @@ const cocktails = [
     Alcoholic: true,
     Glass: "Shot glass",
     Instructions:
-      "Mix Galliano and Absolut Citron in a shot glass, lay lemon wedge sprinkled with sugar over glass and pour a rum over wedge and glass. light rum with a lighter and let burn for a second. Do shot quickly and suck on lemon. If it is done correctly, this will taste like a shot of sweet lemonade.",
+      "Mix Galliano and Absolut Citron in a shot glass, lay lemon wedge sprinkled with sugar over glass and pour a rum over wedge and glass. light rum with a lighter and let burn for a second. Do shot quickly and suck on lemon. If it is done correctly, this will taste Like a shot of sweet lemonade.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/mx31hv1487602979.jpg",
     Ingredient1: "Galliano",
@@ -9538,7 +9538,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 15:02:59",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Sex on the Beach",
@@ -9581,7 +9581,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-21 10:12:45",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Autodaf\u00e9",
@@ -9624,7 +9624,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 15:02:08",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Gagliardo",
@@ -9667,7 +9667,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 15:01:18",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Surf City Lifesaver",
@@ -9710,7 +9710,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 14:58:19",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Grizzly Bear",
@@ -9752,7 +9752,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 14:55:50",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Karsk",
@@ -9795,7 +9795,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 14:54:31",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Happy Skipper",
@@ -9803,7 +9803,7 @@ const cocktails = [
     Alcoholic: true,
     Glass: "Highball glass",
     Instructions:
-      'Pour Captain Morgan\'s Spiced Rum over ice, fill glass to top with Ginger Ale. Garnish with lime. Tastes like a cream soda. Name:d for the Gilligan\'s Island reference ("The Captain" *in* "Ginger" is a Happy Skipper!)',
+      'Pour Captain Morgan\'s Spiced Rum over ice, fill glass to top with Ginger Ale. Garnish with lime. Tastes Like a cream soda. Name:d for the Gilligan\'s Island reference ("The Captain" *in* "Ginger" is a Happy Skipper!)',
     Image:
       "https://www.thecocktaildb.com/images/media/drink/42w2g41487602448.jpg",
     Ingredient1: "Spiced rum",
@@ -9838,7 +9838,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 14:54:09",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Frapp\u00e9",
@@ -9881,7 +9881,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 03:05:28",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Iced Coffee",
@@ -9924,7 +9924,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-02-03 15:37:35",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Iced Coffee Fillip",
@@ -9966,7 +9966,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-02-03 15:43:43",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Masala Chai",
@@ -10009,7 +10009,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 03:13:04",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Melya",
@@ -10017,7 +10017,7 @@ const cocktails = [
     Alcoholic: false,
     Glass: "Coffee mug",
     Instructions:
-      "Brew espresso. In a coffee mug, place 1 teaspoon of unsweetened powdered cocoa, then cover a teaspoon with honey and drizzle it into the cup. Stir while the coffee brews, this is the fun part. The cocoa seems to coat the honey without mixing, so you get a dusty, sticky mass that looks as though it will never mix. Then all at once, presto! It looks like dark chocolate sauce. Pour hot espresso over the honey, stirring to dissolve. Serve with cream.",
+      "Brew espresso. In a coffee mug, place 1 teaspoon of unsweetened powdered cocoa, then cover a teaspoon with honey and drizzle it into the cup. Stir while the coffee brews, this is the fun part. The cocoa seems to coat the honey without mixing, so you get a dusty, sticky mass that looks as though it will never mix. Then all at once, presto! It looks Like dark chocolate sauce. Pour hot espresso over the honey, stirring to dissolve. Serve with cream.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/xwtptq1441247579.jpg",
     Ingredient1: "Espresso",
@@ -10052,7 +10052,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 03:32:59",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Spiking coffee",
@@ -10095,7 +10095,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-02-20 14:52:55",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Thai Coffee",
@@ -10138,7 +10138,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 03:23:45",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Thai Iced Coffee",
@@ -10181,7 +10181,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 03:00:50",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Thai Iced Tea",
@@ -10224,7 +10224,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 02:59:28",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Absinthe #2",
@@ -10267,7 +10267,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-08-31 19:13:17",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Amaretto Liqueur",
@@ -10310,7 +10310,7 @@ const cocktails = [
     Measure15: " ",
     Date: "2016-09-01 09:47:29",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Angelica Liqueur",
@@ -10353,7 +10353,7 @@ const cocktails = [
     Measure15: " ",
     Date: "2016-08-31 19:21:12",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Caribbean Orange Liqueur",
@@ -10396,7 +10396,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-08-31 19:19:30",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Coffee Liqueur",
@@ -10439,7 +10439,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 05:17:31",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Coffee-Vodka",
@@ -10447,7 +10447,7 @@ const cocktails = [
     Alcoholic: true,
     Glass: "Collins Glass",
     Instructions:
-      "Boil water and sugar until dissolved. Turn off heat. Slowly add dry instant coffee and continue stirring. Add a chopped vanilla bean to the vodka, then combine the cooled sugar syrup and coffee solution with the vodka. Cover tightly and shake vigorously each day for 3 weeks. Strain and filter. Its also best to let the sugar mixture cool completely so the vodka won't evaporate when its added. If you like a smoother feel to the liqueur you can add about 1 teaspoon of glycerine to the finished product.",
+      "Boil water and sugar until dissolved. Turn off heat. Slowly add dry instant coffee and continue stirring. Add a chopped vanilla bean to the vodka, then combine the cooled sugar syrup and coffee solution with the vodka. Cover tightly and shake vigorously each day for 3 weeks. Strain and filter. Its also best to let the sugar mixture cool completely so the vodka won't evaporate when its added. If you Like a smoother feel to the liqueur you can add about 1 teaspoon of glycerine to the finished product.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/qvrrvu1472667494.jpg",
     Ingredient1: "Water",
@@ -10482,7 +10482,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-08-31 19:18:14",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Cranberry Cordial",
@@ -10525,7 +10525,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-08-31 19:16:32",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Creme de Menthe",
@@ -10568,7 +10568,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 05:18:38",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Irish Cream",
@@ -10610,7 +10610,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 16:31:39",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Scottish Highland Liqueur",
@@ -10653,7 +10653,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 05:10:41",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Tia-Maria",
@@ -10696,7 +10696,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 16:44:58",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Aloha Fruit punch",
@@ -10739,7 +10739,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-18 22:11:07",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Apple Cider Punch #1",
@@ -10782,7 +10782,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-02-03 15:26:58",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Artillery Punch",
@@ -10825,7 +10825,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-04-24 22:01:32",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Berry Deadly",
@@ -10868,7 +10868,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-04-28 19:17:57",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Cranberry Punch",
@@ -10911,7 +10911,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 22:54:08",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Egg Nog #4",
@@ -10954,7 +10954,7 @@ const cocktails = [
     Measure15: " ",
     Date: "2016-07-18 22:02:27",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Egg-Nog - Classic Cooked",
@@ -10997,7 +10997,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-18 21:58:25",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Egg Nog - Healthy",
@@ -11040,7 +11040,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-18 21:55:08",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Gluehwein",
@@ -11083,7 +11083,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-18 21:56:58",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Holloween Punch",
@@ -11126,7 +11126,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 17:42:05",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Mulled Wine",
@@ -11169,7 +11169,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-06 23:08:44",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Sangria #1",
@@ -11212,7 +11212,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 04:01:20",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Sweet Sangria",
@@ -11255,7 +11255,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-19 11:30:28",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Sangria - The World's Best",
@@ -11263,7 +11263,7 @@ const cocktails = [
     Alcoholic: true,
     Glass: "Pitcher",
     Instructions:
-      "Mix wine, sugar and fruit, and let sit in the fridge for 18-24 hours. The mixture will have a somewhat syrupy consistency. Before serving stir in brandy and cut the mixture with soda water until it have a thinner, more wine like consistency. Serve from a pitcher in wine glasses.",
+      "Mix wine, sugar and fruit, and let sit in the fridge for 18-24 hours. The mixture will have a somewhat syrupy consistency. Before serving stir in brandy and cut the mixture with soda water until it have a thinner, more wine Like consistency. Serve from a pitcher in wine glasses.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/vysywu1468924264.jpg",
     Ingredient1: "Red wine",
@@ -11298,7 +11298,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-19 11:31:04",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Spiced Peach Punch",
@@ -11341,7 +11341,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-19 11:32:11",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Strawberry Lemonade",
@@ -11384,7 +11384,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-19 11:33:45",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Sunny Holiday Punch",
@@ -11426,7 +11426,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-19 11:39:18",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Wine Cooler",
@@ -11468,7 +11468,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-08 15:16:50",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Wine Punch",
@@ -11511,7 +11511,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-08 15:18:30",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Bruce's Puce",
@@ -11519,7 +11519,7 @@ const cocktails = [
     Alcoholic: true,
     Glass: "Shot glass",
     Instructions:
-      "In a regular-sized shot glass, layer, with a spoon or cherry, the grenadine , the Kahlua , then the Bailey's Irish cream in equal portions. It goes down really smooth ,and you don't even need a chaser. It tastes just like chocolate milk.(Really!)",
+      "In a regular-sized shot glass, layer, with a spoon or cherry, the grenadine , the Kahlua , then the Bailey's Irish cream in equal portions. It goes down really smooth ,and you don't even need a chaser. It tastes just Like chocolate milk.(Really!)",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/svsvqv1473344558.jpg",
     Ingredient1: "Grenadine",
@@ -11554,7 +11554,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-08 15:22:38",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Brave Bull Shooter",
@@ -11597,7 +11597,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-08 15:23:45",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Fahrenheit 5000",
@@ -11640,7 +11640,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-08 15:24:52",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Popped cherry",
@@ -11683,7 +11683,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-08 15:27:05",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Atomic Lokade",
@@ -11726,7 +11726,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-04-24 21:56:52",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Diesel",
@@ -11769,7 +11769,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-02-03 15:20:52",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Afternoon",
@@ -11812,7 +11812,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-08-31 19:22:57",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Kool-Aid Shot",
@@ -11855,7 +11855,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-08-24 09:56:06",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "National Aquarium",
@@ -11898,7 +11898,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-08-24 09:57:01",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Damned if you do",
@@ -11941,7 +11941,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-08-24 09:58:26",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Long vodka",
@@ -11984,7 +11984,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-08-24 10:00:12",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Quick F**K",
@@ -12027,7 +12027,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-11-12 15:10:54",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Owen's Grandmother's Revenge",
@@ -12069,7 +12069,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-08-24 10:02:02",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Flaming Dr. Pepper",
@@ -12112,7 +12112,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-08-24 10:03:04",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "New York Lemonade",
@@ -12155,7 +12155,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-08-24 10:04:33",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Caipirissima",
@@ -12198,7 +12198,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-08-24 10:05:15",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Pisco Sour",
@@ -12241,7 +12241,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-08-18 15:20:22",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Big Red",
@@ -12283,7 +12283,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 03:41:56",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Black & Tan",
@@ -12326,7 +12326,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-02-03 14:50:17",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Chocolate Milk",
@@ -12369,7 +12369,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 17:49:59",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "B-53",
@@ -12412,7 +12412,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-04-28 18:53:43",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Sea breeze",
@@ -12455,7 +12455,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 17:59:22",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Snake Bite (UK)",
@@ -12497,7 +12497,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 03:52:14",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Bob Marley",
@@ -12539,7 +12539,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-10-22 13:51:04",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Brainteaser",
@@ -12582,7 +12582,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-04-28 18:54:26",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Atlantic Sun",
@@ -12625,7 +12625,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-04-24 21:59:16",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Green Goblin",
@@ -12667,7 +12667,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-02-03 14:58:40",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Oreo Mudslide",
@@ -12710,7 +12710,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-19 11:43:37",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "ABC",
@@ -12752,7 +12752,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-08-31 19:32:08",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Pink Panty Pulldowns",
@@ -12794,7 +12794,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-19 12:10:57",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Ice Pick #1",
@@ -12837,7 +12837,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-21 10:02:06",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "410 Gone",
@@ -12879,7 +12879,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-08-31 19:43:46",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Tequila Sunrise",
@@ -12922,7 +12922,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-12-04 19:18:23",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Screaming Orgasm",
@@ -12965,7 +12965,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 22:44:30",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Flander's Flake-Out",
@@ -13007,7 +13007,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-04-28 19:05:05",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Apple Slammer",
@@ -13050,7 +13050,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-04-24 22:37:32",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Amaretto Sour",
@@ -13093,7 +13093,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-04-24 22:43:32",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Cuba Libra",
@@ -13136,7 +13136,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 22:44:56",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Jelly Bean",
@@ -13144,7 +13144,7 @@ const cocktails = [
     Alcoholic: true,
     Glass: "Cordial glass",
     Instructions:
-      "mix equal parts in pony glass-tastes just like a jelly bean!",
+      "mix equal parts in pony glass-tastes just Like a jelly bean!",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/bglc6y1504388797.jpg",
     Ingredient1: "Blackberry brandy",
@@ -13179,7 +13179,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 22:46:37",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "After Five",
@@ -13187,7 +13187,7 @@ const cocktails = [
     Alcoholic: true,
     Glass: "Shot glass",
     Instructions:
-      "1. Pour Kahlua into shot glass to about 1/2 full. 2. Using a spoon(inverted), slowly pour in the Peppermint Schnapps until glass is about 3/4 full. Done correctly, the Schnapps will flow under the Kahlua for a clear layer. 3. Again using a spoon, but this time right side up, slowly top off the glass with a layer of Bailey's. Be careful to place the spoon right at the top of the Kahlua layer and to raise it as the glass fills up. Done correctly, this will provide a layer of Bailey's floating over the Kahlua. 4. Toss it down all at once for something like a Peppermint Pattie, WITH A BANG!!! NOTE: Best if all ingredients are chilled",
+      "1. Pour Kahlua into shot glass to about 1/2 full. 2. Using a spoon(inverted), slowly pour in the Peppermint Schnapps until glass is about 3/4 full. Done correctly, the Schnapps will flow under the Kahlua for a clear layer. 3. Again using a spoon, but this time right side up, slowly top off the glass with a layer of Bailey's. Be careful to place the spoon right at the top of the Kahlua layer and to raise it as the glass fills up. Done correctly, this will provide a layer of Bailey's floating over the Kahlua. 4. Toss it down all at once for something Like a Peppermint Pattie, WITH A BANG!!! NOTE: Best if all ingredients are chilled",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/sk3lr91493068595.jpg",
     Ingredient1: "Peppermint schnapps",
@@ -13222,7 +13222,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-04-24 22:16:35",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Midnight Manx",
@@ -13265,7 +13265,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-02 16:37:11",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Kir Royale",
@@ -13307,7 +13307,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 17:39:48",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Jackhammer",
@@ -13349,7 +13349,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 22:48:16",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Nutty Irishman",
@@ -13391,7 +13391,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 03:40:14",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "3 Wise Men",
@@ -13433,7 +13433,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-18 22:34:37",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Miami Vice",
@@ -13476,7 +13476,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-02 16:49:15",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "AT&T",
@@ -13518,7 +13518,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-04-24 22:00:19",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "69 Special",
@@ -13561,7 +13561,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-08-31 19:44:55",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Irish Coffee",
@@ -13604,7 +13604,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-08-18 15:09:59",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "'57 Chevy with a White License Plate",
@@ -13647,7 +13647,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-18 22:49:04",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Mother's Milk",
@@ -13689,7 +13689,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 16:43:19",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Zippy's Revenge",
@@ -13732,7 +13732,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-01-28 16:18:33",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Belgian Blue",
@@ -13774,7 +13774,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 02:56:59",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Red Snapper",
@@ -13816,7 +13816,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-06 23:02:23",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Jamaica Kiss",
@@ -13859,7 +13859,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 04:05:49",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Absolut Summertime",
@@ -13902,7 +13902,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-08-31 19:54:22",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Cosmopolitan Martini",
@@ -13945,7 +13945,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-08-18 15:19:40",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Ziemes Martini Apfelsaft",
@@ -13988,7 +13988,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-01-28 16:08:07",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Vodka Martini",
@@ -14031,7 +14031,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-08-18 15:02:08",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Cafe Savoy",
@@ -14074,7 +14074,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 03:35:11",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Snowball",
@@ -14117,7 +14117,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-06 23:03:36",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Mocha-Berry",
@@ -14160,7 +14160,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 03:14:08",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "747",
@@ -14203,7 +14203,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-08-31 19:28:26",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Addison Special",
@@ -14246,7 +14246,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-04-24 22:14:53",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "California Root Beer",
@@ -14288,7 +14288,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-01 09:45:26",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Amaretto Stone Sour",
@@ -14330,7 +14330,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-01 09:52:01",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Blind Russian",
@@ -14372,7 +14372,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-01 10:00:08",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Absolut Sex",
@@ -14415,7 +14415,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-08-31 19:33:56",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Aztec Punch",
@@ -14458,7 +14458,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-02-03 15:49:51",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Lemon Drop",
@@ -14501,7 +14501,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 18:28:17",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Absolut limousine",
@@ -14544,7 +14544,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-01 09:50:44",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Absolut Evergreen",
@@ -14586,7 +14586,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-02 11:36:49",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Lunch Box",
@@ -14629,7 +14629,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-02-03 15:15:46",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Kool-Aid Slammer",
@@ -14672,7 +14672,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-06 23:04:33",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Kurant Tea",
@@ -14680,7 +14680,7 @@ const cocktails = [
     Alcoholic: true,
     Glass: "Champagne flute",
     Instructions:
-      "Pour Absolut Kurant into a comfortably big tea-cup. Add the not too hot(!) apple tea and, if you like, some sugar. Enjoy!",
+      "Pour Absolut Kurant into a comfortably big tea-cup. Add the not too hot(!) apple tea and, if you Like, some sugar. Enjoy!",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/xrsrpr1441247464.jpg",
     Ingredient1: "Absolut Kurant",
@@ -14715,7 +14715,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 03:31:04",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Dirty Nipple",
@@ -14757,7 +14757,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-04-28 19:01:49",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Darkwood Sling",
@@ -14800,7 +14800,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-01 09:41:43",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Bailey's Dream Shake",
@@ -14843,7 +14843,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-01 09:35:59",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Bumble Bee #1",
@@ -14886,7 +14886,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-04-28 18:59:38",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "A.D.M. (After Dinner Mint)",
@@ -14928,7 +14928,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-08-31 19:53:20",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "A Splash of Nash",
@@ -14971,7 +14971,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-08-31 19:30:01",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Amaretto Sunrise",
@@ -15014,7 +15014,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-04-24 22:44:27",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Arizona Stingers",
@@ -15057,7 +15057,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-04-24 22:10:55",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Orange Push-up",
@@ -15100,7 +15100,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-08-24 10:09:41",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "151 Florida Bushwacker",
@@ -15143,7 +15143,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-18 22:28:43",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Zizi Coin-coin",
@@ -15186,7 +15186,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-01-28 16:25:52",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "50/50",
@@ -15229,7 +15229,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-04-29 09:41:56",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Tequila Surprise",
@@ -15271,7 +15271,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-06 23:06:21",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Cream Soda",
@@ -15314,7 +15314,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-11-15 11:29:27",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "ACID",
@@ -15357,7 +15357,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-11-15 11:28:37",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Arctic Fish",
@@ -15400,7 +15400,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-08-31 19:39:41",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Grim Reaper",
@@ -15443,7 +15443,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 16:06:32",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Freddy Kruger",
@@ -15485,7 +15485,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-04-28 19:06:38",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Bubble Gum",
@@ -15527,7 +15527,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-18 22:53:03",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Kiwi Lemon",
@@ -15569,7 +15569,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-11-04 09:28:17",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Hot Creamy Bush",
@@ -15611,7 +15611,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-08-31 19:27:17",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Midnight Mint",
@@ -15654,7 +15654,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-02 16:38:30",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Talos Coffee",
@@ -15696,7 +15696,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 03:15:18",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Zinger",
@@ -15704,7 +15704,7 @@ const cocktails = [
     Alcoholic: true,
     Glass: "Highball glass",
     Instructions:
-      "Get a shot glass and pour in three shots of the schnapps. Do the same with the Surge Cola. Then down it like Scheetz would.",
+      "Get a shot glass and pour in three shots of the schnapps. Do the same with the Surge Cola. Then down it Like Scheetz would.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/iixv4l1485620014.jpg",
     Ingredient1: "Peachtree schnapps",
@@ -15739,7 +15739,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-01-28 16:13:34",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Jello shots",
@@ -15782,7 +15782,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 16:35:04",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Rum Punch",
@@ -15824,7 +15824,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-06 16:48:58",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Turkeyball",
@@ -15866,7 +15866,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-06 16:44:53",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Absolutely Cranberry Smash",
@@ -15908,7 +15908,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-02 11:24:44",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Kiss me Quick",
@@ -15950,7 +15950,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 16:38:39",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Royal Flush",
@@ -15993,7 +15993,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 17:35:27",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Limona Corona",
@@ -16036,7 +16036,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 03:51:02",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Pysch Vitamin Light",
@@ -16078,7 +16078,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-06 16:33:00",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Apello",
@@ -16120,7 +16120,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-18 22:13:35",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Texas Rattlesnake",
@@ -16163,7 +16163,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 17:55:50",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "After sex",
@@ -16206,7 +16206,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-04-24 22:18:22",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "San Francisco",
@@ -16249,7 +16249,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 17:59:21",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Amaretto Shake",
@@ -16292,7 +16292,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-04-24 22:34:16",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "A Day at the Beach",
@@ -16335,7 +16335,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-02-03 15:47:54",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Malibu Twister",
@@ -16377,7 +16377,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 16:42:01",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Space Odyssey",
@@ -16420,7 +16420,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-07 21:57:23",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Zenmeister",
@@ -16462,7 +16462,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-11-15 11:31:02",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Avalon",
@@ -16505,7 +16505,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-04-24 22:22:11",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "252",
@@ -16548,7 +16548,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-18 22:32:42",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "3-Mile Long Island Iced Tea",
@@ -16591,7 +16591,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-08-31 19:42:52",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Zorro",
@@ -16633,7 +16633,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-01-28 16:34:43",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Orange Crush",
@@ -16675,7 +16675,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 16:52:06",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "155 Belmont",
@@ -16717,7 +16717,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-10-05 12:36:28",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "1-900-FUK-MEUP",
@@ -16760,7 +16760,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-18 22:27:04",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Vodka Russian",
@@ -16802,7 +16802,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-02-03 15:58:49",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Danbooka",
@@ -16844,7 +16844,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 03:07:55",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "110 in the shade",
@@ -16886,7 +16886,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-02-03 14:51:57",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Grand Blue",
@@ -16928,7 +16928,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-01 21:29:09",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Baby Eskimo",
@@ -16971,7 +16971,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-01 09:57:07",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Tennesee Mud",
@@ -17013,7 +17013,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 03:02:50",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Swedish Coffee",
@@ -17056,7 +17056,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 03:19:43",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Adam Sunrise",
@@ -17099,7 +17099,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-02 11:28:32",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Absolut Stress #2",
@@ -17141,7 +17141,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-02 11:23:45",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Chocolate Monkey",
@@ -17184,7 +17184,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-18 21:53:32",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Texas Sling",
@@ -17227,7 +17227,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 18:02:39",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "A midsummernight dream",
@@ -17270,7 +17270,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-04-28 19:14:52",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Zoksel",
@@ -17313,7 +17313,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-01-28 16:28:50",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Fuzzy Asshole",
@@ -17356,7 +17356,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-08-31 19:24:58",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Quick-sand",
@@ -17399,7 +17399,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-11-12 15:12:13",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Snakebite and Black",
@@ -17442,7 +17442,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 03:54:23",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Zimadori Zinger",
@@ -17485,7 +17485,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-01-28 16:12:00",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Herbal flame",
@@ -17528,7 +17528,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 03:09:44",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Jamaican Coffee",
@@ -17571,7 +17571,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 03:27:37",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Mojito #3",
@@ -17614,7 +17614,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-11-04 09:24:43",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Apricot punch",
@@ -17657,7 +17657,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-08-31 19:37:47",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "B-52",
@@ -17699,7 +17699,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 18:07:51",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Zambeer",
@@ -17741,7 +17741,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-01-28 16:06:18",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Americano",
@@ -17784,7 +17784,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-11-04 09:52:06",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Black Forest Shake",
@@ -17827,7 +17827,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-01 10:01:45",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "GG",
@@ -17870,7 +17870,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-18 22:06:00",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Radler",
@@ -17912,7 +17912,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 17:43:15",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Mudslinger",
@@ -17954,7 +17954,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 16:45:55",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Campari Beer",
@@ -17996,7 +17996,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 03:58:50",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Almond Chocolate Coffee",
@@ -18039,7 +18039,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-04-24 22:30:41",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Amaretto Stone Sour #3",
@@ -18082,7 +18082,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-01 09:53:32",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "9 1/2 Weeks",
@@ -18125,7 +18125,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-08-31 19:48:22",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Absolutly Screwed Up",
@@ -18168,7 +18168,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-08-31 19:55:28",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Whitecap Margarita",
@@ -18211,7 +18211,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-02 17:00:22",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Bellini Martini",
@@ -18254,7 +18254,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 22:56:19",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Jitterbug",
@@ -18297,7 +18297,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 02:55:18",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Moranguito",
@@ -18340,7 +18340,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-10-05 12:35:35",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Amaretto Sweet & Sour",
@@ -18383,7 +18383,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-08-31 19:35:46",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Rum Runner",
@@ -18425,7 +18425,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-08 17:40:57",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "H.D.",
@@ -18468,7 +18468,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-08-31 19:26:18",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "The Evil Blue Thing",
@@ -18511,7 +18511,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-07 15:04:19",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Shark Attack",
@@ -18554,7 +18554,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-07 15:07:37",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Jack's Vanilla Coke",
@@ -18597,7 +18597,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-07 15:08:39",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Apple Grande",
@@ -18639,7 +18639,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-08-31 19:37:02",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Bleeding Surgeon",
@@ -18682,7 +18682,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-01 09:38:38",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Applejack",
@@ -18725,7 +18725,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-11-15 11:24:22",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Adam Bomb",
@@ -18768,7 +18768,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-02-03 15:23:36",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Arizona Antifreeze",
@@ -18810,7 +18810,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-04-24 21:54:22",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Black and Brown",
@@ -18853,7 +18853,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-08-31 19:41:39",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "A Piece of Ass",
@@ -18895,7 +18895,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-01 09:48:57",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Avalanche",
@@ -18937,7 +18937,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-01 09:56:05",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Brandon and Will's Coke Float",
@@ -18980,7 +18980,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-01 09:39:45",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Flaming Lamborghini",
@@ -19023,7 +19023,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-04-28 19:03:07",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Zipperhead",
@@ -19066,7 +19066,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-01-28 16:17:15",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "A Gilligan's Island",
@@ -19108,7 +19108,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-04-28 19:12:56",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Kioki Coffee",
@@ -19150,7 +19150,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 03:29:34",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Apple Pie with A Crust",
@@ -19193,14 +19193,14 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-01 09:54:38",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Zorbatini",
     Tags: null,
     Alcoholic: true,
     Glass: "Cocktail glass",
-    Instructions: "Prepare like a Martini. Garnish with a green olive.",
+    Instructions: "Prepare Like a Martini. Garnish with a green olive.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/wtkqgb1485621155.jpg",
     Ingredient1: "Vodka",
@@ -19235,7 +19235,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-01-28 16:32:35",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Vodka Fizz",
@@ -19278,7 +19278,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 05:24:03",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Radioactive Long Island Iced Tea",
@@ -19321,7 +19321,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-08-24 09:31:52",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Shot-gun",
@@ -19364,7 +19364,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-08-24 09:33:03",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Bible Belt",
@@ -19406,7 +19406,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-08-24 09:34:35",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Irish Curdling Cow",
@@ -19449,7 +19449,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-08-24 09:35:30",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Sweet Tooth",
@@ -19457,7 +19457,7 @@ const cocktails = [
     Alcoholic: true,
     Glass: "Highball Glass",
     Instructions:
-      "Put 2 shots Godiva Liquour into a glass, add as much or as little milk as you would like.",
+      "Put 2 shots Godiva Liquour into a glass, add as much or as little milk as you would Like.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/j6rq6h1503563821.jpg",
     Ingredient1: "Godiva liqueur",
@@ -19492,7 +19492,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-08-24 09:37:01",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Downshift",
@@ -19535,7 +19535,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-08-24 09:38:31",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Pink Penocha",
@@ -19577,7 +19577,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-08-24 09:40:07",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Orange Whip",
@@ -19619,7 +19619,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-02-03 15:52:39",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Bruised Heart",
@@ -19662,7 +19662,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-08-24 09:43:29",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Gideon's Green Dinosaur",
@@ -19704,7 +19704,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-08-24 09:50:36",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "A true Amaretto Sour",
@@ -19747,7 +19747,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-08-31 19:49:32",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Kool First Aid",
@@ -19790,7 +19790,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-08-24 09:53:44",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Irish Russian",
@@ -19833,7 +19833,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-02-03 15:18:50",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Auburn Headbanger",
@@ -19876,7 +19876,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-04-24 21:55:20",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Zima Blaster",
@@ -19919,7 +19919,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-01-28 16:09:57",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Buccaneer",
@@ -19962,7 +19962,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 03:57:03",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Homemade Kahlua",
@@ -20005,7 +20005,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 05:20:25",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "24k nightmare",
@@ -20047,7 +20047,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-07-18 22:31:38",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Caribbean Boilermaker",
@@ -20090,7 +20090,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-02-03 15:01:06",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Army special",
@@ -20133,7 +20133,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-04-24 22:07:42",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Arizona Twister",
@@ -20176,7 +20176,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-04-24 22:08:55",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Baby Guinness",
@@ -20219,7 +20219,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-10 05:39:19",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Alice in Wonderland",
@@ -20261,7 +20261,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-04-24 22:29:51",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "501 Blue",
@@ -20303,7 +20303,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-04-28 19:11:37",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Coke and Drops",
@@ -20346,7 +20346,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-01 09:42:47",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Ruby Tuesday",
@@ -20389,7 +20389,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-06 16:30:37",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Arctic Mouthwash",
@@ -20432,7 +20432,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-11-12 15:15:35",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Brain Fart",
@@ -20475,7 +20475,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 23:01:42",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Royal Bitch",
@@ -20518,7 +20518,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-02 17:08:10",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Citrus Coke",
@@ -20561,7 +20561,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-11-18 12:46:54",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Smut",
@@ -20603,7 +20603,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 16:23:32",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Raspberry Cooler",
@@ -20646,7 +20646,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-09-03 05:25:46",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Amaretto Sunset",
@@ -20689,7 +20689,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-04-24 22:36:00",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Cherry Electric Lemonade",
@@ -20732,7 +20732,7 @@ const cocktails = [
     Measure15: null,
     Date: "2015-12-28 10:45:48",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Girl From Ipanema",
@@ -20775,7 +20775,7 @@ const cocktails = [
     Measure15: null,
     Date: "2016-07-21 09:43:53",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Ipamena",
@@ -20818,7 +20818,7 @@ const cocktails = [
     Measure15: null,
     Date: "2016-07-21 09:49:52",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Dark Caipirinha",
@@ -20861,7 +20861,7 @@ const cocktails = [
     Measure15: null,
     Date: "2016-08-28 18:40:58",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Jam Donut",
@@ -20904,7 +20904,7 @@ const cocktails = [
     Measure15: null,
     Date: "2016-09-16 16:30:04",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Aviation",
@@ -20947,7 +20947,7 @@ const cocktails = [
     Measure15: null,
     Date: "2016-11-04 09:55:28",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Dirty Martini",
@@ -20990,7 +20990,7 @@ const cocktails = [
     Measure15: null,
     Date: "2017-01-22 11:08:20",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Duchamp's Punch",
@@ -21033,7 +21033,7 @@ const cocktails = [
     Measure15: null,
     Date: "2017-01-22 11:31:25",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Bacardi Cocktail",
@@ -21075,7 +21075,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 11:30:59",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Between The Sheets",
@@ -21118,7 +21118,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 11:32:26",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Casino",
@@ -21161,7 +21161,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 11:36:19",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Clover Club",
@@ -21204,7 +21204,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 11:38:35",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Derby",
@@ -21247,7 +21247,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 11:45:56",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Mary Pickford",
@@ -21289,7 +21289,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 12:09:17",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Monkey Gland",
@@ -21332,7 +21332,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 12:11:31",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Paradise",
@@ -21375,7 +21375,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 12:17:40",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Planter's Punch",
@@ -21418,7 +21418,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 12:23:04",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Porto flip",
@@ -21461,7 +21461,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 12:25:18",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Stinger",
@@ -21504,7 +21504,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 12:40:33",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "White Lady",
@@ -21547,7 +21547,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 12:49:52",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Bellini",
@@ -21590,7 +21590,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 16:52:23",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Cosmopolitan",
@@ -21633,7 +21633,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 17:06:02",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "French 75",
@@ -21676,7 +21676,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 17:10:15",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "French Connection",
@@ -21719,7 +21719,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 17:12:39",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Golden dream",
@@ -21761,7 +21761,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 17:23:45",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Grasshopper",
@@ -21804,7 +21804,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 17:26:53",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Hemingway Special",
@@ -21846,7 +21846,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 17:31:28",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Horse's Neck",
@@ -21889,7 +21889,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 17:34:52",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Kir",
@@ -21932,7 +21932,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 17:38:14",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Long Island Iced Tea",
@@ -21975,7 +21975,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 17:41:50",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Mimosa",
@@ -22018,7 +22018,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 17:44:45",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Mint Julep",
@@ -22061,7 +22061,7 @@ const cocktails = [
     Measure15: "",
     Date: "2015-08-18 15:15:12",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Pina Colada",
@@ -22104,7 +22104,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 17:55:46",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Rose",
@@ -22147,7 +22147,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 17:57:42",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Barracuda",
@@ -22190,7 +22190,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 18:12:17",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Bramble",
@@ -22233,7 +22233,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 18:15:26",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Dark and Stormy",
@@ -22276,7 +22276,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 18:55:05",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Espresso Martini",
@@ -22319,7 +22319,7 @@ const cocktails = [
     Measure15: null,
     Date: "2017-09-02 18:22:31",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "French Martini",
@@ -22362,7 +22362,7 @@ const cocktails = [
     Measure15: null,
     Date: "2017-09-02 18:25:34",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Russian Spring Punch",
@@ -22405,7 +22405,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 18:31:28",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Spritz",
@@ -22447,7 +22447,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 18:34:25",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Tommy's Margarita",
@@ -22489,7 +22489,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 18:37:54",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Vampiro",
@@ -22532,7 +22532,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 18:44:06",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Vesper",
@@ -22575,7 +22575,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 18:48:34",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Yellow Bird",
@@ -22617,7 +22617,7 @@ const cocktails = [
     Measure15: "",
     Date: "2017-09-02 18:53:31",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Butter Baby",
@@ -22660,7 +22660,7 @@ const cocktails = [
     Measure15: null,
     Date: "2017-09-07 12:29:23",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Boozy Snickers Milkshake",
@@ -22703,7 +22703,7 @@ const cocktails = [
     Measure15: null,
     Date: "2017-09-07 12:36:04",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "A1",
@@ -22746,7 +22746,7 @@ const cocktails = [
     Measure15: null,
     Date: "2017-09-07 21:42:09",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Abbey Martini",
@@ -22789,7 +22789,7 @@ const cocktails = [
     Measure15: null,
     Date: "2017-09-07 21:50:03",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Absolutely Fabulous",
@@ -22832,7 +22832,7 @@ const cocktails = [
     Measure15: null,
     Date: "2017-09-07 21:55:34",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Ace",
@@ -22875,7 +22875,7 @@ const cocktails = [
     Measure15: null,
     Date: "2017-09-07 22:05:06",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Adam & Eve",
@@ -22918,7 +22918,7 @@ const cocktails = [
     Measure15: null,
     Date: "2017-09-07 22:17:58",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Addington",
@@ -22961,7 +22961,7 @@ const cocktails = [
     Measure15: null,
     Date: "2017-09-07 22:15:25",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Addison",
@@ -23004,7 +23004,7 @@ const cocktails = [
     Measure15: null,
     Date: "2017-09-07 22:38:20",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Adios Amigos Cocktail",
@@ -23047,7 +23047,7 @@ const cocktails = [
     Measure15: null,
     Date: "2017-09-07 22:31:33",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Gin Rickey",
@@ -23090,7 +23090,7 @@ const cocktails = [
     Measure15: null,
     Date: "2017-09-08 16:19:05",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Salted Toffee Martini",
@@ -23133,7 +23133,7 @@ const cocktails = [
     Measure15: null,
     Date: "2017-11-01 15:46:51",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Hunter's Moon",
@@ -23176,7 +23176,7 @@ const cocktails = [
     Measure15: null,
     Date: "2017-11-01 17:18:32",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Zombie",
@@ -23219,7 +23219,7 @@ const cocktails = [
     Measure15: null,
     Date: "2017-11-01 17:35:26",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Bombay Cassis",
@@ -23262,7 +23262,7 @@ const cocktails = [
     Measure15: null,
     Date: "2017-11-08 10:28:28",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Rosemary Blue",
@@ -23305,7 +23305,7 @@ const cocktails = [
     Measure15: null,
     Date: "2017-12-04 16:55:43",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Empell\u00f3n Cocina's Fat-Washed Mezcal",
@@ -23348,7 +23348,7 @@ const cocktails = [
     Measure15: null,
     Date: "2017-12-18 11:11:49",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "The Last Word",
@@ -23390,7 +23390,7 @@ const cocktails = [
     Measure15: null,
     Date: "2017-12-19 16:57:04",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "French Negroni",
@@ -23433,7 +23433,7 @@ const cocktails = [
     Measure15: null,
     Date: "2017-12-19 17:06:07",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Pegu Club",
@@ -23475,7 +23475,7 @@ const cocktails = [
     Measure15: null,
     Date: "2017-12-19 17:18:23",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Corpse Reviver #2",
@@ -23518,7 +23518,7 @@ const cocktails = [
     Measure15: null,
     Date: "2017-12-19 17:25:34",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Boulevardier",
@@ -23560,7 +23560,7 @@ const cocktails = [
     Measure15: null,
     Date: "2017-12-19 17:51:08",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Greyhound",
@@ -23603,7 +23603,7 @@ const cocktails = [
     Measure15: null,
     Date: "2017-12-19 18:05:32",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Paloma",
@@ -23645,7 +23645,7 @@ const cocktails = [
     Measure15: null,
     Date: "2017-12-19 17:59:53",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Bijou",
@@ -23687,7 +23687,7 @@ const cocktails = [
     Measure15: null,
     Date: "2017-12-19 18:09:45",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Gimlet",
@@ -23730,7 +23730,7 @@ const cocktails = [
     Measure15: null,
     Date: "2017-12-19 18:14:32",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Martinez 2",
@@ -23773,7 +23773,7 @@ const cocktails = [
     Measure15: null,
     Date: "2017-12-19 18:34:15",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Oatmeal Cookie",
@@ -23781,7 +23781,7 @@ const cocktails = [
     Alcoholic: true,
     Glass: "Mason jar",
     Instructions:
-      "Just mix it all together.\r\nIt's meant to be a shot, but it works just fine as a proper adult-sized drink over lots of ice.\r\n\r\nTastes like an oatmeal cookie.",
+      "Just mix it all together.\r\nIt's meant to be a shot, but it works just fine as a proper adult-sized drink over lots of ice.\r\n\r\nTastes Like an oatmeal cookie.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/bsvmlg1515792693.jpg",
     Ingredient1: "Kahlua",
@@ -23816,7 +23816,7 @@ const cocktails = [
     Measure15: null,
     Date: "2018-01-12 21:31:33",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Bahama Mama",
@@ -23859,7 +23859,7 @@ const cocktails = [
     Measure15: null,
     Date: "2018-01-12 21:42:19",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Blue Hurricane",
@@ -23902,7 +23902,7 @@ const cocktails = [
     Measure15: null,
     Date: "2018-01-12 22:23:42",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "The Laverstoke",
@@ -23945,7 +23945,7 @@ const cocktails = [
     Measure15: null,
     Date: "2018-02-04 12:46:52",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Brigadier",
@@ -23987,7 +23987,7 @@ const cocktails = [
     Measure15: null,
     Date: "2018-02-18 09:50:01",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "The Jimmy Conway",
@@ -24030,7 +24030,7 @@ const cocktails = [
     Measure15: null,
     Date: "2018-09-01 10:34:38",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Old Pal",
@@ -24073,7 +24073,7 @@ const cocktails = [
     Measure15: null,
     Date: "2018-03-22 23:23:30",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Tipperary",
@@ -24116,7 +24116,7 @@ const cocktails = [
     Measure15: null,
     Date: "2018-03-22 23:33:30",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Penicillin",
@@ -24159,7 +24159,7 @@ const cocktails = [
     Measure15: null,
     Date: "2018-03-24 00:58:16",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Corn n Oil",
@@ -24202,7 +24202,7 @@ const cocktails = [
     Measure15: null,
     Date: "2018-06-27 15:15:09",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "A Furlong Too Late",
@@ -24251,7 +24251,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-08-31 19:46:06",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "A Night In Old Mandalay",
@@ -24300,7 +24300,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-04-29 09:43:00",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "A. J.",
@@ -24343,7 +24343,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-02 11:16:58",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Abbey Cocktail",
@@ -24392,7 +24392,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-02 11:19:28",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Abilene",
@@ -24435,7 +24435,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-04-29 09:44:25",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Acapulco",
@@ -24484,7 +24484,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-02 11:26:16",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Adam",
@@ -24533,7 +24533,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-02 11:29:29",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Adonis Cocktail",
@@ -24582,7 +24582,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-02 11:27:11",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Affair",
@@ -24631,7 +24631,7 @@ const cocktails = [
     Measure15: "",
     Date: "2016-09-01 10:05:34",
     isPublic: true,
-    like: 0
+    Like: 0
   },
   {
     Name: "Affinity",

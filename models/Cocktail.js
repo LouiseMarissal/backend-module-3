@@ -48,7 +48,7 @@ const CocktailSchema = new Schema({
     type: Schema.Types.ObjectId,
     ref: "Tag"
   },
-  like: {
+  Like: {
     type: Number,
     default: 0
   }
