@@ -8,7 +8,7 @@ const CocktailSchema = new Schema({
     type: Schema.Types.ObjectId,
     ref: "MainAlcool"
   },
-  ingredients: [Array],
+  ingredients: [String],
   recipe: String,
   isPublic: Boolean,
   UserProID: {
