@@ -12,7 +12,7 @@ const CocktailSchema = new Schema({
       "https://icon-library.net/images/default-profile-icon/default-profile-icon-24.jpg"
   },
   Instructions: String,
-  Ingredients: Array,
+  Ingredients: [String],
   Measures: Array,
   Date: Date,
   isPublic: Boolean,
