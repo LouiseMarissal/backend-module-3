@@ -7,6 +7,8 @@ const UserSchema = new Schema({
   email: String,
   password: String,
   photo: String,
+  comments: [String],
+  comments: [String],
   favorites: [
     {
       type: Schema.Types.ObjectId,
