@@ -41,29 +41,13 @@ const cocktails = [
       "Bourbon",
       "Angostura bitters",
       "Sugar",
-      "Water",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Water"
     ],
     Measures: [
       "4.5 cL",
       "2 dashes",
       "1 cube",
-      "dash",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "dash"
     ],
     Date: "2016-11-04 09:46:42",
     isPublic: true,
@@ -10369,14 +10353,6 @@ const cocktails = [
       "Champagne",
       null,
       null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
       null
     ],
     Measures: [
@@ -10384,14 +10360,6 @@ const cocktails = [
       "15 ml",
       "10 ml",
       "top up with",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
       null,
       null,
       null
@@ -10416,14 +10384,6 @@ const cocktails = [
       "Ginger ale",
       "Ice",
       null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
       null
     ],
     Measures: [
@@ -10432,14 +10392,6 @@ const cocktails = [
       "4 cl",
       "top up with",
       "fill",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
       null,
       null
     ],
@@ -10459,28 +10411,12 @@ const cocktails = [
     Ingredients: [
       "demerara Sugar",
       "Lime",
-      "Cachaca",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cachaca"
     ],
     Measures: [
       "2 tsp ",
       "1",
-      "2 1/2 oz",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "2 1/2 oz"
     ],
     Date: "2016-08-28 18:40:58",
     isPublic: true,
@@ -10499,29 +10435,13 @@ const cocktails = [
       "Baileys irish cream",
       "Chambord raspberry liqueur",
       "Sugar syrup",
-      "Sugar",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Sugar"
     ],
     Measures: [
       "2/3 oz",
       "1/3 oz",
       "1 tsp",
-      "2 pinches",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "2 pinches"
     ],
     Date: "2016-09-16 16:30:04",
     isPublic: true,
@@ -10539,28 +10459,12 @@ const cocktails = [
     Ingredients: [
       "Gin",
       "lemon juice",
-      "maraschino liqueur",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "maraschino liqueur"
     ],
     Measures: [
       "4.5 cl",
       "1.5 cl",
-      "1.5 cl",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "1.5 cl"
     ],
     Date: "2016-11-04 09:55:28",
     isPublic: true,
@@ -10580,30 +10484,14 @@ const cocktails = [
       "Dry Vermouth",
       "Olive Brine",
       "Lemon",
-      "Olive",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Olive"
     ],
     Measures: [
       "70ml/2fl oz",
       "1 tbsp",
       "2 tbsp",
       "1 wedge",
-      "1",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "1"
     ],
     Date: "2017-01-22 11:08:20",
     isPublic: true,
@@ -10625,15 +10513,7 @@ const cocktails = [
       "St. Germain",
       "Angostura Bitters",
       "Pepper",
-      "Lavender",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Lavender"
     ],
     Measures: [
       "5 cl",
@@ -10642,15 +10522,7 @@ const cocktails = [
       "1.5 cl",
       "2 Dashes",
       "Pinch",
-      "2 sprigs",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "2 sprigs"
     ],
     Date: "2017-01-22 11:31:25",
     isPublic: true,
@@ -11307,28 +11179,12 @@ const cocktails = [
     Ingredients: [
       "Vodka",
       "Kahlua",
-      "Sugar syrup",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Sugar syrup"
     ],
     Measures: [
       "5 cl",
       "1 cl",
-      "1 dash",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "1 dash"
     ],
     Date: "2017-09-02 18:22:31",
     isPublic: true,
@@ -11346,28 +11202,12 @@ const cocktails = [
     Ingredients: [
       "Vodka",
       "Raspberry Liqueur",
-      "pineapple juice",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "pineapple juice"
     ],
     Measures: [
       "4.5 cl",
       "1.5 cl",
-      "1.5 cl",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "1.5 cl"
     ],
     Date: "2017-09-02 18:25:34",
     isPublic: true,
@@ -11528,15 +11368,7 @@ const cocktails = [
       "Vanilla Ice-Cream",
       "Butterscotch schnapps",
       "Milk",
-      "Vodka",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Vodka"
     ],
     Measures: [
       "2 scoops ",
@@ -11545,15 +11377,7 @@ const cocktails = [
       "2 parts ",
       "\r\n",
       "\r\n",
-      "\r\n",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "\r\n"
     ],
     Date: "2017-09-07 12:29:23",
     isPublic: true,
@@ -11575,15 +11399,7 @@ const cocktails = [
       "Whipped Cream",
       "caramel sauce",
       "chocolate sauce",
-      "Mini-snickers bars",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Mini-snickers bars"
     ],
     Measures: [
       "3 cups ",
@@ -11592,15 +11408,7 @@ const cocktails = [
       "for topping",
       "4 tablespoons\r\n",
       "4 tablespoons\r\n",
-      "15\r\n",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "15\r\n"
     ],
     Date: "2017-09-07 12:36:04",
     isPublic: true,
@@ -11619,15 +11427,7 @@ const cocktails = [
       "Gin",
       "Grand Marnier",
       "Lemon Juice",
-      "Grenadine",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Grenadine"
     ],
     Measures: [
       "1 3/4 shot ",
@@ -11636,15 +11436,7 @@ const cocktails = [
       "1/8 Shot",
       "\r\n",
       "\r\n",
-      "\r\n",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "\r\n"
     ],
     Date: "2017-09-07 21:42:09",
     isPublic: true,
@@ -11663,15 +11455,7 @@ const cocktails = [
       "Gin",
       "Sweet Vermouth",
       "Orange Juice",
-      "Angostura Bitters",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Angostura Bitters"
     ],
     Measures: [
       "2 shots ",
@@ -11680,15 +11464,7 @@ const cocktails = [
       "3 dashes ",
       "\r\n",
       "\r\n",
-      "\r\n",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "\r\n"
     ],
     Date: "2017-09-07 21:50:03",
     isPublic: true,
@@ -11706,15 +11482,7 @@ const cocktails = [
     Ingredients: [
       "Vodka",
       "Cranberry Juice",
-      "Champagne",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Champagne"
     ],
     Measures: [
       "1 shot ",
@@ -11723,15 +11491,7 @@ const cocktails = [
       "\r\n",
       "\r\n",
       "\r\n",
-      "\r\n",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "\r\n"
     ],
     Date: "2017-09-07 21:55:34",
     isPublic: true,
@@ -11751,15 +11511,7 @@ const cocktails = [
       "Grenadine",
       "Heavy cream",
       "Milk",
-      "Egg White",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Egg White"
     ],
     Measures: [
       "2 shots ",
@@ -11768,15 +11520,7 @@ const cocktails = [
       "1/2 shot ",
       "1/2 Fresh",
       "\r\n",
-      "\r\n",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "\r\n"
     ],
     Date: "2017-09-07 22:05:06",
     isPublic: true,
@@ -11795,29 +11539,13 @@ const cocktails = [
       "Gin",
       "Cognac",
       "Creme de Cassis",
-      "Fresh Lemon Juice",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Fresh Lemon Juice"
     ],
     Measures: [
       "1 shot ",
       "1 shot ",
       "1 shot ",
       "1/8 shot ",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
       null,
       null,
       null
@@ -11838,15 +11566,7 @@ const cocktails = [
     Ingredients: [
       "Sweet Vermouth",
       "Dry Vermouth",
-      "Soda Water",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Soda Water"
     ],
     Measures: [
       "2 shots ",
@@ -11855,15 +11575,7 @@ const cocktails = [
       "\r\n",
       "\r\n",
       "\r\n",
-      "\r\n",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "\r\n"
     ],
     Date: "2017-09-07 22:15:25",
     isPublic: true,
@@ -11880,15 +11592,7 @@ const cocktails = [
       "https://www.thecocktaildb.com/images/media/drink/yzva7x1504820300.jpg",
     Ingredients: [
       "Gin",
-      "Vermouth",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Vermouth"
     ],
     Measures: [
       "1 1/2 shot ",
@@ -11897,15 +11601,7 @@ const cocktails = [
       "\r\n",
       "\r\n",
       "\r\n",
-      "\r\n",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "\r\n"
     ],
     Date: "2017-09-07 22:38:20",
     isPublic: true,
@@ -11927,15 +11623,7 @@ const cocktails = [
       "Gin",
       "Fresh Lime Juice",
       "Sugar Syrup",
-      "Water",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Water"
     ],
     Measures: [
       "1 shot ",
@@ -11944,15 +11632,7 @@ const cocktails = [
       "1/2 shot ",
       "1/4 shot",
       "1/4 shot",
-      "1/2 shot ",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "1/2 shot "
     ],
     Date: "2017-09-07 22:31:33",
     isPublic: true,
@@ -11972,15 +11652,7 @@ const cocktails = [
       "Grenadine",
       "lemon",
       "Soda Water",
-      "Lime",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Lime"
     ],
     Measures: [
       "2 oz ",
@@ -11989,15 +11661,7 @@ const cocktails = [
       "Top up with",
       "Garnish",
       "\r\n",
-      "\r\n",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "\r\n"
     ],
     Date: "2017-09-08 16:19:05",
     isPublic: true,
@@ -12017,15 +11681,7 @@ const cocktails = [
       "Chocolate liqueur",
       "Amaretto",
       "Chocolate Sauce",
-      "Salted Chocolate",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Salted Chocolate"
     ],
     Measures: [
       "50 ml ",
@@ -12034,15 +11690,7 @@ const cocktails = [
       "Garnish",
       "Grated\r\n",
       "\r\n",
-      "\r\n",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "\r\n"
     ],
     Date: "2017-11-01 15:46:51",
     isPublic: true,
@@ -12062,30 +11710,14 @@ const cocktails = [
       "Maraschino Cherry",
       "Sugar Syrup",
       "Lemonade",
-      "Blackberries",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Blackberries"
     ],
     Measures: [
       "25 ml",
       "15 ml",
       "10 ml",
       "100 ml",
-      "2",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "2"
     ],
     Date: "2017-11-01 17:18:32",
     isPublic: true,
@@ -12107,15 +11739,7 @@ const cocktails = [
       "Pernod",
       "Grenadine",
       "Lime Juice",
-      "Angostura Bitters",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Angostura Bitters"
     ],
     Measures: [
       "1 1/2 oz",
@@ -12124,15 +11748,7 @@ const cocktails = [
       "1 tsp",
       "1 tsp",
       "1 tsp",
-      "1 drop",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "1 drop"
     ],
     Date: "2017-11-01 17:35:26",
     isPublic: true,
@@ -12153,15 +11769,7 @@ const cocktails = [
       "Fresh Lime Juice",
       "Ginger beer",
       "Lime",
-      "Ginger",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Ginger"
     ],
     Measures: [
       "50 ml",
@@ -12169,15 +11777,7 @@ const cocktails = [
       "15 ml",
       "75 ml",
       "1",
-      "1 long strip",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "1 long strip"
     ],
     Date: "2017-11-08 10:28:28",
     isPublic: true,
@@ -12196,29 +11796,13 @@ const cocktails = [
       "Gin",
       "Blue Curacao",
       "Tonic Water",
-      "Rosemary",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Rosemary"
     ],
     Measures: [
       "50 ml",
       "15 ml",
       "100 ml",
-      "Garnish with",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Garnish with"
     ],
     Date: "2017-12-04 16:55:43",
     isPublic: true,
@@ -12236,28 +11820,12 @@ const cocktails = [
     Ingredients: [
       "Mezcal",
       "Chocolate liqueur",
-      "Coffee liqueur",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Coffee liqueur"
     ],
     Measures: [
       "2 oz",
       "3/4 oz",
-      "1/2 oz",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "1/2 oz"
     ],
     Date: "2017-12-18 11:11:49",
     isPublic: true,
@@ -12274,28 +11842,12 @@ const cocktails = [
     Ingredients: [
       "Green Chartreuse",
       "Maraschino Liqueur",
-      "Lime Juice",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Lime Juice"
     ],
     Measures: [
       "1 oz",
       "1 oz",
-      "1 oz",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "1 oz"
     ],
     Date: "2017-12-19 16:57:04",
     isPublic: true,
@@ -12314,29 +11866,13 @@ const cocktails = [
       "Gin",
       "Lillet",
       "Sweet Vermouth",
-      "Orange Peel",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Orange Peel"
     ],
     Measures: [
       "1 oz",
       "1 oz",
       "1 oz",
-      "1",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "1"
     ],
     Date: "2017-12-19 17:06:07",
     isPublic: true,
@@ -12355,30 +11891,14 @@ const cocktails = [
       "Orange Curacao",
       "Lime Juice",
       "Angostura Bitters",
-      "Orange Bitters",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Orange Bitters"
     ],
     Measures: [
       "1 1/2 oz",
       "3/4 oz",
       "3/4 oz",
       "1 dash",
-      "1 dash",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "1 dash"
     ],
     Date: "2017-12-19 17:18:23",
     isPublic: true,
@@ -12398,30 +11918,14 @@ const cocktails = [
       "Triple Sec",
       "Lillet Blanc",
       "Lemon Juice",
-      "Absinthe",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Absinthe"
     ],
     Measures: [
       "3/4 oz",
       "3/4 oz",
       "3/4 oz",
       "3/4 oz",
-      "1 dash",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "1 dash"
     ],
     Date: "2017-12-19 17:25:34",
     isPublic: true,
@@ -12439,29 +11943,13 @@ const cocktails = [
       "Campari",
       "Sweet Vermouth",
       "Rye whiskey",
-      "Orange Peel",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Orange Peel"
     ],
     Measures: [
       "1 oz",
       "1 oz",
       "1 1/4 oz",
-      "1",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "1"
     ],
     Date: "2017-12-19 17:51:08",
     isPublic: true,
@@ -12478,27 +11966,11 @@ const cocktails = [
       "https://www.thecocktaildb.com/images/media/drink/g5upn41513706732.jpg",
     Ingredients: [
       "Vodka",
-      "Grapefruit Juice",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Grapefruit Juice"
     ],
     Measures: [
       "1 1/2 oz",
-      "3 oz",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "3 oz"
     ],
     Date: "2017-12-19 18:05:32",
     isPublic: true,
@@ -12514,27 +11986,11 @@ const cocktails = [
       "https://www.thecocktaildb.com/images/media/drink/samm5j1513706393.jpg",
     Ingredients: [
       "Grape Soda",
-      "Tequila",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Tequila"
     ],
     Measures: [
       "3 oz",
-      "1 1/2 oz",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "1 1/2 oz"
     ],
     Date: "2017-12-19 17:59:53",
     isPublic: true,
@@ -12552,29 +12008,13 @@ const cocktails = [
       "Orange Bitters",
       "Green Chartreuse",
       "Gin",
-      "Sweet Vermouth",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Sweet Vermouth"
     ],
     Measures: [
       "1 dash",
       "1 oz",
       "1 oz",
-      "1 oz",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "1 oz"
     ],
     Date: "2017-12-19 18:09:45",
     isPublic: true,
@@ -12593,29 +12033,13 @@ const cocktails = [
       "Gin",
       "Lime Juice",
       "Sugar Syrup",
-      "Lime",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Lime"
     ],
     Measures: [
       "2 1/2 oz",
       "1/2 oz",
       "1/2 oz",
-      "1",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "1"
     ],
     Date: "2017-12-19 18:14:32",
     isPublic: true,
@@ -12634,29 +12058,13 @@ const cocktails = [
       "Gin",
       "Sweet Vermouth",
       "Maraschino Liqueur",
-      "Angostura Bitters",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Angostura Bitters"
     ],
     Measures: [
       "1 1/2 oz",
       "1 1/2 oz",
       "1 tsp",
-      "2 dashes",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "2 dashes"
     ],
     Date: "2017-12-19 18:34:15",
     isPublic: true,
@@ -12676,30 +12084,14 @@ const cocktails = [
       "Bailey",
       "Butterscotch schnapps",
       "Jagermeister",
-      "Goldschlager",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Goldschlager"
     ],
     Measures: [
       "2 parts",
       "2 parts",
       "4 parts",
       "1 part",
-      "1/2 part",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "1/2 part"
     ],
     Date: "2018-01-12 21:31:33",
     isPublic: true,
@@ -12721,15 +12113,7 @@ const cocktails = [
       "Grenadine",
       "Pineapple Juice",
       "Orange Juice",
-      "Sweet and Sour",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Sweet and Sour"
     ],
     Measures: [
       "3 parts",
@@ -12738,15 +12122,7 @@ const cocktails = [
       "1 part",
       "2 parts",
       "2 parts",
-      "1 part",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "1 part"
     ],
     Date: "2018-01-12 21:42:19",
     isPublic: true,
@@ -12767,15 +12143,7 @@ const cocktails = [
       "Passoa",
       "Blue Curacao",
       "Sweet and Sour",
-      "Ice",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Ice"
     ],
     Measures: [
       "4 parts",
@@ -12783,15 +12151,7 @@ const cocktails = [
       "1 part",
       "1 part",
       "6 parts",
-      "cubes",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "cubes"
     ],
     Date: "2018-01-12 22:23:42",
     isPublic: true,
@@ -12813,15 +12173,7 @@ const cocktails = [
       "Tonic Water",
       "Lime",
       "Ginger",
-      "Mint",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Mint"
     ],
     Measures: [
       "50 ml",
@@ -12830,15 +12182,7 @@ const cocktails = [
       "75 ml",
       "2 Wedges",
       "1 Slice",
-      "1 Large Sprig",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "1 Large Sprig"
     ],
     Date: "2018-02-04 12:46:52",
     isPublic: true,
@@ -12855,28 +12199,12 @@ const cocktails = [
     Ingredients: [
       "Hot Chocolate",
       "Green Chartreuse",
-      "Cherry Heering",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cherry Heering"
     ],
     Measures: [
       "4 oz",
       "1 oz",
-      "1 oz",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "1 oz"
     ],
     Date: "2018-02-18 09:50:01",
     isPublic: true,
@@ -12894,28 +12222,12 @@ const cocktails = [
     Ingredients: [
       "Irish Whiskey",
       "Amaretto",
-      "Cranberry Juice",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Cranberry Juice"
     ],
     Measures: [
       "50 ml",
       "50 ml",
-      "4 oz",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "4 oz"
     ],
     Date: "2018-09-01 10:34:38",
     isPublic: true,
@@ -12933,28 +12245,12 @@ const cocktails = [
     Ingredients: [
       "Rye whiskey",
       "Campari",
-      "Dry Vermouth",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Dry Vermouth"
     ],
     Measures: [
       "2 oz",
       "1 oz",
-      "1 oz",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "1 oz"
     ],
     Date: "2018-03-22 23:23:30",
     isPublic: true,
@@ -12972,28 +12268,12 @@ const cocktails = [
     Ingredients: [
       "Irish Whiskey",
       "Sweet Vermouth",
-      "Green Chartreuse",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Green Chartreuse"
     ],
     Measures: [
       "2 oz",
       "1 oz",
-      "1/2 oz",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "1/2 oz"
     ],
     Date: "2018-03-22 23:33:30",
     isPublic: true,
@@ -13013,30 +12293,14 @@ const cocktails = [
       "Lemon Juice",
       "Honey syrup",
       "Ginger Syrup",
-      "Islay single malt Scotch",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "Islay single malt Scotch"
     ],
     Measures: [
       "2 oz",
       "3/4 oz",
       "2 tsp",
       "2 tsp",
-      "1/4 oz",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "1/4 oz"
     ],
     Date: "2018-03-24 00:58:16",
     isPublic: true,
@@ -13056,30 +12320,14 @@ const cocktails = [
       "Falernum",
       "Angostura Bitters",
       "A\u00f1ejo rum",
-      "blackstrap rum",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "blackstrap rum"
     ],
     Measures: [
       "1/2",
       "1/3 oz",
       "2 dashes",
       "1 oz",
-      "1 oz",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "1 oz"
     ],
     Date: "2018-06-27 15:15:09",
     isPublic: true,
