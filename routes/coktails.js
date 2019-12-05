@@ -44,6 +44,7 @@ router.post("/", uploadCloud.single("Image"), (req, res) => {
       console.log(dbErr);
       res.status(500).send(dbErr);
     });
+  res.send("Ok");
 });
 // findbyId and update
 router.patch("/:id", (req, res) => {
