@@ -48,10 +48,10 @@ const CocktailSchema = new Schema({
     type: Schema.Types.ObjectId,
     ref: "UserPro"
   },
-  tagID: {
-    type: Schema.Types.ObjectId,
-    ref: "Tag"
-  },
+  // tagID: {
+  //   type: Schema.Types.ObjectId,
+  //   ref: "Tag"
+  // },
   Like: {
     type: Number,
     default: 0

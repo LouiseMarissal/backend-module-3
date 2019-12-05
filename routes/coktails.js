@@ -2,6 +2,7 @@ const express = require("express");
 const cocktailModel = require("./../models/Cocktail");
 const router = express.Router();
 const uploadCloud = require("./../config/cloudinary");
+
 // Show Cocktails
 router.get("/", (req, res) => {
   cocktailModel
@@ -28,10 +29,11 @@ router.get("/:id", (req, res) => {
 });
 
 // Create one Cocktail
-router.post("/", (req, res) => {
-  // if (req.file) {
-  //   req.body.Image = req.file.secure_url;
-  // }
+router.post("/", uploadCloud.single("Image"), (req, res) => {
+  if (req.file) {
+    req.body.Image = req.file.secure_url;
+  }
+  console.log(req.body);
   req.body.UserProID = req.session.currentUser;
   cocktailModel
     .create(req.body)
@@ -39,6 +41,7 @@ router.post("/", (req, res) => {
       res.status(201).send(dbRes);
     })
     .catch(dbErr => {
+      console.log(dbErr);
       res.status(500).send(dbErr);
     });
 });
