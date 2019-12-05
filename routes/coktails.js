@@ -32,6 +32,7 @@ router.post("/", (req, res) => {
   // if (req.file) {
   //   req.body.Image = req.file.secure_url;
   // }
+  req.body.UserProID = req.session.currentUser;
   cocktailModel
     .create(req.body)
     .then(dbRes => {

@@ -36,6 +36,13 @@ app.use(
 app.locals.site_url = process.env.SITE_URL;
 
 // // LOGIN
+
+function loggedIn(req, res, next) {
+  req.session.currentUser = "";
+  next();
+}
+app.use(loggedIn);
+
 function checkloginStatus(req, res, next) {
   res.locals.user = req.session.currentUser ? req.session.currentUser : null;
   // access this value @ {{user}} or {{user.pro}} in .hbs
@@ -49,11 +56,9 @@ app.use(checkloginStatus);
 
 //Routing
 const authRouter = require("./routes/auth-routes");
-const useRouter = require("./routes/users");
 const cocktails = require("./routes/coktails");
 
-app.use("/user", useRouter);
-app.use("/", authRouter);
+app.use("/auth-routes", authRouter);
 app.use("/cocktail", cocktails);
 
 //Getting/Usings Router
