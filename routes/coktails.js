@@ -4,6 +4,25 @@ const router = express.Router();
 const uploadCloud = require("./../config/cloudinary");
 
 // Show Cocktails
+
+// router.get("/", (req, res) => {
+//   cocktailModel
+//     .find({
+//       $text: {
+//         $search: `.*${req.query.query}.*`,
+//         $caseSensitive: false
+//       }
+//     })
+//     .populate("tag")
+//     .then(dbRes => {
+//       res.status(200).send(dbRes);
+//     })
+//     .catch(dbErr => {
+//       console.log(dbErr);
+//       res.status(500).send(dbErr);
+//     });
+// });
+
 router.get("/", (req, res) => {
   cocktailModel
     .find({ Name: { $regex: `.*${req.query.query}.*` } })

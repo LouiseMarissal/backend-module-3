@@ -30,5 +30,6 @@ const CocktailSchema = new Schema({
   }
 });
 
+CocktailSchema.index({ Name: "text", Ingredients: "text", Tags: "text" });
 const CocktailModel = mongoose.model("Cocktail", CocktailSchema);
 module.exports = CocktailModel;
