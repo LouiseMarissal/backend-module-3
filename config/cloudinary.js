@@ -10,7 +10,7 @@ cloudinary.config({
 
 var storage = cloudinaryStorage({
   cloudinary: cloudinary,
-  folder: "module-3-project", // The name of the folder in cloudinary
+  folder: "folder-name", // The name of the folder in cloudinary
   allowedFormats: ["jpg", "png"],
   filename: function(req, file, cb) {
     cb(null, file.originalname); // The file on cloudinary would have the same name as the original file name
@@ -18,5 +18,4 @@ var storage = cloudinaryStorage({
 });
 
 const uploadCloud = multer({ storage: storage });
-
 module.exports = uploadCloud;

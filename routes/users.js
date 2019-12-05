@@ -26,7 +26,7 @@ router.get("/", (req, res) => {
 });
 
 // Create User Profile
-router.post("/", uploadCloud.single("photo"), (req, res) => {
+router.post("/", (req, res) => {
   if (req.file) {
     req.body.photo = req.file.secure_url;
   }
@@ -40,7 +40,7 @@ router.post("/", uploadCloud.single("photo"), (req, res) => {
 });
 
 // Modify user Profile
-router.patch("/:id", uploadCloud.single("photo"), (req, res) => {
+router.patch("/:id", (req, res) => {
   if (req.file) {
     req.body.photo = req.file.secure_url;
   }
