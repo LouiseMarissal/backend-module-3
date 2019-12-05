@@ -25,9 +25,9 @@ router.post("/signup", uploadCloud.single("photo"), (req, res, next) => {
 
         userModel
           .create(user)
-          .then(() => {
+          .then(createdUser => {
             //
-            res.status(201).send(user);
+            res.status(201).send(createdUser);
           })
           .catch(dbErr => res.status(500).send("Something went wrong"));
       })

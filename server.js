@@ -38,7 +38,7 @@ app.locals.site_url = process.env.SITE_URL;
 // // LOGIN
 
 function loggedIn(req, res, next) {
-  req.session.currentUser = "";
+  req.session.currentUser = "5de90f2e4197e7f60c2eec42";
   next();
 }
 app.use(loggedIn);

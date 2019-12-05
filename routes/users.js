@@ -14,6 +14,11 @@ router.get("/", (req, res) => {
     });
 });
 
+// router.post("/create-user", (req, res) => {
+//   UserModel.create(req.body)
+//     .then(dbRes => res.send(dbRes))
+//     .catch(err => console.log(err));
+// });
 // Show User Profil
 router.get("/", (req, res) => {
   UserModel.findById(req.params.id)
