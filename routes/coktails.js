@@ -5,12 +5,13 @@ const uploadCloud = require("./../config/cloudinary");
 // Show Cocktails
 router.get("/", (req, res) => {
   cocktailModel
-    .find()
+    .find({ Name: { $regex: `.*${req.query.query}.*` } })
     .populate("tag")
     .then(dbRes => {
       res.status(200).send(dbRes);
     })
     .catch(dbErr => {
+      console.log(dbErr);
       res.status(500).send(dbErr);
     });
 });
@@ -65,4 +66,7 @@ router.delete("/:id", (req, res) => {
       res.status(500).send(dbErr);
     });
 });
+
+// Search cocktails
+
 module.exports = router;
