@@ -8580,7 +8580,9 @@ const cocktails = [
   }
 ];
 mongoose
-  .connect("mongodb://localhost:27017/module-3-project", { useNewUrlParser: true })
+  .connect("mongodb://localhost:27017/module-3-project", {
+    useNewUrlParser: true
+  })
   .then(() => {
     console.log("Connected to Mongo!");
   })
@@ -8593,4 +8595,3 @@ Cocktail.insertMany(cocktails)
     console.log("The cocktails have been inserted");
   })
   .catch(dbErr => console.log(dbErr));
-
