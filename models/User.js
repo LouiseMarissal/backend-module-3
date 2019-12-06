@@ -6,7 +6,11 @@ const UserSchema = new Schema({
   name: String,
   email: String,
   password: String,
-  photo: String,
+  photo: {
+    type: String,
+    default:
+      "https://icon-library.net/images/default-profile-icon/default-profile-icon-24.jpg"
+  },
   comments: [String],
   favorites: [
     {
