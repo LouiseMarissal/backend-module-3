@@ -25,7 +25,7 @@ const uploadCloud = require("./../config/cloudinary");
 
 router.get("/", (req, res) => {
   cocktailModel
-    .find({ Name: { $regex: `.*${req.query.query}.*` } })
+    .find({ Name: { $regex: `.*${req.query.query}.*`, '$options' : 'i' }})
     .populate("tag")
     .then(dbRes => {
       res.status(200).send(dbRes);
