@@ -56,6 +56,7 @@ router.get("/:id", (req, res) => {
 
 // Create one Cocktail
 router.post("/", uploadCloud.single("Image"), (req, res) => {
+  console.log(req.body);
   if (req.file) {
     req.body.Image = req.file.secure_url;
   }
@@ -70,7 +71,7 @@ router.post("/", uploadCloud.single("Image"), (req, res) => {
       console.log(dbErr);
       res.status(500).send(dbErr);
     });
-  res.send("Ok");
+  // res.send("Ok");
 });
 // findbyId and update
 router.patch("/:id", (req, res) => {
