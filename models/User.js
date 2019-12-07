@@ -22,6 +22,7 @@ const UserSchema = new Schema({
   ],
   isPro: Boolean,
   role: {
+    type: String,
     enum: ["user", "pro"]
   }
 });
