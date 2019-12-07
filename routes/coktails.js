@@ -1,5 +1,6 @@
 const express = require("express");
 const cocktailModel = require("./../models/Cocktail");
+userModel = require("./../models/User");
 const router = express.Router();
 const uploadCloud = require("./../config/cloudinary");
 
@@ -54,6 +55,17 @@ router.get("/:id", (req, res) => {
     });
 });
 
+//FindByUserId
+router.get("userCocktail/:id", (req, res) => {
+  cocktailModel
+    .find({ userPro: ObjectId(id) })
+    .then(dbRes => {
+      res.status(200).send(dbRes);
+    })
+    .catch(dbErr => {
+      res.status(500).send(dbErr);
+    });
+});
 // Create one Cocktail
 router.post("/", uploadCloud.single("Image"), (req, res) => {
   console.log(req.body);
