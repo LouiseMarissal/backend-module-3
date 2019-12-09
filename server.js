@@ -38,7 +38,7 @@ app.locals.site_url = process.env.SITE_URL;
 // // LOGIN
 
 function loggedIn(req, res, next) {
-  req.session.currentUser = "5dea7986f4a7994588ebdb5d";
+  req.session.currentUser = "5de90f2e4197e7f60c2eec42";
   next();
 }
 app.use(loggedIn);
@@ -57,10 +57,12 @@ app.use(checkloginStatus);
 const authRouter = require("./routes/auth-routes");
 const cocktails = require("./routes/coktails");
 const comments = require("./routes/comment");
+const tags = require("./routes/tag");
 
 app.use("/auth-routes", authRouter);
 app.use("/cocktail", cocktails);
 app.use("/comment", comments);
+app.use("/auth-routes", tags);
 
 //Getting/Usings Router
 app.listen(process.env.PORT, () => {

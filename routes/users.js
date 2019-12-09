@@ -20,7 +20,7 @@ router.get("/", (req, res) => {
 //     .catch(err => console.log(err));
 // });
 // Show User Profil
-router.get("/", (req, res) => {
+router.get("/:id", (req, res) => {
   UserModel.findById(req.params.id)
     .then(dbRes => {
       res.status(200).send(dbRes);
