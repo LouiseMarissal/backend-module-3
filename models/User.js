@@ -13,7 +13,6 @@ const UserSchema = new Schema({
     default:
       "https://icon-library.net/images/default-profile-icon/default-profile-icon-24.jpg"
   },
-  comments: [String],
   favorites: [
     {
       type: Schema.Types.ObjectId,
