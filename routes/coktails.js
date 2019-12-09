@@ -1,6 +1,7 @@
 const express = require("express");
 const cocktailModel = require("./../models/Cocktail");
-userModel = require("./../models/User");
+const TagModel = require("./../models/Tag");
+const userModel = require("./../models/User");
 const router = express.Router();
 const uploadCloud = require("./../config/cloudinary");
 
@@ -60,6 +61,7 @@ router.get("/", (req, res) => {
 router.get("/:id", (req, res) => {
   cocktailModel
     .findById(req.params.id)
+    .populate("tag")
     .then(dbRes => {
       res.status(200).send(dbRes);
     })
@@ -136,7 +138,5 @@ router.delete("/:id", (req, res) => {
       res.status(500).send(dbErr);
     });
 });
-
-// Search cocktails
 
 module.exports = router;
