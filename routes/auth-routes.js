@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const userModel = require("./../models/User");
+const TagModel = require("./../models/Tag");
 const bcrypt = require("bcryptjs");
 const uploadCloud = require("../config/cloudinary");
 // console.log(uploadCloud);
@@ -17,7 +18,6 @@ router.post("/signup", uploadCloud.single("photo"), (req, res, next) => {
     userModel
       .findOne({ email: user.email })
       .then(dbRes => {
-
         if (dbRes) return res.status(400).send("User already exists");
 
         const salt = bcrypt.genSaltSync(10); // cryptography librairie
@@ -38,7 +38,6 @@ router.post("/signup", uploadCloud.single("photo"), (req, res, next) => {
 });
 
 // Login
-
 router.post("/signin", (req, res, next) => {
   const user = req.body.formValues;
 
@@ -81,6 +80,13 @@ router.get("/logout", (req, res) => {
     res.locals.isAdmin = undefined;
     res.status(200).send("Succesfully logged out");
   });
+});
+
+//Tags creation
+router.post("/tag", (req, res) => {
+  TagModel.create(req.body)
+    .then(dbRes => console.log(dbRes))
+    .catch(dbErr => console.log(dbErr));
 });
 
 module.exports = router;
