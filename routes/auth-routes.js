@@ -9,6 +9,7 @@ const uploadCloud = require("../config/cloudinary");
 //Signup User
 router.post("/signup", uploadCloud.single("photo"), (req, res, next) => {
   const user = req.body; // req.body contains the submited informations (out of post request)
+  console.log(user);
   if (req.file) user.photo = req.file.secure_url;
   if (!user.email || !user.password) {
     res.status(400).send("information incomplete");
@@ -17,6 +18,7 @@ router.post("/signup", uploadCloud.single("photo"), (req, res, next) => {
     userModel
       .findOne({ email: user.email })
       .then(dbRes => {
+
         if (dbRes) return res.status(400).send("User already exists");
 
         const salt = bcrypt.genSaltSync(10); // cryptography librairie
@@ -39,12 +41,12 @@ router.post("/signup", uploadCloud.single("photo"), (req, res, next) => {
 // Login
 
 router.post("/signin", (req, res, next) => {
-  const user = req.body;
+  const user = req.body.formValues;
 
   if (!user.email || !user.password) {
     // one or more field is missing
     // req.flash("error", "wrong credentials");
-    return res.status(400).send("Bad request");
+    return res.status(400).send("You need to enter both email and password");
   }
 
   userModel
@@ -53,7 +55,7 @@ router.post("/signin", (req, res, next) => {
       if (!dbRes) {
         // no user found with this email
         // req.flash("error", "wrong credentials");
-        return res.status(400).send("Bad request");
+        return res.status(400).send("Email not existing");
       }
       // user has been found in DB !
       if (bcrypt.compareSync(user.password, dbRes.password)) {
@@ -65,7 +67,7 @@ router.post("/signin", (req, res, next) => {
         // return res.redirect("/pro");
       } else {
         // encryption says : password match failde
-        return res.status(400).send("Bad request");
+        return res.status(400).send("Wrong password");
       }
     })
     .catch(dbErr => {
