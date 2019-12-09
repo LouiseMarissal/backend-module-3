@@ -2,6 +2,8 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const UserSchema = new Schema({
+  companyName: String,
+  barName: String,
   firstName: String,
   name: String,
   email: String,
@@ -17,7 +19,12 @@ const UserSchema = new Schema({
       type: Schema.Types.ObjectId,
       ref: "Cocktail"
     }
-  ]
+  ],
+  isPro: Boolean,
+  role: {
+    type: String,
+    enum: ["user", "pro"]
+  }
 });
 
 const UserModel = mongoose.model("User", UserSchema);
