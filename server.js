@@ -39,6 +39,7 @@ app.locals.site_url = process.env.SITE_URL;
 
 function loggedIn(req, res, next) {
   req.session.currentUser = "5de90f2e4197e7f60c2eec42";
+  // Boolean(req.session.currentUser);
   next();
 }
 app.use(loggedIn);
@@ -46,8 +47,8 @@ app.use(loggedIn);
 function checkloginStatus(req, res, next) {
   res.locals.user = req.session.currentUser ? req.session.currentUser : null;
   // access this value @ {{user}} or {{user.pro}} in .hbs
-  res.locals.isLoggedIn = Boolean(req.session.currentUser);
-  // res.locals.isLoggedIn = true;
+  // res.locals.isLoggedIn = Boolean(req.session.currentUser);
+  res.locals.isLoggedIn = true;
   // access this value @ {{isLoggedIn}} in .hbs
   next(); // continue to the requested route
 }
@@ -60,7 +61,7 @@ const tags = require("./routes/tag");
 
 app.use("/auth-routes", authRouter);
 app.use("/cocktail", cocktails);
-app.use("/auth-routes", tags);
+// app.use("/auth-routes", tags);
 
 //Getting/Usings Router
 app.listen(process.env.PORT, () => {
