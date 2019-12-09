@@ -5,7 +5,6 @@ const router = express.Router();
 
 router.get("/", (req, res) => {
   CommentModel.find()
-    .populate("User")
     .then(dbRes => {
       res.status(200).send(dbRes);
     })

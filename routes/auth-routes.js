@@ -18,7 +18,6 @@ router.post("/signup", uploadCloud.single("photo"), (req, res, next) => {
     userModel
       .findOne({ email: user.email })
       .then(dbRes => {
-
         if (dbRes) return res.status(400).send("User already exists");
 
         const salt = bcrypt.genSaltSync(10); // cryptography librairie
@@ -82,6 +81,17 @@ router.get("/profile/:id", (req, res) => {
   cocktailModel
     .find({ UserProID: req.params.id })
     .then(dbRes => {
+      res.status(200).send(dbRes);
+    })
+    .catch(dbErr => {
+      res.status(200).send(dbErr);
+    });
+});
+
+router.get("/cocktail/comments/:id", (req, res) => {
+  CommentModel.find({ cocktail: ObjectId(req.params.id) })
+    .then(dbRes => {
+      console.log("coucou" + dbRes);
       res.status(200).send(dbRes);
     })
     .catch(dbErr => {
