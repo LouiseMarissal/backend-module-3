@@ -6,7 +6,11 @@ const CommentSchema = new Schema({
     type: Schema.ObjectId,
     ref: "User"
   },
-  content: String,
+  cocktail: {
+    type: Schema.ObjectId,
+    ref: "Cocktail"
+  },
+  message: String,
   created: Date
 });
 
