@@ -57,15 +57,25 @@ router.get("/:id", (req, res) => {
 
 //FindByUserId
 router.get("userCocktail/:id", (req, res) => {
-  cocktailModel
-    .find({ userPro: ObjectId(id) })
+  userModel
+    .findById(req.params.id)
     .then(dbRes => {
       res.status(200).send(dbRes);
+      cocktailModel
+        .find({ userProID: ObjectId(id) })
+        .populate("cocktail")
+        .then(dbRes => {
+          res.status(200).send(dbRes);
+        })
+        .catch(dbErr => {
+          res.status(500).send(dbErr);
+        });
     })
     .catch(dbErr => {
       res.status(500).send(dbErr);
     });
 });
+
 // Create one Cocktail
 router.post("/", uploadCloud.single("Image"), (req, res) => {
   console.log(req.body);
