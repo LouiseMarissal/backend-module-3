@@ -44,6 +44,19 @@ router.get("/", (req, res) => {
     });
 });
 
+// router.get("/userpro-cocktail", (req, res) => {
+//   cocktailModel
+//     .find({
+//       UserProID: req.params.id
+//     })
+//     .then(dbRes => {
+//       res.status(200).send(dbRes);
+//     })
+//     .catch(dbErr => {
+//       res.status(500).send(dbErr);
+//     });
+// });
+
 // Show One Cocktail
 router.get("/:id", (req, res) => {
   cocktailModel
@@ -58,7 +71,7 @@ router.get("/:id", (req, res) => {
 });
 
 //FindByUserId
-router.get("userCocktail/:id", (req, res) => {
+router.get("profile/edit-cocktail/:id", (req, res) => {
   userModel
     .findById(req.params.id)
     .then(dbRes => {
@@ -96,6 +109,7 @@ router.post("/", uploadCloud.single("Image"), (req, res) => {
     });
   // res.send("Ok");
 });
+
 // findbyId and update
 router.patch("/:id", (req, res) => {
   cocktailModel

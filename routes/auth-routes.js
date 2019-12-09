@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const userModel = require("./../models/User");
 const TagModel = require("./../models/Tag");
+const cocktailModel = require("./../models/Cocktail");
 const bcrypt = require("bcryptjs");
 const uploadCloud = require("../config/cloudinary");
 // console.log(uploadCloud);
@@ -71,6 +72,19 @@ router.post("/signin", (req, res, next) => {
     .catch(dbErr => {
       console.log(dbErr);
       res.status(500).send("Something went wrong");
+    });
+});
+
+router.get("/profile/:id", (req, res) => {
+  // Find
+  // send
+  cocktailModel
+    .find({ UserProID: req.params.id })
+    .then(dbRes => {
+      res.status(200).send(dbRes);
+    })
+    .catch(dbErr => {
+      res.status(200).send(dbErr);
     });
 });
 
