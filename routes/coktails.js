@@ -78,7 +78,6 @@ router.get("userCocktail/:id", (req, res) => {
 
 // Create one Cocktail
 router.post("/", uploadCloud.single("Image"), (req, res) => {
-  console.log(req.body);
   if (req.file) {
     req.body.Image = req.file.secure_url;
   }

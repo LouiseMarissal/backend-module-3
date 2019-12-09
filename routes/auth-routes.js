@@ -8,6 +8,7 @@ const uploadCloud = require("../config/cloudinary");
 //Signup User
 router.post("/signup", uploadCloud.single("photo"), (req, res, next) => {
   const user = req.body; // req.body contains the submited informations (out of post request)
+  console.log(user);
   if (req.file) user.photo = req.file.secure_url;
   if (!user.email || !user.password) {
     res.status(400).send("information incomplete");
@@ -16,6 +17,7 @@ router.post("/signup", uploadCloud.single("photo"), (req, res, next) => {
     userModel
       .findOne({ email: user.email })
       .then(dbRes => {
+
         if (dbRes) return res.status(400).send("User already exists");
 
         const salt = bcrypt.genSaltSync(10); // cryptography librairie
@@ -39,7 +41,6 @@ router.post("/signup", uploadCloud.single("photo"), (req, res, next) => {
 
 router.post("/signin", (req, res, next) => {
   const user = req.body.formValues;
-  console.log(user);
 
   if (!user.email || !user.password) {
     // one or more field is missing
