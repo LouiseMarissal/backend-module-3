@@ -39,12 +39,13 @@ router.post("/signup", uploadCloud.single("photo"), (req, res, next) => {
 // Login
 
 router.post("/signin", (req, res, next) => {
-  const user = req.body;
+  const user = req.body.formValues;
+  console.log(user);
 
   if (!user.email || !user.password) {
     // one or more field is missing
     // req.flash("error", "wrong credentials");
-    return res.status(400).send("Bad request");
+    return res.status(400).send("You need to enter both email and password");
   }
 
   userModel
@@ -53,7 +54,7 @@ router.post("/signin", (req, res, next) => {
       if (!dbRes) {
         // no user found with this email
         // req.flash("error", "wrong credentials");
-        return res.status(400).send("Bad request");
+        return res.status(400).send("Email not existing");
       }
       // user has been found in DB !
       if (bcrypt.compareSync(user.password, dbRes.password)) {
@@ -65,7 +66,7 @@ router.post("/signin", (req, res, next) => {
         // return res.redirect("/pro");
       } else {
         // encryption says : password match failde
-        return res.status(400).send("Bad request");
+        return res.status(400).send("Wrong password");
       }
     })
     .catch(dbErr => {
