@@ -93,11 +93,12 @@ router.get("/profile/:id", (req, res) => {
 router.patch(
   "/profile/edit-cocktail/:id",
   uploadCloud.single("Image"),
+
   (req, res) => {
     console.log("coucou ici");
-    if (req.file) cocktail.Image = req.file.secure_url;
+    if (req.file) req.body.Image = req.file.secure_url;
     cocktailModel
-      .findByIdAndUpdate(req.params.id, req.body)
+      .findByIdAndUpdate(req.params.id, req.body, { new: true })
       .then(dbRes => {
         res.status(200).send(dbRes);
       })
