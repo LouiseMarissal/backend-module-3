@@ -59,12 +59,13 @@ const authRouter = require("./routes/auth-routes");
 const cocktails = require("./routes/coktails");
 const comments = require("./routes/comment");
 const tags = require("./routes/tags");
+const userProfile = require("./routes/users");
 
 app.use("/auth-routes", authRouter);
-app.use("/cocktail", cocktails);
+app.use("/cocktails", cocktails);
 app.use("/comment", comments);
-app.use("/tags", tags);
-
+app.use("/auth-routes", tags);
+app.use("/userProfile", userProfile);
 //Getting/Usings Router
 app.listen(process.env.PORT, () => {
   console.log("Server listening on port http://localhost:" + process.env.PORT);
