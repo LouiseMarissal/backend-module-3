@@ -4,7 +4,6 @@ const Schema = mongoose.Schema;
 const CocktailSchema = new Schema({
   Name: String,
   Alcoholic: Boolean,
-  Tags: String,
   Glass: String,
   Image: {
     type: String,
@@ -20,10 +19,12 @@ const CocktailSchema = new Schema({
     type: Schema.Types.ObjectId,
     ref: "UserPro"
   },
-  tag: {
-    type: Schema.Types.ObjectId,
-    ref: "Tag"
-  },
+  tags: [
+    {
+      type: Schema.Types.ObjectId,
+      ref: "Tag"
+    }
+  ],
   Like: {
     type: Number,
     default: 0
