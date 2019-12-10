@@ -5,6 +5,7 @@ const TagModel = require("./../models/Tag");
 const cocktailModel = require("./../models/Cocktail");
 const bcrypt = require("bcryptjs");
 const uploadCloud = require("../config/cloudinary");
+
 // console.log(uploadCloud);
 
 //Signup User
@@ -87,6 +88,25 @@ router.get("/profile/:id", (req, res) => {
       res.status(200).send(dbErr);
     });
 });
+
+// // findbyId cocktail and update
+router.patch(
+  "/profile/edit-cocktail/:id",
+  uploadCloud.single("Image"),
+
+  (req, res) => {
+    console.log("coucou ici");
+    if (req.file) req.body.Image = req.file.secure_url;
+    cocktailModel
+      .findByIdAndUpdate(req.params.id, req.body, { new: true })
+      .then(dbRes => {
+        res.status(200).send(dbRes);
+      })
+      .catch(dbErr => {
+        res.status(500).send(dbErr);
+      });
+  }
+);
 
 router.get("/logout", (req, res) => {
   req.session.destroy(err => {

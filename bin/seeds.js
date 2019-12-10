@@ -11,8 +11,8 @@ const cocktails = [
       "Muddle mint leaves with sugar and lime juice. Add a splash of soda water and fill the glass with cracked ice. Pour the rum and top with soda water. Garnish and serve with straw.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/rxtqps1478251029.jpg",
-    Ingredients:[ "Light rum", "Lime", "Sugar","Mint", "Soda water"],
-    Measures:[ "2-3 oz ", "Juice of 1 ", "2 tsp ", "2-4 "],
+    Ingredients: ["Light rum", "Lime", "Sugar", "Mint", "Soda water"],
+    Measures: ["2-3 oz ", "Juice of 1 ", "2 tsp ", "2-4 "],
     Date: "2016-11-04 09:17:09",
     isPublic: true,
     Like: 0
@@ -26,8 +26,8 @@ const cocktails = [
       "Place sugar cube in old fashioned glass and saturate with bitters, add a dash of plain water. Muddle until dissolved.\r\nFill the glass with ice cubes and add whiskey.\r\n\r\nGarnish with orange twist, and a cocktail cherry.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/vrwquq1478252802.jpg",
-    Ingredients:[ "Bourbon", "Angostura bitters", "Sugar","Water"],
-    Measures:[ "4.5 cL", "2 dashes", "1 cube", "dash"],
+    Ingredients: ["Bourbon", "Angostura bitters", "Sugar", "Water"],
+    Measures: ["4.5 cL", "2 dashes", "1 cube", "dash"],
     Date: "2016-11-04 09:46:42",
     isPublic: true,
     Like: 0
@@ -41,8 +41,15 @@ const cocktails = [
       "Combine all ingredients (except cola) and pour over ice in a highball glass. Add the splash of cola for color. Decorate with a slice of lemon and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/ywxwqs1439906072.jpg",
-    Ingredients:[ "Vodka", "Light rum", "Gin","Tequila", "Lemon", "Coca-Cola"],
-    Measures:[ "1/2 oz ", "1/2 oz ", "1/2 oz ", "1/2 oz ", "Juice of 1/2 ", "1 splash "],
+    Ingredients: ["Vodka", "Light rum", "Gin", "Tequila", "Lemon", "Coca-Cola"],
+    Measures: [
+      "1/2 oz ",
+      "1/2 oz ",
+      "1/2 oz ",
+      "1/2 oz ",
+      "Juice of 1/2 ",
+      "1 splash "
+    ],
     Date: "2015-08-18 14:54:32",
     isPublic: true,
     Like: 0
@@ -70,8 +77,14 @@ const cocktails = [
       "Shake with ice. Strain into chilled glass, garnish and serve. If served 'On the rocks', strain ingredients into old-fashioned glass filled with ice.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/o56h041504352725.jpg",
-    Ingredients:[ "Blended whiskey", "Lemon", "Powdered sugar","Cherry", "Lemon"],
-    Measures:[ "2 oz ", "Juice of 1/2 ", "1/2 tsp ", "1 ", "1/2 slice "],
+    Ingredients: [
+      "Blended whiskey",
+      "Lemon",
+      "Powdered sugar",
+      "Cherry",
+      "Lemon"
+    ],
+    Measures: ["2 oz ", "Juice of 1/2 ", "1/2 tsp ", "1 ", "1/2 slice "],
     Date: "2017-09-02 12:45:25",
     isPublic: true,
     Like: 0
@@ -115,8 +128,8 @@ const cocktails = [
       "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/wpxpvu1439905379.jpg",
-    Ingredients:[ "Tequila", "Triple sec", "Lime juice","Salt"],
-    Measures:[ "1 1/2 oz ", "1/2 oz ", "1 oz "],
+    Ingredients: ["Tequila", "Triple sec", "Lime juice", "Salt"],
+    Measures: ["1 1/2 oz ", "1/2 oz ", "1 oz "],
     Date: "2015-08-18 14:42:59",
     isPublic: true,
     Like: 0
@@ -162,8 +175,8 @@ const cocktails = [
       "Shake all ingredients (except lime wedge) with ice and strain into a cocktail glass. Add the wedge of lime and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/vtytxq1483387578.jpg",
-    Ingredients:[ "Apricot brandy", "Triple sec", "Lime","Lime"],
-    Measures:[ "1 oz ", "1 oz ", "Juice of 1 ", "1 "],
+    Ingredients: ["Apricot brandy", "Triple sec", "Lime", "Lime"],
+    Measures: ["1 oz ", "1 oz ", "Juice of 1 ", "1 "],
     Date: "2017-01-02 20:06:18",
     isPublic: true,
     Like: 0
@@ -194,8 +207,8 @@ const cocktails = [
       "Pour all ingredients (except for lemon juice) over ice in a highball glass. Stir, add a dash of lemon juice, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/qtwxwr1483387647.jpg",
-    Ingredients:[ "Southern Comfort", "Amaretto", "Sloe gin","Lemon juice"],
-    Measures:[ "1 oz ", "1 oz ", "1/2 oz ", "1 dash "],
+    Ingredients: ["Southern Comfort", "Amaretto", "Sloe gin", "Lemon juice"],
+    Measures: ["1 oz ", "1 oz ", "1/2 oz ", "1 dash "],
     Date: "2017-01-02 20:07:27",
     isPublic: true,
     Like: 0
@@ -209,8 +222,8 @@ const cocktails = [
       "Stir all ingredients with ice, strain contents into a cocktail glass. Drop in a twist of lemon and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/wsyryt1483387720.jpg",
-    Ingredients:[ "Orange bitters", "Gin", "Yellow Chartreuse","Lemon peel"],
-    Measures:[ "2 dashes ", "1 1/2 oz ", "3/4 oz ", "Twist of "],
+    Ingredients: ["Orange bitters", "Gin", "Yellow Chartreuse", "Lemon peel"],
+    Measures: ["2 dashes ", "1 1/2 oz ", "3/4 oz ", "Twist of "],
     Date: "2017-01-02 20:08:40",
     isPublic: true,
     Like: 0
@@ -224,8 +237,8 @@ const cocktails = [
       "Shake all ingredients with ice and strain contents into a cocktail glass. Sprinkle nutmeg on top and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/urystu1478253039.jpg",
-    Ingredients:[ "Gin", "Creme de Cacao", "Light cream","Nutmeg"],
-    Measures:[ "1/2 oz ", "1/2 oz white ", "2 oz "],
+    Ingredients: ["Gin", "Creme de Cacao", "Light cream", "Nutmeg"],
+    Measures: ["1/2 oz ", "1/2 oz white ", "2 oz "],
     Date: "2016-11-04 09:50:39",
     isPublic: true,
     Like: 0
@@ -239,8 +252,8 @@ const cocktails = [
       "Shake all ingredients (except nutmeg) with ice and strain contents into a cocktail glass. Sprinkle nutmeg on top and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/tvqxvr1483387746.jpg",
-    Ingredients:[ "Brandy", "Creme de Cacao", "Light cream","Nutmeg"],
-    Measures:[ "1 oz ", "1 oz white ", "1 oz "],
+    Ingredients: ["Brandy", "Creme de Cacao", "Light cream", "Nutmeg"],
+    Measures: ["1 oz ", "1 oz white ", "1 oz "],
     Date: "2017-01-02 20:09:06",
     isPublic: true,
     Like: 0
@@ -284,8 +297,14 @@ const cocktails = [
       "Shake all ingredients (except lemon peel) with ice and strain into a cocktail glass. Top with the twist of lemon peel and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/uwvyts1483387934.jpg",
-    Ingredients:[ "Dry Vermouth", "Bourbon", "Blackberry brandy","Lemon juice", "Lemon peel"],
-    Measures:[ "1 oz ", "1 oz ", "1 1/2 tsp ", "1 1/2 tsp ", "1 twist of "],
+    Ingredients: [
+      "Dry Vermouth",
+      "Bourbon",
+      "Blackberry brandy",
+      "Lemon juice",
+      "Lemon peel"
+    ],
+    Measures: ["1 oz ", "1 oz ", "1 1/2 tsp ", "1 1/2 tsp ", "1 twist of "],
     Date: "2017-01-02 20:12:14",
     isPublic: true,
     Like: 0
@@ -374,8 +393,8 @@ const cocktails = [
       "Pour amaretto and lime juice over ice in a collins glass. Fill with club soda and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/3jm41q1493069578.jpg",
-    Ingredients:[ "Amaretto", "Lime juice", "Club soda",""],
-    Measures:[ "1 1/2 oz ", "1/2 oz "],
+    Ingredients: ["Amaretto", "Lime juice", "Club soda"],
+    Measures: ["1 1/2 oz ", "1/2 oz "],
     Date: "2017-04-24 22:32:59",
     isPublic: true,
     Like: 0
@@ -449,8 +468,15 @@ const cocktails = [
       "In a shaker half-filled with ice cubes, combine the rum, apricot brandy, triple sec, lemon juice, and egg white. Shake well. Strain into an old-fashioned glass almost filled with ice cubes. Garnish with the orange slice.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/146f251504389814.jpg",
-    Ingredients:[ "Light rum", "Apricot brandy", "Triple sec","Lemon juice", "Egg white", "Orange"],
-    Measures:[ "1 1/2 oz ", "1 oz ", "1 tsp ", "1/2 oz ", "1 ", "1 "],
+    Ingredients: [
+      "Light rum",
+      "Apricot brandy",
+      "Triple sec",
+      "Lemon juice",
+      "Egg white",
+      "Orange"
+    ],
+    Measures: ["1 1/2 oz ", "1 oz ", "1 tsp ", "1/2 oz ", "1 ", "1 "],
     Date: "2017-09-02 23:03:34",
     isPublic: true,
     Like: 0
@@ -464,8 +490,8 @@ const cocktails = [
       "In an old-fashioned glass almost filled with ice cubes, combine all of the ingredients. Stir well.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/xpqwrt1441207307.jpg",
-    Ingredients:[ "Gin", "Wine", "Benedictine","Lime"],
-    Measures:[ "2 oz ", "1 oz Green Ginger ", "1 tsp ", "1 "],
+    Ingredients: ["Gin", "Wine", "Benedictine", "Lime"],
+    Measures: ["2 oz ", "1 oz Green Ginger ", "1 tsp ", "1 "],
     Date: "2015-09-02 16:21:47",
     isPublic: true,
     Like: 0
@@ -494,8 +520,8 @@ const cocktails = [
       "In a shaker half-filled with ice cubes, combine the gin, Grand Marnier, and lemon juice. Shake well. Strain into a sour glass and garnish with the lemon twist.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/7onfhz1493067921.jpg",
-    Ingredients:[ "Gin", "Grand Marnier", "Lemon juice","Lemon peel"],
-    Measures:[ "2 oz ", "1/2 oz ", "2 tsp ", "1 twist of "],
+    Ingredients: ["Gin", "Grand Marnier", "Lemon juice", "Lemon peel"],
+    Measures: ["2 oz ", "1/2 oz ", "2 tsp ", "1 twist of "],
     Date: "2017-04-24 22:05:21",
     isPublic: true,
     Like: 0
@@ -524,8 +550,8 @@ const cocktails = [
       "In a mixing glass half-filled with ice cubes, combine all of the ingredients. Stir well. Strain into a cocktail glass.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/vysuyq1441206297.jpg",
-    Ingredients:[ "Scotch", "Sweet Vermouth", "Dry Vermouth","Bitters"],
-    Measures:[ "1 1/2 oz ", "1/2 oz ", "1/2 oz ", "2 dashes "],
+    Ingredients: ["Scotch", "Sweet Vermouth", "Dry Vermouth", "Bitters"],
+    Measures: ["1 1/2 oz ", "1/2 oz ", "1/2 oz ", "2 dashes "],
     Date: "2015-09-02 16:04:57",
     isPublic: true,
     Like: 0
@@ -539,8 +565,15 @@ const cocktails = [
       "Pour all ingredients into shaker with ice cubes. Shake well. Strain in chilled cocktail glass.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/k1xatq1504389300.jpg",
-    Ingredients:[ "Light rum", "Triple sec", "Banana","Lime juice", "Sugar", "Cherry"],
-    Measures:[ "1 1/2 oz ", "1 tblsp ", "1 ", "1 1/2 oz ", "1 tsp ", "1 "],
+    Ingredients: [
+      "Light rum",
+      "Triple sec",
+      "Banana",
+      "Lime juice",
+      "Sugar",
+      "Cherry"
+    ],
+    Measures: ["1 1/2 oz ", "1 tblsp ", "1 ", "1 1/2 oz ", "1 tsp ", "1 "],
     Date: "2017-09-02 22:55:01",
     isPublic: true,
     Like: 0
@@ -554,8 +587,14 @@ const cocktails = [
       "Pour brandy, gin, and dry vermouth into a highball glass over ice cubes. Fill with carbonated water and stir. Add the twist of lemon and serve. (Ginger ale may be substituted for carbonated water, if preferred.)",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/qrvtww1441206528.jpg",
-    Ingredients:[ "Brandy", "Gin", "Dry Vermouth","Carbonated water", "Lemon peel"],
-    Measures:[ "3/4 oz ", "3/4 oz ", "3/4 oz "],
+    Ingredients: [
+      "Brandy",
+      "Gin",
+      "Dry Vermouth",
+      "Carbonated water",
+      "Lemon peel"
+    ],
+    Measures: ["3/4 oz ", "3/4 oz ", "3/4 oz "],
     Date: "2015-09-02 16:08:48",
     isPublic: true,
     Like: 0
@@ -599,8 +638,15 @@ const cocktails = [
       "Shake all ingredients (except lemon slice) with cracked ice and strain into an old-fashioned glass over ice cubes. Add the slice of lemon and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/yz0j6z1504389461.jpg",
-    Ingredients:[ "Tequila", "Tomato juice", "Lemon juice","Tabasco sauce", "Celery salt", "Lemon"],
-    Measures:[ "1 oz ", "2 oz ", "1 dash ", "1 dash ", "1 dash ", "1 slice "],
+    Ingredients: [
+      "Tequila",
+      "Tomato juice",
+      "Lemon juice",
+      "Tabasco sauce",
+      "Celery salt",
+      "Lemon"
+    ],
+    Measures: ["1 oz ", "2 oz ", "1 dash ", "1 dash ", "1 dash ", "1 slice "],
     Date: "2017-09-02 22:57:41",
     isPublic: true,
     Like: 0
@@ -629,8 +675,8 @@ const cocktails = [
       "Pour vodka and curacao over ice in a highball glass. Fill with lemonade, top with the cherry, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/vak0e51504389504.jpg",
-    Ingredients:[ "Vodka", "Blue Curacao", "Lemonade","Cherry"],
-    Measures:[ "1 oz ", "1 oz "],
+    Ingredients: ["Vodka", "Blue Curacao", "Lemonade", "Cherry"],
+    Measures: ["1 oz ", "1 oz "],
     Date: "2017-09-02 22:58:25",
     isPublic: true,
     Like: 0
@@ -644,8 +690,8 @@ const cocktails = [
       "Rub rim of cocktail glass with lime juice. Dip rim in coarse salt. Shake tequila, blue curacao, and lime juice with ice, strain into the salt-rimmed glass, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/qtvvyq1439905913.jpg",
-    Ingredients:[ "Tequila", "Blue Curacao", "Lime juice","Salt"],
-    Measures:[ "1 1/2 oz ", "1 oz ", "1 oz ", "Coarse "],
+    Ingredients: ["Tequila", "Blue Curacao", "Lime juice", "Salt"],
+    Measures: ["1 1/2 oz ", "1 oz ", "1 oz ", "Coarse "],
     Date: "2015-08-18 14:51:53",
     isPublic: true,
     Like: 0
@@ -659,8 +705,14 @@ const cocktails = [
       "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into an old-fashioned glass alomst filled with ice cubes.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/vsxssp1441209853.jpg",
-    Ingredients:[ "A\u00f1ejo rum", "Tia maria", "Vodka","Orange juice", "Lemon juice"],
-    Measures:[ "1 1/2 oz ", "1/2 oz ", "1/2 oz ", "1 oz ", "1 tsp "],
+    Ingredients: [
+      "A\u00f1ejo rum",
+      "Tia maria",
+      "Vodka",
+      "Orange juice",
+      "Lemon juice"
+    ],
+    Measures: ["1 1/2 oz ", "1/2 oz ", "1/2 oz ", "1 oz ", "1 tsp "],
     Date: "2015-09-02 17:04:13",
     isPublic: true,
     Like: 0
@@ -689,8 +741,8 @@ const cocktails = [
       "Stir all ingredients (except lemon peel) with ice and strain into a cocktail glass. Add the twist of lemon peel and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/km6se51484411608.jpg",
-    Ingredients:[ "Sweet Vermouth", "Scotch", "Benedictine","Lemon peel"],
-    Measures:[ "1 1/2 oz ", "1 1/2 oz ", "1 1/4 tsp ", "1 twist of "],
+    Ingredients: ["Sweet Vermouth", "Scotch", "Benedictine", "Lemon peel"],
+    Measures: ["1 1/2 oz ", "1 1/2 oz ", "1 1/4 tsp ", "1 twist of "],
     Date: "2017-01-14 16:33:28",
     isPublic: true,
     Like: 0
@@ -704,8 +756,14 @@ const cocktails = [
       "In a mixing glass half-filled with ice cubes, combine the gin, vermouth, bitters, and maraschino liqueur. Stir well. Strain into a cocktail glass and garnish with the cherry.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/3m6yz81504389551.jpg",
-    Ingredients:[ "Gin", "Dry Vermouth", "Bitters","Maraschino liqueur", "Maraschino cherry"],
-    Measures:[ "2 oz ", "1/2 oz ", "2 dashes ", "1/2 tsp ", "1 "],
+    Ingredients: [
+      "Gin",
+      "Dry Vermouth",
+      "Bitters",
+      "Maraschino liqueur",
+      "Maraschino cherry"
+    ],
+    Measures: ["2 oz ", "1/2 oz ", "2 dashes ", "1/2 tsp ", "1 "],
     Date: "2017-09-02 22:59:12",
     isPublic: true,
     Like: 0
@@ -719,8 +777,8 @@ const cocktails = [
       "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/qzs5d11504365962.jpg",
-    Ingredients:[ "Light rum", "Brandy", "Triple sec","Lime"],
-    Measures:[ "3/4 oz ", "3/4 oz ", "3/4 oz ", "Juice of 1/2 "],
+    Ingredients: ["Light rum", "Brandy", "Triple sec", "Lime"],
+    Measures: ["3/4 oz ", "3/4 oz ", "3/4 oz ", "Juice of 1/2 "],
     Date: "2017-09-02 16:26:02",
     isPublic: true,
     Like: 0
@@ -734,8 +792,15 @@ const cocktails = [
       "Shake juice of lemon, powdered sugar, blended whiskey, and egg white with cracked ice and strain into a whiskey sour glass. Add the slice of lemon, top with the cherry, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/kxlgbi1504366100.jpg",
-    Ingredients:[ "Blended whiskey", "Lemon", "Powdered sugar","Egg white", "Lemon", "Cherry"],
-    Measures:[ "2 oz ", "Juice of 1/2 ", "1 tsp ", "1 ", "1 slice ", "1 "],
+    Ingredients: [
+      "Blended whiskey",
+      "Lemon",
+      "Powdered sugar",
+      "Egg white",
+      "Lemon",
+      "Cherry"
+    ],
+    Measures: ["2 oz ", "Juice of 1/2 ", "1 tsp ", "1 ", "1 slice ", "1 "],
     Date: "2017-09-02 16:28:20",
     isPublic: true,
     Like: 0
@@ -749,8 +814,15 @@ const cocktails = [
       "In an old-fashioned glass, muddle the bitters and water into the sugar cube, using the back of a teaspoon. Almost fill the glass with ice cubes and add the bourbon. Garnish with the orange slice and the cherry. Serve with a swizzle stick.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/anhof61504366173.jpg",
-    Ingredients:[ "Bitters", "Water", "Sugar","Bourbon", "Orange", "Maraschino cherry"],
-    Measures:[ "3 dashes ", "1 tsp ", "1 ", "3 oz ", "1 ", "1 "],
+    Ingredients: [
+      "Bitters",
+      "Water",
+      "Sugar",
+      "Bourbon",
+      "Orange",
+      "Maraschino cherry"
+    ],
+    Measures: ["3 dashes ", "1 tsp ", "1 ", "3 oz ", "1 ", "1 "],
     Date: "2017-09-02 16:29:33",
     isPublic: true,
     Like: 0
@@ -764,8 +836,8 @@ const cocktails = [
       "In a shaker half-filled with ice cubes, combine the sugar, water, lemon juice, and bourbon. Shake well. Strain well. Strain into a highball glass. Garnish with the lemon twist.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/3s36ql1504366260.jpg",
-    Ingredients:[ "Sugar", "Water", "Lemon juice","Bourbon", "Lemon peel"],
-    Measures:[ "1 tsp superfine ", "2 tsp ", "1 oz ", "2 oz ", "1 twist of "],
+    Ingredients: ["Sugar", "Water", "Lemon juice", "Bourbon", "Lemon peel"],
+    Measures: ["1 tsp superfine ", "2 tsp ", "1 oz ", "2 oz ", "1 twist of "],
     Date: "2017-09-02 16:31:00",
     isPublic: true,
     Like: 0
@@ -779,8 +851,14 @@ const cocktails = [
       "In a shaker half-filled with ice cubes, combine the bourbon, lemon juice, and sugar. Shake well. Strain into a whiskey sour glass, garnish with the orange slice and cherry.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/dms3io1504366318.jpg",
-    Ingredients:[ "Bourbon", "Lemon juice", "Sugar","Orange", "Maraschino cherry"],
-    Measures:[ "2 oz ", "1 oz ", "1/2 tsp superfine ", "1 ", "1 "],
+    Ingredients: [
+      "Bourbon",
+      "Lemon juice",
+      "Sugar",
+      "Orange",
+      "Maraschino cherry"
+    ],
+    Measures: ["2 oz ", "1 oz ", "1/2 tsp superfine ", "1 ", "1 "],
     Date: "2017-09-02 16:31:58",
     isPublic: true,
     Like: 0
@@ -794,8 +872,8 @@ const cocktails = [
       "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a sour glass.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/pwgtpa1504366376.jpg",
-    Ingredients:[ "Gin", "Triple sec", "Lemon juice","Grenadine", "Egg white"],
-    Measures:[ "1 1/2 oz ", "1 oz ", "1 tsp ", "1/2 tsp ", "1 "],
+    Ingredients: ["Gin", "Triple sec", "Lemon juice", "Grenadine", "Egg white"],
+    Measures: ["1 1/2 oz ", "1 oz ", "1 tsp ", "1/2 tsp ", "1 "],
     Date: "2017-09-02 16:32:57",
     isPublic: true,
     Like: 0
@@ -809,8 +887,15 @@ const cocktails = [
       "In an old-fashioned glass, dissolve the sugar in the club soda. Add crushed ice until the glass is almost full. Add the brandy. Stir well. Garnish with the cherry and the orange and lemon slices.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/vtvutr1439465836.jpg",
-    Ingredients:[ "Sugar", "Club soda", "Lemon","Brandy", "Maraschino cherry", "Orange"],
-    Measures:[ "1 tsp superfine ", "3 oz ", "1 ", "2 oz ", "1 ", "1 "],
+    Ingredients: [
+      "Sugar",
+      "Club soda",
+      "Lemon",
+      "Brandy",
+      "Maraschino cherry",
+      "Orange"
+    ],
+    Measures: ["1 tsp superfine ", "3 oz ", "1 ", "2 oz ", "1 ", "1 "],
     Date: "2015-08-13 12:37:16",
     isPublic: true,
     Like: 0
@@ -824,8 +909,14 @@ const cocktails = [
       "In a shaker half-filled with ice cubes, combine the brandy, egg, sugar, and cream. Shake well. Strain into a sour glass and garnish with the nutmeg.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/6ty09d1504366461.jpg",
-    Ingredients:[ "Brandy", "Egg", "Sugar","Light cream", "Nutmeg"],
-    Measures:[ "2 oz ", "1 whole ", "1 tsp superfine ", "1/2 oz ", "1/8 tsp grated "],
+    Ingredients: ["Brandy", "Egg", "Sugar", "Light cream", "Nutmeg"],
+    Measures: [
+      "2 oz ",
+      "1 whole ",
+      "1 tsp superfine ",
+      "1/2 oz ",
+      "1/8 tsp grated "
+    ],
     Date: "2017-09-02 16:34:21",
     isPublic: true,
     Like: 0
@@ -839,8 +930,8 @@ const cocktails = [
       "Shake brandy, juice of lemon, and powdered sugar with ice and strain into a whiskey sour glass. Decorate with the lemon slice, top with the cherry, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/tu0mts1504366540.jpg",
-    Ingredients:[ "Brandy", "Lemon", "Powdered sugar","Lemon", "Cherry"],
-    Measures:[ "2 oz ", "Juice of 1/2 ", "1/2 tsp ", "1/2 slice ", "1 "],
+    Ingredients: ["Brandy", "Lemon", "Powdered sugar", "Lemon", "Cherry"],
+    Measures: ["2 oz ", "Juice of 1/2 ", "1/2 tsp ", "1/2 slice ", "1 "],
     Date: "2017-09-02 16:35:40",
     isPublic: true,
     Like: 0
@@ -869,8 +960,15 @@ const cocktails = [
       "Shake all ingredients (except carbonated water) with ice and strain into a collins glass over shaved ice. Fill with carbonated water and stir. Decorate with slices of orange and lemon. Add the cherry and serve with a straw.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/qvvxwy1472406424.jpg",
-    Ingredients:[ "Blended whiskey", "Lemon", "Lime","Powdered sugar", "Grenadine", "Carbonated water"],
-    Measures:[ "2 oz ", "Juice of 1 ", "Juice of 1 ", "1 tblsp ", "1/4 tsp "],
+    Ingredients: [
+      "Blended whiskey",
+      "Lemon",
+      "Lime",
+      "Powdered sugar",
+      "Grenadine",
+      "Carbonated water"
+    ],
+    Measures: ["2 oz ", "Juice of 1 ", "Juice of 1 ", "1 tblsp ", "1/4 tsp "],
     Date: "2016-08-28 18:47:04",
     isPublic: true,
     Like: 0
@@ -884,8 +982,13 @@ const cocktails = [
       "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/usspxq1441553762.jpg",
-    Ingredients:[ "Light rum", "Triple sec", "Lime juice","Maraschino liqueur"],
-    Measures:[ "2 oz ", "1 1/2 tsp ", "1 1/2 tsp ", "1 1/2 tsp "],
+    Ingredients: [
+      "Light rum",
+      "Triple sec",
+      "Lime juice",
+      "Maraschino liqueur"
+    ],
+    Measures: ["2 oz ", "1 1/2 tsp ", "1 1/2 tsp ", "1 1/2 tsp "],
     Date: "2015-09-06 16:36:02",
     isPublic: true,
     Like: 0
@@ -899,8 +1002,14 @@ const cocktails = [
       "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a sour glass.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/3qpv121504366699.jpg",
-    Ingredients:[ "Gin", "Lemon juice", "Maraschino liqueur","Orange bitters", "Egg yolk"],
-    Measures:[ "2 oz ", "1/2 oz ", "1 tsp ", "1 dash ", "1 "],
+    Ingredients: [
+      "Gin",
+      "Lemon juice",
+      "Maraschino liqueur",
+      "Orange bitters",
+      "Egg yolk"
+    ],
+    Measures: ["2 oz ", "1/2 oz ", "1 tsp ", "1 dash ", "1 "],
     Date: "2017-09-02 16:38:19",
     isPublic: true,
     Like: 0
@@ -914,8 +1023,18 @@ const cocktails = [
       "Add dash of Angostura bitter onto sugar cube and drop it into champagne flute. Add cognac followed by gently pouring chilled champagne. Garnish with orange slice and maraschino cherry.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/ehh5df1504366811.jpg",
-    Ingredients:[ "Champagne", "Sugar", "Bitters","Lemon peel", "Cognac"],
-    Measures:[ "Chilled ", "1 piece ", "2 dashes ", "1 twist of ", "1 dash"],
+    Ingredients: ["Champagne", "Sugar", "Bitters", "Lemon peel", "Cognac"],
+    Measures: [
+      "Chilled ",
+      "1 piece ",
+      "2 dashes ",
+      "1 twist of ",
+      "1 dash",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
     Date: "2017-09-02 16:40:11",
     isPublic: true,
     Like: 0
@@ -944,8 +1063,15 @@ const cocktails = [
       "Shake all ingredients (except carbonated water) with ice and strain into a highball glass over two ice cubes. Fill with carbonated water, stir, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/qwvwqr1441207763.jpg",
-    Ingredients:[ "Light rum", "Port", "Lemon","Powdered sugar", "Egg white", "Carbonated water"],
-    Measures:[ "1 oz ", "1 oz ", "Juice of 1/2 ", "1 tsp ", "1 "],
+    Ingredients: [
+      "Light rum",
+      "Port",
+      "Lemon",
+      "Powdered sugar",
+      "Egg white",
+      "Carbonated water"
+    ],
+    Measures: ["1 oz ", "1 oz ", "Juice of 1/2 ", "1 tsp ", "1 "],
     Date: "2015-09-02 16:29:23",
     isPublic: true,
     Like: 0
@@ -1004,8 +1130,8 @@ const cocktails = [
       "Build all ingredients in a Collins glass filled with ice. Garnish with lime wedge.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/uuxsrr1473201663.jpg",
-    Ingredients:[ "Light rum", "Lime", "Coca-Cola",""],
-    Measures:[ "2 oz ", "Juice of 1/2 "],
+    Ingredients: ["Light rum", "Lime", "Coca-Cola"],
+    Measures: ["2 oz ", "Juice of 1/2 "],
     Date: "2016-09-06 23:41:03",
     isPublic: true,
     Like: 0
@@ -1049,8 +1175,8 @@ const cocktails = [
       "Stir all ingredients (except lemon peel) with ice and strain into a cocktail glass. Add the twist of lemon peel and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/xxsuwr1439457147.jpg",
-    Ingredients:[ "Dubonnet Rouge", "Gin", "Bitters","Lemon peel"],
-    Measures:[ "1 1/2 oz ", "3/4 oz ", "1 dash ", "1 twist of "],
+    Ingredients: ["Dubonnet Rouge", "Gin", "Bitters", "Lemon peel"],
+    Measures: ["1 1/2 oz ", "3/4 oz ", "1 dash ", "1 twist of "],
     Date: "2015-08-13 10:12:27",
     isPublic: true,
     Like: 0
@@ -1064,8 +1190,14 @@ const cocktails = [
       "Pour brandy, gin, and sweet vermouth into a highball glass over ice cubes. Fill with carbonated water. Add the twist of lemon peel, stir, and serve. (Ginger ale may be substituted for carbonated water, if preferred.)",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/dhvr7d1504519752.jpg",
-    Ingredients:[ "Brandy", "Gin", "Sweet Vermouth","Carbonated water", "Lemon peel"],
-    Measures:[ "3/4 oz ", "3/4 oz ", "3/4 oz "],
+    Ingredients: [
+      "Brandy",
+      "Gin",
+      "Sweet Vermouth",
+      "Carbonated water",
+      "Lemon peel"
+    ],
+    Measures: ["3/4 oz ", "3/4 oz ", "3/4 oz "],
     Date: "2017-09-04 11:09:12",
     isPublic: true,
     Like: 0
@@ -1079,8 +1211,15 @@ const cocktails = [
       "Rub rim of cocktail glass with lemon juice and dip rim of glass in powdered sugar. Shake all ingredients (except cherry) with ice and strain into sugar-rimmed glass. Top with the cherry and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/yxwrpp1441208697.jpg",
-    Ingredients:[ "Apricot brandy", "Gin", "Dry Vermouth","Grenadine", "Lemon juice", "Cherry"],
-    Measures:[ "3/4 oz ", "1 1/2 oz ", "3/4 oz ", "1 tsp ", "1/4 tsp ", "1 "],
+    Ingredients: [
+      "Apricot brandy",
+      "Gin",
+      "Dry Vermouth",
+      "Grenadine",
+      "Lemon juice",
+      "Cherry"
+    ],
+    Measures: ["3/4 oz ", "1 1/2 oz ", "3/4 oz ", "1 tsp ", "1/4 tsp ", "1 "],
     Date: "2015-09-02 16:44:57",
     isPublic: true,
     Like: 0
@@ -1109,8 +1248,8 @@ const cocktails = [
       "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/glgrix1504520040.jpg",
-    Ingredients:[ "Scotch", "Sweet Vermouth", "Bitters","Sugar syrup"],
-    Measures:[ "1 oz ", "1 oz ", "1 dash ", "1/4 tsp "],
+    Ingredients: ["Scotch", "Sweet Vermouth", "Bitters", "Sugar syrup"],
+    Measures: ["1 oz ", "1 oz ", "1 dash ", "1/4 tsp "],
     Date: "2017-09-04 11:14:00",
     isPublic: true,
     Like: 0
@@ -1184,8 +1323,8 @@ const cocktails = [
       "Combine all ingredients with 1 cup of crushed ice in an electric blender. Blend at a low speed for a short length of time. Pour into an old-fashioned glass and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/jrhn1q1504884469.jpg",
-    Ingredients:[ "Light rum", "Lime juice", "Mint","Sugar"],
-    Measures:[ "2 oz ", "1 tblsp ", "6 ", "1 tsp "],
+    Ingredients: ["Light rum", "Lime juice", "Mint", "Sugar"],
+    Measures: ["2 oz ", "1 tblsp ", "6 ", "1 tsp "],
     Date: "2017-09-08 16:27:49",
     isPublic: true,
     Like: 0
@@ -1199,8 +1338,8 @@ const cocktails = [
       "Combine all ingredients with 1 cup of crushed ice in an electric blender. Blend at a low speed for a short length of time. Pour into a champagne flute and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/j2mqsb1504736097.jpg",
-    Ingredients:[ "Light rum", "Pineapple", "Lime juice","Sugar"],
-    Measures:[ "1 1/2 oz ", "4 chunks ", "1 tblsp ", "1/2 tsp "],
+    Ingredients: ["Light rum", "Pineapple", "Lime juice", "Sugar"],
+    Measures: ["1 1/2 oz ", "4 chunks ", "1 tblsp ", "1/2 tsp "],
     Date: "2017-09-06 23:14:57",
     isPublic: true,
     Like: 0
@@ -1214,8 +1353,8 @@ const cocktails = [
       "In an old-fashioned glass almost filled with ice cubes, combine all of the ingredients. Stir well.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/ezvy1c1504883335.jpg",
-    Ingredients:[ "Gin", "Brandy", "Sweet Vermouth","Club soda"],
-    Measures:[ "1 1/2 oz ", "1 oz ", "1 oz ", "1 oz "],
+    Ingredients: ["Gin", "Brandy", "Sweet Vermouth", "Club soda"],
+    Measures: ["1 1/2 oz ", "1 oz ", "1 oz ", "1 oz "],
     Date: "2017-09-08 16:08:56",
     isPublic: true,
     Like: 0
@@ -1244,8 +1383,14 @@ const cocktails = [
       "Stir powdered sugar and 2 oz. carbonated water in a collins glass. Fill glass with ice and add gin. Fill with carbonated water and stir. Add the lemon peel and the orange spiral so that the end of the orange spiral dangles over rim of glass.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/wsyrvv1478820109.jpg",
-    Ingredients:[ "Gin", "Carbonated water", "Powdered sugar","Orange spiral", "Lemon peel"],
-    Measures:[ "2 oz "],
+    Ingredients: [
+      "Gin",
+      "Carbonated water",
+      "Powdered sugar",
+      "Orange spiral",
+      "Lemon peel"
+    ],
+    Measures: ["2 oz "],
     Date: "2016-11-10 23:21:49",
     isPublic: true,
     Like: 0
@@ -1259,8 +1404,15 @@ const cocktails = [
       "In a shaker half-filled with ice cubes, combine the wine, lemon juice, sugar, and grenadine. Shake well. Pour into an old-fashioned glass and garnish with the cherry and the orange slice.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/qwxysv1478819943.jpg",
-    Ingredients:[ "Gin", "Lemon juice", "Sugar","Grenadine", "Maraschino cherry", "Orange"],
-    Measures:[ "2 oz ", "1 oz ", "1/2 tsp superfine ", "1/2 tsp ", "1 ", "1 "],
+    Ingredients: [
+      "Gin",
+      "Lemon juice",
+      "Sugar",
+      "Grenadine",
+      "Maraschino cherry",
+      "Orange"
+    ],
+    Measures: ["2 oz ", "1 oz ", "1/2 tsp superfine ", "1/2 tsp ", "1 ", "1 "],
     Date: "2016-11-10 23:19:04",
     isPublic: true,
     Like: 0
@@ -1274,8 +1426,8 @@ const cocktails = [
       "Shake all ingredients with ice cubes, except soda water. Pour into glass. Top with soda water.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/xhl8q31504351772.jpg",
-    Ingredients:[ "Gin", "Lemon", "Powdered sugar","Carbonated water"],
-    Measures:[ "2 oz ", "Juice of 1/2 ", "1 tsp "],
+    Ingredients: ["Gin", "Lemon", "Powdered sugar", "Carbonated water"],
+    Measures: ["2 oz ", "Juice of 1/2 ", "1 tsp "],
     Date: "2017-09-02 12:29:32",
     isPublic: true,
     Like: 0
@@ -1289,8 +1441,8 @@ const cocktails = [
       "Dissolve powdered sugar in mixture of water and juice of lemon. Add gin. Pour into an old-fashioned glass over ice cubes and stir. Add the twist of orange peel and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/h8wmm41504883440.jpg",
-    Ingredients:[ "Gin", "Lemon", "Powdered sugar","Water", "Orange peel"],
-    Measures:[ "2 oz ", "Juice of 1/2 ", "1 tsp ", "1 tsp ", "Twist of "],
+    Ingredients: ["Gin", "Lemon", "Powdered sugar", "Water", "Orange peel"],
+    Measures: ["2 oz ", "Juice of 1/2 ", "1 tsp ", "1 tsp ", "Twist of "],
     Date: "2017-09-08 16:10:40",
     isPublic: true,
     Like: 0
@@ -1304,8 +1456,15 @@ const cocktails = [
       "Muddle sugar with carbonated water and mint sprigs in an old-fashioned glass. Add gin and 1 ice cube. Stir, add the orange slice and the cherry, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/hp41fi1504883656.jpg",
-    Ingredients:[ "Gin", "Carbonated water", "Sugar","Mint", "Orange", "Cherry"],
-    Measures:[ "2 oz ", "1 oz ", "1 cube ", "4 ", "1 slice ", "1 "],
+    Ingredients: [
+      "Gin",
+      "Carbonated water",
+      "Sugar",
+      "Mint",
+      "Orange",
+      "Cherry"
+    ],
+    Measures: ["2 oz ", "1 oz ", "1 cube ", "4 ", "1 slice ", "1 "],
     Date: "2017-09-08 16:14:16",
     isPublic: true,
     Like: 0
@@ -1319,8 +1478,8 @@ const cocktails = [
       "In a shaker half-filled with ice cubes, combine the gin, lemon juice, and sugar. Shake well. Strain into a sour glass and garnish with the orange slice and the cherry.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/mt7l7m1504883523.jpg",
-    Ingredients:[ "Gin", "Lemon juice", "Sugar","Orange", "Maraschino cherry"],
-    Measures:[ "2 oz ", "1 oz ", "1/2 tsp superfine ", "1 ", "1 "],
+    Ingredients: ["Gin", "Lemon juice", "Sugar", "Orange", "Maraschino cherry"],
+    Measures: ["2 oz ", "1 oz ", "1/2 tsp superfine ", "1 ", "1 "],
     Date: "2017-09-08 16:12:03",
     isPublic: true,
     Like: 0
@@ -1334,8 +1493,15 @@ const cocktails = [
       "Stir gin, grenadine, and powdered sugar with ice and strain into a highball glass over ice cubes. Fill with carbonated water and stir. Decorate with the pineapple chunks and the strawberries and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/xrbhz61504883702.jpg",
-    Ingredients:[ "Gin", "Grenadine", "Powdered sugar","Pineapple", "Strawberries", "Carbonated water"],
-    Measures:[ "1 1/2 oz ", "1 tsp ", "1 tblsp ", "3 chunks ", "2 "],
+    Ingredients: [
+      "Gin",
+      "Grenadine",
+      "Powdered sugar",
+      "Pineapple",
+      "Strawberries",
+      "Carbonated water"
+    ],
+    Measures: ["1 1/2 oz ", "1 tsp ", "1 tblsp ", "3 chunks ", "2 "],
     Date: "2017-09-08 16:15:02",
     isPublic: true,
     Like: 0
@@ -1349,8 +1515,8 @@ const cocktails = [
       "In a shaker half-filled with ice cubes, combine the lime juice, sugar, gin, and bitters. Shake well. Almost fill a colling glass with ice cubes. Stir until the glass is frosted. Strain the mixture in the shaker into the glass and add the club soda.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/sybce31504884026.jpg",
-    Ingredients:[ "Lime juice", "Sugar", "Gin","Bitters", "Club soda"],
-    Measures:[ "1 1/2 oz ", "1 tsp superfine ", "2 oz ", "1 dash ", "3 oz "],
+    Ingredients: ["Lime juice", "Sugar", "Gin", "Bitters", "Club soda"],
+    Measures: ["1 1/2 oz ", "1 tsp superfine ", "2 oz ", "1 dash ", "3 oz "],
     Date: "2017-09-08 16:20:26",
     isPublic: true,
     Like: 0
@@ -1364,8 +1530,8 @@ const cocktails = [
       "Mix powdered sugar and water in an old-fashioned glass. Add gin and one ice cube. Stir, add the twist of lemon peel, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/l9gi5h1504820724.jpg",
-    Ingredients:[ "Gin", "Water", "Powdered sugar","Lemon peel"],
-    Measures:[ "2 oz ", "2 tsp ", "1/2 tsp ", "1 twist of "],
+    Ingredients: ["Gin", "Water", "Powdered sugar", "Lemon peel"],
+    Measures: ["2 oz ", "2 tsp ", "1/2 tsp ", "1 twist of "],
     Date: "2017-09-07 22:45:24",
     isPublic: true,
     Like: 0
@@ -1424,8 +1590,14 @@ const cocktails = [
       "In a shaker half-filled with ice cubes, combine the gin, triple sec, pineapple juice, and grenadine. Shake well. Pour into an old-fashioned glass and garnish with the pineapple slice.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/qyvprp1473891585.jpg",
-    Ingredients:[ "Gin", "Triple sec", "Pineapple juice","Grenadine", "Pineapple"],
-    Measures:[ "1 1/2 oz ", "1 oz ", "1 oz ", "1/2 tsp ", "1 "],
+    Ingredients: [
+      "Gin",
+      "Triple sec",
+      "Pineapple juice",
+      "Grenadine",
+      "Pineapple"
+    ],
+    Measures: ["1 1/2 oz ", "1 oz ", "1 oz ", "1/2 tsp ", "1 "],
     Date: "2016-09-14 23:19:46",
     isPublic: true,
     Like: 0
@@ -1484,8 +1656,8 @@ const cocktails = [
       "Stir all ingredients (except olive) with ice and strain into a cocktail glass. Add the olive and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/0bkwca1492975553.jpg",
-    Ingredients:[ "Scotch", "Sweet Vermouth", "Orange bitters","Olive"],
-    Measures:[ "1 1/2 oz ", "3/4 oz ", "2 dashes ", "1 "],
+    Ingredients: ["Scotch", "Sweet Vermouth", "Orange bitters", "Olive"],
+    Measures: ["1 1/2 oz ", "3/4 oz ", "2 dashes ", "1 "],
     Date: "2017-04-23 20:25:53",
     isPublic: true,
     Like: 0
@@ -1499,8 +1671,14 @@ const cocktails = [
       "Shake all ingredients (except carbonated water) with ice and strain into a highball glass over two ice cubes. Fill with carbonated water, stir, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/zj1usl1504884548.jpg",
-    Ingredients:[ "Light rum", "Blended whiskey", "Lemon","Powdered sugar", "Carbonated water"],
-    Measures:[ "1/2 oz ", "1 1/2 oz ", "Juice of 1/2 ", "1 tsp "],
+    Ingredients: [
+      "Light rum",
+      "Blended whiskey",
+      "Lemon",
+      "Powdered sugar",
+      "Carbonated water"
+    ],
+    Measures: ["1/2 oz ", "1 1/2 oz ", "Juice of 1/2 ", "1 tsp "],
     Date: "2017-09-08 16:29:08",
     isPublic: true,
     Like: 0
@@ -1514,8 +1692,15 @@ const cocktails = [
       "Pour all ingredients (except orange slice and cherry) into a collins glass over ice cubes. Garnish with the slice of orange, add the cherry on top, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/sot8v41504884783.jpg",
-    Ingredients:[ "Irish whiskey", "Peach brandy", "Orange juice","Sweet and sour", "Orange", "Cherry"],
-    Measures:[ "1 oz ", "1/2 oz ", "1 oz ", "1 oz ", "1 slice ", "1 "],
+    Ingredients: [
+      "Irish whiskey",
+      "Peach brandy",
+      "Orange juice",
+      "Sweet and sour",
+      "Orange",
+      "Cherry"
+    ],
+    Measures: ["1 oz ", "1/2 oz ", "1 oz ", "1 oz ", "1 slice ", "1 "],
     Date: "2017-09-08 16:33:03",
     isPublic: true,
     Like: 0
@@ -1544,8 +1729,15 @@ const cocktails = [
       "Shake all ingredients (except carbonated water) with ice and strain into a highball glass over two ice cubes. Fill with carbonated water, stir, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/37vzv11504884831.jpg",
-    Ingredients:[ "Blended whiskey", "Lemon", "Powdered sugar","Port", "Egg white", "Carbonated water"],
-    Measures:[ "1 1/2 oz ", "Juice of 1/2 ", "1 tsp ", "1 tblsp ", "1 "],
+    Ingredients: [
+      "Blended whiskey",
+      "Lemon",
+      "Powdered sugar",
+      "Port",
+      "Egg white",
+      "Carbonated water"
+    ],
+    Measures: ["1 1/2 oz ", "Juice of 1/2 ", "1 tsp ", "1 tblsp ", "1 "],
     Date: "2017-09-08 16:33:51",
     isPublic: true,
     Like: 0
@@ -1574,8 +1766,15 @@ const cocktails = [
       "Pour all ingredients directly into highball glass filled with ice. Stir gently. Garnish. Add a dash of Angostura bitters.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/u5yaxl1504350270.jpg",
-    Ingredients:[ "Bourbon", "Lemon juice", "Sugar","Club soda", "Maraschino cherry", "Orange"],
-    Measures:[ "2 oz ", "1 oz ", "1 tsp superfine ", "3 oz ", "1 ", "1 "],
+    Ingredients: [
+      "Bourbon",
+      "Lemon juice",
+      "Sugar",
+      "Club soda",
+      "Maraschino cherry",
+      "Orange"
+    ],
+    Measures: ["2 oz ", "1 oz ", "1 tsp superfine ", "3 oz ", "1 ", "1 "],
     Date: "2017-09-02 12:04:31",
     isPublic: true,
     Like: 0
@@ -1633,8 +1832,15 @@ const cocktails = [
       "Shake all ingredients (except carbonated water) with ice and strain into a cocktail glass over two ice cubes. Fill with carbonated water, stir, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/20d63k1504885263.jpg",
-    Ingredients:[ "Gin", "Light cream", "Powdered sugar","Lemon", "Egg white", "Carbonated water"],
-    Measures:[ "2 oz ", "2 tsp ", "1 tsp ", "Juice of 1/2 ", "1 "],
+    Ingredients: [
+      "Gin",
+      "Light cream",
+      "Powdered sugar",
+      "Lemon",
+      "Egg white",
+      "Carbonated water"
+    ],
+    Measures: ["2 oz ", "2 tsp ", "1 tsp ", "Juice of 1/2 ", "1 "],
     Date: "2017-09-08 16:41:03",
     isPublic: true,
     Like: 0
@@ -1648,8 +1854,8 @@ const cocktails = [
       "In a mixing glass half-filled with ice cubes, combine the Scotch, Drambuie, and vermouth. Stir well. Strain into a cocktail glass. Garnish with the lemon twist.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/rpvtpr1468923881.jpg",
-    Ingredients:[ "Scotch", "Drambuie", "Dry Vermouth","Lemon peel"],
-    Measures:[ "2 oz ", "1/2 oz ", "1/2 oz ", "1 twist of "],
+    Ingredients: ["Scotch", "Drambuie", "Dry Vermouth", "Lemon peel"],
+    Measures: ["2 oz ", "1/2 oz ", "1/2 oz ", "1 twist of "],
     Date: "2016-07-19 11:24:41",
     isPublic: true,
     Like: 0
@@ -1693,8 +1899,15 @@ const cocktails = [
       "Stir powdered sugar and 2 oz. carbonated water in a collins glass. Fill glass with ice, add gin and vermouth, and stir. Fill with carbonated water and stir again. Add the twist of lemon peel and the orange spiral so that the end dangles over rim of glass.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/wsyqry1479298485.jpg",
-    Ingredients:[ "Carbonated water", "Gin", "Dry Vermouth","Powdered sugar", "Orange spiral", "Lemon peel"],
-    Measures:[],
+    Ingredients: [
+      "Carbonated water",
+      "Gin",
+      "Dry Vermouth",
+      "Powdered sugar",
+      "Orange spiral",
+      "Lemon peel"
+    ],
+    Measures: ["\n"],
     Date: "2016-11-16 12:14:45",
     isPublic: true,
     Like: 0
@@ -1723,8 +1936,14 @@ const cocktails = [
       "Shake all ingredients with ice. Strain into glass. Garnish and serve with straw.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/twyrrp1439907470.jpg",
-    Ingredients:[ "Light rum", "Orgeat syrup", "Triple sec","Sweet and sour", "Cherry"],
-    Measures:[ "1 oz ", "1/2 oz ", "1/2 oz ", "1 1/2 oz ", "1 "],
+    Ingredients: [
+      "Light rum",
+      "Orgeat syrup",
+      "Triple sec",
+      "Sweet and sour",
+      "Cherry"
+    ],
+    Measures: ["1 oz ", "1/2 oz ", "1/2 oz ", "1 1/2 oz ", "1 "],
     Date: "2015-08-18 15:17:50",
     isPublic: true,
     Like: 0
@@ -1738,8 +1957,14 @@ const cocktails = [
       "Stir all ingredients (except cherry) with ice and strain into a cocktail glass. Top with the cherry and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/wwxwvr1439906452.jpg",
-    Ingredients:[ "Gin", "Dry Vermouth", "Triple sec","Orange bitters", "Cherry"],
-    Measures:[ "1 oz ", "1 oz ", "1/4 tsp ", "1 dash ", "1 "],
+    Ingredients: [
+      "Gin",
+      "Dry Vermouth",
+      "Triple sec",
+      "Orange bitters",
+      "Cherry"
+    ],
+    Measures: ["1 oz ", "1 oz ", "1/4 tsp ", "1 dash ", "1 "],
     Date: "2015-08-18 15:00:52",
     isPublic: true,
     Like: 0
@@ -1783,8 +2008,15 @@ const cocktails = [
       "Shake all ingredients (except carbonated water) with ice and strain into a collins glass over ice cubes. Fill with carbonated water, stir, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/urpyqs1439907531.jpg",
-    Ingredients:[ "Brandy", "Light rum", "Bourbon","Lemon", "Powdered sugar", "Carbonated water"],
-    Measures:[ "1 oz ", "1/2 oz ", "1/2 oz ", "Juice of 1/2 ", "1 tblsp "],
+    Ingredients: [
+      "Brandy",
+      "Light rum",
+      "Bourbon",
+      "Lemon",
+      "Powdered sugar",
+      "Carbonated water"
+    ],
+    Measures: ["1 oz ", "1/2 oz ", "1/2 oz ", "Juice of 1/2 ", "1 tblsp "],
     Date: "2015-08-18 15:18:51",
     isPublic: true,
     Like: 0
@@ -1813,8 +2045,15 @@ const cocktails = [
       "Shake blended whiskey, juice of lemon, and powdered sugar with ice and strain into a whiskey sour glass. Float claret on top. Decorate with the half-slice of lemon and the cherry and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/61wgch1504882795.jpg",
-    Ingredients:[ "Blended whiskey", "Lemon", "Sugar","Red wine", "Lemon", "Cherry"],
-    Measures:[ "2 oz ", "Juice of 1/2 ", "1 tsp ", " (Claret)\n"],
+    Ingredients: [
+      "Blended whiskey",
+      "Lemon",
+      "Sugar",
+      "Red wine",
+      "Lemon",
+      "Cherry"
+    ],
+    Measures: ["2 oz ", "Juice of 1/2 ", "1 tsp ", " (Claret)\n"],
     Date: "2017-09-08 15:59:55",
     isPublic: true,
     Like: 0
@@ -1828,8 +2067,8 @@ const cocktails = [
       "Shake brandy, gin, and orange juice with ice and strain into a highball glass over ice cubes. Fill with ginger ale, stir, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/xqqytq1441167923.jpg",
-    Ingredients:[ "Cherry brandy", "Gin", "Orange juice","Ginger ale"],
-    Measures:[ "1/2 oz ", "1 1/2 oz ", "4 oz "],
+    Ingredients: ["Cherry brandy", "Gin", "Orange juice", "Ginger ale"],
+    Measures: ["1/2 oz ", "1 1/2 oz ", "4 oz "],
     Date: "2015-09-02 05:25:23",
     isPublic: true,
     Like: 0
@@ -1843,8 +2082,14 @@ const cocktails = [
       "Shake all ingredients with ice, strain into a chilled cocktail glass, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/vr6kle1504886114.jpg",
-    Ingredients:[ "Creme de Cacao", "Amaretto", "Triple sec","Vodka", "Light cream"],
-    Measures:[ "1/2 oz white ", "1/2 oz ", "1/2 oz ", "1/2 oz ", "1 oz "],
+    Ingredients: [
+      "Creme de Cacao",
+      "Amaretto",
+      "Triple sec",
+      "Vodka",
+      "Light cream"
+    ],
+    Measures: ["1/2 oz white ", "1/2 oz ", "1/2 oz ", "1/2 oz ", "1 oz "],
     Date: "2017-09-08 16:55:14",
     isPublic: true,
     Like: 0
@@ -1873,8 +2118,8 @@ const cocktails = [
       "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/5ia6j21504887829.jpg",
-    Ingredients:[ "Gin", "Grenadine", "Light cream","Egg white"],
-    Measures:[ "1 1/2 oz ", "1 tsp ", "1 tsp ", "1 "],
+    Ingredients: ["Gin", "Grenadine", "Light cream", "Egg white"],
+    Measures: ["1 1/2 oz ", "1 tsp ", "1 tsp ", "1 "],
     Date: "2017-09-08 17:23:49",
     isPublic: true,
     Like: 0
@@ -1933,8 +2178,8 @@ const cocktails = [
       "Shake all ingredients (except nutmeg) with ice and strain into a whiskey sour glass. Sprinkle nutmeg on top and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/vrprxu1441553844.jpg",
-    Ingredients:[ "Port", "Light cream", "Powdered sugar","Egg", "Nutmeg"],
-    Measures:[ "1 1/2 oz ", "2 tsp ", "1 tsp ", "1 whole "],
+    Ingredients: ["Port", "Light cream", "Powdered sugar", "Egg", "Nutmeg"],
+    Measures: ["1 1/2 oz ", "2 tsp ", "1 tsp ", "1 whole "],
     Date: "2015-09-06 16:37:24",
     isPublic: true,
     Like: 0
@@ -1948,8 +2193,8 @@ const cocktails = [
       "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/yrqppx1478962314.jpg",
-    Ingredients:[ "Light rum", "Brandy", "Lemon","Raspberry syrup"],
-    Measures:[ "3/4 oz ", "3/4 oz ", "Juice of 1/4 ", "2 tsp "],
+    Ingredients: ["Light rum", "Brandy", "Lemon", "Raspberry syrup"],
+    Measures: ["3/4 oz ", "3/4 oz ", "Juice of 1/4 ", "2 tsp "],
     Date: "2016-11-12 14:51:54",
     isPublic: true,
     Like: 0
@@ -1993,8 +2238,8 @@ const cocktails = [
       "Pour red wine and grenadine into a collins glass over ice cubes. Fill with lemon-lime soda, stir, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/vqruyt1478963249.jpg",
-    Ingredients:[ "Red wine", "Grenadine", "Lemon-lime soda",""],
-    Measures:[ "2 oz ", "1 oz "],
+    Ingredients: ["Red wine", "Grenadine", "Lemon-lime soda"],
+    Measures: ["2 oz ", "1 oz "],
     Date: "2016-11-12 15:07:29",
     isPublic: true,
     Like: 0
@@ -2023,8 +2268,8 @@ const cocktails = [
       "In a shaker half-filled with ice cubes, combine the rum, Kahlua, and cream. Shake well. Strain into a cocktail glass and garnish with the nutmeg.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/spxtqp1478963398.jpg",
-    Ingredients:[ "Dark rum", "Kahlua", "Light cream","Nutmeg"],
-    Measures:[ "1 1/2 oz ", "1/2 oz ", "1 oz ", "1/8 tsp grated "],
+    Ingredients: ["Dark rum", "Kahlua", "Light cream", "Nutmeg"],
+    Measures: ["1 1/2 oz ", "1/2 oz ", "1 oz ", "1/8 tsp grated "],
     Date: "2016-11-12 15:09:58",
     isPublic: true,
     Like: 0
@@ -2038,8 +2283,8 @@ const cocktails = [
       "Shake all ingredients (except cola) with ice and strain into a chilled collins glass. Fill with cola and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/wrh44j1504390609.jpg",
-    Ingredients:[ "Gin", "Sweet and sour", "Egg","Coca-Cola"],
-    Measures:[ "1 oz ", "2 oz ", "1 whole "],
+    Ingredients: ["Gin", "Sweet and sour", "Egg", "Coca-Cola"],
+    Measures: ["1 oz ", "2 oz ", "1 whole "],
     Date: "2017-09-02 23:16:49",
     isPublic: true,
     Like: 0
@@ -2053,8 +2298,8 @@ const cocktails = [
       "Shake all ingredients (except carbonated water) with ice and strain into a highball glass over two ice cubes. Fill with carbonated water, stir, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/pe1x1c1504735672.jpg",
-    Ingredients:[ "Gin", "Lemon", "Powdered sugar","Egg", "Carbonated water"],
-    Measures:[ "2 oz ", "Juice of 1/2 ", "1 tsp ", "1 whole "],
+    Ingredients: ["Gin", "Lemon", "Powdered sugar", "Egg", "Carbonated water"],
+    Measures: ["2 oz ", "Juice of 1/2 ", "1 tsp ", "1 whole "],
     Date: "2017-09-06 23:07:52",
     isPublic: true,
     Like: 0
@@ -2068,8 +2313,15 @@ const cocktails = [
       "In an old-fashioned glass, dissolve the sugar in the club soda. Add crushed ice until the glass is almost full. Add the rum. Stir well. Garnish with the cherry and the orange and lemon slices.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/5vh9ld1504390683.jpg",
-    Ingredients:[ "Sugar", "Club soda", "Lemon","Dark rum", "Maraschino cherry", "Orange"],
-    Measures:[ "1 tsp superfine ", "3 oz ", "1 ", "2 oz ", "1 ", "1 "],
+    Ingredients: [
+      "Sugar",
+      "Club soda",
+      "Lemon",
+      "Dark rum",
+      "Maraschino cherry",
+      "Orange"
+    ],
+    Measures: ["1 tsp superfine ", "3 oz ", "1 ", "2 oz ", "1 ", "1 "],
     Date: "2017-09-02 23:18:03",
     isPublic: true,
     Like: 0
@@ -2098,8 +2350,8 @@ const cocktails = [
       "Shake all ingredients (except nutmeg) with ice and strain into a collins glass. Sprinkle nutmeg on top and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/w64lqm1504888810.jpg",
-    Ingredients:[ "Light rum", "Milk", "Powdered sugar","Nutmeg"],
-    Measures:[ "2 oz ", "1 cup ", "1 tsp "],
+    Ingredients: ["Light rum", "Milk", "Powdered sugar", "Nutmeg"],
+    Measures: ["2 oz ", "1 cup ", "1 tsp "],
     Date: "2017-09-08 17:40:10",
     isPublic: true,
     Like: 0
@@ -2143,8 +2395,14 @@ const cocktails = [
       "In a shaker half-filled with ice cubes, combine the rum, lemon juice, and sugar. Shake well. Strain into a sour glass and garnish with the orange slice and the cherry.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/bylfi21504886323.jpg",
-    Ingredients:[ "Light rum", "Lemon juice", "Sugar","Orange", "Maraschino cherry"],
-    Measures:[ "2 oz ", "1 oz ", "1/2 tsp superfine ", "1 ", "1 "],
+    Ingredients: [
+      "Light rum",
+      "Lemon juice",
+      "Sugar",
+      "Orange",
+      "Maraschino cherry"
+    ],
+    Measures: ["2 oz ", "1 oz ", "1/2 tsp superfine ", "1 ", "1 "],
     Date: "2017-09-08 16:58:44",
     isPublic: true,
     Like: 0
@@ -2158,8 +2416,8 @@ const cocktails = [
       "Dissolve powdered sugar in water in an old-fashioned glass. Add rum and one ice cube and stir. Add the twist of lemon peel and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/athdk71504886286.jpg",
-    Ingredients:[ "Rum", "Powdered sugar", "Lemon peel","Water"],
-    Measures:[ "2 oz light or dark ", "2 tsp ", "1 twist of ", "2 tsp "],
+    Ingredients: ["Rum", "Powdered sugar", "Lemon peel", "Water"],
+    Measures: ["2 oz light or dark ", "2 tsp ", "1 twist of ", "2 tsp "],
     Date: "2017-09-08 16:58:06",
     isPublic: true,
     Like: 0
@@ -2233,8 +2491,8 @@ const cocktails = [
       "Pour scotch, brandy, and curacao over ice in an old-fashioned glass. Add the orange slice, top with the mint sprig, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/1q7coh1504736227.jpg",
-    Ingredients:[ "Scotch", "Brandy", "Curacao","Orange", "Mint"],
-    Measures:[ "2 oz ", "4 dashes ", "4 dashes ", "1 slice ", "1 "],
+    Ingredients: ["Scotch", "Brandy", "Curacao", "Orange", "Mint"],
+    Measures: ["2 oz ", "4 dashes ", "4 dashes ", "1 slice ", "1 "],
     Date: "2017-09-06 23:17:07",
     isPublic: true,
     Like: 0
@@ -2248,8 +2506,8 @@ const cocktails = [
       "Shake scotch, juice of lime, and powdered sugar with ice and strain into a whiskey sour glass. Decorate with 1/2 slice lemon, top with the cherry, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/0dnb6k1504890436.jpg",
-    Ingredients:[ "Scotch", "Lime", "Powdered sugar","Lemon", "Cherry"],
-    Measures:[ "1 1/2 oz ", "Juice of 1/2 ", "1/2 tsp ", "1/2 slice ", "1 "],
+    Ingredients: ["Scotch", "Lime", "Powdered sugar", "Lemon", "Cherry"],
+    Measures: ["1 1/2 oz ", "Juice of 1/2 ", "1/2 tsp ", "1/2 slice ", "1 "],
     Date: "2017-09-08 18:07:16",
     isPublic: true,
     Like: 0
@@ -2277,8 +2535,8 @@ const cocktails = [
       "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/ttyrxr1478820678.jpg",
-    Ingredients:[ "Light rum", "Anisette", "Grenadine","Lemon"],
-    Measures:[ "1 oz Jamaican ", "1 tsp ", "1/2 tsp ", "Juice of 1/4 "],
+    Ingredients: ["Light rum", "Anisette", "Grenadine", "Lemon"],
+    Measures: ["1 oz Jamaican ", "1 tsp ", "1/2 tsp ", "Juice of 1/4 "],
     Date: "2016-11-10 23:31:18",
     isPublic: true,
     Like: 0
@@ -2292,8 +2550,8 @@ const cocktails = [
       "Shake sherry, powdered sugar, and egg with ice and strain into a collins glass. Fill with milk and stir. Sprinkle nutmeg on top and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/xwrpsv1478820541.jpg",
-    Ingredients:[ "Sherry", "Powdered sugar", "Egg","Milk", "Nutmeg"],
-    Measures:[ "2 oz cream ", "1 tsp ", "1 whole "],
+    Ingredients: ["Sherry", "Powdered sugar", "Egg", "Milk", "Nutmeg"],
+    Measures: ["2 oz cream ", "1 tsp ", "1 whole "],
     Date: "2016-11-10 23:29:01",
     isPublic: true,
     Like: 0
@@ -2307,8 +2565,8 @@ const cocktails = [
       "Shake all ingredients (except nutmeg) with ice and strain into a whiskey sour glass. Sprinkle nutmeg on top and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/qrryvq1478820428.jpg",
-    Ingredients:[ "Sherry", "Light cream", "Powdered sugar","Egg", "Nutmeg"],
-    Measures:[ "1 1/2 oz cream ", "2 tsp ", "1 tsp ", "1 whole "],
+    Ingredients: ["Sherry", "Light cream", "Powdered sugar", "Egg", "Nutmeg"],
+    Measures: ["1 1/2 oz cream ", "2 tsp ", "1 tsp ", "1 whole "],
     Date: "2016-11-10 23:27:08",
     isPublic: true,
     Like: 0
@@ -2352,8 +2610,15 @@ const cocktails = [
       "Pour all ingredients into cocktail shaker filled with ice cubes. Shake well. Strain into highball glass. Garnish with pineapple and cocktail cherry.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/tvtrrt1439906288.jpg",
-    Ingredients:[ "Cherry brandy", "Grenadine", "Gin","Sweet and sour", "Carbonated water", "Cherry"],
-    Measures:[ "1/2 oz ", "1/2 oz ", "1 oz ", "2 oz "],
+    Ingredients: [
+      "Cherry brandy",
+      "Grenadine",
+      "Gin",
+      "Sweet and sour",
+      "Carbonated water",
+      "Cherry"
+    ],
+    Measures: ["1/2 oz ", "1/2 oz ", "1 oz ", "2 oz "],
     Date: "2015-08-18 14:58:08",
     isPublic: true,
     Like: 0
@@ -2412,8 +2677,14 @@ const cocktails = [
       "Pour all ingredients into shaker with ice cubes. Shake well. Strain in chilled cocktail glass.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/deu59m1504736135.jpg",
-    Ingredients:[ "Strawberry schnapps", "Light rum", "Lime juice","Powdered sugar", "Strawberries"],
-    Measures:[ "1/2 oz ", "1 oz ", "1 oz ", "1 tsp ", "1 oz "],
+    Ingredients: [
+      "Strawberry schnapps",
+      "Light rum",
+      "Lime juice",
+      "Powdered sugar",
+      "Strawberries"
+    ],
+    Measures: ["1/2 oz ", "1 oz ", "1 oz ", "1 tsp ", "1 oz "],
     Date: "2017-09-06 23:15:36",
     isPublic: true,
     Like: 0
@@ -2427,8 +2698,15 @@ const cocktails = [
       "Rub rim of cocktail glass with lemon juice and dip rim in salt. Shake schnapps, tequila, triple sec, lemon juice, and strawberries with ice, strain into the salt-rimmed glass, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/tqyrpw1439905311.jpg",
-    Ingredients:[ "Strawberry schnapps", "Tequila", "Triple sec","Lemon juice", "Strawberries", "Salt"],
-    Measures:[ "1/2 oz ", "1 oz ", "1/2 oz ", "1 oz ", "1 oz "],
+    Ingredients: [
+      "Strawberry schnapps",
+      "Tequila",
+      "Triple sec",
+      "Lemon juice",
+      "Strawberries",
+      "Salt"
+    ],
+    Measures: ["1/2 oz ", "1 oz ", "1/2 oz ", "1 oz ", "1 oz "],
     Date: "2015-08-18 14:41:51",
     isPublic: true,
     Like: 0
@@ -2442,8 +2720,14 @@ const cocktails = [
       "Shake all ingredients (except ginger ale) with ice and strain into a collins glass over ice cubes. Fill with ginger ale, stir, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/2bcase1504889637.jpg",
-    Ingredients:[ "Tequila", "Lemon juice", "Grenadine","Egg white", "Ginger ale"],
-    Measures:[ "2 oz ", "1 tblsp ", "3/4 oz ", "1 "],
+    Ingredients: [
+      "Tequila",
+      "Lemon juice",
+      "Grenadine",
+      "Egg white",
+      "Ginger ale"
+    ],
+    Measures: ["2 oz ", "1 tblsp ", "3/4 oz ", "1 "],
     Date: "2017-09-08 17:53:57",
     isPublic: true,
     Like: 0
@@ -2457,8 +2741,8 @@ const cocktails = [
       "Shake tequila, juice of lemon, and powdered sugar with ice and strain into a whiskey sour glass. Add the half-slice of lemon, top with the cherry, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/ek0mlq1504820601.jpg",
-    Ingredients:[ "Tequila", "Lemon", "Powdered sugar","Lemon", "Cherry"],
-    Measures:[ "2 oz ", "Juice of 1/2 ", "1 tsp ", "1/2 slice ", "1 "],
+    Ingredients: ["Tequila", "Lemon", "Powdered sugar", "Lemon", "Cherry"],
+    Measures: ["2 oz ", "Juice of 1/2 ", "1 tsp ", "1/2 slice ", "1 "],
     Date: "2017-09-07 22:43:21",
     isPublic: true,
     Like: 0
@@ -2487,8 +2771,15 @@ const cocktails = [
       "In a shaker half-filled with ice cubes, combine the gin, lemon juice, and sugar. Shake well. Strain into a collins glass alomst filled with ice cubes. Add the club soda. Stir and garnish with the cherry and the orange slice.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/qystvv1439907682.jpg",
-    Ingredients:[ "Gin", "Lemon juice", "Sugar","Club soda", "Maraschino cherry", "Orange"],
-    Measures:[ "2 oz ", "1 oz ", "1 tsp superfine ", "3 oz ", "1 ", "1 "],
+    Ingredients: [
+      "Gin",
+      "Lemon juice",
+      "Sugar",
+      "Club soda",
+      "Maraschino cherry",
+      "Orange"
+    ],
+    Measures: ["2 oz ", "1 oz ", "1 tsp superfine ", "3 oz ", "1 ", "1 "],
     Date: "2015-08-18 15:21:22",
     isPublic: true,
     Like: 0
@@ -2502,8 +2793,8 @@ const cocktails = [
       "Stir all ingredients (except orange peel) with ice and strain into a cocktail glass. Add the twist of orange peel and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/utypqq1441554367.jpg",
-    Ingredients:[ "Dry Vermouth", "Gin", "Anis","Bitters", "Orange peel"],
-    Measures:[ "1 oz ", "1 oz ", "1/4 tsp ", "2 dashes ", "Twist of "],
+    Ingredients: ["Dry Vermouth", "Gin", "Anis", "Bitters", "Orange peel"],
+    Measures: ["1 oz ", "1 oz ", "1/4 tsp ", "2 dashes ", "Twist of "],
     Date: "2015-09-06 16:46:07",
     isPublic: true,
     Like: 0
@@ -2562,8 +2853,8 @@ const cocktails = [
       "Stir vermouth and creme de cassis in a highball glass with ice cubes. Fill with carbonated water, stir again, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/tswpxx1441554674.jpg",
-    Ingredients:[ "Dry Vermouth", "Creme de Cassis", "Carbonated water",""],
-    Measures:[ "1 1/2 oz ", "3/4 oz "],
+    Ingredients: ["Dry Vermouth", "Creme de Cassis", "Carbonated water"],
+    Measures: ["1 1/2 oz ", "3/4 oz "],
     Date: "2015-09-06 16:51:14",
     isPublic: true,
     Like: 0
@@ -2577,8 +2868,14 @@ const cocktails = [
       "Shake all ingredients with ice, strain into an old-fashioned glass over ice cubes, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/26cq601492976203.jpg",
-    Ingredients:[ "Light rum", "Sweet Vermouth", "Lemon","Powdered sugar", "Egg white"],
-    Measures:[ "1 oz ", "1/2 oz ", "Juice of 1/2 ", "1 tsp ", "1 "],
+    Ingredients: [
+      "Light rum",
+      "Sweet Vermouth",
+      "Lemon",
+      "Powdered sugar",
+      "Egg white"
+    ],
+    Measures: ["1 oz ", "1/2 oz ", "Juice of 1/2 ", "1 tsp ", "1 "],
     Date: "2017-04-23 20:36:43",
     isPublic: true,
     Like: 0
@@ -2622,8 +2919,14 @@ const cocktails = [
       "Shake all ingredients (except orange slice) with ice and strain into a collins glass over ice cubes. Add the slice of orange and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/lx0lvs1492976619.jpg",
-    Ingredients:[ "Vodka", "Lemon juice", "Grape juice","Powdered sugar", "Orange"],
-    Measures:[ "1 1/2 oz ", "3 oz ", "3 oz unsweetened ", "1 tsp ", "1 slice "],
+    Ingredients: [
+      "Vodka",
+      "Lemon juice",
+      "Grape juice",
+      "Powdered sugar",
+      "Orange"
+    ],
+    Measures: ["1 1/2 oz ", "3 oz ", "3 oz unsweetened ", "1 tsp ", "1 slice "],
     Date: "2017-04-23 20:43:39",
     isPublic: true,
     Like: 0
@@ -2637,8 +2940,8 @@ const cocktails = [
       "Pour vodka into a highball glass over ice cubes. Fill with tonic water, stir, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/lmj2yt1504820500.jpg",
-    Ingredients:[ "Vodka", "Tonic water",""],
-    Measures:[ "2 oz "],
+    Ingredients: ["Vodka", "Tonic water"],
+    Measures: ["2 oz "],
     Date: "2017-09-07 22:41:40",
     isPublic: true,
     Like: 0
@@ -2682,8 +2985,8 @@ const cocktails = [
       "Pour vodka and coffee liqueur over ice cubes in an old-fashioned glass. Fill with light cream and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/vsrupw1472405732.jpg",
-    Ingredients:[ "Vodka", "Coffee liqueur", "Light cream",""],
-    Measures:[ "2 oz ", "1 oz "],
+    Ingredients: ["Vodka", "Coffee liqueur", "Light cream"],
+    Measures: ["2 oz ", "1 oz "],
     Date: "2016-08-28 18:35:32",
     isPublic: true,
     Like: 0
@@ -2710,8 +3013,8 @@ const cocktails = [
     Instructions: "Shake well, strain into a large cocktail glass.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/qyqtpv1468876144.jpg",
-    Ingredients:[ "Grenadine", "Orange juice", "Pineapple juice","Cream"],
-    Measures:[ "1 cl ", "1 cl ", "2 cl ", "4 cl "],
+    Ingredients: ["Grenadine", "Orange juice", "Pineapple juice", "Cream"],
+    Measures: ["1 cl ", "1 cl ", "2 cl ", "4 cl "],
     Date: "2016-07-18 22:09:04",
     isPublic: true,
     Like: 0
@@ -2740,8 +3043,13 @@ const cocktails = [
       "Prepare in a blender or shaker, serve in a highball glass on the rocks. Garnish with 1 slice of pineapple and one cherry.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/xwuqvw1473201811.jpg",
-    Ingredients:[ "Pineapple juice", "Passion fruit juice", "Lemon juice","Grenadine"],
-    Measures:[ "10 cl ", "6 cl ", "1 cl ", "1 cl "],
+    Ingredients: [
+      "Pineapple juice",
+      "Passion fruit juice",
+      "Lemon juice",
+      "Grenadine"
+    ],
+    Measures: ["10 cl ", "6 cl ", "1 cl ", "1 cl "],
     Date: "2016-09-06 23:43:31",
     isPublic: true,
     Like: 0
@@ -2755,8 +3063,8 @@ const cocktails = [
       "Place some ice cubes in a large tumbler or highball glass, add lemon juice, orange juice, sugar syrup, and stir well. Top up with cold soda water, serve with a drinking straw.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/ytsxxw1441167732.jpg",
-    Ingredients:[ "Lemon juice", "Orange juice", "Sugar syrup","Soda water"],
-    Measures:[ "5 cl ", "15 cl ", "2-3 cl "],
+    Ingredients: ["Lemon juice", "Orange juice", "Sugar syrup", "Soda water"],
+    Measures: ["5 cl ", "15 cl ", "2-3 cl "],
     Date: "2015-09-02 05:22:12",
     isPublic: true,
     Like: 0
@@ -2785,8 +3093,8 @@ const cocktails = [
       "Blend very well, preferably in a household mixer. Serve in a wine glass, garnish with whipped cream and a piece of banana.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/rtwwsx1472720307.jpg",
-    Ingredients:[ "Milk", "Orange juice", "Sugar syrup","Banana"],
-    Measures:[ "10 cl cold ", "4 cl ", "2 tsp ", "1/2 "],
+    Ingredients: ["Milk", "Orange juice", "Sugar syrup", "Banana"],
+    Measures: ["10 cl cold ", "4 cl ", "2 tsp ", "1/2 "],
     Date: "2016-09-01 09:58:27",
     isPublic: true,
     Like: 0
@@ -2799,8 +3107,14 @@ const cocktails = [
     Instructions: "Blend all together in a blender until smooth.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/vqquwx1472720634.jpg",
-    Ingredients:[ "Strawberries", "Banana", "Yoghurt","Milk", "Honey"],
-    Measures:[ "1/2 lb frozen ", "1 frozen ", "1 cup plain ", "1 cup ", " to taste\n"],
+    Ingredients: ["Strawberries", "Banana", "Yoghurt", "Milk", "Honey"],
+    Measures: [
+      "1/2 lb frozen ",
+      "1 frozen ",
+      "1 cup plain ",
+      "1 cup ",
+      " to taste\n"
+    ],
     Date: "2016-09-01 10:03:54",
     isPublic: true,
     Like: 0
@@ -2843,8 +3157,16 @@ const cocktails = [
       "Toss strawberries with sugar, and let sit overnight in refrigerator. Cut lemon, reserve two slices. Juice the rest. Mix together the lemon juice, strawberries, apple juice, and soda water. Add slices of lemon (decor, really). In glasses, put ice cubes, and a slice of apple. Pour drink in, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/i3tfn31484430499.jpg",
-    Ingredients:[ "Apple juice", "Strawberries", "Sugar","Lemon", "Apple", "Soda water", "Ice"],
-    Measures:[ "1 can frozen ", "1 cup ", "2 tblsp ", "1 ", "1 ", "1 L "],
+    Ingredients: [
+      "Apple juice",
+      "Strawberries",
+      "Sugar",
+      "Lemon",
+      "Apple",
+      "Soda water",
+      "Ice"
+    ],
+    Measures: ["1 can frozen ", "1 cup ", "2 tblsp ", "1 ", "1 ", "1 L "],
     Date: "2017-01-14 21:48:19",
     isPublic: true,
     Like: 0
@@ -2872,8 +3194,14 @@ const cocktails = [
     Instructions: "Blend til smooth.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/q0fg2m1484430704.jpg",
-    Ingredients:[ "Yoghurt", "Banana", "Orange juice","Fruit", "Ice"],
-    Measures:[ "1 cup fruit ", "1 ", "4 oz frozen ", "1/2 piece textural ", "6 "],
+    Ingredients: ["Yoghurt", "Banana", "Orange juice", "Fruit", "Ice"],
+    Measures: [
+      "1 cup fruit ",
+      "1 ",
+      "4 oz frozen ",
+      "1/2 piece textural ",
+      "6 "
+    ],
     Date: "2017-01-14 21:51:44",
     isPublic: true,
     Like: 0
@@ -2887,8 +3215,8 @@ const cocktails = [
       "Place all ingredients in the blender jar - cover and whiz on medium speed until well blended. Pour in one tall, 2 medium or 3 small glasses and drink up.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/znald61487604035.jpg",
-    Ingredients:[ "Milk", "Chocolate syrup", "Mint syrup",""],
-    Measures:[ "2 cups "],
+    Ingredients: ["Milk", "Chocolate syrup", "Mint syrup"],
+    Measures: ["2 cups "],
     Date: "2017-02-20 15:20:36",
     isPublic: true,
     Like: 0
@@ -2902,8 +3230,14 @@ const cocktails = [
       "Blend in a blender for 3 seconds. Lassi is one of the easiest things to make, and there are many ways of making it. Basically, it is buttermilk (yoghurt whisked with water), and you can choose almost any consistency that you Like, from the thinnest to the thickest. Serve cold.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/iq6scx1487603980.jpg",
-    Ingredients:[ "Yoghurt", "Water", "Cumin seed","Salt", "Mint"],
-    Measures:[ "1/2 cup plain ", "1 1/4 cup cold ", "1/2 tsp ground roasted ", "1/4 tsp ", "1/4 tsp dried "],
+    Ingredients: ["Yoghurt", "Water", "Cumin seed", "Salt", "Mint"],
+    Measures: [
+      "1/2 cup plain ",
+      "1 1/4 cup cold ",
+      "1/2 tsp ground roasted ",
+      "1/4 tsp ",
+      "1/4 tsp dried "
+    ],
     Date: "2017-02-20 15:19:40",
     isPublic: true,
     Like: 0
@@ -2917,8 +3251,8 @@ const cocktails = [
       "Blend (frappe) in blender until frothy. Add torn curry leaves and serve cold.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/m1suzm1487603970.jpg",
-    Ingredients:[ "Yoghurt", "Water", "Salt","Asafoetida"],
-    Measures:[ "1 cup ", "2 cups cold ", "1 tsp ", "1 pinch "],
+    Ingredients: ["Yoghurt", "Water", "Salt", "Asafoetida"],
+    Measures: ["1 cup ", "2 cups cold ", "1 tsp ", "1 pinch "],
     Date: "2017-02-20 15:19:30",
     isPublic: true,
     Like: 0
@@ -2932,8 +3266,8 @@ const cocktails = [
       "Blend the yoghurt and ice cubes together, until the yoghurt becomes more liquid. Add sugar to taste. The lemon/lime is optional but it gives it a slightly tart taste. Dash of salt. Raita is also good for the summer. Instead of having a traditional salad you can make raita instead.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/s4x0qj1487603933.jpg",
-    Ingredients:[ "Yoghurt", "Ice", "Sugar","Lime", "Salt"],
-    Measures:[ "2 cups ", "4-6 "],
+    Ingredients: ["Yoghurt", "Ice", "Sugar", "Lime", "Salt"],
+    Measures: ["2 cups ", "4-6 "],
     Date: "2017-02-20 15:18:53",
     isPublic: true,
     Like: 0
@@ -2947,8 +3281,8 @@ const cocktails = [
       "Put all ingredients into a blender and blend until nice and frothy. Serve chilled.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/9jeifz1487603885.jpg",
-    Ingredients:[ "Yoghurt", "Water", "Sugar","Salt", "Lemon juice"],
-    Measures:[ "1 cup ", "2 cups cold ", "4 tblsp ", "pinch ", "2 tblsp "],
+    Ingredients: ["Yoghurt", "Water", "Sugar", "Salt", "Lemon juice"],
+    Measures: ["1 cup ", "2 cups cold ", "4 tblsp ", "pinch ", "2 tblsp "],
     Date: "2017-02-20 15:18:05",
     isPublic: true,
     Like: 0
@@ -2962,8 +3296,8 @@ const cocktails = [
       "Put it all in a blender and pour over crushed ice. You can also use other fruits Like strawberries and bananas.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/1bw6sd1487603816.jpg",
-    Ingredients:[ "Mango", "Yoghurt", "Sugar","Water"],
-    Measures:[ "2 ", "2 cups ", "1/2 cup ", "1 cup iced "],
+    Ingredients: ["Mango", "Yoghurt", "Sugar", "Water"],
+    Measures: ["2 ", "2 cups ", "1/2 cup ", "1 cup iced "],
     Date: "2017-02-20 15:16:56",
     isPublic: true,
     Like: 0
@@ -2977,8 +3311,8 @@ const cocktails = [
       "Juice the lemons. Peel and grate the ginger. Place the grated ginger and a liberal dash of the cayenne pepper into a piece of cheesecloth, and tie it into a knot. Let soak in the water. After 15 minutes or so, add the sugar, and the lemon juice. Chill, and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/eirmo71487603745.jpg",
-    Ingredients:[ "Ginger", "Water", "Lemon","Sugar", "Cayenne pepper"],
-    Measures:[ "2 pieces ", "1 gal ", "1 lb ", "1 cup ", "ground "],
+    Ingredients: ["Ginger", "Water", "Lemon", "Sugar", "Cayenne pepper"],
+    Measures: ["2 pieces ", "1 gal ", "1 lb ", "1 cup ", "ground "],
     Date: "2017-02-20 15:15:45",
     isPublic: true,
     Like: 0
@@ -2992,8 +3326,8 @@ const cocktails = [
       "In a large glass, put the lime juice and sugar, and stir well. Add cold seltzer water to fill. Put the lime peels in the glass. Drink. Repeat until limes or soda run out.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/5jdp5r1487603680.jpg",
-    Ingredients:[ "Lime", "Sugar", "Soda water","Lime peel"],
-    Measures:[ "Juice of 1 ", "1 tblsp ", " (seltzer water)\n"],
+    Ingredients: ["Lime", "Sugar", "Soda water", "Lime peel"],
+    Measures: ["Juice of 1 ", "1 tblsp ", " (seltzer water)\n"],
     Date: "2017-02-20 15:14:40",
     isPublic: true,
     Like: 0
@@ -3166,8 +3500,8 @@ const cocktails = [
       "Place all ingredients in the blender jar - cover and whiz on medium speed until well blended. Pour in one tall, 2 medium or 3 small glasses and drink up. Note: Use lots of ice in this one - great on hot days! To add ice: Remove the center of the cover while the blender is on - drop 3 or 4 ice cubs and blend until they're completely crushed.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/trttrv1441254466.jpg",
-    Ingredients:[ "Yoghurt", "Fruit", "Ice",""],
-    Measures:[ "1 cup ", "1 cup "],
+    Ingredients: ["Yoghurt", "Fruit", "Ice"],
+    Measures: ["1 cup ", "1 cup "],
     Date: "2015-09-03 05:27:46",
     isPublic: true,
     Like: 0
@@ -3181,8 +3515,8 @@ const cocktails = [
       "Shift the cocoa and sugar together into a medium-sized saucepan. Dissolve the cornstarch in the water, and stir into the cocoa and sugar until it is a smooth paste. Begin heating the mixture, stirring it with a whisk, and gradually pour in the milk. Continue stirring with the whisk as you bring the liquid to a simmer. Allow the chocolate to simmer for about 10 minutes, stirring often, until it is thick, glossy and completely smooth. Serve steaming hot in coffee mug. Serves six.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/3nbu4a1487603196.jpg",
-    Ingredients:[ "Cocoa powder", "Sugar", "Cornstarch","Water", "Milk"],
-    Measures:[ "1/2 cup ", "1 cup ", "7 tsp ", "1/2 cup ", "1 qt "],
+    Ingredients: ["Cocoa powder", "Sugar", "Cornstarch", "Water", "Milk"],
+    Measures: ["1/2 cup ", "1 cup ", "7 tsp ", "1/2 cup ", "1 qt "],
     Date: "2017-02-20 15:06:36",
     isPublic: true,
     Like: 0
@@ -3196,8 +3530,8 @@ const cocktails = [
       "Boil milk in the top of a deep double boiler five minutes. Remove from fire and add chocolate, mixed with the cinnamon, a little at a time, beating with molinillo or egg beater after each addition. When the chocolate is thoroughly blended, heat to the boiling point. Place over bottom of double boiler and add eggs, whipping constantly, until they are thoroughly blended and the mixture is frothing. Serve in coffee mug. Serves eight.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/jbqrhv1487603186.jpg",
-    Ingredients:[ "Milk", "Chocolate", "Cinnamon","Egg"],
-    Measures:[ "6 cups ", "3 oz Mexican ", "1 tsp powdered ", "3 "],
+    Ingredients: ["Milk", "Chocolate", "Cinnamon", "Egg"],
+    Measures: ["6 cups ", "3 oz Mexican ", "1 tsp powdered ", "3 "],
     Date: "2017-02-20 15:06:26",
     isPublic: true,
     Like: 0
@@ -3211,8 +3545,8 @@ const cocktails = [
       "Melt the bar in a small amount of boiling water. Add milk. Cook over low heat, whipping gently (with a whisk, i would assume) until heated well. Don't let it boil! Serve in coffee mug.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/q7w4xu1487603180.jpg",
-    Ingredients:[ "Chocolate", "Milk", "Water",""],
-    Measures:[ "125 gr", "3/4 L "],
+    Ingredients: ["Chocolate", "Milk", "Water"],
+    Measures: ["125 gr", "3/4 L "],
     Date: "2017-02-20 15:06:20",
     isPublic: true,
     Like: 0
@@ -3241,8 +3575,14 @@ const cocktails = [
       "Melt the chocolate, butter and vanilla in a double boiler. When just smooth stir in the cream.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/0lrmjp1487603166.jpg",
-    Ingredients:[ "Chocolate", "Butter", "Vanilla extract","Half-and-half", "Marshmallows"],
-    Measures:[ "12 oz fine ", "1 tsp ", "1/2 tsp ", "1 cup ", "mini "],
+    Ingredients: [
+      "Chocolate",
+      "Butter",
+      "Vanilla extract",
+      "Half-and-half",
+      "Marshmallows"
+    ],
+    Measures: ["12 oz fine ", "1 tsp ", "1/2 tsp ", "1 cup ", "mini "],
     Date: "2017-02-20 15:06:06",
     isPublic: true,
     Like: 0
@@ -3271,8 +3611,8 @@ const cocktails = [
       "Mix with a bit of milk (1 oz or so) in coffee mug. Nuke mug for about 30-50 seconds. Stir until the heated cocoa dissolves. Fill mug with milk. Nuke for 1-2 minutes, depending on wattage and preferences as to burnt mouth parts.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/xcu6nb1487603142.jpg",
-    Ingredients:[ "Cocoa powder", "Sugar", "Vanilla extract","Milk"],
-    Measures:[ "2 tsp ", "1 tsp ", "1/2 tsp ", "12 oz "],
+    Ingredients: ["Cocoa powder", "Sugar", "Vanilla extract", "Milk"],
+    Measures: ["2 tsp ", "1 tsp ", "1/2 tsp ", "12 oz "],
     Date: "2017-02-20 15:05:43",
     isPublic: true,
     Like: 0
@@ -3286,8 +3626,14 @@ const cocktails = [
       "Combine all ingredients in heavy medium saucepan. Stir over low heat until chocolate melts. Increase heat and bring just to a boil, stirring often. Remove from heat and whisk untily frothy. Return to heat and bring to boil again. Remove from heat, whisk until frothy. Repeat heating and whisking once again. Discard orange peel. (Can be prepared 2 hours ahead. Let stand at room temperature. Before serving, bring just to boil, remove from heat and whisk until frothy.) Pour hot chocolate into coffee mugs. Makes 2 servings.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/hdzwrh1487603131.jpg",
-    Ingredients:[ "Milk", "Chocolate", "Orange peel","Espresso", "Nutmeg"],
-    Measures:[ "2 cups ", "4 oz chopped bittersweet or semi-sweet ", "3 2-inch strips ", "1/2 tsp instant ", "1/8 tsp ground "],
+    Ingredients: ["Milk", "Chocolate", "Orange peel", "Espresso", "Nutmeg"],
+    Measures: [
+      "2 cups ",
+      "4 oz chopped bittersweet or semi-sweet ",
+      "3 2-inch strips ",
+      "1/2 tsp instant ",
+      "1/8 tsp ground "
+    ],
     Date: "2017-02-20 15:05:31",
     isPublic: true,
     Like: 0
@@ -3301,8 +3647,8 @@ const cocktails = [
       "Stir the milk with the chocolate and the cinnamon over low heat until the chocolate dissolves. Add the eggs and beat the mixture until it becomes thick, taking care not to boil. Serve in coffee mug.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/pra8vt1487603054.jpg",
-    Ingredients:[ "Milk", "Chocolate", "Cinnamon","Egg yolk"],
-    Measures:[ "2 cups ", "2 oz sweet ", "1/2 tsp ", "2 beaten "],
+    Ingredients: ["Milk", "Chocolate", "Cinnamon", "Egg yolk"],
+    Measures: ["2 cups ", "2 oz sweet ", "1/2 tsp ", "2 beaten "],
     Date: "2017-02-20 15:04:14",
     isPublic: true,
     Like: 0
@@ -3316,8 +3662,14 @@ const cocktails = [
       "Mix Galliano and Absolut Citron in a shot glass, lay lemon wedge sprinkled with sugar over glass and pour a rum over wedge and glass. light rum with a lighter and let burn for a second. Do shot quickly and suck on lemon. If it is done correctly, this will taste Like a shot of sweet lemonade.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/mx31hv1487602979.jpg",
-    Ingredients:[ "Galliano", "Absolut Citron", "Lemon","Sugar", "151 proof rum"],
-    Measures:[ "1/2 oz ", "1/2 oz ", " wedge\n", "Bacardi "],
+    Ingredients: [
+      "Galliano",
+      "Absolut Citron",
+      "Lemon",
+      "Sugar",
+      "151 proof rum"
+    ],
+    Measures: ["1/2 oz ", "1/2 oz ", " wedge\n", "Bacardi "],
     Date: "2017-02-20 15:02:59",
     isPublic: true,
     Like: 0
@@ -3346,8 +3698,8 @@ const cocktails = [
       "Mix and fill up with soda water. Drunk by finns on a sunny day any time of the year and day.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/7dkf0i1487602928.jpg",
-    Ingredients:[ "Vodka", "Lime juice", "Soda water",""],
-    Measures:[ "4 cl ", "1 dash "],
+    Ingredients: ["Vodka", "Lime juice", "Soda water"],
+    Measures: ["4 cl ", "1 dash "],
     Date: "2017-02-20 15:02:08",
     isPublic: true,
     Like: 0
@@ -3361,8 +3713,8 @@ const cocktails = [
       "Shake well and serve in a cocktail glass. This is a home cocktail of American/Internet Bar del Pozzo, Pavia, Italy.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/lyloe91487602877.jpg",
-    Ingredients:[ "Peach Vodka", "Lemon juice", "Galliano","Sirup of roses"],
-    Measures:[ "5 parts ", "3 parts ", "1 part ", "1 part "],
+    Ingredients: ["Peach Vodka", "Lemon juice", "Galliano", "Sirup of roses"],
+    Measures: ["5 parts ", "3 parts ", "1 part ", "1 part "],
     Date: "2017-02-20 15:01:18",
     isPublic: true,
     Like: 0
@@ -3376,8 +3728,8 @@ const cocktails = [
       "Lots of ice and soda top up in tall glass with cherry and a grin.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/2rzfer1487602699.jpg",
-    Ingredients:[ "Ouzo", "Bailey's irish cream", "Gin","Grand Marnier"],
-    Measures:[ "1 part ", "1 part ", "2 parts ", "1/2 part "],
+    Ingredients: ["Ouzo", "Bailey's irish cream", "Gin", "Grand Marnier"],
+    Measures: ["1 part ", "1 part ", "2 parts ", "1/2 part "],
     Date: "2017-02-20 14:58:19",
     isPublic: true,
     Like: 0
@@ -3390,8 +3742,8 @@ const cocktails = [
     Instructions: "Served over ice. Sounds nasty, but tastes great.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/k6v97f1487602550.jpg",
-    Ingredients:[ "Amaretto", "J\u00e4germeister", "Kahlua","Milk"],
-    Measures:[ "1 part ", "1 part ", "1 part ", "2 1/2 parts "],
+    Ingredients: ["Amaretto", "J\u00e4germeister", "Kahlua", "Milk"],
+    Measures: ["1 part ", "1 part ", "1 part ", "2 1/2 parts "],
     Date: "2017-02-20 14:55:50",
     isPublic: true,
     Like: 0
@@ -3420,8 +3772,8 @@ const cocktails = [
       'Pour Captain Morgan\'s Spiced Rum over ice, fill glass to top with Ginger Ale. Garnish with lime. Tastes Like a cream soda. Name:d for the Gilligan\'s Island reference ("The Captain" *in* "Ginger" is a Happy Skipper!)',
     Image:
       "https://www.thecocktaildb.com/images/media/drink/42w2g41487602448.jpg",
-    Ingredients:[ "Spiced rum", "Ginger ale", "Lime","Ice"],
-    Measures:[ "1 1/2 cl "],
+    Ingredients: ["Spiced rum", "Ginger ale", "Lime", "Ice"],
+    Measures: ["1 1/2 cl "],
     Date: "2017-02-20 14:54:09",
     isPublic: true,
     Like: 0
@@ -3450,8 +3802,8 @@ const cocktails = [
       "Mix together until coffee and sugar is dissolved. Add milk. Shake well. Using a blender or milk shake maker produces a very foamy drink. Serve in coffee mug.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/ytprxy1454513855.jpg",
-    Ingredients:[ "Coffee", "Sugar", "Water","Milk"],
-    Measures:[ "1/4 cup instant ", "1/4 cup ", "1/4 cup hot ", "4 cups cold "],
+    Ingredients: ["Coffee", "Sugar", "Water", "Milk"],
+    Measures: ["1/4 cup instant ", "1/4 cup ", "1/4 cup hot ", "4 cups cold "],
     Date: "2016-02-03 15:37:35",
     isPublic: true,
     Like: 0
@@ -3479,8 +3831,27 @@ const cocktails = [
       "Bring 2 cups of water to boil. Add all the ingredients and boil again for about 15 seconds. Let stand for a minute. Warm milk in a pot. Filter tea into cups. Add milk and sugar. That's IT.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/uyrpww1441246384.jpg",
-    Ingredients:[ "Water", "Tea", "Ginger","Cardamom", "Cloves", "Cinnamon", "Black pepper", "Sugar", "Milk"],
-    Measures:[ "2 cups ", "3-4 tsp ", "1 chunk dried ", "3-4 crushed ", "3 ", "1 piece ", "1-2 whole ", " to taste\n"],
+    Ingredients: [
+      "Water",
+      "Tea",
+      "Ginger",
+      "Cardamom",
+      "Cloves",
+      "Cinnamon",
+      "Black pepper",
+      "Sugar",
+      "Milk"
+    ],
+    Measures: [
+      "2 cups ",
+      "3-4 tsp ",
+      "1 chunk dried ",
+      "3-4 crushed ",
+      "3 ",
+      "1 piece ",
+      "1-2 whole ",
+      " to taste\n"
+    ],
     Date: "2015-09-03 03:13:04",
     isPublic: true,
     Like: 0
@@ -3524,8 +3895,15 @@ const cocktails = [
       "Place the coffee and spices in the filter cone of your coffee maker. Brew coffee as usual, let it cool. In a tall glass, dissolve 1 or 2 teaspoons of sugar in an ounce of the coffee (it's easier to dissolve than if you put it right over ice). Add 5-6 ice cubes and pour coffee to within about 1 inch of the top of the glass. Rest a spoon on top of the coffee and slowly pour whipping cream into the spoon. This will make the cream float on top of the coffee rather than dispersing into it right away.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/wquwxs1441247025.jpg",
-    Ingredients:[ "Coffee", "Coriander", "Cardamom","Sugar", "Whipping cream", "Ice"],
-    Measures:[ "6 tblsp ground", "1/4 tsp ", "4-5 whole green "],
+    Ingredients: [
+      "Coffee",
+      "Coriander",
+      "Cardamom",
+      "Sugar",
+      "Whipping cream",
+      "Ice"
+    ],
+    Measures: ["6 tblsp ground", "1/4 tsp ", "4-5 whole green "],
     Date: "2015-09-03 03:23:45",
     isPublic: true,
     Like: 0
@@ -3539,8 +3917,8 @@ const cocktails = [
       "Prepare a pot of coffee at a good European strength. In the ground coffee, add 2 or 3 freshly ground cardamom pods. Sweeten while hot, then cool quickly. Serve in highball glass over ice, with cream. To get the layered effect, place a spoon atop the coffee and pour the milk carefully into the spoon so that it floats on the top of the coffee.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/rqpypv1441245650.jpg",
-    Ingredients:[ "Coffee", "Sugar", "Cream","Cardamom"],
-    Measures:[ "black", " pods\n"],
+    Ingredients: ["Coffee", "Sugar", "Cream", "Cardamom"],
+    Measures: ["black", " pods\n"],
     Date: "2015-09-03 03:00:50",
     isPublic: true,
     Like: 0
@@ -3554,8 +3932,13 @@ const cocktails = [
       "Combine Thai tea (i.e., the powder), boiling water, and sweetened condensed milk, stir until blended. Pour into 2 tall glasses filled with ice cubes. Garnish with mint leaves. Makes 2 servings.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/trvwpu1441245568.jpg",
-    Ingredients:[ "Tea", "Water", "Condensed milk","Ice", "Mint"],
-    Measures:[ "1/4 cup Thai ", "1/2 cup boiling ", "2 tsp sweetened ", " cubes\n"],
+    Ingredients: ["Tea", "Water", "Condensed milk", "Ice", "Mint"],
+    Measures: [
+      "1/4 cup Thai ",
+      "1/2 cup boiling ",
+      "2 tsp sweetened ",
+      " cubes\n"
+    ],
     Date: "2015-09-03 02:59:28",
     isPublic: true,
     Like: 0
@@ -3569,8 +3952,8 @@ const cocktails = [
       "Mix together and let sit a few days. Strain through a coffee filter. To serve mix 1 part absinthe to 4 parts water, add ice, enjoy.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/uxxtrt1472667197.jpg",
-    Ingredients:[ "Vodka", "Sugar", "Anise","Licorice root", "Wormwood"],
-    Measures:[ "1 bottle ", "50 gr ", "50 ml pure ", "1 tblsp ", "1 "],
+    Ingredients: ["Vodka", "Sugar", "Anise", "Licorice root", "Wormwood"],
+    Measures: ["1 bottle ", "50 gr ", "50 ml pure ", "1 tblsp ", "1 "],
     Date: "2016-08-31 19:13:17",
     isPublic: true,
     Like: 0
@@ -3629,8 +4012,14 @@ const cocktails = [
       "Combine coffee, sugar and water. Simmer 1 hour and let cool. Add vanilla and vodka. Age in sealed jar 2 to 3 weeks.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/ryvtsu1441253851.jpg",
-    Ingredients:[ "Coffee", "Vanilla extract", "Sugar","Vodka", "Water"],
-    Measures:[ "10 tblsp instant ", "4 tblsp ", "2 1/2 cups ", "1 qt ", "2 1/2 cups "],
+    Ingredients: ["Coffee", "Vanilla extract", "Sugar", "Vodka", "Water"],
+    Measures: [
+      "10 tblsp instant ",
+      "4 tblsp ",
+      "2 1/2 cups ",
+      "1 qt ",
+      "2 1/2 cups "
+    ],
     Date: "2015-09-03 05:17:31",
     isPublic: true,
     Like: 0
@@ -3674,8 +4063,14 @@ const cocktails = [
       "Bring sugar and water to a boil and simmer for 10 minutes. Cool. Add the remaining ingredients and stir. Cover and let ripen for 1 month.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/yxswtp1441253918.jpg",
-    Ingredients:[ "Sugar", "Water", "Grain alcohol","Peppermint extract", "Food coloring"],
-    Measures:[ "8 cups ", "6 cups ", "1 pint ", "1 oz pure ", "1 tblsp green "],
+    Ingredients: [
+      "Sugar",
+      "Water",
+      "Grain alcohol",
+      "Peppermint extract",
+      "Food coloring"
+    ],
+    Measures: ["8 cups ", "6 cups ", "1 pint ", "1 oz pure ", "1 tblsp green "],
     Date: "2015-09-03 05:18:38",
     isPublic: true,
     Like: 0
@@ -3718,8 +4113,8 @@ const cocktails = [
       "Boil water, sugar and coffe for 10 mins and let cool. Add rum and vanilla. Put in clean bottle(s) and leave for 1 week before using.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/sih81u1504367097.jpg",
-    Ingredients:[ "Water", "Brown sugar", "Coffee","Rum", "Vanilla extract"],
-    Measures:[ "1 cup ", "3/4-1 cup ", "4 tsp ", "1 cup ", "4 tsp "],
+    Ingredients: ["Water", "Brown sugar", "Coffee", "Rum", "Vanilla extract"],
+    Measures: ["1 cup ", "3/4-1 cup ", "4 tsp ", "1 cup ", "4 tsp "],
     Date: "2017-09-02 16:44:58",
     isPublic: true,
     Like: 0
@@ -3733,8 +4128,24 @@ const cocktails = [
       "Add 1/4 cup water to ginger root. Boil 3 minutes. Strain. Add the liquid to the guava, lemon and pineapple juices. Make a syrup of sugar and remaining water. Cool. Combine with juices and pineapple. Chill throroughly.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/wsyvrt1468876267.jpg",
-    Ingredients:[ "Water", "Ginger", "Guava juice","Lemon juice", "Pineapple", "Sugar", "Pineapple juice"],
-    Measures:[ "3/4 cup ", "2 tsp ", "2 cups ", "1 1/2 tblsp ", "1 1/2 cup ", "1 cup ", "3-4 cups "],
+    Ingredients: [
+      "Water",
+      "Ginger",
+      "Guava juice",
+      "Lemon juice",
+      "Pineapple",
+      "Sugar",
+      "Pineapple juice"
+    ],
+    Measures: [
+      "3/4 cup ",
+      "2 tsp ",
+      "2 cups ",
+      "1 1/2 tblsp ",
+      "1 1/2 cup ",
+      "1 cup ",
+      "3-4 cups "
+    ],
     Date: "2016-07-18 22:11:07",
     isPublic: true,
     Like: 0
@@ -3748,8 +4159,26 @@ const cocktails = [
       "If you use the whole all spice and cloves, tie them in cheesecloth. Heat the mixture. Stir occasionally. If you want an alcoholic drink, rum would be nice.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/xrqxuv1454513218.jpg",
-    Ingredients:[ "Apple cider", "Brown sugar", "Lemonade","Orange juice", "Cloves", "Allspice", "Nutmeg", "Cinnamon"],
-    Measures:[ "4 qt ", "1 cup ", "6 oz frozen ", "6 oz frozen ", "6 whole ", "6 whole ", "1 tsp ground ", "3 sticks "],
+    Ingredients: [
+      "Apple cider",
+      "Brown sugar",
+      "Lemonade",
+      "Orange juice",
+      "Cloves",
+      "Allspice",
+      "Nutmeg",
+      "Cinnamon"
+    ],
+    Measures: [
+      "4 qt ",
+      "1 cup ",
+      "6 oz frozen ",
+      "6 oz frozen ",
+      "6 whole ",
+      "6 whole ",
+      "1 tsp ground ",
+      "3 sticks "
+    ],
     Date: "2016-02-03 15:26:58",
     isPublic: true,
     Like: 0
@@ -3763,8 +4192,26 @@ const cocktails = [
       "Combine all the ingredients in a large punch bowl with a block of ice. If found too dry, sugar syrup may be added. Decorate with twists of lemon peel.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/9a4vqb1493067692.jpg",
-    Ingredients:[ "Tea", "Rye whiskey", "Red wine","Rum", "Brandy", "Benedictine", "Orange juice", "Lemon juice"],
-    Measures:[ "1 quart black ", "1 quart ", "1 fifth ", "1 pint Jamaican ", "1/2 pint ", "1 1/2 oz ", "1 pint ", "1/2 pint "],
+    Ingredients: [
+      "Tea",
+      "Rye whiskey",
+      "Red wine",
+      "Rum",
+      "Brandy",
+      "Benedictine",
+      "Orange juice",
+      "Lemon juice"
+    ],
+    Measures: [
+      "1 quart black ",
+      "1 quart ",
+      "1 fifth ",
+      "1 pint Jamaican ",
+      "1/2 pint ",
+      "1 1/2 oz ",
+      "1 pint ",
+      "1/2 pint "
+    ],
     Date: "2017-04-24 22:01:32",
     isPublic: true,
     Like: 0
@@ -3778,8 +4225,13 @@ const cocktails = [
       "Add all ingredients to large bowl. Stir gently. Serve chilled.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/xqutpr1461867477.jpg",
-    Ingredients:[ "Everclear", "Wine", "Orange juice","Kool-Aid"],
-    Measures:[ "2 pint ", "1 bottle Boone Strawberry Hill ", "1/2 gal ", "1 gal Tropical Berry "],
+    Ingredients: ["Everclear", "Wine", "Orange juice", "Kool-Aid"],
+    Measures: [
+      "2 pint ",
+      "1 bottle Boone Strawberry Hill ",
+      "1/2 gal ",
+      "1 gal Tropical Berry "
+    ],
     Date: "2016-04-28 19:17:57",
     isPublic: true,
     Like: 0
@@ -3793,8 +4245,14 @@ const cocktails = [
       "Combine first four ingredients. Stir until sugar is dissolved, chill. Then add ginger ale just before serving. Add ice ring to keep punch cold.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/mzgaqu1504389248.jpg",
-    Ingredients:[ "Cranberry juice", "Sugar", "Pineapple juice","Almond flavoring", "Ginger ale"],
-    Measures:[ "4 cups ", "1 1/2 cup ", "4 cups ", "1 tblsp ", "2 qt "],
+    Ingredients: [
+      "Cranberry juice",
+      "Sugar",
+      "Pineapple juice",
+      "Almond flavoring",
+      "Ginger ale"
+    ],
+    Measures: ["4 cups ", "1 1/2 cup ", "4 cups ", "1 tblsp ", "2 qt "],
     Date: "2017-09-02 22:54:08",
     isPublic: true,
     Like: 0
@@ -3823,8 +4281,8 @@ const cocktails = [
       "In large saucepan, beat together eggs, sugar and salt, if desired. Stir in 2 cups of the milk. Cook over low heat, stirring constantly, until mixture is thick enough to coat a metal spoon and reaches 160 degrees F. Remove from heat. Stir in remaining 2 cups milk and vanilla. Cover and regfigerate until thoroughly chilled, several hours or overnight. Just before serving, pour into bowl or pitcher. Garnish or add stir-ins, if desired. Choose 1 or several of: Chocolate curls, cinnamon sticks, extracts of flavorings, flavored brandy or liqueur, fruit juice or nectar, ground nutmeg, maraschino cherries, orange slices, peppermint sticks or candy canes, plain brandy, run or whiskey, sherbet or ice-cream, whipping cream, whipped. Serve immediately.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/quxsvt1468875505.jpg",
-    Ingredients:[ "Egg", "Sugar", "Salt","Milk", "Vanilla extract"],
-    Measures:[ "6 ", "1/4 cup ", "1/4 tsp ", "1 qt ", "1 tsp "],
+    Ingredients: ["Egg", "Sugar", "Salt", "Milk", "Vanilla extract"],
+    Measures: ["6 ", "1/4 cup ", "1/4 tsp ", "1 qt ", "1 tsp "],
     Date: "2016-07-18 21:58:25",
     isPublic: true,
     Like: 0
@@ -3853,8 +4311,15 @@ const cocktails = [
       "Boil sugar and spices in water, leave in the water for 30 minutes. Strain the spiced water and mix with the wine. Heat slowly until short of boiling temperature. (To remove alcohol, let it boil for a while.) You may add lemon or orange juice to taste. Serve in irish coffee cup.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/vuxwvt1468875418.jpg",
-    Ingredients:[ "Red wine", "Water", "Sugar","Cinnamon", "Cloves", "Lemon peel"],
-    Measures:[ "1 L ", "125 ml ", "60 gr ", "1 ", "3 ", "1 tblsp "],
+    Ingredients: [
+      "Red wine",
+      "Water",
+      "Sugar",
+      "Cinnamon",
+      "Cloves",
+      "Lemon peel"
+    ],
+    Measures: ["1 L ", "125 ml ", "60 gr ", "1 ", "3 ", "1 tblsp "],
     Date: "2016-07-18 21:56:58",
     isPublic: true,
     Like: 0
@@ -3868,8 +4333,8 @@ const cocktails = [
       'Take a bunch of grape juice and a bunch of fizzy stuff (club soda, ginger ale, lemonlime, whatever). Mix them in a punch bowl. Take orange sherbet and lime sherbet. Scoop out scoops and float them in the punch, let them melt a little so that a nasty film spreads all over the top of the punch but there are still "bubbles" in it in the form of sherbet scoops. Looks horrible, tastes just fine.',
     Image:
       "https://www.thecocktaildb.com/images/media/drink/lfeoe41504888925.jpg",
-    Ingredients:[ "Grape juice", "Carbonated soft drink", "Sherbet","Sherbet"],
-    Measures:[ "\n", ", orange\n"],
+    Ingredients: ["Grape juice", "Carbonated soft drink", "Sherbet", "Sherbet"],
+    Measures: ["\n", ", orange\n"],
     Date: "2017-09-08 17:42:05",
     isPublic: true,
     Like: 0
@@ -3883,8 +4348,16 @@ const cocktails = [
       'Simmer 3 cups water with, sugar, cloves, cinnamon sticks, and lemon peel in a stainless steel pot for 10 minutes. Add wine heat to a "coffee temperature" (DO NOT BOIL) then add the brandy.',
     Image:
       "https://www.thecocktaildb.com/images/media/drink/iuwi6h1504735724.jpg",
-    Ingredients:[ "Water", "Sugar", "Cloves","Cinnamon", "Lemon peel", "Red wine", "Brandy"],
-    Measures:[ "3 cups ", "1 cup ", "12 ", "2 ", "1 ", "750 ml ", "1/4 cup "],
+    Ingredients: [
+      "Water",
+      "Sugar",
+      "Cloves",
+      "Cinnamon",
+      "Lemon peel",
+      "Red wine",
+      "Brandy"
+    ],
+    Measures: ["3 cups ", "1 cup ", "12 ", "2 ", "1 ", "750 ml ", "1/4 cup "],
     Date: "2017-09-06 23:08:44",
     isPublic: true,
     Like: 0
@@ -3898,8 +4371,15 @@ const cocktails = [
       "Mix all together in a pitcher and refrigerate. Add cloves and cinnamon sticks to taste. Serve in wine glasses.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/xrvxpp1441249280.jpg",
-    Ingredients:[ "Red wine", "Sugar", "Orange juice","Lemon juice", "Cloves", "Cinnamon"],
-    Measures:[ "1 bottle ", "1/2 cup ", "1 cup ", "1 cup "],
+    Ingredients: [
+      "Red wine",
+      "Sugar",
+      "Orange juice",
+      "Lemon juice",
+      "Cloves",
+      "Cinnamon"
+    ],
+    Measures: ["1 bottle ", "1/2 cup ", "1 cup ", "1 cup "],
     Date: "2015-09-03 04:01:20",
     isPublic: true,
     Like: 0
@@ -3958,8 +4438,8 @@ const cocktails = [
       "Throw everything into a blender and mix until fairly smooth. Serve over ice.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/spvvxp1468924425.jpg",
-    Ingredients:[ "Lemon", "Sugar", "Strawberries","Water"],
-    Measures:[ "Juice of 1 ", "1 tblsp ", "8-10 ripe ", "1 cup "],
+    Ingredients: ["Lemon", "Sugar", "Strawberries", "Water"],
+    Measures: ["Juice of 1 ", "1 tblsp ", "8-10 ripe ", "1 cup "],
     Date: "2016-07-19 11:33:45",
     isPublic: true,
     Like: 0
@@ -3986,8 +4466,8 @@ const cocktails = [
     Instructions: "Mix wine and soft drink. Pour into glass. Add ice.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/yutxtv1473344210.jpg",
-    Ingredients:[ "Red wine", "Lemon-lime soda", "Ice",""],
-    Measures:[ "2 oz white or ", "5 oz ", " cubes\n"],
+    Ingredients: ["Red wine", "Lemon-lime soda", "Ice"],
+    Measures: ["2 oz white or ", "5 oz ", " cubes\n"],
     Date: "2016-09-08 15:16:50",
     isPublic: true,
     Like: 0
@@ -4001,8 +4481,14 @@ const cocktails = [
       "Combine all of the ingredients and pour over a block of ice.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/txustu1473344310.jpg",
-    Ingredients:[ "Red wine", "Lemon", "Orange juice","Orange", "Pineapple juice"],
-    Measures:[ "1 bottle ", "2 ", "1 cup ", "3 ", "1 cup "],
+    Ingredients: [
+      "Red wine",
+      "Lemon",
+      "Orange juice",
+      "Orange",
+      "Pineapple juice"
+    ],
+    Measures: ["1 bottle ", "2 ", "1 cup ", "3 ", "1 cup "],
     Date: "2016-09-08 15:18:30",
     isPublic: true,
     Like: 0
@@ -4016,8 +4502,8 @@ const cocktails = [
       "In a regular-sized shot glass, layer, with a spoon or cherry, the grenadine , the Kahlua , then the Bailey's Irish cream in equal portions. It goes down really smooth ,and you don't even need a chaser. It tastes just Like chocolate milk.(Really!)",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/svsvqv1473344558.jpg",
-    Ingredients:[ "Grenadine", "Kahlua", "Bailey's irish cream",""],
-    Measures:[],
+    Ingredients: ["Grenadine", "Kahlua", "Bailey's irish cream"],
+    Measures: ["\n"],
     Date: "2016-09-08 15:22:38",
     isPublic: true,
     Like: 0
@@ -4061,8 +4547,8 @@ const cocktails = [
       "Served over ice in a tall glass with a popped cherry (can add more popped cherries if in the mood)!",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/sxvrwv1473344825.jpg",
-    Ingredients:[ "Vodka", "Cherry liqueur", "Cranberry juice","Orange juice"],
-    Measures:[ "2 oz ", "2 oz ", "4 oz ", "4 oz "],
+    Ingredients: ["Vodka", "Cherry liqueur", "Cranberry juice", "Orange juice"],
+    Measures: ["2 oz ", "2 oz ", "4 oz ", "4 oz "],
     Date: "2016-09-08 15:27:05",
     isPublic: true,
     Like: 0
@@ -4076,8 +4562,15 @@ const cocktails = [
       "In a shaker, place lemonade, vodka, blue Curacao, and triple sec together. Shake with ice and strain into glass. Add sugar to taste",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/n3zfrh1493067412.jpg",
-    Ingredients:[ "Lemonade", "Vodka", "Blue Curacao","Triple sec", "Sugar", "Ice"],
-    Measures:[ "5 oz ", "1 oz ", "1/2 oz ", "1/2 oz "],
+    Ingredients: [
+      "Lemonade",
+      "Vodka",
+      "Blue Curacao",
+      "Triple sec",
+      "Sugar",
+      "Ice"
+    ],
+    Measures: ["5 oz ", "1 oz ", "1/2 oz ", "1/2 oz "],
     Date: "2017-04-24 21:56:52",
     isPublic: true,
     Like: 0
@@ -4106,8 +4599,14 @@ const cocktails = [
       "Build into a suiting glass, with no ice. Cream on top if wanted. Served directly.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/vyrurp1472667777.jpg",
-    Ingredients:[ "Kahlua", "Bailey's irish cream", "Frangelico","Coffee", "Cream"],
-    Measures:[ "1 cl ", "1 cl ", "1 1/2 ", "4 cl hot "],
+    Ingredients: [
+      "Kahlua",
+      "Bailey's irish cream",
+      "Frangelico",
+      "Coffee",
+      "Cream"
+    ],
+    Measures: ["1 cl ", "1 cl ", "1 1/2 ", "4 cl hot "],
     Date: "2016-08-31 19:22:57",
     isPublic: true,
     Like: 0
@@ -4121,8 +4620,14 @@ const cocktails = [
       "Pour into a large glass with ice and stir. Add a little cranberry juice to taste.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/fegm621503564966.jpg",
-    Ingredients:[ "Vodka", "Amaretto", "Sloe gin","Triple sec", "Cranberry juice"],
-    Measures:[ "1 shot ", "1 shot ", "1 shot ", "1 shot "],
+    Ingredients: [
+      "Vodka",
+      "Amaretto",
+      "Sloe gin",
+      "Triple sec",
+      "Cranberry juice"
+    ],
+    Measures: ["1 shot ", "1 shot ", "1 shot ", "1 shot "],
     Date: "2017-08-24 09:56:06",
     isPublic: true,
     Like: 0
@@ -4166,8 +4671,8 @@ const cocktails = [
       "Shake a tall glass with ice cubes and Angostura, coating the inside of the glass. Por the vodka onto this, add 1 slice of lime and squeeze juice out of remainder, mix with tonic, stir and voila you have a Long Vodka",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/9179i01503565212.jpg",
-    Ingredients:[ "Vodka", "Lime", "Angostura bitters","Tonic water", "Ice"],
-    Measures:[ "5 cl ", "1/2 ", "4 dashes ", "1 dl Schweppes ", "4 "],
+    Ingredients: ["Vodka", "Lime", "Angostura bitters", "Tonic water", "Ice"],
+    Measures: ["5 cl ", "1/2 ", "4 dashes ", "1 dl Schweppes ", "4 "],
     Date: "2017-08-24 10:00:12",
     isPublic: true,
     Like: 0
@@ -4195,8 +4700,8 @@ const cocktails = [
     Instructions: "Add ingredients and mix in blender.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/0wt4uo1503565321.jpg",
-    Ingredients:[ "Whiskey", "Beer", "Lemonade","Ice"],
-    Measures:[ "12 oz ", "12 oz ", "12 oz frozen ", "1 cup crushed "],
+    Ingredients: ["Whiskey", "Beer", "Lemonade", "Ice"],
+    Measures: ["12 oz ", "12 oz ", "12 oz frozen ", "1 cup crushed "],
     Date: "2017-08-24 10:02:02",
     isPublic: true,
     Like: 0
@@ -4210,8 +4715,8 @@ const cocktails = [
       "Add Amaretto, Bacardi, and vodka. Mix in the Dr. Pepper and beer",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/d30z931503565384.jpg",
-    Ingredients:[ "Amaretto", "Vodka", "151 proof rum","Dr. Pepper", "Beer"],
-    Measures:[ "1 oz ", "1 oz ", "1 oz Bacardi ", "1 oz ", "1 oz "],
+    Ingredients: ["Amaretto", "Vodka", "151 proof rum", "Dr. Pepper", "Beer"],
+    Measures: ["1 oz ", "1 oz ", "1 oz Bacardi ", "1 oz ", "1 oz "],
     Date: "2017-08-24 10:03:04",
     isPublic: true,
     Like: 0
@@ -4225,8 +4730,13 @@ const cocktails = [
       "Serve in a chilled cocktail glass. Lemon and sugar the rim. Stir and Strain.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/b3n0ge1503565473.jpg",
-    Ingredients:[ "Absolut Citron", "Grand Marnier", "Lemon juice","Club soda"],
-    Measures:[ "2 oz ", "1 oz ", "2 oz sweetened ", "1 oz "],
+    Ingredients: [
+      "Absolut Citron",
+      "Grand Marnier",
+      "Lemon juice",
+      "Club soda"
+    ],
+    Measures: ["2 oz ", "1 oz ", "2 oz sweetened ", "1 oz "],
     Date: "2017-08-24 10:04:33",
     isPublic: true,
     Like: 0
@@ -4240,8 +4750,8 @@ const cocktails = [
       "Same as Caipirinha but instead of cachaca you add WHITE RUM. It's great!!!!!!!!",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/yd47111503565515.jpg",
-    Ingredients:[ "Lime", "Sugar", "White rum","Ice"],
-    Measures:[ "2 ", "2 tblsp ", "2-3 oz ", "crushed "],
+    Ingredients: ["Lime", "Sugar", "White rum", "Ice"],
+    Measures: ["2 ", "2 tblsp ", "2-3 oz ", "crushed "],
     Date: "2017-08-24 10:05:15",
     isPublic: true,
     Like: 0
@@ -4255,8 +4765,8 @@ const cocktails = [
       "Vigorously shake and strain contents in a cocktail shaker with ice cubes, then pour into glass and garnish with bitters.[1]",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/tsssur1439907622.jpg",
-    Ingredients:[ "Pisco", "Lemon juice", "Sugar","Ice"],
-    Measures:[ "2 oz ", "1 oz ", "1-2 tblsp "],
+    Ingredients: ["Pisco", "Lemon juice", "Sugar", "Ice"],
+    Measures: ["2 oz ", "1 oz ", "1-2 tblsp "],
     Date: "2015-08-18 15:20:22",
     isPublic: true,
     Like: 0
@@ -4387,8 +4897,14 @@ const cocktails = [
       "Shake all the ingredients, top the drink with soda. Garnish with a slice of orange.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/doyxqb1493067556.jpg",
-    Ingredients:[ "Vodka", "Southern Comfort", "Passion fruit syrup","Sweet and sour", "Club soda"],
-    Measures:[ "2 cl Smirnoff ", "2 cl ", "2 cl ", "6 cl ", "1 dash "],
+    Ingredients: [
+      "Vodka",
+      "Southern Comfort",
+      "Passion fruit syrup",
+      "Sweet and sour",
+      "Club soda"
+    ],
+    Measures: ["2 cl Smirnoff ", "2 cl ", "2 cl ", "6 cl ", "1 dash "],
     Date: "2017-04-24 21:59:16",
     isPublic: true,
     Like: 0
@@ -4416,8 +4932,14 @@ const cocktails = [
       "Blend Vodka, Kahlua, Bailey's, ice-cream and the Oreo well in a blender. Pour into a large frosted glass. Garnish with whipped cream and a cherry.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/tpwwut1468925017.jpg",
-    Ingredients:[ "Vodka", "Kahlua", "Bailey's irish cream","Vanilla ice-cream", "Oreo cookie"],
-    Measures:[ "1 oz ", "1 oz ", "1 oz ", "2 scoops ", "1 "],
+    Ingredients: [
+      "Vodka",
+      "Kahlua",
+      "Bailey's irish cream",
+      "Vanilla ice-cream",
+      "Oreo cookie"
+    ],
+    Measures: ["1 oz ", "1 oz ", "1 oz ", "2 scoops ", "1 "],
     Date: "2016-07-19 11:43:37",
     isPublic: true,
     Like: 0
@@ -4459,8 +4981,8 @@ const cocktails = [
       "Put Vodka in glass fill with iced tea. Stir in lemon to taste.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/ypsrqp1469091726.jpg",
-    Ingredients:[ "Vodka", "Iced tea", "Lemon juice",""],
-    Measures:[ "1 1/2 oz ", "6 oz ", " to taste\n"],
+    Ingredients: ["Vodka", "Iced tea", "Lemon juice"],
+    Measures: ["1 1/2 oz ", "6 oz ", " to taste\n"],
     Date: "2016-07-21 10:02:06",
     isPublic: true,
     Like: 0
@@ -4473,8 +4995,8 @@ const cocktails = [
     Instructions:
     Image:
       "https://www.thecocktaildb.com/images/media/drink/xtuyqv1472669026.jpg",
-    Ingredients:[ "Peach Vodka", "Coca-Cola",""],
-    Measures:[ "2-3 oz"],
+    Ingredients: ["Peach Vodka", "Coca-Cola"],
+    Measures: ["2-3 oz"],
     Date: "2016-08-31 19:43:46",
     isPublic: true,
     Like: 0
@@ -4488,8 +5010,8 @@ const cocktails = [
       "Pour the tequila and orange juice into glass over ice. Add the grenadine, which will sink to the bottom. Stir gently to create the sunrise effect. Garnish and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/quqyqp1480879103.jpg",
-    Ingredients:[ "Tequila", "Orange juice", "Grenadine",""],
-    Measures:[ "2 measures "],
+    Ingredients: ["Tequila", "Orange juice", "Grenadine"],
+    Measures: ["2 measures "],
     Date: "2016-12-04 19:18:23",
     isPublic: true,
     Like: 0
@@ -4562,8 +5084,8 @@ const cocktails = [
       "Fill tall glass with ice cubes. Add rum. Rub cut edge of lime on rim of glass then squeeze juice into glass. Fill with Coca-Cola. Garnish with lime slice. Enjoy!",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/ck6d0p1504388696.jpg",
-    Ingredients:[ "Dark rum", "Lime", "Coca-Cola","Ice"],
-    Measures:[ "1-2 shot ", "Squeeze ", "Fill with "],
+    Ingredients: ["Dark rum", "Lime", "Coca-Cola", "Ice"],
+    Measures: ["1-2 shot ", "Squeeze ", "Fill with "],
     Date: "2017-09-02 22:44:56",
     isPublic: true,
     Like: 0
@@ -4592,8 +5114,8 @@ const cocktails = [
       "1. Pour Kahlua into shot glass to about 1/2 full. 2. Using a spoon(inverted), slowly pour in the Peppermint Schnapps until glass is about 3/4 full. Done correctly, the Schnapps will flow under the Kahlua for a clear layer. 3. Again using a spoon, but this time right side up, slowly top off the glass with a layer of Bailey's. Be careful to place the spoon right at the top of the Kahlua layer and to raise it as the glass fills up. Done correctly, this will provide a layer of Bailey's floating over the Kahlua. 4. Toss it down all at once for something Like a Peppermint Pattie, WITH A BANG!!! NOTE: Best if all ingredients are chilled",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/sk3lr91493068595.jpg",
-    Ingredients:[ "Peppermint schnapps", "Kahlua", "Bailey's irish cream",""],
-    Measures:[],
+    Ingredients: ["Peppermint schnapps", "Kahlua", "Bailey's irish cream"],
+    Measures: ["\n"],
     Date: "2017-04-24 22:16:35",
     isPublic: true,
     Like: 0
@@ -4607,8 +5129,14 @@ const cocktails = [
       "Fill a mixer with ice and add Baileys, Kahlua, Goldshlager, and cream. Shake for 5 seconds and Strain into a double rocks glass filled with ice. Add chilled coffee Stir and enjoy!",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/uqqurp1441208231.jpg",
-    Ingredients:[ "Kahlua", "Bailey's irish cream", "Goldschlager","Heavy cream", "Coffee"],
-    Measures:[ "1 oz ", "1 oz ", "dash ", "2 oz ", "2 oz Hazlenut "],
+    Ingredients: [
+      "Kahlua",
+      "Bailey's irish cream",
+      "Goldschlager",
+      "Heavy cream",
+      "Coffee"
+    ],
+    Measures: ["1 oz ", "1 oz ", "dash ", "2 oz ", "2 oz Hazlenut "],
     Date: "2015-09-02 16:37:11",
     isPublic: true,
     Like: 0
@@ -4722,8 +5250,8 @@ const cocktails = [
       "Heat the coffee, whiskey and sugar; do not boil. Pour into glass and top with cream; serve hot.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/sywsqw1439906999.jpg",
-    Ingredients:[ "Irish whiskey", "Coffee", "Sugar","Whipped cream"],
-    Measures:[ "1 1/2 oz ", "8 oz ", "1 tsp ", "1 tblsp "],
+    Ingredients: ["Irish whiskey", "Coffee", "Sugar", "Whipped cream"],
+    Measures: ["1 1/2 oz ", "8 oz ", "1 tsp ", "1 tblsp "],
     Date: "2015-08-18 15:09:59",
     isPublic: true,
     Like: 0
@@ -4780,8 +5308,8 @@ const cocktails = [
     Instructions: "Just pour all ingredients in the glass and stir...",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/rttsxw1441245419.jpg",
-    Ingredients:[ "Vodka", "Coconut liqueur", "Blue Curacao","Sprite"],
-    Measures:[ "2 cl ", "1 cl ", "1 cl ", "Fill with "],
+    Ingredients: ["Vodka", "Coconut liqueur", "Blue Curacao", "Sprite"],
+    Measures: ["2 cl ", "1 cl ", "1 cl ", "Fill with "],
     Date: "2015-09-03 02:56:59",
     isPublic: true,
     Like: 0
@@ -4809,8 +5337,8 @@ const cocktails = [
       "Fill a tumbler with ice cubes. Add a shot of Tia Maria and a shot of Jamaican light rum. Fill the tumbler with milk. Blend until smooth and serve immediately.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/urpvvv1441249549.jpg",
-    Ingredients:[ "Coffee liqueur", "Light rum", "Ice","Milk"],
-    Measures:[ "1 shot ", "1 shot Jamaican ", " cubes\n"],
+    Ingredients: ["Coffee liqueur", "Light rum", "Ice", "Milk"],
+    Measures: ["1 shot ", "1 shot Jamaican ", " cubes\n"],
     Date: "2015-09-03 04:05:49",
     isPublic: true,
     Like: 0
@@ -4824,8 +5352,14 @@ const cocktails = [
       "Add all ingredients except lemon to shaker filled with ice. Cover and shake vigorously. Strain contents into ice filled collins glass. Garnish with lemon.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/trpxxs1472669662.jpg",
-    Ingredients:[ "Absolut Citron", "Sweet and sour", "Sprite","Soda water", "Lemon"],
-    Measures:[ "1 1/2 oz ", "3/4 oz ", "1/2 oz ", "3 oz ", "1 slice "],
+    Ingredients: [
+      "Absolut Citron",
+      "Sweet and sour",
+      "Sprite",
+      "Soda water",
+      "Lemon"
+    ],
+    Measures: ["1 1/2 oz ", "3/4 oz ", "1/2 oz ", "3 oz ", "1 slice "],
     Date: "2016-08-31 19:54:22",
     isPublic: true,
     Like: 0
@@ -4839,8 +5373,8 @@ const cocktails = [
       "Pour all ingredients in mixing glass half filled with ice, shake and strain into chilled Martini glass.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/upxxpq1439907580.jpg",
-    Ingredients:[ "Cointreau", "Vodka", "Lime","Cranberry juice"],
-    Measures:[ "1/2 oz ", "1 oz ", "Juice of 1/2 ", "1 splash "],
+    Ingredients: ["Cointreau", "Vodka", "Lime", "Cranberry juice"],
+    Measures: ["1/2 oz ", "1 oz ", "Juice of 1/2 ", "1 splash "],
     Date: "2015-08-18 15:19:40",
     isPublic: true,
     Like: 0
@@ -4884,8 +5418,8 @@ const cocktails = [
       "Fill mug almost to top with coffee.Add milk, triple sec and brandy. Stir.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/vqwptt1441247711.jpg",
-    Ingredients:[ "Coffee", "Milk", "Triple sec","Brandy"],
-    Measures:[ "\n", "1/2 oz ", "1/2 oz "],
+    Ingredients: ["Coffee", "Milk", "Triple sec", "Brandy"],
+    Measures: ["\n", "1/2 oz ", "1/2 oz "],
     Date: "2015-09-03 03:35:11",
     isPublic: true,
     Like: 0
@@ -4899,8 +5433,8 @@ const cocktails = [
       "Place one ice cube in the glass and add 1 1/2 oz of Advocaat. Fill up the glass with lemonade and decorate with a slice of lemon. Serve at once.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/7ibfs61504735416.jpg",
-    Ingredients:[ "Advocaat", "Lemonade", "Lemon","Ice"],
-    Measures:[ "1 1/2 oz ", "8-10 oz cold ", "1 slice ", " cubes\n"],
+    Ingredients: ["Advocaat", "Lemonade", "Lemon", "Ice"],
+    Measures: ["1 1/2 oz ", "8-10 oz cold ", "1 slice ", " cubes\n"],
     Date: "2017-09-06 23:03:36",
     isPublic: true,
     Like: 0
@@ -4914,8 +5448,13 @@ const cocktails = [
       "pour 6 oz. of coffee in a mug or Irish coffee cup. add coca mix and chambord, mix well and top off with whipped cream.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/vtwyyx1441246448.jpg",
-    Ingredients:[ "Coffee", "Chambord raspberry liqueur", "Cocoa powder","Whipped cream"],
-    Measures:[ "6 oz ", "2 oz ", "2 tblsp "],
+    Ingredients: [
+      "Coffee",
+      "Chambord raspberry liqueur",
+      "Cocoa powder",
+      "Whipped cream"
+    ],
+    Measures: ["6 oz ", "2 oz ", "2 tblsp "],
     Date: "2015-09-03 03:14:08",
     isPublic: true,
     Like: 0
@@ -4986,8 +5525,14 @@ const cocktails = [
     Instructions: "Fill glass with ice. Add all liquers. Add milk. shake.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/wxuqvr1472720408.jpg",
-    Ingredients:[ "Bailey's irish cream", "Godiva liqueur", "Kahlua","Butterscotch schnapps", "Milk"],
-    Measures:[ "3/4 oz ", "3/4 oz ", "3/4 oz ", "1/2 oz ", " to fill\n"],
+    Ingredients: [
+      "Bailey's irish cream",
+      "Godiva liqueur",
+      "Kahlua",
+      "Butterscotch schnapps",
+      "Milk"
+    ],
+    Measures: ["3/4 oz ", "3/4 oz ", "3/4 oz ", "1/2 oz ", " to fill\n"],
     Date: "2016-09-01 10:00:08",
     isPublic: true,
     Like: 0
@@ -5001,8 +5546,13 @@ const cocktails = [
       "Shake Absolut Kurant, Midori, and Cranberry juice in shaker with ice: Strain into rocks glass: Splash of seven on top.Absolut Sex.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/xtrvtx1472668436.jpg",
-    Ingredients:[ "Absolut Kurant", "Midori melon liqueur", "Cranberry juice","Sprite"],
-    Measures:[ "3/4 oz ", "3/4 oz ", "1 oz ", "1 splash "],
+    Ingredients: [
+      "Absolut Kurant",
+      "Midori melon liqueur",
+      "Cranberry juice",
+      "Sprite"
+    ],
+    Measures: ["3/4 oz ", "3/4 oz ", "1 oz ", "1 splash "],
     Date: "2016-08-31 19:33:56",
     isPublic: true,
     Like: 0
@@ -5016,8 +5566,8 @@ const cocktails = [
       "Mix all ingredients in a pitcher. Mix thoroughly and pour into whatever is available, the bigger the better! This drink packs a big punch, so don't over do it.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/uqwuyp1454514591.jpg",
-    Ingredients:[ "Lemonade", "Vodka", "Rum","Ginger ale"],
-    Measures:[ "1 can ", "5 oz ", "7 oz ", "About 1 bottle "],
+    Ingredients: ["Lemonade", "Vodka", "Rum", "Ginger ale"],
+    Measures: ["1 can ", "5 oz ", "7 oz ", "About 1 bottle "],
     Date: "2016-02-03 15:49:51",
     isPublic: true,
     Like: 0
@@ -5046,8 +5596,8 @@ const cocktails = [
       "Fill Absolut into a glass. Add Lime juice. Add Ice and lime wedges.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/ssqpyw1472719844.jpg",
-    Ingredients:[ "Absolut Citron", "Lime juice", "Ice","Tonic water"],
-    Measures:[ "2/3 ", "1/3 ", "Fill with ", "Top it up with "],
+    Ingredients: ["Absolut Citron", "Lime juice", "Ice", "Tonic water"],
+    Measures: ["2/3 ", "1/3 ", "Fill with ", "Top it up with "],
     Date: "2016-09-01 09:50:44",
     isPublic: true,
     Like: 0
@@ -5060,8 +5610,8 @@ const cocktails = [
     Instructions: "Mix, pour over ice and top up with Bitter Lemon.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/wrxrxp1472812609.jpg",
-    Ingredients:[ "Absolut Citron", "Pisang Ambon", "Ice","Bitter lemon"],
-    Measures:[ "2/3 part ", "1/3 part ", " cubes\n"],
+    Ingredients: ["Absolut Citron", "Pisang Ambon", "Ice", "Bitter lemon"],
+    Measures: ["2/3 part ", "1/3 part ", " cubes\n"],
     Date: "2016-09-02 11:36:49",
     isPublic: true,
     Like: 0
@@ -5105,8 +5655,8 @@ const cocktails = [
       "Pour Absolut Kurant into a comfortably big tea-cup. Add the not too hot(!) apple tea and, if you Like, some sugar. Enjoy!",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/xrsrpr1441247464.jpg",
-    Ingredients:[ "Absolut Kurant", "Tea", "Sugar",""],
-    Measures:[ "4 cl ", "Turkish apple ", " (if needed)\n"],
+    Ingredients: ["Absolut Kurant", "Tea", "Sugar"],
+    Measures: ["4 cl ", "Turkish apple ", " (if needed)\n"],
     Date: "2015-09-03 03:31:04",
     isPublic: true,
     Like: 0
@@ -5119,8 +5669,8 @@ const cocktails = [
     Instructions: "This is a layered shot - the Bailey's must be on top",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/vtyqrt1461866508.jpg",
-    Ingredients:[ "Kahlua", "Sambuca", "Bailey's irish cream",""],
-    Measures:[],
+    Ingredients: ["Kahlua", "Sambuca", "Bailey's irish cream"],
+    Measures: ["\n"],
     Date: "2016-04-28 19:01:49",
     isPublic: true,
     Like: 0
@@ -5134,8 +5684,8 @@ const cocktails = [
       "There are many good cherry liqueurs you can use, but I prefere Heering. Add one share of the liqueur. Then you add one share of Soda. For a sour sling use Tonic (most people prefer the drink without Tonic). Afterwards you fill the glass with Orange Juice and ice cubes.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/sxxsyq1472719303.jpg",
-    Ingredients:[ "Cherry Heering", "Soda water", "Orange juice","Ice"],
-    Measures:[ "1 part ", "1 part ", "1 part ", " cubes\n"],
+    Ingredients: ["Cherry Heering", "Soda water", "Orange juice", "Ice"],
+    Measures: ["1 part ", "1 part ", "1 part ", " cubes\n"],
     Date: "2016-09-01 09:41:43",
     isPublic: true,
     Like: 0
@@ -5149,8 +5699,8 @@ const cocktails = [
       "Blend ingredients for 30 seconds. Definitely refreshing for a hot summer's day !",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/qxrvqw1472718959.jpg",
-    Ingredients:[ "Bailey's irish cream", "Vanilla ice-cream", "Cream",""],
-    Measures:[ "2 oz ", "2 scoops "],
+    Ingredients: ["Bailey's irish cream", "Vanilla ice-cream", "Cream"],
+    Measures: ["2 oz ", "2 scoops "],
     Date: "2016-09-01 09:35:59",
     isPublic: true,
     Like: 0
@@ -5178,8 +5728,13 @@ const cocktails = [
     Instructions: "shake vigorously",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/ruxuvp1472669600.jpg",
-    Ingredients:[ "White Creme de Menthe", "Southern Comfort", "Vodka","Hot chocolate"],
-    Measures:[ "1/2 oz ", "3/4 oz ", "1/2 oz ", "Fill with "],
+    Ingredients: [
+      "White Creme de Menthe",
+      "Southern Comfort",
+      "Vodka",
+      "Hot chocolate"
+    ],
+    Measures: ["1/2 oz ", "3/4 oz ", "1/2 oz ", "Fill with "],
     Date: "2016-08-31 19:53:20",
     isPublic: true,
     Like: 0
@@ -5193,8 +5748,13 @@ const cocktails = [
       "Drop shot glass with banana & melon liquers into a 9 oz hi- ball glass containing soda water and cranberry juice. Drink in one shot.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/rsvtrr1472668201.jpg",
-    Ingredients:[ "Cranberry juice", "Soda water", "Midori melon liqueur","Creme de Banane"],
-    Measures:[ "2 oz ", "2 oz ", "0.5 oz ", "0.5 oz "],
+    Ingredients: [
+      "Cranberry juice",
+      "Soda water",
+      "Midori melon liqueur",
+      "Creme de Banane"
+    ],
+    Measures: ["2 oz ", "2 oz ", "0.5 oz ", "0.5 oz "],
     Date: "2016-08-31 19:30:01",
     isPublic: true,
     Like: 0
@@ -5238,8 +5798,8 @@ const cocktails = [
       "Combine liquors in a blender. Add a half scoop of ice and blend. Garnish with an orange and cherry flag. So good it will melt in your mouth!!!",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/mgf0y91503565781.jpg",
-    Ingredients:[ "Spiced rum", "Grenadine", "Orange juice","Sour mix"],
-    Measures:[ "1.5 oz ", "0.5 oz ", "4 oz ", "1 splash "],
+    Ingredients: ["Spiced rum", "Grenadine", "Orange juice", "Sour mix"],
+    Measures: ["1.5 oz ", "0.5 oz ", "4 oz ", "1 splash "],
     Date: "2017-08-24 10:09:41",
     isPublic: true,
     Like: 0
@@ -5253,8 +5813,26 @@ const cocktails = [
       "Combine all ingredients. Blend until smooth. Garnish with chocolate shavings if desired.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/rvwrvv1468877323.jpg",
-    Ingredients:[ "Malibu rum", "Light rum", "151 proof rum","Dark Creme de Cacao", "Cointreau", "Milk", "Coconut liqueur", "Vanilla ice-cream"],
-    Measures:[ "1/2 oz ", "1/2 oz ", "1/2 oz Bacardi ", "1 oz ", "1 oz ", "3 oz ", "1 oz ", "1 cup "],
+    Ingredients: [
+      "Malibu rum",
+      "Light rum",
+      "151 proof rum",
+      "Dark Creme de Cacao",
+      "Cointreau",
+      "Milk",
+      "Coconut liqueur",
+      "Vanilla ice-cream"
+    ],
+    Measures: [
+      "1/2 oz ",
+      "1/2 oz ",
+      "1/2 oz Bacardi ",
+      "1 oz ",
+      "1 oz ",
+      "3 oz ",
+      "1 oz ",
+      "1 cup "
+    ],
     Date: "2016-07-18 22:28:43",
     isPublic: true,
     Like: 0
@@ -5268,8 +5846,8 @@ const cocktails = [
       "Pour 5cl of Cointreau on ice, add 2cl of fresh lemon (or lime) juice, stir gently, and finally add slices of lemon/lime in glass.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/0fbo2t1485620752.jpg",
-    Ingredients:[ "Cointreau", "Lemon juice", "Ice","Lemon"],
-    Measures:[ "5 cl ", "2 cl ", " cubes\n", " or lime\n"],
+    Ingredients: ["Cointreau", "Lemon juice", "Ice", "Lemon"],
+    Measures: ["5 cl ", "2 cl ", " cubes\n", " or lime\n"],
     Date: "2017-01-28 16:25:52",
     isPublic: true,
     Like: 0
@@ -5312,8 +5890,8 @@ const cocktails = [
       "Pour 1oz of Spiced Rum into a highball glass with ice. Fill with Ginger Ale.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/yqstxr1479209367.jpg",
-    Ingredients:[ "Spiced rum", "Ginger ale",""],
-    Measures:[ "1 oz "],
+    Ingredients: ["Spiced rum", "Ginger ale"],
+    Measures: ["1 oz "],
     Date: "2016-11-15 11:29:27",
     isPublic: true,
     Like: 0
@@ -5342,8 +5920,8 @@ const cocktails = [
       "Fill glass with ice and fish, add vodka, grape soda and orange juice. DO NOT STIR!!!!! Serve well chilled.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/ttsvwy1472668781.jpg",
-    Ingredients:[ "Vodka", "Grape soda", "Orange juice","Ice", "Candy"],
-    Measures:[ "1/3 part ", "1/3 part ", "1/3 part ", "lots ", "1 dash "],
+    Ingredients: ["Vodka", "Grape soda", "Orange juice", "Ice", "Candy"],
+    Measures: ["1/3 part ", "1/3 part ", "1/3 part ", "lots ", "1 dash "],
     Date: "2016-08-31 19:39:41",
     isPublic: true,
     Like: 0
@@ -5385,8 +5963,8 @@ const cocktails = [
     Instructions: "Layer in order into a shot glass.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/spuurv1468878783.jpg",
-    Ingredients:[ "Vodka", "Banana liqueur", "Orange juice","Peach schnapps"],
-    Measures:[ "1/4 ", "1/4 ", "1/4 ", "1/4 "],
+    Ingredients: ["Vodka", "Banana liqueur", "Orange juice", "Peach schnapps"],
+    Measures: ["1/4 ", "1/4 ", "1/4 ", "1/4 "],
     Date: "2016-07-18 22:53:03",
     isPublic: true,
     Like: 0
@@ -5399,8 +5977,8 @@ const cocktails = [
     Instructions: "Mix in highball glass. Stirr. Garnish with slice of kiwi.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/tpupvr1478251697.jpg",
-    Ingredients:[ "Kiwi liqueur", "Bitter lemon", "Ice",""],
-    Measures:[ "1 part ", "2 parts ", " cubes\n"],
+    Ingredients: ["Kiwi liqueur", "Bitter lemon", "Ice"],
+    Measures: ["1 part ", "2 parts ", " cubes\n"],
     Date: "2016-11-04 09:28:17",
     isPublic: true,
     Like: 0
@@ -5486,8 +6064,14 @@ const cocktails = [
     Instructions: "Mix all ingredients in a punch bowl and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/wyrsxu1441554538.jpg",
-    Ingredients:[ "Rum", "Ginger ale", "Fruit punch","Orange juice", "Ice"],
-    Measures:[ "mikey bottle ", "large bottle ", "355 ml frozen ", "355 ml frozen ", "crushed "],
+    Ingredients: ["Rum", "Ginger ale", "Fruit punch", "Orange juice", "Ice"],
+    Measures: [
+      "mikey bottle ",
+      "large bottle ",
+      "355 ml frozen ",
+      "355 ml frozen ",
+      "crushed "
+    ],
     Date: "2015-09-06 16:48:58",
     isPublic: true,
     Like: 0
@@ -5514,8 +6098,8 @@ const cocktails = [
     Instructions: "Stir ingredients together. Serve over ice.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/vqwstv1472811884.jpg",
-    Ingredients:[ "Absolut Vodka", "Cranberry juice", "Ginger ale","Ice"],
-    Measures:[ "2 oz ", "4 oz ", "2 oz ", "Add "],
+    Ingredients: ["Absolut Vodka", "Cranberry juice", "Ginger ale", "Ice"],
+    Measures: ["2 oz ", "4 oz ", "2 oz ", "Add "],
     Date: "2016-09-02 11:24:44",
     isPublic: true,
     Like: 0
@@ -5528,8 +6112,14 @@ const cocktails = [
     Instructions: "mix in the glass",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/m7iaxu1504885119.jpg",
-    Ingredients:[ "Cranberry vodka", "Apfelkorn", "Schweppes Russchian","Apple juice", "Ice"],
-    Measures:[ "4 cl ", "2 cl ", "7 cl ", "8 cl ", " cubes\n"],
+    Ingredients: [
+      "Cranberry vodka",
+      "Apfelkorn",
+      "Schweppes Russchian",
+      "Apple juice",
+      "Ice"
+    ],
+    Measures: ["4 cl ", "2 cl ", "7 cl ", "8 cl ", " cubes\n"],
     Date: "2017-09-08 16:38:39",
     isPublic: true,
     Like: 0
@@ -5543,8 +6133,13 @@ const cocktails = [
       "Pour all the ingredients into tumbler over ice. Strain into glass.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/7rnm8u1504888527.jpg",
-    Ingredients:[ "Crown Royal", "Peach schnapps", "Chambord raspberry liqueur","Cranberry juice"],
-    Measures:[ "1 1/2 oz ", "1 oz ", "1/2 oz ", "1 oz "],
+    Ingredients: [
+      "Crown Royal",
+      "Peach schnapps",
+      "Chambord raspberry liqueur",
+      "Cranberry juice"
+    ],
+    Measures: ["1 1/2 oz ", "1 oz ", "1/2 oz ", "1 oz "],
     Date: "2017-09-08 17:35:27",
     isPublic: true,
     Like: 0
@@ -5572,8 +6167,8 @@ const cocktails = [
     Instructions: "Shake with ice.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/xsqsxw1441553580.jpg",
-    Ingredients:[ "Orange juice", "Apple juice", "Pineapple juice","Ice"],
-    Measures:[ "1 part ", "1 part ", "1 part "],
+    Ingredients: ["Orange juice", "Apple juice", "Pineapple juice", "Ice"],
+    Measures: ["1 part ", "1 part ", "1 part "],
     Date: "2015-09-06 16:33:00",
     isPublic: true,
     Like: 0
@@ -5586,8 +6181,13 @@ const cocktails = [
     Instructions: "Stirr. Grnish with maraschino cherry.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/uptxtv1468876415.jpg",
-    Ingredients:[ "Orange juice", "Grapefruit juice", "Apple juice","Maraschino cherry"],
-    Measures:[ "4 cl ", "3 cl ", "1 cl ", "1 "],
+    Ingredients: [
+      "Orange juice",
+      "Grapefruit juice",
+      "Apple juice",
+      "Maraschino cherry"
+    ],
+    Measures: ["4 cl ", "3 cl ", "1 cl ", "1 "],
     Date: "2016-07-18 22:13:35",
     isPublic: true,
     Like: 0
@@ -5601,8 +6201,13 @@ const cocktails = [
       "Mix all ingredients and Shake well. Sweet at first, with a BITE at the end...",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/rtohqp1504889750.jpg",
-    Ingredients:[ "Yukon Jack", "Cherry brandy", "Southern Comfort","Sweet and sour"],
-    Measures:[ "1 part ", "1/2 part ", "1 part ", "1 splash "],
+    Ingredients: [
+      "Yukon Jack",
+      "Cherry brandy",
+      "Southern Comfort",
+      "Sweet and sour"
+    ],
+    Measures: ["1 part ", "1/2 part ", "1 part ", "1 splash "],
     Date: "2017-09-08 17:55:50",
     isPublic: true,
     Like: 0
@@ -5616,8 +6221,8 @@ const cocktails = [
       "Pour the vodka and creme over some ice cubes in a tall glass and fill up with juice. to make it beuty full make the top of the glass with a grenadine and sugar",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/xrl66i1493068702.jpg",
-    Ingredients:[ "Vodka", "Creme de Banane", "Orange juice",""],
-    Measures:[ "2 cl ", "1 cl "],
+    Ingredients: ["Vodka", "Creme de Banane", "Orange juice"],
+    Measures: ["2 cl ", "1 cl "],
     Date: "2017-04-24 22:18:22",
     isPublic: true,
     Like: 0
@@ -5631,8 +6236,8 @@ const cocktails = [
       'Take a tall glass and put in a few ice cubes, fill the vodka over it and fill with juice then the "creme", to end fill in the grenadine but very carefully at the side of the glass so it will lay down in the bottom. garnish with orange and strawberry.',
     Image:
       "https://www.thecocktaildb.com/images/media/drink/szmj2d1504889961.jpg",
-    Ingredients:[ "Vodka", "Creme de Banane", "Grenadine","Orange juice"],
-    Measures:[ "2 cl ", "2 cl "],
+    Ingredients: ["Vodka", "Creme de Banane", "Grenadine", "Orange juice"],
+    Measures: ["2 cl ", "2 cl ", "\n"],
     Date: "2017-09-08 17:59:21",
     isPublic: true,
     Like: 0
@@ -5661,8 +6266,8 @@ const cocktails = [
       "Shake Rum, Amaretto, and Orange Juice in a shaker filled with ice. Strain over ice into a highball glass. Add Grenadine and garnish with a Pineapple Wedge and a Strawberry.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/trptts1454514474.jpg",
-    Ingredients:[ "Coconut rum", "Amaretto", "Orange juice","Grenadine"],
-    Measures:[ "1 oz ", "1/2 oz ", "4 oz ", "1/2 oz "],
+    Ingredients: ["Coconut rum", "Amaretto", "Orange juice", "Grenadine"],
+    Measures: ["1 oz ", "1/2 oz ", "4 oz ", "1/2 oz "],
     Date: "2016-02-03 15:47:54",
     isPublic: true,
     Like: 0
@@ -5690,8 +6295,15 @@ const cocktails = [
       "Fill glass with ice and add shots of Bacardi and Malibu. Add splash of pineapple juice and top with orange juice. Add grenadine for color and garnish with cherries.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/vxtjbx1504817842.jpg",
-    Ingredients:[ "151 proof rum", "Malibu rum", "Pineapple juice","Orange juice", "Grenadine", "Cherries"],
-    Measures:[ "1 shot Bacardi ", "1 shot ", "1 shot "],
+    Ingredients: [
+      "151 proof rum",
+      "Malibu rum",
+      "Pineapple juice",
+      "Orange juice",
+      "Grenadine",
+      "Cherries"
+    ],
+    Measures: ["1 shot Bacardi ", "1 shot ", "1 shot "],
     Date: "2017-09-07 21:57:23",
     isPublic: true,
     Like: 0
@@ -5719,8 +6331,14 @@ const cocktails = [
       "Fill a tall glass with ice. Layer the Finlandia Vodka, lemon and apple juices, Pisang Ambon, and top up with lemonade. Stir slightly and garnish with a spiralled cucumber skin and a red cherry. The cucumber provides zest and looks attractive. This drink, created by Timo Haimi, took first prize in the 1991 Finlandia Vodka Long Drink Competition.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/3k9qic1493068931.jpg",
-    Ingredients:[ "Vodka", "Pisang Ambon", "Apple juice","Lemon juice", "Lemonade"],
-    Measures:[ "3 parts", "1 part ", "6 parts ", "1 1/2 part "],
+    Ingredients: [
+      "Vodka",
+      "Pisang Ambon",
+      "Apple juice",
+      "Lemon juice",
+      "Lemonade"
+    ],
+    Measures: ["3 parts", "1 part ", "6 parts ", "1 1/2 part "],
     Date: "2017-04-24 22:22:11",
     isPublic: true,
     Like: 0
@@ -5749,8 +6367,26 @@ const cocktails = [
       "Fill 14oz glass with ice and alcohol. Fill 2/3 glass with cola and remainder with sweet & sour. Top with dash of bitters and lemon wedge.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/rrtssw1472668972.jpg",
-    Ingredients:[ "Gin", "Light rum", "Tequila","Triple sec", "Vodka", "Coca-Cola", "Sweet and sour", "Bitters", "Lemon"],
-    Measures:[ "1/2 oz ", "1/2 oz ", "1/2 oz ", "1/2 oz ", "1/2 oz ", "1-2 dash ", "1 wedge "],
+    Ingredients: [
+      "Gin",
+      "Light rum",
+      "Tequila",
+      "Triple sec",
+      "Vodka",
+      "Coca-Cola",
+      "Sweet and sour",
+      "Bitters",
+      "Lemon"
+    ],
+    Measures: [
+      "1/2 oz ",
+      "1/2 oz ",
+      "1/2 oz ",
+      "1/2 oz ",
+      "1/2 oz ",
+      "1-2 dash ",
+      "1 wedge "
+    ],
     Date: "2016-08-31 19:42:52",
     isPublic: true,
     Like: 0
@@ -5791,8 +6427,8 @@ const cocktails = [
     Instructions: "Blend with ice. Serve in a wine glass. Garnish with carrot.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/yqvvqs1475667388.jpg",
-    Ingredients:[ "Dark rum", "Light rum", "Vodka","Orange juice"],
-    Measures:[ "1 shot ", "2 shots ", "1 shot ", "1 shot "],
+    Ingredients: ["Dark rum", "Light rum", "Vodka", "Orange juice"],
+    Measures: ["1 shot ", "2 shots ", "1 shot ", "1 shot "],
     Date: "2016-10-05 12:36:28",
     isPublic: true,
     Like: 0
@@ -5806,8 +6442,26 @@ const cocktails = [
       "Shake ingredients in a mixing tin filled with ice cubes. Strain into a rocks glass.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/uxywyw1468877224.jpg",
-    Ingredients:[ "Absolut Kurant", "Grand Marnier", "Chambord raspberry liqueur","Midori melon liqueur", "Malibu rum", "Amaretto", "Cranberry juice", "Pineapple juice"],
-    Measures:[ "1/2 oz ", "1/4 oz ", "1/4 oz ", "1/4 oz ", "1/4 oz ", "1/4 oz ", "1/2 oz ", "1/4 oz "],
+    Ingredients: [
+      "Absolut Kurant",
+      "Grand Marnier",
+      "Chambord raspberry liqueur",
+      "Midori melon liqueur",
+      "Malibu rum",
+      "Amaretto",
+      "Cranberry juice",
+      "Pineapple juice"
+    ],
+    Measures: [
+      "1/2 oz ",
+      "1/4 oz ",
+      "1/4 oz ",
+      "1/4 oz ",
+      "1/4 oz ",
+      "1/4 oz ",
+      "1/2 oz ",
+      "1/4 oz "
+    ],
     Date: "2016-07-18 22:27:04",
     isPublic: true,
     Like: 0
@@ -5820,8 +6474,8 @@ const cocktails = [
     Instructions: "Mix it as a ordinary drink .",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/rpttur1454515129.jpg",
-    Ingredients:[ "Vodka", "Schweppes Russchian",""],
-    Measures:[ "2 oz "],
+    Ingredients: ["Vodka", "Schweppes Russchian"],
+    Measures: ["2 oz "],
     Date: "2016-02-03 15:58:49",
     isPublic: true,
     Like: 0
@@ -5862,8 +6516,13 @@ const cocktails = [
     Instructions: "Serve in an old fashioned glass.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/vsrsqu1472761749.jpg",
-    Ingredients:[ "Malibu rum", "Peach schnapps", "Blue Curacao","Sweet and sour"],
-    Measures:[ "1 1/2 cl ", "1 1/2 cl ", "1 1/2 cl ", "3 cl "],
+    Ingredients: [
+      "Malibu rum",
+      "Peach schnapps",
+      "Blue Curacao",
+      "Sweet and sour"
+    ],
+    Measures: ["1 1/2 cl ", "1 1/2 cl ", "1 1/2 cl ", "3 cl "],
     Date: "2016-09-01 21:29:09",
     isPublic: true,
     Like: 0
@@ -5891,8 +6550,8 @@ const cocktails = [
     Instructions: "Mix Coffee, Jack Daniels and Amaretto. Add Cream on top.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/txruqv1441245770.jpg",
-    Ingredients:[ "Coffee", "Jack Daniels", "Amaretto","Whipped cream"],
-    Measures:[ "8 oz ", "4 oz ", "4 oz "],
+    Ingredients: ["Coffee", "Jack Daniels", "Amaretto", "Whipped cream"],
+    Measures: ["8 oz ", "4 oz ", "4 oz "],
     Date: "2015-09-03 03:02:50",
     isPublic: true,
     Like: 0
@@ -5921,8 +6580,8 @@ const cocktails = [
       "Fill blender up with ice. Fill half with Bartons Vodka. Put 10 tsp of sugar, add 1/2 can lemonade concentrate, fill to top with water. Blend for 60 seconds.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/vtuyvu1472812112.jpg",
-    Ingredients:[ "Vodka", "Lemonade", "Water","Sugar"],
-    Measures:[ "1/2 ", "1/2 can ", "1/2 ", "10 tsp "],
+    Ingredients: ["Vodka", "Lemonade", "Water", "Sugar"],
+    Measures: ["1/2 ", "1/2 can ", "1/2 ", "10 tsp "],
     Date: "2016-09-02 11:28:32",
     isPublic: true,
     Like: 0
@@ -5935,8 +6594,14 @@ const cocktails = [
     Instructions: "Mix well. Garnish with Orange and Cherry. Enjoy",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/xuyqrw1472811825.jpg",
-    Ingredients:[ "Absolut Vodka", "Peach schnapps", "Coconut liqueur","Cranberry juice", "Pineapple juice"],
-    Measures:[ "1 1/2 oz ", "1/2 oz ", "1/2 oz ", "1 1/2 oz ", "1 1/2 oz "],
+    Ingredients: [
+      "Absolut Vodka",
+      "Peach schnapps",
+      "Coconut liqueur",
+      "Cranberry juice",
+      "Pineapple juice"
+    ],
+    Measures: ["1 1/2 oz ", "1/2 oz ", "1/2 oz ", "1 1/2 oz ", "1 1/2 oz "],
     Date: "2016-09-02 11:23:45",
     isPublic: true,
     Like: 0
@@ -5950,8 +6615,26 @@ const cocktails = [
       "blend liqeuors with ice-cream, milk and syrup. pour into parfait glass, top with whipped cream and garnish with banana and cherry.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/tyvpxt1468875212.jpg",
-    Ingredients:[ "Banana liqueur", "Creme de Cacao", "Chocolate ice-cream","Chocolate syrup", "Chocolate milk", "Whipped cream", "Cherry", "Banana"],
-    Measures:[ "1 shot ", "2 shots ", "2 scoops ", "1 oz ", "4 oz ", "1 ", "1 ", "1 piece "],
+    Ingredients: [
+      "Banana liqueur",
+      "Creme de Cacao",
+      "Chocolate ice-cream",
+      "Chocolate syrup",
+      "Chocolate milk",
+      "Whipped cream",
+      "Cherry",
+      "Banana"
+    ],
+    Measures: [
+      "1 shot ",
+      "2 shots ",
+      "2 scoops ",
+      "1 oz ",
+      "4 oz ",
+      "1 ",
+      "1 ",
+      "1 piece "
+    ],
     Date: "2016-07-18 21:53:32",
     isPublic: true,
     Like: 0
@@ -5965,8 +6648,14 @@ const cocktails = [
       "Blend with Ice until smooth. Serve in a tulip glass, top with whip cream.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/ypl13s1504890158.jpg",
-    Ingredients:[ "Kahlua", "Irish cream", "Amaretto","151 proof rum", "Cream"],
-    Measures:[ "1/2 oz ", "1/2 oz ", "1/2 oz ", "1/2 oz Bacardi ", "1 oz "],
+    Ingredients: [
+      "Kahlua",
+      "Irish cream",
+      "Amaretto",
+      "151 proof rum",
+      "Cream"
+    ],
+    Measures: ["1/2 oz ", "1/2 oz ", "1/2 oz ", "1/2 oz Bacardi ", "1 oz "],
     Date: "2017-09-08 18:02:39",
     isPublic: true,
     Like: 0
@@ -5980,8 +6669,14 @@ const cocktails = [
       "Mix the strawberrys in a blender Pour it together with the vodka,kirch and strawberry liquer over ice in a shaker. Shake well and pour in a highballglass. Fill up with the Russchian water",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/ysqvqp1461867292.jpg",
-    Ingredients:[ "Vodka", "Kirschwasser", "Strawberry liqueur","Strawberries", "Schweppes Russchian"],
-    Measures:[ "2 oz ", "1 oz ", "1 tsp ", "5 "],
+    Ingredients: [
+      "Vodka",
+      "Kirschwasser",
+      "Strawberry liqueur",
+      "Strawberries",
+      "Schweppes Russchian"
+    ],
+    Measures: ["2 oz ", "1 oz ", "1 tsp ", "5 "],
     Date: "2016-04-28 19:14:52",
     isPublic: true,
     Like: 0
@@ -5995,8 +6690,16 @@ const cocktails = [
       "No specific mixinginstructions, just poor every ingredient in one glass. The lemon goes with it.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/ft8ed01485620930.jpg",
-    Ingredients:[ "Beer", "Root beer", "Lemonade","Coca-Cola", "7-Up", "Creme de Cassis", "Lemon"],
-    Measures:[ "\n", " slice\n"],
+    Ingredients: [
+      "Beer",
+      "Root beer",
+      "Lemonade",
+      "Coca-Cola",
+      "7-Up",
+      "Creme de Cassis",
+      "Lemon"
+    ],
+    Measures: ["\n", " slice\n"],
     Date: "2017-01-28 16:28:50",
     isPublic: true,
     Like: 0
@@ -6085,8 +6788,8 @@ const cocktails = [
       "Stir the rum, coffee and water together. Top with the whipped cream. Sprinkle with a pinch of well ground coffee and drink with a straw.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/xqptps1441247257.jpg",
-    Ingredients:[ "Rum", "Coffee", "Water","Whipped cream"],
-    Measures:[ "1/6 glass ", "1/6 glass strong black ", "1/2 glass cold "],
+    Ingredients: ["Rum", "Coffee", "Water", "Whipped cream"],
+    Measures: ["1/6 glass ", "1/6 glass strong black ", "1/2 glass cold "],
     Date: "2015-09-03 03:27:37",
     isPublic: true,
     Like: 0
@@ -6115,8 +6818,14 @@ const cocktails = [
       "Pour all ingrediants into a large punch bowl. Add ice and 4 oranges that are peeled and divided.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/tuxxtp1472668667.jpg",
-    Ingredients:[ "Apricot brandy", "Champagne", "Vodka","7-Up", "Orange juice"],
-    Measures:[ "1 qt ", "4 fifth ", "1 fifth ", "4 L ", "1/2 gal "],
+    Ingredients: [
+      "Apricot brandy",
+      "Champagne",
+      "Vodka",
+      "7-Up",
+      "Orange juice"
+    ],
+    Measures: ["1 qt ", "4 fifth ", "1 fifth ", "4 L ", "1/2 gal "],
     Date: "2016-08-31 19:37:47",
     isPublic: true,
     Like: 0
@@ -6143,8 +6852,8 @@ const cocktails = [
     Instructions: "Mix sambuca with rootbeer and stir. Add ice",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/bje5401485619578.jpg",
-    Ingredients:[ "Sambuca", "Root beer", "Ice",""],
-    Measures:[ "1 1/2 oz ", "Add 10 oz ", " cubes\n"],
+    Ingredients: ["Sambuca", "Root beer", "Ice"],
+    Measures: ["1 1/2 oz ", "Add 10 oz ", " cubes\n"],
     Date: "2017-01-28 16:06:18",
     isPublic: true,
     Like: 0
@@ -6158,8 +6867,8 @@ const cocktails = [
       "Pour the Campari and vermouth over ice into glass, add a splash of soda water and garnish with half orange slice.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/trwruu1478253126.jpg",
-    Ingredients:[ "Campari", "Sweet Vermouth", "Lemon peel","Orange peel"],
-    Measures:[ "1 oz ", "1 oz red ", "Twist of ", "Twist of "],
+    Ingredients: ["Campari", "Sweet Vermouth", "Lemon peel", "Orange peel"],
+    Measures: ["1 oz ", "1 oz red ", "Twist of ", "Twist of "],
     Date: "2016-11-04 09:52:06",
     isPublic: true,
     Like: 0
@@ -6173,8 +6882,8 @@ const cocktails = [
       "In a blender put ice cubes, chocolate syrup, cherry brandy, vodka, and milk. Blend very well.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/xxtxsu1472720505.jpg",
-    Ingredients:[ "Ice", "Chocolate syrup", "Cherry brandy","Vodka", "Milk"],
-    Measures:[ " cubes\n"],
+    Ingredients: ["Ice", "Chocolate syrup", "Cherry brandy", "Vodka", "Milk"],
+    Measures: [" cubes\n"],
     Date: "2016-09-01 10:01:45",
     isPublic: true,
     Like: 0
@@ -6260,8 +6969,8 @@ const cocktails = [
       "Shake sour mix, tequila and amaretto with ice. Strain into highball glass. Add a splash of OJ. Garnish with orange slice and a cherry.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/wutxqr1472720012.jpg",
-    Ingredients:[ "Sour mix", "Amaretto", "Tequila","Orange juice"],
-    Measures:[ "2 oz ", "2 oz ", "2 oz ", "Add splash "],
+    Ingredients: ["Sour mix", "Amaretto", "Tequila", "Orange juice"],
+    Measures: ["2 oz ", "2 oz ", "2 oz ", "Add splash "],
     Date: "2016-09-01 09:53:32",
     isPublic: true,
     Like: 0
@@ -6275,8 +6984,13 @@ const cocktails = [
       "Combine all ingredients in glass mixer. Chill and strain into Cocktail glass. Garnish with sliced strawberry.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/xvwusr1472669302.jpg",
-    Ingredients:[ "Absolut Citron", "Orange Curacao", "Strawberry liqueur","Orange juice"],
-    Measures:[ "2 oz ", "1/2 oz ", "1 splash ", "1 oz "],
+    Ingredients: [
+      "Absolut Citron",
+      "Orange Curacao",
+      "Strawberry liqueur",
+      "Orange juice"
+    ],
+    Measures: ["2 oz ", "1/2 oz ", "1 splash ", "1 oz "],
     Date: "2016-08-31 19:48:22",
     isPublic: true,
     Like: 0
@@ -6290,8 +7004,8 @@ const cocktails = [
       "Shake it up it tasts better that way, but you can stir it if you want. 6 of those and you will be wasted for the rest of the night.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/yvxrwv1472669728.jpg",
-    Ingredients:[ "Absolut Citron", "Orange juice", "Triple sec","Ginger ale"],
-    Measures:[ "1 shot ", "1 shot ", "1 shot ", "Fill to top "],
+    Ingredients: ["Absolut Citron", "Orange juice", "Triple sec", "Ginger ale"],
+    Measures: ["1 shot ", "1 shot ", "1 shot ", "Fill to top "],
     Date: "2016-08-31 19:55:28",
     isPublic: true,
     Like: 0
@@ -6305,8 +7019,8 @@ const cocktails = [
       "Place all ingredients in a blender and blend until smooth. This makes one drink.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/srpxxp1441209622.jpg",
-    Ingredients:[ "Ice", "Tequila", "Cream of coconut","Lime juice"],
-    Measures:[ "1 cup ", "2 oz ", "1/4 cup ", "3 tblsp fresh "],
+    Ingredients: ["Ice", "Tequila", "Cream of coconut", "Lime juice"],
+    Measures: ["1 cup ", "2 oz ", "1/4 cup ", "3 tblsp fresh "],
     Date: "2015-09-02 17:00:22",
     isPublic: true,
     Like: 0
@@ -6320,8 +7034,14 @@ const cocktails = [
       "Add ice cubes to shaker.\r\nAdd vodka.\r\nAdd peach schnapps.\r\nAdd peach nectar.\r\nShake.\r\nStrain into glass.\r\nAdd lemon twist peel.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/3h9wv51504389379.jpg",
-    Ingredients:[ "Ice", "Vodka", "Peach nectar","Peach schnapps", "Lemon peel"],
-    Measures:[ "8 cubes ", "3 oz ", "1.5 oz ", "1.5 oz ", "1 "],
+    Ingredients: [
+      "Ice",
+      "Vodka",
+      "Peach nectar",
+      "Peach schnapps",
+      "Lemon peel"
+    ],
+    Measures: ["8 cubes ", "3 oz ", "1.5 oz ", "1.5 oz ", "1 "],
     Date: "2017-09-02 22:56:19",
     isPublic: true,
     Like: 0
@@ -6335,8 +7055,24 @@ const cocktails = [
       "Wet glass, dip rim in sugar. Then add Ice. Then add everything else. It's that simple!",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/wwqvrq1441245318.jpg",
-    Ingredients:[ "Gin", "Vodka", "Grenadine","Lime juice", "Sugar", "Sugar syrup", "Soda water"],
-    Measures:[ "2 jiggers ", "1 jigger ", "3 dashes ", "1 shot ", "Around rim put 1 pinch ", "3 dashes ", "Fill to top with "],
+    Ingredients: [
+      "Gin",
+      "Vodka",
+      "Grenadine",
+      "Lime juice",
+      "Sugar",
+      "Sugar syrup",
+      "Soda water"
+    ],
+    Measures: [
+      "2 jiggers ",
+      "1 jigger ",
+      "3 dashes ",
+      "1 shot ",
+      "Around rim put 1 pinch ",
+      "3 dashes ",
+      "Fill to top with "
+    ],
     Date: "2015-09-03 02:55:18",
     isPublic: true,
     Like: 0
@@ -6379,8 +7115,14 @@ const cocktails = [
     Instructions: "Mix all ingredients in glass & add ice.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/vqws6t1504888857.jpg",
-    Ingredients:[ "Malibu rum", "Blackberry brandy", "Orange juice","Pineapple juice", "Cranberry juice"],
-    Measures:[ "1 1/2 oz ", "1 oz ", "3-4 oz ", "3-4 oz ", "3-4 oz "],
+    Ingredients: [
+      "Malibu rum",
+      "Blackberry brandy",
+      "Orange juice",
+      "Pineapple juice",
+      "Cranberry juice"
+    ],
+    Measures: ["1 1/2 oz ", "1 oz ", "3-4 oz ", "3-4 oz ", "3-4 oz "],
     Date: "2017-09-08 17:40:57",
     isPublic: true,
     Like: 0
@@ -6394,8 +7136,8 @@ const cocktails = [
       "Mix the whisky and Baileys Cream in a beer-glass (at least 50 cl). Fill the rest of the glass with coffee.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/upusyu1472667977.jpg",
-    Ingredients:[ "Whisky", "Bailey's irish cream", "Coffee",""],
-    Measures:[ "4 cl ", "8 cl "],
+    Ingredients: ["Whisky", "Bailey's irish cream", "Coffee"],
+    Measures: ["4 cl ", "8 cl "],
     Date: "2016-08-31 19:26:18",
     isPublic: true,
     Like: 0
@@ -6439,8 +7181,8 @@ const cocktails = [
       "After pouring in your ingredients, and adding 3-5 ice cubes, according to taste. Stir the drink with a stirrer to get the Vanilla off the bottom.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/kjnt7z1504793319.jpg",
-    Ingredients:[ "Ice", "Tennessee whiskey", "Vanilla extract","Coca-Cola"],
-    Measures:[ "4-5 ", "2 oz ", "1 tsp ", "10-12 oz "],
+    Ingredients: ["Ice", "Tennessee whiskey", "Vanilla extract", "Coca-Cola"],
+    Measures: ["4-5 ", "2 oz ", "1 tsp ", "10-12 oz "],
     Date: "2017-09-07 15:08:39",
     isPublic: true,
     Like: 0
@@ -6468,8 +7210,8 @@ const cocktails = [
       "Pour Shot of Rum over slice of orange. Fill the remaining space in glass half way full of surge or similar drink. Finish off glass with cranberry juice. Be carefull, warm surge may foam over the glass.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/usuvvr1472719118.jpg",
-    Ingredients:[ "Dark rum", "Orange", "Surge","Cranberry juice"],
-    Measures:[ "1 shot ", "1 slice ", "1/2 glass ", "1/2 glass "],
+    Ingredients: ["Dark rum", "Orange", "Surge", "Cranberry juice"],
+    Measures: ["1 shot ", "1 slice ", "1/2 glass ", "1/2 glass "],
     Date: "2016-09-01 09:38:38",
     isPublic: true,
     Like: 0
@@ -6498,8 +7240,17 @@ const cocktails = [
       "Add ice to blender (or to glass if prefer on the rocks) then fruit, and fruite juice depending on personal prefference then add the Rum, Vodka, Tequila, and triple sec. blend till smooth, rim glass with sugar or salt and pour mixture in. garnish with lemon or lime slice.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/tpxurs1454513016.jpg",
-    Ingredients:[ "Rum", "Vodka", "Tequila","Triple sec", "Fruit", "Ice", "Salt", "Fruit juice"],
-    Measures:[ "1 part ", "1 part ", "1 part ", "1/2 part ", "1-3 pint "],
+    Ingredients: [
+      "Rum",
+      "Vodka",
+      "Tequila",
+      "Triple sec",
+      "Fruit",
+      "Ice",
+      "Salt",
+      "Fruit juice"
+    ],
+    Measures: ["1 part ", "1 part ", "1 part ", "1/2 part ", "1-3 pint "],
     Date: "2016-02-03 15:23:36",
     isPublic: true,
     Like: 0
@@ -6541,8 +7292,8 @@ const cocktails = [
     Instructions: "Put ice in glass. Pour in shots. Fill with Sour Mix.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/tqxyxx1472719737.jpg",
-    Ingredients:[ "Amaretto", "Southern Comfort", "Ice","Sour mix"],
-    Measures:[ "1 shot ", "1 shot ", " cubes\n"],
+    Ingredients: ["Amaretto", "Southern Comfort", "Ice", "Sour mix"],
+    Measures: ["1 shot ", "1 shot ", " cubes\n"],
     Date: "2016-09-01 09:48:57",
     isPublic: true,
     Like: 0
@@ -6585,8 +7336,8 @@ const cocktails = [
       "Pour the Sambuca and Kahlua into the Cocktail Glass and give the drinker a straw. Pour the Baileys and Blue Curacao into two sepsrate shot glasses either side of the cocktail glass. Set light the concotion in the cocktail glass and start to drink through the straw (this drink should be drunk in one) , as the bottom of the glass is reached put out the fire by pouring the Baileys and Blue Curacao into the cocktail glass and keep drinking till it's all gone!!",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/yywpss1461866587.jpg",
-    Ingredients:[ "Kahlua", "Sambuca", "Blue Curacao","Bailey's irish cream"],
-    Measures:[ "1 oz ", "1 oz ", "1 oz ", "1 oz "],
+    Ingredients: ["Kahlua", "Sambuca", "Blue Curacao", "Bailey's irish cream"],
+    Measures: ["1 oz ", "1 oz ", "1 oz ", "1 oz "],
     Date: "2016-04-28 19:03:07",
     isPublic: true,
     Like: 0
@@ -6614,8 +7365,8 @@ const cocktails = [
     Instructions: "Shaken, not stirred!",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/wysqut1461867176.jpg",
-    Ingredients:[ "Vodka", "Peach schnapps", "Orange juice","Cranberry juice"],
-    Measures:[ "1 oz ", "1 oz ", "3 oz ", "3 oz "],
+    Ingredients: ["Vodka", "Peach schnapps", "Orange juice", "Cranberry juice"],
+    Measures: ["1 oz ", "1 oz ", "3 oz ", "3 oz "],
     Date: "2016-04-28 19:12:56",
     isPublic: true,
     Like: 0
@@ -6628,8 +7379,8 @@ const cocktails = [
     Instructions: "Stir. Add whipped cream to the top.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/uppqty1441247374.jpg",
-    Ingredients:[ "Kahlua", "Brandy", "Coffee",""],
-    Measures:[ "1 oz ", "1/2 oz "],
+    Ingredients: ["Kahlua", "Brandy", "Coffee"],
+    Measures: ["1 oz ", "1/2 oz "],
     Date: "2015-09-03 03:29:34",
     isPublic: true,
     Like: 0
@@ -6672,8 +7423,8 @@ const cocktails = [
       "Blend all ingredients, save nutmeg. Pour into large white wine glass and sprinkle nutmeg on top.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/xwxyux1441254243.jpg",
-    Ingredients:[ "Vodka", "Half-and-half", "Limeade","Ice", "Nutmeg"],
-    Measures:[ "2 oz ", "2 oz ", "2 oz "],
+    Ingredients: ["Vodka", "Half-and-half", "Limeade", "Ice", "Nutmeg"],
+    Measures: ["2 oz ", "2 oz ", "2 oz "],
     Date: "2015-09-03 05:24:03",
     isPublic: true,
     Like: 0
@@ -6687,8 +7438,26 @@ const cocktails = [
       "Pour all ingredients over ice in a very tall glass. Sip cautiously.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/rdvqmh1503563512.jpg",
-    Ingredients:[ "Rum", "Vodka", "Tequila","Gin", "Triple sec", "Chambord raspberry liqueur", "Midori melon liqueur", "Malibu rum"],
-    Measures:[ "1 oz ", "1 oz ", "1 oz ", "1 oz ", "1 oz ", "1 oz ", "1 oz ", "1 oz "],
+    Ingredients: [
+      "Rum",
+      "Vodka",
+      "Tequila",
+      "Gin",
+      "Triple sec",
+      "Chambord raspberry liqueur",
+      "Midori melon liqueur",
+      "Malibu rum"
+    ],
+    Measures: [
+      "1 oz ",
+      "1 oz ",
+      "1 oz ",
+      "1 oz ",
+      "1 oz ",
+      "1 oz ",
+      "1 oz ",
+      "1 oz "
+    ],
     Date: "2017-08-24 09:31:52",
     isPublic: true,
     Like: 0
@@ -6716,8 +7485,8 @@ const cocktails = [
     Instructions: "Mix all ingredients, and pour over ice.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/6bec6v1503563675.jpg",
-    Ingredients:[ "Southern Comfort", "Triple sec", "Lime","Sour mix"],
-    Measures:[ "2 oz ", "1/2 oz ", "2 wedges ", "2 oz "],
+    Ingredients: ["Southern Comfort", "Triple sec", "Lime", "Sour mix"],
+    Measures: ["2 oz ", "1/2 oz ", "2 wedges ", "2 oz "],
     Date: "2017-08-24 09:34:35",
     isPublic: true,
     Like: 0
@@ -6731,8 +7500,8 @@ const cocktails = [
       "Pour Irish Cream, Vodka, and Bourbon in a glass. Add some ice and mix in the orange juice.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/yrhutv1503563730.jpg",
-    Ingredients:[ "Bailey's irish cream", "Bourbon", "Vodka","Orange juice"],
-    Measures:[ "3/4 oz ", "3/4 oz ", "3/4 oz ", "2-3 oz "],
+    Ingredients: ["Bailey's irish cream", "Bourbon", "Vodka", "Orange juice"],
+    Measures: ["3/4 oz ", "3/4 oz ", "3/4 oz ", "2-3 oz "],
     Date: "2017-08-24 09:35:30",
     isPublic: true,
     Like: 0
@@ -6746,8 +7515,8 @@ const cocktails = [
       "Put 2 shots Godiva Liquour into a glass, add as much or as little milk as you would Like.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/j6rq6h1503563821.jpg",
-    Ingredients:[ "Godiva liqueur", "Milk",""],
-    Measures:[ "2 shots "],
+    Ingredients: ["Godiva liqueur", "Milk"],
+    Measures: ["2 shots "],
     Date: "2017-08-24 09:37:01",
     isPublic: true,
     Like: 0
@@ -6761,8 +7530,8 @@ const cocktails = [
       "Start with the Sprite. Next comes the tequila. After that, add the Minute Maid Fruit Punch, then float the 151. Rocks optional.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/y36z8c1503563911.jpg",
-    Ingredients:[ "Fruit punch", "Sprite", "Tequila","151 proof rum"],
-    Measures:[ "2 part ", "1 part ", "2 shots ", "Float Bacardi "],
+    Ingredients: ["Fruit punch", "Sprite", "Tequila", "151 proof rum"],
+    Measures: ["2 part ", "1 part ", "2 shots ", "Float Bacardi "],
     Date: "2017-08-24 09:38:31",
     isPublic: true,
     Like: 0
@@ -6775,8 +7544,14 @@ const cocktails = [
     Instructions: "mix all ingredients into bowl keep iced stir frequently",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/6vigjx1503564007.jpg",
-    Ingredients:[ "Everclear", "Vodka", "Peach schnapps","Orange juice", "Cranberry juice"],
-    Measures:[ "750 ml ", "1750 ml ", "1750 ml ", "1 gal ", "1 gal "],
+    Ingredients: [
+      "Everclear",
+      "Vodka",
+      "Peach schnapps",
+      "Orange juice",
+      "Cranberry juice"
+    ],
+    Measures: ["750 ml ", "1750 ml ", "1750 ml ", "1 gal ", "1 gal "],
     Date: "2017-08-24 09:40:07",
     isPublic: true,
     Like: 0
@@ -6789,8 +7564,8 @@ const cocktails = [
     Instructions: "Pour ingredients over ice and stir.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/ttyrxr1454514759.jpg",
-    Ingredients:[ "Orange juice", "Rum", "Vodka","Cream", "Ice"],
-    Measures:[ "4 oz ", "1 oz ", "1 oz ", "1 package ", "Over "],
+    Ingredients: ["Orange juice", "Rum", "Vodka", "Cream", "Ice"],
+    Measures: ["4 oz ", "1 oz ", "1 oz ", "1 package ", "Over "],
     Date: "2016-02-03 15:52:39",
     isPublic: true,
     Like: 0
@@ -6804,8 +7579,13 @@ const cocktails = [
       "Pour all ingredients in a mixing tin over ice, stir, and strain into shot glass",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/7if5kq1503564209.jpg",
-    Ingredients:[ "Vodka", "Chambord raspberry liqueur", "Peachtree schnapps","Cranberry juice"],
-    Measures:[ "1/2 oz ", "1/2 oz ", "1/2 oz ", "1/2 oz "],
+    Ingredients: [
+      "Vodka",
+      "Chambord raspberry liqueur",
+      "Peachtree schnapps",
+      "Cranberry juice"
+    ],
+    Measures: ["1/2 oz ", "1/2 oz ", "1/2 oz ", "1/2 oz "],
     Date: "2017-08-24 09:43:29",
     isPublic: true,
     Like: 0
@@ -6833,8 +7613,8 @@ const cocktails = [
       'Rub the rim of an old fashioned glass with lemon, and dip repeatedly into granulated sugar until it has a good "frosted" rim. Shake a jigger of Amaretto with the juice of 1/2 a lemon. Strain into glass and add ice. Garnish with a Marachino Cherry.',
     Image:
       "https://www.thecocktaildb.com/images/media/drink/rptuxy1472669372.jpg",
-    Ingredients:[ "Amaretto", "Lemon", "Ice","Maraschino cherry"],
-    Measures:[ "1 jigger ", "Juice of 1/2 "],
+    Ingredients: ["Amaretto", "Lemon", "Ice", "Maraschino cherry"],
+    Measures: ["1 jigger ", "Juice of 1/2 ", "\n"],
     Date: "2016-08-31 19:49:32",
     isPublic: true,
     Like: 0
@@ -6863,8 +7643,8 @@ const cocktails = [
       "Add the ingredients in the order listed in the recipe. Care must be taken when adding the Guinness to prevent an excess of foam. Do Not add ice.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/swqurw1454512730.jpg",
-    Ingredients:[ "Vodka", "Kahlua", "Coca-Cola","Guinness stout"],
-    Measures:[ "1 shot ", "1 shot ", "1 dash ", "Fill with "],
+    Ingredients: ["Vodka", "Kahlua", "Coca-Cola", "Guinness stout"],
+    Measures: ["1 shot ", "1 shot ", "1 dash ", "Fill with "],
     Date: "2016-02-03 15:18:50",
     isPublic: true,
     Like: 0
@@ -6937,8 +7717,13 @@ const cocktails = [
     Instructions: "Add over ice,shake and pour.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/yyrwty1468877498.jpg",
-    Ingredients:[ "Goldschlager", "J\u00e4germeister", "Rumple Minze","151 proof rum"],
-    Measures:[ "1/2 oz ", "1/2 oz ", "1/2 oz ", "1/2 oz Bacardi "],
+    Ingredients: [
+      "Goldschlager",
+      "J\u00e4germeister",
+      "Rumple Minze",
+      "151 proof rum"
+    ],
+    Measures: ["1/2 oz ", "1/2 oz ", "1/2 oz ", "1/2 oz Bacardi "],
     Date: "2016-07-18 22:31:38",
     isPublic: true,
     Like: 0
@@ -6967,8 +7752,8 @@ const cocktails = [
       "Pour Vodka, Gin and lime cordial into glass, and top up with crushed ice. Wait for ice to melt slightly and sip without a straw.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/55muhh1493068062.jpg",
-    Ingredients:[ "Vodka", "Gin", "Lime juice cordial","Ice"],
-    Measures:[ "30 ml ", "30 ml ", "45 ml ", "1/2 glass crushed "],
+    Ingredients: ["Vodka", "Gin", "Lime juice cordial", "Ice"],
+    Measures: ["30 ml ", "30 ml ", "45 ml ", "1/2 glass crushed "],
     Date: "2017-04-24 22:07:42",
     isPublic: true,
     Like: 0
@@ -6982,8 +7767,28 @@ const cocktails = [
       "Just mix in the shots of rum, vodka, and tequila. Add splashes of the three juices, heavy on the pineapple. Top off with grenadine. Crushed ice should already be in glass. Top off the glass with a pineapple wedge.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/ido1j01493068134.jpg",
-    Ingredients:[ "Vodka", "Malibu rum", "Gold tequila","Orange juice", "Pineapple juice", "Cream of coconut", "Grenadine", "Ice", "Pineapple"],
-    Measures:[ "1 shot ", "1 shot ", "1 shot ", "1 splash ", "1 splash ", "1 splash ", "1 dash ", "crushed ", "1 wedge "],
+    Ingredients: [
+      "Vodka",
+      "Malibu rum",
+      "Gold tequila",
+      "Orange juice",
+      "Pineapple juice",
+      "Cream of coconut",
+      "Grenadine",
+      "Ice",
+      "Pineapple"
+    ],
+    Measures: [
+      "1 shot ",
+      "1 shot ",
+      "1 shot ",
+      "1 splash ",
+      "1 splash ",
+      "1 splash ",
+      "1 dash ",
+      "crushed ",
+      "1 wedge "
+    ],
     Date: "2017-04-24 22:08:55",
     isPublic: true,
     Like: 0
@@ -7025,8 +7830,14 @@ const cocktails = [
     Instructions: "Mix equal amounts into a glass with ice.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/ywxwqs1461867097.jpg",
-    Ingredients:[ "Blue Curacao", "Blueberry schnapps", "Vodka","Sour mix", "7-Up"],
-    Measures:[],
+    Ingredients: [
+      "Blue Curacao",
+      "Blueberry schnapps",
+      "Vodka",
+      "Sour mix",
+      "7-Up"
+    ],
+    Measures: ["\n"],
     Date: "2016-04-28 19:11:37",
     isPublic: true,
     Like: 0
@@ -7070,8 +7881,8 @@ const cocktails = [
       "Blend all ingredients in a blender on high until ice is finely crushed. It should be of a slushy consistency. Pour immediately and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/wqstwv1478963735.jpg",
-    Ingredients:[ "Maui", "Mountain Dew", "Ice",""],
-    Measures:[ "5 oz blue ", "5 oz ", " cubes\n"],
+    Ingredients: ["Maui", "Mountain Dew", "Ice"],
+    Measures: ["5 oz blue ", "5 oz ", " cubes\n"],
     Date: "2016-11-12 15:15:35",
     isPublic: true,
     Like: 0
@@ -7129,8 +7940,8 @@ const cocktails = [
     Instructions: "Throw it all together and serve real cold.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/rx8k8e1504365812.jpg",
-    Ingredients:[ "Red wine", "Peach schnapps", "Pepsi Cola","Orange juice"],
-    Measures:[ "1/3 part ", "1 shot ", "1/3 part ", "1/3 part "],
+    Ingredients: ["Red wine", "Peach schnapps", "Pepsi Cola", "Orange juice"],
+    Measures: ["1/3 part ", "1 shot ", "1/3 part ", "1/3 part "],
     Date: "2017-09-02 16:23:32",
     isPublic: true,
     Like: 0
@@ -7144,8 +7955,8 @@ const cocktails = [
       "Pour the raspberry vodka and soda into a highball glass almost filled with ice cubes. Stir well.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/suqyyx1441254346.jpg",
-    Ingredients:[ "Raspberry vodka", "Lemon-lime soda", "Ice",""],
-    Measures:[ "2 oz ", "4 oz "],
+    Ingredients: ["Raspberry vodka", "Lemon-lime soda", "Ice"],
+    Measures: ["2 oz ", "4 oz "],
     Date: "2015-09-03 05:25:46",
     isPublic: true,
     Like: 0
@@ -7159,8 +7970,8 @@ const cocktails = [
       "Shake ingredients in bartender's mixer quickly, just 5 shakes. Strain out ice, serve in glass immediately with a slice of orange.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/apictz1493069760.jpg",
-    Ingredients:[ "Triple sec", "Amaretto", "Cider","Ice"],
-    Measures:[ "1/2 jigger ", "3 shots ", "1/2 cup ", "Add 1/2 cup "],
+    Ingredients: ["Triple sec", "Amaretto", "Cider", "Ice"],
+    Measures: ["1/2 jigger ", "3 shots ", "1/2 cup ", "Add 1/2 cup "],
     Date: "2017-04-24 22:36:00",
     isPublic: true,
     Like: 0
@@ -7174,8 +7985,18 @@ const cocktails = [
       "Now stir vigorously and then pour over a large cup of ice. Now drink it with a straw and stir occasionally.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/tquyyt1451299548.jpg",
-    Ingredients:[ "Gin", "Tequila", "Vodka","White rum", "Triple Sec", "Cherry Grenadine", "Sweet and sour", "Club soda"],
-    Measures:[ "1 oz", "1 oz", "1 oz", "1 oz", "1 oz", "1 oz", "1 oz", "3 oz"],
+    Ingredients: [
+      "Gin",
+      "Tequila",
+      "Vodka",
+      "White rum",
+      "Triple Sec",
+      "Cherry Grenadine",
+      "Sweet and sour",
+      "Club soda",
+      null
+    ],
+    Measures: ["1 oz", "1 oz", "1 oz", "1 oz", "1 oz", "1 oz", "1 oz", "3 oz"],
     Date: "2015-12-28 10:45:48",
     isPublic: true,
     Like: 0
@@ -7189,8 +8010,8 @@ const cocktails = [
       "Add the cachaca, lemon juice and syrup to your boston glass. Add ice and shake until ice cold. Pour into a chilled flute and top-up with Champagne",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/xypspq1469090633.jpg",
-    Ingredients:[ "Cachaca", "Lemon Juice", "Agave Syrup","Champagne"],
-    Measures:[ "25 ml", "15 ml", "10 ml", "top up with"],
+    Ingredients: ["Cachaca", "Lemon Juice", "Agave Syrup", "Champagne"],
+    Measures: ["25 ml", "15 ml", "10 ml", "top up with"],
     Date: "2016-07-21 09:43:53",
     isPublic: true,
     Like: 0
@@ -7204,8 +8025,14 @@ const cocktails = [
       "Cut half a lime into pieces, place in a shaker, add the sugar and crush. Measure the passion fruit juice, add it to the shaker and fill up with ice cubes. Close the shaker and shake vigorously. Pour the liquid into a glass, top up with ginger ale, stir with a teaspoon and then garnish the rim of the glass with a slice of lime",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/yswuwp1469090992.jpg",
-    Ingredients:[ "Lime", "Brown sugar", "Passion fruit juice","Ginger ale", "Ice"],
-    Measures:[ "\u00bd", "2 tsp", "4 cl", "top up with", "fill"],
+    Ingredients: [
+      "Lime",
+      "Brown sugar",
+      "Passion fruit juice",
+      "Ginger ale",
+      "Ice"
+    ],
+    Measures: ["\u00bd", "2 tsp", "4 cl", "top up with", "fill", null, null],
     Date: "2016-07-21 09:49:52",
     isPublic: true,
     Like: 0
@@ -7219,8 +8046,8 @@ const cocktails = [
       "Muddle the sugar into the lime wedges in an old-fashioned glass.\r\nFill the glass with ice cubes.\r\nPour the cachaca into the glass.\r\nStir well.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/uwstrx1472406058.jpg",
-    Ingredients:[ "demerara Sugar", "Lime", "Cachaca",""],
-    Measures:[ "2 tsp ", "1", "2 1/2 oz"],
+    Ingredients: ["demerara Sugar", "Lime", "Cachaca"],
+    Measures: ["2 tsp ", "1", "2 1/2 oz"],
     Date: "2016-08-28 18:40:58",
     isPublic: true,
     Like: 0
@@ -7234,8 +8061,13 @@ const cocktails = [
       "Coat the rim of a shot glass with sugar using sugar syrup to stick. Add the Chambord raspberry liqueur to the shot glass, and carefully layer the Baileys Irish Cream on top. Serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/uuytrp1474039804.jpg",
-    Ingredients:[ "Baileys irish cream", "Chambord raspberry liqueur", "Sugar syrup","Sugar"],
-    Measures:[ "2/3 oz", "1/3 oz", "1 tsp", "2 pinches"],
+    Ingredients: [
+      "Baileys irish cream",
+      "Chambord raspberry liqueur",
+      "Sugar syrup",
+      "Sugar"
+    ],
+    Measures: ["2/3 oz", "1/3 oz", "1 tsp", "2 pinches"],
     Date: "2016-09-16 16:30:04",
     isPublic: true,
     Like: 0
@@ -7249,8 +8081,8 @@ const cocktails = [
       "Add all ingredients into cocktail shaker filled with ice. Shake well and strain into cocktail glass. Garnish with a cherry.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/ruutxt1478253328.jpg",
-    Ingredients:[ "Gin", "lemon juice", "maraschino liqueur",""],
-    Measures:[ "4.5 cl", "1.5 cl", "1.5 cl"],
+    Ingredients: ["Gin", "lemon juice", "maraschino liqueur"],
+    Measures: ["4.5 cl", "1.5 cl", "1.5 cl"],
     Date: "2016-11-04 09:55:28",
     isPublic: true,
     Like: 0
@@ -7264,8 +8096,8 @@ const cocktails = [
       "Pour the vodka, dry vermouth and olive brine into a cocktail shaker with a handful of ice and shake well.\r\nRub the rim of a martini glass with the wedge of lemon.\r\nStrain the contents of the cocktail shaker into the glass and add the olive.\r\nA dirty Martini contains a splash of olive brine or olive juice and is typically garnished with an olive.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/vcyvpq1485083300.jpg",
-    Ingredients:[ "Vodka", "Dry Vermouth", "Olive Brine","Lemon", "Olive"],
-    Measures:[ "70ml/2fl oz", "1 tbsp", "2 tbsp", "1 wedge", "1"],
+    Ingredients: ["Vodka", "Dry Vermouth", "Olive Brine", "Lemon", "Olive"],
+    Measures: ["70ml/2fl oz", "1 tbsp", "2 tbsp", "1 wedge", "1"],
     Date: "2017-01-22 11:08:20",
     isPublic: true,
     Like: 0
@@ -7293,8 +8125,8 @@ const cocktails = [
     Instructions: "Shake together with ice. Strain into glass and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/n433t21504348259.jpg",
-    Ingredients:[ "Light rum", "Lime juice", "Sugar syrup","Grenadine"],
-    Measures:[ "1 3/4 oz Bacardi ", "1 oz ", "1/2 tsp ", "1 dash "],
+    Ingredients: ["Light rum", "Lime juice", "Sugar syrup", "Grenadine"],
+    Measures: ["1 3/4 oz Bacardi ", "1 oz ", "1/2 tsp ", "1 dash "],
     Date: "2017-09-02 11:30:59",
     isPublic: true,
     Like: 0
@@ -7308,8 +8140,8 @@ const cocktails = [
       "Pour all ingredients into shaker with ice cubes, shake, strain into chilled cocktail glass.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/of1rj41504348346.jpg",
-    Ingredients:[ "Brandy", "Light rum", "Triple sec","Lemon juice"],
-    Measures:[ "1 oz ", "1 oz ", "1 oz ", "1 oz "],
+    Ingredients: ["Brandy", "Light rum", "Triple sec", "Lemon juice"],
+    Measures: ["1 oz ", "1 oz ", "1 oz ", "1 oz "],
     Date: "2017-09-02 11:32:26",
     isPublic: true,
     Like: 0
@@ -7323,8 +8155,14 @@ const cocktails = [
       "Pour all ingredients into shaker with ice cubes. Shake well. Strain into chilled cocktail glass. Garnish with a lemon twist and a maraschino cherry. Serve without a straw.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/1mvjxg1504348579.jpg",
-    Ingredients:[ "Gin", "Maraschino liqueur", "Lemon juice","Orange bitters", "Cherry"],
-    Measures:[ "2 oz ", "1/4 tsp ", "1/4 tsp ", "2 dashes ", "1 "],
+    Ingredients: [
+      "Gin",
+      "Maraschino liqueur",
+      "Lemon juice",
+      "Orange bitters",
+      "Cherry"
+    ],
+    Measures: ["2 oz ", "1/4 tsp ", "1/4 tsp ", "2 dashes ", "1 "],
     Date: "2017-09-02 11:36:19",
     isPublic: true,
     Like: 0
@@ -7338,8 +8176,8 @@ const cocktails = [
       "Dry shake ingredients to emulsify, add ice, shake and served straight up.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/t0aja61504348715.jpg",
-    Ingredients:[ "Gin", "Grenadine", "Lemon","Egg white"],
-    Measures:[ "1 1/2 oz ", "2 tsp ", "Juice of 1/2 ", "1 "],
+    Ingredients: ["Gin", "Grenadine", "Lemon", "Egg white"],
+    Measures: ["1 1/2 oz ", "2 tsp ", "Juice of 1/2 ", "1 "],
     Date: "2017-09-02 11:38:35",
     isPublic: true,
     Like: 0
@@ -7367,8 +8205,14 @@ const cocktails = [
     Instructions: "Shake and strain into a chilled large cocktail glass",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/f9erqb1504350557.jpg",
-    Ingredients:[ "Light rum", "Pineapple juice", "Maraschino liqueur","Grenadine", "Maraschino cherry"],
-    Measures:[ "1 1/2 oz ", "1 oz ", "1/2 tsp ", "1/2 tsp ", "1 "],
+    Ingredients: [
+      "Light rum",
+      "Pineapple juice",
+      "Maraschino liqueur",
+      "Grenadine",
+      "Maraschino cherry"
+    ],
+    Measures: ["1 1/2 oz ", "1 oz ", "1/2 tsp ", "1/2 tsp ", "1 "],
     Date: "2017-09-02 12:09:17",
     isPublic: true,
     Like: 0
@@ -7382,8 +8226,8 @@ const cocktails = [
       "Shake well over ice cubes in a shaker, strain into a chilled cocktail glass.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/94psp81504350690.jpg",
-    Ingredients:[ "Gin", "Benedictine", "Orange juice","Grenadine"],
-    Measures:[ "2 oz ", "1 tsp ", "1/2 oz ", "1 tsp "],
+    Ingredients: ["Gin", "Benedictine", "Orange juice", "Grenadine"],
+    Measures: ["2 oz ", "1 tsp ", "1/2 oz ", "1 tsp "],
     Date: "2017-09-02 12:11:31",
     isPublic: true,
     Like: 0
@@ -7397,8 +8241,8 @@ const cocktails = [
       "Shake together over ice. Strain into cocktail glass and serve chilled.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/ejozd71504351060.jpg",
-    Ingredients:[ "Gin", "Apricot Brandy", "Orange Juice",""],
-    Measures:[ "7 parts", "4 parts", "3 parts "],
+    Ingredients: ["Gin", "Apricot Brandy", "Orange Juice"],
+    Measures: ["7 parts", "4 parts", "3 parts ", " ", " ", " ", " "],
     Date: "2017-09-02 12:17:40",
     isPublic: true,
     Like: 0
@@ -7412,8 +8256,13 @@ const cocktails = [
       'Pour all ingredients, except the bitters, into shaker filled with ice. Shake well. Pour into large glass, filled with ice. Add Angostura bitters, "on top". Garnish with cocktail cherry and pineapple.',
     Image:
       "https://www.thecocktaildb.com/images/media/drink/yvos231504351384.jpg",
-    Ingredients:[ "Dark rum", "Orgeat syrup", "Orange juice","Pineapple juice"],
-    Measures:[ "1 part ", "1/2 part ", "2 parts ", "1 part "],
+    Ingredients: [
+      "Dark rum",
+      "Orgeat syrup",
+      "Orange juice",
+      "Pineapple juice"
+    ],
+    Measures: ["1 part ", "1/2 part ", "2 parts ", "1 part "],
     Date: "2017-09-02 12:23:04",
     isPublic: true,
     Like: 0
@@ -7457,8 +8306,8 @@ const cocktails = [
       "Add all ingredients into cocktail shaker filled with ice. Shake well and strain into large cocktail glass.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/jofsaz1504352991.jpg",
-    Ingredients:[ "Gin", "Triple Sec", "Lemon Juice",""],
-    Measures:[ "4cl", "3cl", "2cl"],
+    Ingredients: ["Gin", "Triple Sec", "Lemon Juice"],
+    Measures: ["4cl", "3cl", "2cl"],
     Date: "2017-09-02 12:49:52",
     isPublic: true,
     Like: 0
@@ -7487,8 +8336,13 @@ const cocktails = [
       "Add all ingredients into cocktail shaker filled with ice. Shake well and double strain into large cocktail glass. Garnish with lime wheel.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/kpsajh1504368362.jpg",
-    Ingredients:[ "Absolut Citron", "Lime juice", "Cointreau","Cranberry juice"],
-    Measures:[ "1 1/4 oz ", "1/4 oz ", "1/4 oz ", "1/4 cup "],
+    Ingredients: [
+      "Absolut Citron",
+      "Lime juice",
+      "Cointreau",
+      "Cranberry juice"
+    ],
+    Measures: ["1 1/4 oz ", "1/4 oz ", "1/4 oz ", "1/4 cup "],
     Date: "2017-09-02 17:06:02",
     isPublic: true,
     Like: 0
@@ -7531,8 +8385,8 @@ const cocktails = [
     Instructions: "Shake with cracked ice. Strain into glass and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/qrot6j1504369425.jpg",
-    Ingredients:[ "Galliano", "Triple Sec", "orange juice","Cream"],
-    Measures:[ "2 parts", "2 parts", "2 parts", "1 part"],
+    Ingredients: ["Galliano", "Triple Sec", "orange juice", "Cream"],
+    Measures: ["2 parts", "2 parts", "2 parts", "1 part"],
     Date: "2017-09-02 17:23:45",
     isPublic: true,
     Like: 0
@@ -7560,8 +8414,13 @@ const cocktails = [
     Instructions: "Pour all ingredients into a shaker with ice. Shake.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/jfcvps1504369888.jpg",
-    Ingredients:[ "Rum", "Grapefruit Juice", "Maraschino Liqueur","Lime Juice"],
-    Measures:[ "12 parts", "8 parts", "3 parts", "3 parts"],
+    Ingredients: [
+      "Rum",
+      "Grapefruit Juice",
+      "Maraschino Liqueur",
+      "Lime Juice"
+    ],
+    Measures: ["12 parts", "8 parts", "3 parts", "3 parts"],
     Date: "2017-09-02 17:31:28",
     isPublic: true,
     Like: 0
@@ -7575,8 +8434,8 @@ const cocktails = [
       "Pour brandy and ginger ale directly into highball glass with ice cubes. Stir gently. Garnish with lemon zest. If desired, add dashes of Angostura Bitter.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/006k4e1504370092.jpg",
-    Ingredients:[ "Lemon peel", "Brandy", "Ginger ale","Bitters"],
-    Measures:[ "1 long strip ", "2 oz ", "5 oz ", "2 dashes "],
+    Ingredients: ["Lemon peel", "Brandy", "Ginger ale", "Bitters"],
+    Measures: ["1 long strip ", "2 oz ", "5 oz ", "2 dashes "],
     Date: "2017-09-02 17:34:52",
     isPublic: true,
     Like: 0
@@ -7635,8 +8494,8 @@ const cocktails = [
       "In a highball glass gently muddle the mint, sugar and water. Fill the glass with cracked ice, add Bourbon and stir well until the glass is well frosted. Garnish with a mint sprig.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/squyyq1439907312.jpg",
-    Ingredients:[ "Mint", "Bourbon", "Powdered sugar","Water"],
-    Measures:[ "4 fresh ", "2 1/2 oz ", "1 tsp ", "2 tsp "],
+    Ingredients: ["Mint", "Bourbon", "Powdered sugar", "Water"],
+    Measures: ["4 fresh ", "2 1/2 oz ", "1 tsp ", "2 tsp "],
     Date: "2015-08-18 15:15:12",
     isPublic: true,
     Like: 0
@@ -7665,8 +8524,15 @@ const cocktails = [
       "Shake together in a cocktail shaker, then strain into chilled glass. Garnish and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/8kxbvq1504371462.jpg",
-    Ingredients:[ "Dry Vermouth", "Gin", "Apricot brandy","Lemon juice", "Grenadine", "Powdered sugar"],
-    Measures:[ "1/2 oz ", "1 oz ", "1/2 oz ", "1/2 tsp ", "1 tsp "],
+    Ingredients: [
+      "Dry Vermouth",
+      "Gin",
+      "Apricot brandy",
+      "Lemon juice",
+      "Grenadine",
+      "Powdered sugar"
+    ],
+    Measures: ["1/2 oz ", "1 oz ", "1/2 oz ", "1/2 tsp ", "1 tsp "],
     Date: "2017-09-02 17:57:42",
     isPublic: true,
     Like: 0
@@ -7680,8 +8546,14 @@ const cocktails = [
       "Shake pour ingredients with ice. Strain into glass, top with Sparkling wine.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/jwmr1x1504372337.jpg",
-    Ingredients:[ "Rum", "Galliano", "Pineapple Juice","Lime Juice", "Prosecco"],
-    Measures:[ "4.5 cl", "1.5 cl", "6 cl", " 1 dash", "top up "],
+    Ingredients: [
+      "Rum",
+      "Galliano",
+      "Pineapple Juice",
+      "Lime Juice",
+      "Prosecco"
+    ],
+    Measures: ["4.5 cl", "1.5 cl", "6 cl", " 1 dash", "top up ", " ", " "],
     Date: "2017-09-02 18:12:17",
     isPublic: true,
     Like: 0
@@ -7695,8 +8567,8 @@ const cocktails = [
       "Fill glass with crushed ice. Build gin, lemon juice and simple syrup over. Stir, and then pour blackberry liqueur over in a circular fashion to create marbling effect. Garnish with two blackberries and lemon slice.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/lvzl3r1504372526.jpg",
-    Ingredients:[ "Gin", "lemon juice", "Sugar syrup","Creme de Mure"],
-    Measures:[ "4 cl", "1.5 cl", "1 cl", "1.5 cl"],
+    Ingredients: ["Gin", "lemon juice", "Sugar syrup", "Creme de Mure"],
+    Measures: ["4 cl", "1.5 cl", "1 cl", "1.5 cl", " ", " "],
     Date: "2017-09-02 18:15:26",
     isPublic: true,
     Like: 0
@@ -7710,8 +8582,8 @@ const cocktails = [
       "In a highball glass filled with ice add 6cl dark rum and top with ginger beer. Garnish with lime wedge.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/t1tn0s1504374905.jpg",
-    Ingredients:[ "Dark Rum", "Ginger Beer",""],
-    Measures:[ "5 cl", "10 cl"],
+    Ingredients: ["Dark Rum", "Ginger Beer"],
+    Measures: ["5 cl", "10 cl", " ", " "],
     Date: "2017-09-02 18:55:05",
     isPublic: true,
     Like: 0
@@ -7725,8 +8597,8 @@ const cocktails = [
       "Pour ingredients into shaker filled with ice, shake vigorously, and strain into chilled martini glass",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/n0sx531504372951.jpg",
-    Ingredients:[ "Vodka", "Kahlua", "Sugar syrup",""],
-    Measures:[ "5 cl", "1 cl", "1 dash"],
+    Ingredients: ["Vodka", "Kahlua", "Sugar syrup"],
+    Measures: ["5 cl", "1 cl", "1 dash"],
     Date: "2017-09-02 18:22:31",
     isPublic: true,
     Like: 0
@@ -7740,8 +8612,8 @@ const cocktails = [
       "Pour all ingredients into shaker with ice cubes. Shake well and strain into a chilled cocktail glass. Squeeze oil from lemon peel onto the drink.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/clth721504373134.jpg",
-    Ingredients:[ "Vodka", "Raspberry Liqueur", "pineapple juice",""],
-    Measures:[ "4.5 cl", "1.5 cl", "1.5 cl"],
+    Ingredients: ["Vodka", "Raspberry Liqueur", "pineapple juice"],
+    Measures: ["4.5 cl", "1.5 cl", "1.5 cl"],
     Date: "2017-09-02 18:25:34",
     isPublic: true,
     Like: 0
@@ -7755,8 +8627,8 @@ const cocktails = [
       "Pour the ingredients into an highball glass, top with Sparkling wine.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/ctt20s1504373488.jpg",
-    Ingredients:[ "Vodka", "Creme de Cassis", "Sugar Syrup","Lemon Juice"],
-    Measures:[ "2.5 cl", "1.5 cl", "1 cl", "2.5 cl"],
+    Ingredients: ["Vodka", "Creme de Cassis", "Sugar Syrup", "Lemon Juice"],
+    Measures: ["2.5 cl", "1.5 cl", "1 cl", "2.5 cl", " ", " "],
     Date: "2017-09-02 18:31:28",
     isPublic: true,
     Like: 0
@@ -7769,8 +8641,8 @@ const cocktails = [
     Instructions: "Build into glass over ice, garnish and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/j9evx11504373665.jpg",
-    Ingredients:[ "Prosecco", "Campari", "Soda Water",""],
-    Measures:[ "6 cl", "4 cl", "splash"],
+    Ingredients: ["Prosecco", "Campari", "Soda Water"],
+    Measures: ["6 cl", "4 cl", "splash", " ", " "],
     Date: "2017-09-02 18:34:25",
     isPublic: true,
     Like: 0
@@ -7783,8 +8655,8 @@ const cocktails = [
     Instructions: "Shake and strain into a chilled cocktail glass.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/loezxn1504373874.jpg",
-    Ingredients:[ "Tequila", "Lime Juice", "Agave syrup",""],
-    Measures:[ "4.5 cl", "1.5 cl", "2 spoons"],
+    Ingredients: ["Tequila", "Lime Juice", "Agave syrup"],
+    Measures: ["4.5 cl", "1.5 cl", "2 spoons", " ", " "],
     Date: "2017-09-02 18:37:54",
     isPublic: true,
     Like: 0
@@ -7798,8 +8670,15 @@ const cocktails = [
       'Vampiros may be made in a tall glass or an old fashioned glass. Bartenders may first "rim" the glass with Kosher Salt, which is done by placing a layer of Kosher Salt on a chopping board, moistening the glass\' rim with lime juice or water, and then placing the upside down glass rim onto the Kosher Salt, so that the salt sticks to the moistened rim. The second step is to fill half the glass with ice and add one or two shooter glasses full of high quality Tequila. The next stage is to add the flavouring elements. This is done by squeezing a fresh lime into the glass, adding a few grains of salt, adding citrus-flavoured soda pop, until the glass is 4/5 full, and then adding spicy Viuda de Sanchez (or orange juice, lime juice and pico de gallo). The final step is to stir the ingredients so that the flavours are properly blended.',
     Image:
       "https://www.thecocktaildb.com/images/media/drink/yfhn371504374246.jpg",
-    Ingredients:[ "Tequila", "Tomato Juice", "Orange Juice","Lime Juice", "Sugar Syrup", "Salt"],
-    Measures:[ "6 cl", "3 cl", "3 cl", "1.5 cl", "1 dash", "1 pinch"],
+    Ingredients: [
+      "Tequila",
+      "Tomato Juice",
+      "Orange Juice",
+      "Lime Juice",
+      "Sugar Syrup",
+      "Salt"
+    ],
+    Measures: ["6 cl", "3 cl", "3 cl", "1.5 cl", "1 dash", "1 pinch", " "],
     Date: "2017-09-02 18:44:06",
     isPublic: true,
     Like: 0
@@ -7813,8 +8692,8 @@ const cocktails = [
       "Shake over ice until well chilled, then strain into a deep goblet and garnish with a thin slice of lemon peel.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/mtdxpa1504374514.jpg",
-    Ingredients:[ "Gin", "Vodka", "Lillet Blanc",""],
-    Measures:[ "6 cl", "1.5 cl", "0.75 cl"],
+    Ingredients: ["Gin", "Vodka", "Lillet Blanc"],
+    Measures: ["6 cl", "1.5 cl", "0.75 cl", " ", " "],
     Date: "2017-09-02 18:48:34",
     isPublic: true,
     Like: 0
@@ -7827,8 +8706,8 @@ const cocktails = [
     Instructions: "Shake and strain into a chilled cocktail glass",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/2t9r6w1504374811.jpg",
-    Ingredients:[ "White Rum", "Galliano", "Triple Sec","Lime Juice"],
-    Measures:[ "3 cl", "1.5 cl", "1.5 cl", "1.5 cl"],
+    Ingredients: ["White Rum", "Galliano", "Triple Sec", "Lime Juice"],
+    Measures: ["3 cl", "1.5 cl", "1.5 cl", "1.5 cl"],
     Date: "2017-09-02 18:53:31",
     isPublic: true,
     Like: 0
@@ -7872,8 +8751,16 @@ const cocktails = [
       "Pour all ingredients into a cocktail shaker, mix and serve over ice into a chilled glass.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/2x8thr1504816928.jpg",
-    Ingredients:[ "Gin", "Grand Marnier", "Lemon Juice","Grenadine"],
-    Measures:[ "1 3/4 shot ", "1 Shot ", "1/4 Shot", "1/8 Shot", "\r\n", "\r\n", "\r\n"],
+    Ingredients: ["Gin", "Grand Marnier", "Lemon Juice", "Grenadine"],
+    Measures: [
+      "1 3/4 shot ",
+      "1 Shot ",
+      "1/4 Shot",
+      "1/8 Shot",
+      "\r\n",
+      "\r\n",
+      "\r\n"
+    ],
     Date: "2017-09-07 21:42:09",
     isPublic: true,
     Like: 0
@@ -7887,8 +8774,16 @@ const cocktails = [
       "Put all ingredients into a shaker and mix, then strain contents into a chilled cocktail glass.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/2mcozt1504817403.jpg",
-    Ingredients:[ "Gin", "Sweet Vermouth", "Orange Juice","Angostura Bitters"],
-    Measures:[ "2 shots ", "1 shot ", "1 shot ", "3 dashes ", "\r\n", "\r\n", "\r\n"],
+    Ingredients: ["Gin", "Sweet Vermouth", "Orange Juice", "Angostura Bitters"],
+    Measures: [
+      "2 shots ",
+      "1 shot ",
+      "1 shot ",
+      "3 dashes ",
+      "\r\n",
+      "\r\n",
+      "\r\n"
+    ],
     Date: "2017-09-07 21:50:03",
     isPublic: true,
     Like: 0
@@ -7902,8 +8797,16 @@ const cocktails = [
       "Mix the Vodka and Cranberry juice together in a shaker and strain into a glass. Top up with Champagne.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/abcpwr1504817734.jpg",
-    Ingredients:[ "Vodka", "Cranberry Juice", "Champagne",""],
-    Measures:[ "1 shot ", "2 shots ", "Top up with", "\r\n", "\r\n", "\r\n", "\r\n"],
+    Ingredients: ["Vodka", "Cranberry Juice", "Champagne"],
+    Measures: [
+      "1 shot ",
+      "2 shots ",
+      "Top up with",
+      "\r\n",
+      "\r\n",
+      "\r\n",
+      "\r\n"
+    ],
     Date: "2017-09-07 21:55:34",
     isPublic: true,
     Like: 0
@@ -7917,8 +8820,16 @@ const cocktails = [
       "Shake all the ingredients in a cocktail shaker and ice then strain in a cold glass.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/l3cd7f1504818306.jpg",
-    Ingredients:[ "Gin", "Grenadine", "Heavy cream","Milk", "Egg White"],
-    Measures:[ "2 shots ", "1/2 shot ", "1/2 shot ", "1/2 shot ", "1/2 Fresh", "\r\n", "\r\n"],
+    Ingredients: ["Gin", "Grenadine", "Heavy cream", "Milk", "Egg White"],
+    Measures: [
+      "2 shots ",
+      "1/2 shot ",
+      "1/2 shot ",
+      "1/2 shot ",
+      "1/2 Fresh",
+      "\r\n",
+      "\r\n"
+    ],
     Date: "2017-09-07 22:05:06",
     isPublic: true,
     Like: 0
@@ -7932,8 +8843,8 @@ const cocktails = [
       "Shake together all the ingredients and strain into a cold glass.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/vfeumw1504819077.jpg",
-    Ingredients:[ "Gin", "Cognac", "Creme de Cassis","Fresh Lemon Juice"],
-    Measures:[ "1 shot ", "1 shot ", "1 shot ", "1/8 shot "],
+    Ingredients: ["Gin", "Cognac", "Creme de Cassis", "Fresh Lemon Juice"],
+    Measures: ["1 shot ", "1 shot ", "1 shot ", "1/8 shot "],
     Date: "2017-09-07 22:17:58",
     isPublic: true,
     Like: 0
@@ -7947,8 +8858,16 @@ const cocktails = [
       "Mix both the vermouth's in a shaker and strain into a cold glass. Top up with a squirt of Soda Water. ",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/ib0b7g1504818925.jpg",
-    Ingredients:[ "Sweet Vermouth", "Dry Vermouth", "Soda Water",""],
-    Measures:[ "2 shots ", "1 shot ", "Top up with\r\n", "\r\n", "\r\n", "\r\n", "\r\n"],
+    Ingredients: ["Sweet Vermouth", "Dry Vermouth", "Soda Water"],
+    Measures: [
+      "2 shots ",
+      "1 shot ",
+      "Top up with\r\n",
+      "\r\n",
+      "\r\n",
+      "\r\n",
+      "\r\n"
+    ],
     Date: "2017-09-07 22:15:25",
     isPublic: true,
     Like: 0
@@ -7962,8 +8881,16 @@ const cocktails = [
       "Shake together all the ingredients and strain into a cold glass.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/yzva7x1504820300.jpg",
-    Ingredients:[ "Gin", "Vermouth",""],
-    Measures:[ "1 1/2 shot ", "1 1/2 shot ", "\r\n", "\r\n", "\r\n", "\r\n", "\r\n"],
+    Ingredients: ["Gin", "Vermouth"],
+    Measures: [
+      "1 1/2 shot ",
+      "1 1/2 shot ",
+      "\r\n",
+      "\r\n",
+      "\r\n",
+      "\r\n",
+      "\r\n"
+    ],
     Date: "2017-09-07 22:38:20",
     isPublic: true,
     Like: 0
@@ -7992,8 +8919,16 @@ const cocktails = [
       "Half-fill a tall glass with ice. Mix the gin and Grenadine together and pour over the ice. Add the lime or lemon juice and top off with soda water. Decorate the glass with lime and/or lemon slices.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/s00d6f1504883945.jpg",
-    Ingredients:[ "Gin", "Grenadine", "lemon","Soda Water", "Lime"],
-    Measures:[ "2 oz ", "1 tsp ", "Juice of 1/2 ", "Top up with", "Garnish", "\r\n", "\r\n"],
+    Ingredients: ["Gin", "Grenadine", "lemon", "Soda Water", "Lime"],
+    Measures: [
+      "2 oz ",
+      "1 tsp ",
+      "Juice of 1/2 ",
+      "Top up with",
+      "Garnish",
+      "\r\n",
+      "\r\n"
+    ],
     Date: "2017-09-08 16:19:05",
     isPublic: true,
     Like: 0
@@ -8022,8 +8957,14 @@ const cocktails = [
       "Put the Bombay Sapphire, Martini Bianco, sugar syrup & blackberries in a cocktail shaker with lots of ice and shake vigorously before pouring into a balloon glass, topping up with lemonade and garnishing with a wedge of orange.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/t0iugg1509556712.jpg",
-    Ingredients:[ "Vermouth", "Maraschino Cherry", "Sugar Syrup","Lemonade", "Blackberries"],
-    Measures:[ "25 ml", "15 ml", "10 ml", "100 ml", "2"],
+    Ingredients: [
+      "Vermouth",
+      "Maraschino Cherry",
+      "Sugar Syrup",
+      "Lemonade",
+      "Blackberries"
+    ],
+    Measures: ["25 ml", "15 ml", "10 ml", "100 ml", "2"],
     Date: "2017-11-01 17:18:32",
     isPublic: true,
     Like: 0
@@ -8052,8 +8993,15 @@ const cocktails = [
       "Add the Bombay Sapphire, Cr\u00e8me de Cassis and lime juice to a balloon glass and swirl well to mix.\r\nFill the glass with good quality cubed ice.\r\nTop up with chilled and freshly opened Fever-Tree Ginger Beer.\r\nGently stir to combine, top with a gently squeezed lime wedge and finish with a fresh ginger slice.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/h1e0e51510136907.jpg",
-    Ingredients:[ "Gin", "Creme de Cassis", "Fresh Lime Juice","Ginger beer", "Lime", "Ginger"],
-    Measures:[ "50 ml", "20 ml", "15 ml", "75 ml", "1", "1 long strip"],
+    Ingredients: [
+      "Gin",
+      "Creme de Cassis",
+      "Fresh Lime Juice",
+      "Ginger beer",
+      "Lime",
+      "Ginger"
+    ],
+    Measures: ["50 ml", "20 ml", "15 ml", "75 ml", "1", "1 long strip"],
     Date: "2017-11-08 10:28:28",
     isPublic: true,
     Like: 0
@@ -8067,8 +9015,8 @@ const cocktails = [
       "1) Add the Bombay Sapphire, Blue Curacao, rosemary sprig and gently squeezed lemon wedge to a balloon glass. Swirl well to combine.\r\n2) Fill with cubed ice and top with the Fever-Tree Light Tonic Water.\r\n3) Gently fold with a bar spoon to mix.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/qwc5f91512406543.jpg",
-    Ingredients:[ "Gin", "Blue Curacao", "Tonic Water","Rosemary"],
-    Measures:[ "50 ml", "15 ml", "100 ml", "Garnish with"],
+    Ingredients: ["Gin", "Blue Curacao", "Tonic Water", "Rosemary"],
+    Measures: ["50 ml", "15 ml", "100 ml", "Garnish with"],
     Date: "2017-12-04 16:55:43",
     isPublic: true,
     Like: 0
@@ -8082,8 +9030,8 @@ const cocktails = [
       'To ensure that your pork fat is just as delicious as theirs, here\u2019s their adobo marinade and what to do with it (you\u2019ll also need a rack of ribs):\r\n\r\n4 ancho chiles, 8 guajillo chiles and 4 chipotle chiles, plus 4 cloves roasted garlic, half a cup of cider vinegar, a quarter teaspoon of Mexican oregano, 1 teaspoon of ground black pepper, a whole clove, a quarter teaspoon of ground cinnamon and a half teaspoon of ground cumin.\r\n\r\nToast the dried chiles and soak in water for at least an hour until they are rehydrated. Drain and discard the soaking liquid. Combine the soaked chiles with the remaining ingredients and pur\u00e9e until smooth.\r\n\r\nCold smoke a rack of baby back pork ribs by taking a large hotel pan with woodchips on one side and charcoal on the other. Place another, smaller, pan with pork ribs, above the charcoal/woodchip pan. Ignite the charcoal, being careful to not ignite the woodchips. Cover both pans with foil and allow to smoke for 10-15 minutes, until desired level of smoke is achieved, then coat with adobo marinade and wrap in tin foil prior to placing ribs in a 300 degree oven for 7 hours. When the ribs have cooled, strain off the fat and use for the infusion.\r\n\r\nIf you\u2019re having a hard time coming up to the same kind of volume of fat, make up the balance with pork lard from a butcher. To get the same depth of flavor without the ribs, heat up the fat in a pot with a few spoons of the marinade.\r\n\r\nOnce you\u2019ve got your tub of seasoned pork fat in cooled liquid form, pour equal amounts of Ilegal Joven mezcal and fat into a sealable container. Seal the container and give it a really good shake, then put it in the freezer overnight. When the whole thing is separated and congealed, pour it through a fine mesh chinoise. If you don\u2019t have a chinoise, try a fine mesh strainer, or if you don\u2019t have one of those, try spooning off most of the fat. There will be some beads of orange fat left in the strained mezcal: run that through a few layers of cheesecloth (or coffee filters in a pinch) to get rid of the last of it.\r\n\r\nThe mezcal is now ready for drinking, straight-up or in a cocktail. \r\n\r\nHabanero tincture\r\n\r\nSlice habaneros and add 2 ounces Ilegal Joven mezcal.\r\nAllow to sit overnight or until desired level of heat is achieved.\r\nCocktail\r\n\r\nCombine mezcal and chocolate liqueur in a mixing glass with ice and stir for 45 seconds.\r\nStrain into chilled coupe.\r\nCarefully "sink" the coffee liqueur down the inside of the coupe over a spoon.\r\nGarnish with 5 drops habanero tincture.',
     Image:
       "https://www.thecocktaildb.com/images/media/drink/osgvxt1513595509.jpg",
-    Ingredients:[ "Mezcal", "Chocolate liqueur", "Coffee liqueur",""],
-    Measures:[ "2 oz", "3/4 oz", "1/2 oz"],
+    Ingredients: ["Mezcal", "Chocolate liqueur", "Coffee liqueur"],
+    Measures: ["2 oz", "3/4 oz", "1/2 oz"],
     Date: "2017-12-18 11:11:49",
     isPublic: true,
     Like: 0
@@ -8096,8 +9044,8 @@ const cocktails = [
     Instructions: "Shake with ice and strain into a cocktail glass.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/91oule1513702624.jpg",
-    Ingredients:[ "Green Chartreuse", "Maraschino Liqueur", "Lime Juice",""],
-    Measures:[ "1 oz", "1 oz", "1 oz"],
+    Ingredients: ["Green Chartreuse", "Maraschino Liqueur", "Lime Juice"],
+    Measures: ["1 oz", "1 oz", "1 oz"],
     Date: "2017-12-19 16:57:04",
     isPublic: true,
     Like: 0
@@ -8111,8 +9059,8 @@ const cocktails = [
       "Add ice to a shaker and pour in all ingredients.\nUsing a bar spoon, stir 40 to 45 revolutions or until thoroughly chilled.\nStrain into a martini glass or over ice into a rocks glass. Garnish with orange twist.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/x8lhp41513703167.jpg",
-    Ingredients:[ "Gin", "Lillet", "Sweet Vermouth","Orange Peel"],
-    Measures:[ "1 oz", "1 oz", "1 oz", "1"],
+    Ingredients: ["Gin", "Lillet", "Sweet Vermouth", "Orange Peel"],
+    Measures: ["1 oz", "1 oz", "1 oz", "1"],
     Date: "2017-12-19 17:06:07",
     isPublic: true,
     Like: 0
@@ -8125,8 +9073,14 @@ const cocktails = [
     Instructions: "Shake, strain, up, cocktail glass",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/jfkemm1513703902.jpg",
-    Ingredients:[ "Gin", "Orange Curacao", "Lime Juice","Angostura Bitters", "Orange Bitters"],
-    Measures:[ "1 1/2 oz", "3/4 oz", "3/4 oz", "1 dash", "1 dash"],
+    Ingredients: [
+      "Gin",
+      "Orange Curacao",
+      "Lime Juice",
+      "Angostura Bitters",
+      "Orange Bitters"
+    ],
+    Measures: ["1 1/2 oz", "3/4 oz", "3/4 oz", "1 dash", "1 dash"],
     Date: "2017-12-19 17:18:23",
     isPublic: true,
     Like: 0
@@ -8140,8 +9094,14 @@ const cocktails = [
       "Shake, strain, straight up, cocktail glass rinsed with absinthe\r\n",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/gifgao1513704334.jpg",
-    Ingredients:[ "Gin", "Triple Sec", "Lillet Blanc","Lemon Juice", "Absinthe"],
-    Measures:[ "3/4 oz", "3/4 oz", "3/4 oz", "3/4 oz", "1 dash"],
+    Ingredients: [
+      "Gin",
+      "Triple Sec",
+      "Lillet Blanc",
+      "Lemon Juice",
+      "Absinthe"
+    ],
+    Measures: ["3/4 oz", "3/4 oz", "3/4 oz", "3/4 oz", "1 dash"],
     Date: "2017-12-19 17:25:34",
     isPublic: true,
     Like: 0
@@ -8154,8 +9114,8 @@ const cocktails = [
     Instructions: "Stir with ice, strain, garnish and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/km84qi1513705868.jpg",
-    Ingredients:[ "Campari", "Sweet Vermouth", "Rye whiskey","Orange Peel"],
-    Measures:[ "1 oz", "1 oz", "1 1/4 oz", "1"],
+    Ingredients: ["Campari", "Sweet Vermouth", "Rye whiskey", "Orange Peel"],
+    Measures: ["1 oz", "1 oz", "1 1/4 oz", "1"],
     Date: "2017-12-19 17:51:08",
     isPublic: true,
     Like: 0
@@ -8169,8 +9129,8 @@ const cocktails = [
       "Add the vodka to a Collins glass filled with ice.\nTop with grapefruit juice and stir.\n\n",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/g5upn41513706732.jpg",
-    Ingredients:[ "Vodka", "Grapefruit Juice",""],
-    Measures:[ "1 1/2 oz", "3 oz"],
+    Ingredients: ["Vodka", "Grapefruit Juice"],
+    Measures: ["1 1/2 oz", "3 oz"],
     Date: "2017-12-19 18:05:32",
     isPublic: true,
     Like: 0
@@ -8183,8 +9143,8 @@ const cocktails = [
     Instructions: "Stir together and serve over ice.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/samm5j1513706393.jpg",
-    Ingredients:[ "Grape Soda", "Tequila",""],
-    Measures:[ "3 oz", "1 1/2 oz"],
+    Ingredients: ["Grape Soda", "Tequila"],
+    Measures: ["3 oz", "1 1/2 oz"],
     Date: "2017-12-19 17:59:53",
     isPublic: true,
     Like: 0
@@ -8197,8 +9157,13 @@ const cocktails = [
     Instructions: "Stir in mixing glass with ice and strain\r\n",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/rysb3r1513706985.jpg",
-    Ingredients:[ "Orange Bitters", "Green Chartreuse", "Gin","Sweet Vermouth"],
-    Measures:[ "1 dash", "1 oz", "1 oz", "1 oz"],
+    Ingredients: [
+      "Orange Bitters",
+      "Green Chartreuse",
+      "Gin",
+      "Sweet Vermouth"
+    ],
+    Measures: ["1 dash", "1 oz", "1 oz", "1 oz"],
     Date: "2017-12-19 18:09:45",
     isPublic: true,
     Like: 0
@@ -8212,8 +9177,8 @@ const cocktails = [
       "Add all the ingredients to a shaker and fill with ice.\r\n\r\nShake, and strain into a chilled cocktail glass or an Old Fashioned glass filled with fresh ice.\r\n\r\nGarnish with a lime wheel.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/3xgldt1513707271.jpg",
-    Ingredients:[ "Gin", "Lime Juice", "Sugar Syrup","Lime"],
-    Measures:[ "2 1/2 oz", "1/2 oz", "1/2 oz", "1"],
+    Ingredients: ["Gin", "Lime Juice", "Sugar Syrup", "Lime"],
+    Measures: ["2 1/2 oz", "1/2 oz", "1/2 oz", "1"],
     Date: "2017-12-19 18:14:32",
     isPublic: true,
     Like: 0
@@ -8227,8 +9192,13 @@ const cocktails = [
       "Add all ingredients to a mixing glass and fill with ice.\r\n\r\nStir until chilled, and strain into a chilled coupe glass.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/fs6kiq1513708455.jpg",
-    Ingredients:[ "Gin", "Sweet Vermouth", "Maraschino Liqueur","Angostura Bitters"],
-    Measures:[ "1 1/2 oz", "1 1/2 oz", "1 tsp", "2 dashes"],
+    Ingredients: [
+      "Gin",
+      "Sweet Vermouth",
+      "Maraschino Liqueur",
+      "Angostura Bitters"
+    ],
+    Measures: ["1 1/2 oz", "1 1/2 oz", "1 tsp", "2 dashes"],
     Date: "2017-12-19 18:34:15",
     isPublic: true,
     Like: 0
@@ -8242,8 +9212,14 @@ const cocktails = [
       "Just mix it all together.\r\nIt's meant to be a shot, but it works just fine as a proper adult-sized drink over lots of ice.\r\n\r\nTastes Like an oatmeal cookie.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/bsvmlg1515792693.jpg",
-    Ingredients:[ "Kahlua", "Bailey", "Butterscotch schnapps","Jagermeister", "Goldschlager"],
-    Measures:[ "2 parts", "2 parts", "4 parts", "1 part", "1/2 part"],
+    Ingredients: [
+      "Kahlua",
+      "Bailey",
+      "Butterscotch schnapps",
+      "Jagermeister",
+      "Goldschlager"
+    ],
+    Measures: ["2 parts", "2 parts", "4 parts", "1 part", "1/2 part"],
     Date: "2018-01-12 21:31:33",
     isPublic: true,
     Like: 0
@@ -8272,8 +9248,15 @@ const cocktails = [
       "If each part is 1/2 oz then use about 2.5 cups of ice.\r\n\r\nBlend it all together. \r\nDrink it with a big straw if you have one.\r\n\r\n",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/nwx02s1515795822.jpg",
-    Ingredients:[ "Rum", "Dark Rum", "Passoa","Blue Curacao", "Sweet and Sour", "Ice"],
-    Measures:[ "4 parts", "2 parts", "1 part", "1 part", "6 parts", "cubes"],
+    Ingredients: [
+      "Rum",
+      "Dark Rum",
+      "Passoa",
+      "Blue Curacao",
+      "Sweet and Sour",
+      "Ice"
+    ],
+    Measures: ["4 parts", "2 parts", "1 part", "1 part", "6 parts", "cubes"],
     Date: "2018-01-12 22:23:42",
     isPublic: true,
     Like: 0
@@ -8301,8 +9284,8 @@ const cocktails = [
     Instructions: "Mix ingredients in a warmed mug and stir.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/nl89tf1518947401.jpg",
-    Ingredients:[ "Hot Chocolate", "Green Chartreuse", "Cherry Heering",""],
-    Measures:[ "4 oz", "1 oz", "1 oz"],
+    Ingredients: ["Hot Chocolate", "Green Chartreuse", "Cherry Heering"],
+    Measures: ["4 oz", "1 oz", "1 oz"],
     Date: "2018-02-18 09:50:01",
     isPublic: true,
     Like: 0
@@ -8316,8 +9299,8 @@ const cocktails = [
       "Fill glass with ice\r\nPour in The Irishman and Disaronno\r\nFill to the top with Cranberry Juice\r\nGarnish with a slice of lemon\u2026Enjoy!",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/wbcvyo1535794478.jpg",
-    Ingredients:[ "Irish Whiskey", "Amaretto", "Cranberry Juice",""],
-    Measures:[ "50 ml", "50 ml", "4 oz"],
+    Ingredients: ["Irish Whiskey", "Amaretto", "Cranberry Juice"],
+    Measures: ["50 ml", "50 ml", "4 oz"],
     Date: "2018-09-01 10:34:38",
     isPublic: true,
     Like: 0
@@ -8331,8 +9314,8 @@ const cocktails = [
       "Chill cocktail glass. Add ingredients to a mixing glass, and fill 2/3 full with ice. Stir about 20 seconds. Empty cocktail glass and strain into the glass. Garnish with a twist of lemon peel.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/x03td31521761009.jpg",
-    Ingredients:[ "Rye whiskey", "Campari", "Dry Vermouth",""],
-    Measures:[ "2 oz", "1 oz", "1 oz"],
+    Ingredients: ["Rye whiskey", "Campari", "Dry Vermouth"],
+    Measures: ["2 oz", "1 oz", "1 oz"],
     Date: "2018-03-22 23:23:30",
     isPublic: true,
     Like: 0
@@ -8346,8 +9329,8 @@ const cocktails = [
       "Stir over ice. Strain into chilled glass. Cut a wide swath of orange peel, and express the orange oils over the drink. Discard orange twist.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/b522ek1521761610.jpg",
-    Ingredients:[ "Irish Whiskey", "Sweet Vermouth", "Green Chartreuse",""],
-    Measures:[ "2 oz", "1 oz", "1/2 oz"],
+    Ingredients: ["Irish Whiskey", "Sweet Vermouth", "Green Chartreuse"],
+    Measures: ["2 oz", "1 oz", "1/2 oz"],
     Date: "2018-03-22 23:33:30",
     isPublic: true,
     Like: 0
@@ -8361,8 +9344,14 @@ const cocktails = [
       "Shake blended Scotch, lemon juice, honey syrup and ginger syrup with ice. Strain over large ice in chilled rocks glass. Float smoky Scotch on top (be sure to use a smoky Scotch such as an Islay single malt). Garnish with candied ginger.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/hc9b1a1521853096.jpg",
-    Ingredients:[ "Blended Scotch", "Lemon Juice", "Honey syrup","Ginger Syrup", "Islay single malt Scotch"],
-    Measures:[ "2 oz", "3/4 oz", "2 tsp", "2 tsp", "1/4 oz"],
+    Ingredients: [
+      "Blended Scotch",
+      "Lemon Juice",
+      "Honey syrup",
+      "Ginger Syrup",
+      "Islay single malt Scotch"
+    ],
+    Measures: ["2 oz", "3/4 oz", "2 tsp", "2 tsp", "1/4 oz"],
     Date: "2018-03-24 00:58:16",
     isPublic: true,
     Like: 0
@@ -8376,8 +9365,14 @@ const cocktails = [
       "Cut the half lime in half again. Add the lime, falernum, and bitters to a rocks glass. Muddle. Add the rum. (Aged Barbados rum such as Plantation 5 Year is recommended). Add ice and stir. Float the blackstrap rum on top. Serve with a straw.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/jfvyog1530108909.jpg",
-    Ingredients:[ "Lime", "Falernum", "Angostura Bitters","A\u00f1ejo rum", "blackstrap rum"],
-    Measures:[ "1/2", "1/3 oz", "2 dashes", "1 oz", "1 oz"],
+    Ingredients: [
+      "Lime",
+      "Falernum",
+      "Angostura Bitters",
+      "A\u00f1ejo rum",
+      "blackstrap rum"
+    ],
+    Measures: ["1/2", "1/3 oz", "2 dashes", "1 oz", "1 oz"],
     Date: "2018-06-27 15:15:09",
     isPublic: true,
     Like: 0
@@ -8418,8 +9413,15 @@ const cocktails = [
       "In a shaker half-filled with ice cubes, combine the light rum, a\u00f1ejo rum, orange juice, and lemon juice. Shake well. Strain into a highball glass almost filled with ice cubes. Top with the ginger ale. Garnish with the lemon twist.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/vyrvxt1461919380.jpg",
-    Ingredients:[ "Light rum", "A\u00f1ejo rum", "Orange juice","Lemon juice", "Ginger ale", "Lemon peel"],
-    Measures:[ "1 oz ", "1 oz ", "1 oz ", "1/2 oz ", "3 oz ", "1 twist of "],
+    Ingredients: [
+      "Light rum",
+      "A\u00f1ejo rum",
+      "Orange juice",
+      "Lemon juice",
+      "Ginger ale",
+      "Lemon peel"
+    ],
+    Measures: ["1 oz ", "1 oz ", "1 oz ", "1/2 oz ", "3 oz ", "1 twist of "],
     Date: "2016-04-29 09:43:00",
     isPublic: true,
     Like: 0
@@ -8454,8 +9456,8 @@ const cocktails = [
       "Shake all ingredients (except for the cherry) with ice and strain into a cocktail glass. Top with the cherry and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/quyyuw1472811568.jpg",
-    Ingredients:[ "Gin", "Orange bitters", "Orange","Cherry"],
-    Measures:[ "1 1/2 oz ", "1 dash ", "Juice of 1/4 ", "1 "],
+    Ingredients: ["Gin", "Orange bitters", "Orange", "Cherry"],
+    Measures: ["1 1/2 oz ", "1 dash ", "Juice of 1/4 ", "1 "],
     Date: "2016-09-02 11:19:28",
     isPublic: true,
     Like: 0
@@ -8490,8 +9492,15 @@ const cocktails = [
       "Combine and shake all ingredients (except mint) with ice and strain into an old-fashioned glass over ice cubes. Add the sprig of mint and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/vtpsvr1472811976.jpg",
-    Ingredients:[ "Light rum", "Triple sec", "Lime juice","Sugar", "Egg white", "Mint"],
-    Measures:[ "1 1/2 oz ", "1 1/2 tsp ", "1 tblsp ", "1 tsp ", "1 ", "1 "],
+    Ingredients: [
+      "Light rum",
+      "Triple sec",
+      "Lime juice",
+      "Sugar",
+      "Egg white",
+      "Mint"
+    ],
+    Measures: ["1 1/2 oz ", "1 1/2 tsp ", "1 tblsp ", "1 tsp ", "1 ", "1 "],
     Date: "2016-09-02 11:26:16",
     isPublic: true,
     Like: 0
@@ -8553,8 +9562,13 @@ const cocktails = [
       "Pour schnapps, orange juice, and cranberry juice over ice in a highball glass. Top with club soda and serve.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/wxrsxx1472720734.jpg",
-    Ingredients:[ "Strawberry schnapps", "Orange juice", "Cranberry juice","Club soda"],
-    Measures:[ "2 oz ", "2 oz ", "2 oz "],
+    Ingredients: [
+      "Strawberry schnapps",
+      "Orange juice",
+      "Cranberry juice",
+      "Club soda"
+    ],
+    Measures: ["2 oz ", "2 oz ", "2 oz "],
     Date: "2016-09-01 10:05:34",
     isPublic: true,
     Like: 0
@@ -8574,8 +9588,8 @@ const cocktails = [
       "In a mixing glass half-filled with ice cubes, combine all of the ingredients. Stir well. Strain into a cocktail glass.",
     Image:
       "https://www.thecocktaildb.com/images/media/drink/nwatpb1504817045.jpg",
-    Ingredients:[ "Scotch", "Sweet Vermouth", "Dry Vermouth","Orange bitters"],
-    Measures:[ "1 1/2 oz ", "1 oz ", "1 oz ", "2 dashes "],
+    Ingredients: ["Scotch", "Sweet Vermouth", "Dry Vermouth", "Orange bitters"],
+    Measures: ["1 1/2 oz ", "1 oz ", "1 oz ", "2 dashes "],
     Date: "2017-09-07 21:44:05"
   }
 ];

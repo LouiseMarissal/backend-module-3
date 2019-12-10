@@ -57,11 +57,13 @@ app.use(checkloginStatus);
 //Routing
 const authRouter = require("./routes/auth-routes");
 const cocktails = require("./routes/coktails");
-const tags = require("./routes/tags");
+const comments = require("./routes/comment");
+const tags = require("./routes/tag");
 
 app.use("/auth-routes", authRouter);
 app.use("/cocktail", cocktails);
-app.use("/tags", tags);
+app.use("/comment", comments);
+app.use("/auth-routes", tags);
 
 //Getting/Usings Router
 app.listen(process.env.PORT, () => {

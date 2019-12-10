@@ -71,24 +71,29 @@ router.get("/:id", (req, res) => {
 });
 
 //FindByUserId
-router.get("profile/edit-cocktail/:id", (req, res) => {
-  userModel
+router.get("/profile/edit-cocktail/:id", (req, res) => {
+  // userModel
+  //   .findById(req.params.id)
+  //   .then(dbRes => {
+  // res.status(200).send(dbRes);
+  // console.log("'iiiiici");
+  cocktailModel
     .findById(req.params.id)
+    .populate("cocktail")
     .then(dbRes => {
+      console.log("heeeere");
+      console.log(dbRes);
       res.status(200).send(dbRes);
-      cocktailModel
-        .find({ userProID: ObjectId(id) })
-        .populate("cocktail")
-        .then(dbRes => {
-          res.status(200).send(dbRes);
-        })
-        .catch(dbErr => {
-          res.status(500).send(dbErr);
-        });
     })
     .catch(dbErr => {
+      console.log(dbErr);
       res.status(500).send(dbErr);
     });
+  // })
+  // .catch(dbErr => {
+  //   console.log;
+  //   res.status(500).send(dbErr);
+  // });
 });
 
 // Create one Cocktail
