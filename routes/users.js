@@ -31,20 +31,6 @@ router.get("/:id", (req, res) => {
     });
 });
 
-// Create User Profile
-router.post("/", (req, res) => {
-  if (req.file) {
-    req.body.photo = req.file.secure_url;
-  }
-  UserModel.create(req.body)
-    .then(dbRes => {
-      res.status(201).send(dbRes);
-    })
-    .catch(dbErr => {
-      res.status(500).send(dbErr);
-    });
-});
-
 // Modify User Profile
 router.patch("/:id", (req, res) => {
   if (req.file) {
