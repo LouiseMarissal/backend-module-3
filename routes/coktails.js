@@ -99,12 +99,12 @@ router.get("/profile/edit-cocktail/:id", (req, res) => {
 // Create one Cocktail
 router.post("/", uploadCloud.single("Image"), (req, res) => {
   if (req.file) {
-    console.log("ici");
     req.body.Image = req.file.secure_url;
-    console.log(req.file);
   }
+  const newCocktail = { ...req.body, UserProID: req.session.currentUser };
+  console.log(newCocktail);
   cocktailModel
-    .create(req.body)
+    .create(newCocktail)
     .then(dbRes => {
       res.status(201).send(dbRes);
     })
