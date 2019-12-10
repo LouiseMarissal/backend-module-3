@@ -137,7 +137,7 @@ router.delete("/:id", (req, res) => {
     .catch(dbErr => {
       res.status(500).send(dbErr);
     });
-});
+})
 
 // Like a cocktail
 router.patch("/addLike", (req, res) => {
