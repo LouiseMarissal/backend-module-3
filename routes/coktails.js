@@ -137,6 +137,6 @@ router.delete("/:id", (req, res) => {
     .catch(dbErr => {
       res.status(500).send(dbErr);
     });
-});
+})
 
 module.exports = router;
