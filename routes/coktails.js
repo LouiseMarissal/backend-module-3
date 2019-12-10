@@ -127,6 +127,7 @@ router.patch("/:id", (req, res) => {
 
 // Delete cocktails
 router.delete("/:id", (req, res) => {
+  console.log("ici");
   cocktailModel
     .findByIdAndDelete(req.params.id)
     .then(dbRes => {
