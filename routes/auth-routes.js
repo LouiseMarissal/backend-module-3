@@ -88,17 +88,6 @@ router.get("/profile/:id", (req, res) => {
     });
 });
 
-router.get("/cocktail/comments/:id", (req, res) => {
-  CommentModel.find({ cocktail: ObjectId(req.params.id) })
-    .then(dbRes => {
-      console.log("coucou" + dbRes);
-      res.status(200).send(dbRes);
-    })
-    .catch(dbErr => {
-      res.status(200).send(dbErr);
-    });
-});
-
 router.get("/logout", (req, res) => {
   req.session.destroy(err => {
     res.locals.isLoggedIn = undefined;

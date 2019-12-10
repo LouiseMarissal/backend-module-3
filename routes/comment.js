@@ -14,6 +14,17 @@ router.get("/", (req, res) => {
     });
 });
 
+router.get("/cocktail/:id", (req, res) => {
+  CommentModel.find({ cocktail: req.params.id })
+    .then(dbRes => {
+      console.log(dbRes);
+      res.status(200).send(dbRes);
+    })
+    .catch(dbErr => {
+      res.status(200).send(dbErr);
+    });
+});
+
 router.post("/", (req, res) => {
   CommentModel.create(req.body)
     .then(dbRes => {
