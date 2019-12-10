@@ -89,25 +89,6 @@ router.get("/profile/:id", (req, res) => {
     });
 });
 
-// // findbyId cocktail and update
-router.patch(
-  "/profile/edit-cocktail/:id",
-  uploadCloud.single("Image"),
-
-  (req, res) => {
-    console.log("coucou ici");
-    if (req.file) req.body.Image = req.file.secure_url;
-    cocktailModel
-      .findByIdAndUpdate(req.params.id, req.body, { new: true })
-      .then(dbRes => {
-        res.status(200).send(dbRes);
-      })
-      .catch(dbErr => {
-        res.status(500).send(dbErr);
-      });
-  }
-);
-
 router.get("/logout", (req, res) => {
   req.session.destroy(err => {
     res.locals.isLoggedIn = undefined;
@@ -119,7 +100,8 @@ router.get("/logout", (req, res) => {
 //Tags creation
 router.post("/tag", (req, res) => {
   TagModel.create(req.body)
-    .then(dbRes => console.log(dbRes))
+    .then(dbRes => res.status(200).send(dbRes))
+    // console.log(dbRes))
     .catch(dbErr => console.log(dbErr));
 });
 
