@@ -99,12 +99,12 @@ router.get("/profile/edit-cocktail/:id", (req, res) => {
 // Create one Cocktail
 router.post("/", uploadCloud.single("Image"), (req, res) => {
   if (req.file) {
-    console.log("ici");
     req.body.Image = req.file.secure_url;
-    console.log(req.file);
   }
+  const newCocktail = { ...req.body, UserProID: req.session.currentUser };
+  console.log(newCocktail);
   cocktailModel
-    .create(req.body)
+    .create(newCocktail)
     .then(dbRes => {
       res.status(201).send(dbRes);
     })
@@ -129,7 +129,6 @@ router.patch("/:id", (req, res) => {
 
 // Delete cocktails
 router.delete("/:id", (req, res) => {
-  console.log("ici");
   cocktailModel
     .findByIdAndDelete(req.params.id)
     .then(dbRes => {
@@ -140,5 +139,35 @@ router.delete("/:id", (req, res) => {
     });
 });
 
+// Like a cocktail
+router.patch("/addLike", (req, res) => {
+  cocktailModel
+    .findByIdAndUpdate(req.body.id, { $inc: { Like: +1 } })
+    .then(dbRes => {
+      console.log(dbRes);
+      userModel
+        .findByIdAndUpdate(req.session.currentUser, {
+          $push: { favorites: req.body.id }
+        })
+        .then(dbRes => console.log(dbRes))
+        .catch(dbErr => console.log(dbErr));
+    })
+    .catch(dbErr => console.log(dbErr));
+});
 
+// Remove like
+router.patch("/removeLike", (req, res) => {
+  cocktailModel
+    .findByIdAndUpdate(req.body.id, { $inc: { Like: -1 } })
+    .then(dbRes => {
+      console.log(dbRes);
+      userModel
+        .findByIdAndUpdate(req.session.currentUser, {
+          $pull: { favorites: req.body.id }
+        })
+        .then(dbRes => console.log(dbRes))
+        .catch(dbErr => console.log(dbErr));
+    })
+    .catch(dbErr => console.log(dbErr));
+});
 module.exports = router;
