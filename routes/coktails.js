@@ -99,7 +99,9 @@ router.get("/profile/edit-cocktail/:id", (req, res) => {
 // Create one Cocktail
 router.post("/", uploadCloud.single("Image"), (req, res) => {
   if (req.file) {
+    console.log("ici");
     req.body.Image = req.file.secure_url;
+    console.log(req.file);
   }
   cocktailModel
     .create(req.body)
@@ -137,5 +139,6 @@ router.delete("/:id", (req, res) => {
       res.status(500).send(dbErr);
     });
 });
+
 
 module.exports = router;
