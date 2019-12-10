@@ -33,7 +33,7 @@ app.use(
   })
 );
 
-app.locals.site_url = process.env.SITE_URL;
+// app.locals.site_url = process.env.SITE_URL;
 
 // // LOGIN
 
@@ -44,15 +44,15 @@ function loggedIn(req, res, next) {
 }
 app.use(loggedIn);
 
-function checkloginStatus(req, res, next) {
-  res.locals.user = req.session.currentUser ? req.session.currentUser : null;
-  // access this value @ {{user}} or {{user.pro}} in .hbs
-  // res.locals.isLoggedIn = Boolean(req.session.currentUser);
-  res.locals.isLoggedIn = true;
-  // access this value @ {{isLoggedIn}} in .hbs
-  next(); // continue to the requested route
-}
-app.use(checkloginStatus);
+// function checkloginStatus(req, res, next) {
+//   res.locals.user = req.session.currentUser ? req.session.currentUser : null;
+//   // access this value @ {{user}} or {{user.pro}} in .hbs
+//   // res.locals.isLoggedIn = Boolean(req.session.currentUser);
+//   res.locals.isLoggedIn = true;
+//   // access this value @ {{isLoggedIn}} in .hbs
+//   next(); // continue to the requested route
+// }
+// app.use(checkloginStatus);
 
 //Routing
 const authRouter = require("./routes/auth-routes");
