@@ -1,6 +1,7 @@
 const express = require("express");
 const cocktailModel = require("./../models/Cocktail");
-userModel = require("./../models/User");
+const TagModel = require("./../models/Tag");
+const userModel = require("./../models/User");
 const router = express.Router();
 const uploadCloud = require("./../config/cloudinary");
 
@@ -60,6 +61,7 @@ router.get("/", (req, res) => {
 router.get("/:id", (req, res) => {
   cocktailModel
     .findById(req.params.id)
+    .populate("tag")
     .then(dbRes => {
       res.status(200).send(dbRes);
     })
@@ -69,24 +71,29 @@ router.get("/:id", (req, res) => {
 });
 
 //FindByUserId
-router.get("profile/edit-cocktail/:id", (req, res) => {
-  userModel
+router.get("/profile/edit-cocktail/:id", (req, res) => {
+  // userModel
+  //   .findById(req.params.id)
+  //   .then(dbRes => {
+  // res.status(200).send(dbRes);
+  // console.log("'iiiiici");
+  cocktailModel
     .findById(req.params.id)
+    .populate("cocktail")
     .then(dbRes => {
+      console.log("heeeere");
+      console.log(dbRes);
       res.status(200).send(dbRes);
-      cocktailModel
-        .find({ userProID: ObjectId(id) })
-        .populate("cocktail")
-        .then(dbRes => {
-          res.status(200).send(dbRes);
-        })
-        .catch(dbErr => {
-          res.status(500).send(dbErr);
-        });
     })
     .catch(dbErr => {
+      console.log(dbErr);
       res.status(500).send(dbErr);
     });
+  // })
+  // .catch(dbErr => {
+  //   console.log;
+  //   res.status(500).send(dbErr);
+  // });
 });
 
 // Create one Cocktail
@@ -131,7 +138,5 @@ router.delete("/:id", (req, res) => {
       res.status(500).send(dbErr);
     });
 });
-
-// Search cocktails
 
 module.exports = router;

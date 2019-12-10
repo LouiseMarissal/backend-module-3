@@ -44,7 +44,7 @@ router.post("/", (req, res) => {
     });
 });
 
-// Modify user Profile
+// Modify User Profile
 router.patch("/:id", (req, res) => {
   if (req.file) {
     req.body.photo = req.file.secure_url;
