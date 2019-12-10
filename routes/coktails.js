@@ -114,18 +114,35 @@ router.post("/", uploadCloud.single("Image"), (req, res) => {
     });
   // res.send("Ok");
 });
+// // findbyId cocktail and update
+router.patch(
+  "/profile/edit-cocktail/:id",
+  uploadCloud.single("Image"),
 
+  (req, res) => {
+    console.log("coucou ici");
+    if (req.file) req.body.Image = req.file.secure_url;
+    cocktailModel
+      .findByIdAndUpdate(req.params.id, req.body, { new: true })
+      .then(dbRes => {
+        res.status(200).send(dbRes);
+      })
+      .catch(dbErr => {
+        res.status(500).send(dbErr);
+      });
+  }
+);
 // findbyId and update
-router.patch("/:id", (req, res) => {
-  cocktailModel
-    .findByIdAndUpdate(req.params.id, req.body)
-    .then(dbRes => {
-      res.status(200).send(dbRes);
-    })
-    .catch(dbErr => {
-      res.status(500).send(dbErr);
-    });
-});
+// router.patch("/:id", (req, res) => {
+//   cocktailModel
+//     .findByIdAndUpdate(req.params.id, req.body)
+//     .then(dbRes => {
+//       res.status(200).send(dbRes);
+//     })
+//     .catch(dbErr => {
+//       res.status(500).send(dbErr);
+//     });
+// });
 
 // Delete cocktails
 router.delete("/:id", (req, res) => {
@@ -137,6 +154,6 @@ router.delete("/:id", (req, res) => {
     .catch(dbErr => {
       res.status(500).send(dbErr);
     });
-})
+});
 
 module.exports = router;
