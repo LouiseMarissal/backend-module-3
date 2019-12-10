@@ -62,7 +62,7 @@ const tags = require("./routes/tags");
 const userProfile = require("./routes/users");
 
 app.use("/auth-routes", authRouter);
-app.use("/cocktails", cocktails);
+app.use("/cocktail", cocktails);
 app.use("/comment", comments);
 app.use("/auth-routes", tags);
 app.use("/userProfile", userProfile);
