@@ -119,7 +119,8 @@ router.get("/logout", (req, res) => {
 //Tags creation
 router.post("/tag", (req, res) => {
   TagModel.create(req.body)
-    .then(dbRes => console.log(dbRes))
+    .then(dbRes => res.status(200).send(dbRes))
+    // console.log(dbRes))
     .catch(dbErr => console.log(dbErr));
 });
 

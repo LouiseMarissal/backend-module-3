@@ -17,7 +17,7 @@ const CocktailSchema = new Schema({
   isPublic: Boolean,
   UserProID: {
     type: Schema.Types.ObjectId,
-    ref: "UserPro"
+    ref: "User"
   },
   tags: [
     {
