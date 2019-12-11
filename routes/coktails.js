@@ -200,16 +200,30 @@ router.patch("/addLike/:id", (req, res) => {
 
 // Remove like
 router.patch("/removeLike/:id", (req, res) => {
-  console.log(req.session.currentUser);
   cocktailModel
     .findByIdAndUpdate(req.params.id, { $inc: { Like: -1 } }, { new: true })
     .then(dbRes => {
+      console.log(req.session.currentUser);
       res.status(200).send(dbRes);
-      userModel.findByIdAndUpdate(req.session.currentUser, {
-        $pull: { favorites: req.params.id }
-      });
+      userModel.findByIdAndUpdate(
+        req.session.currentUser,
+        { new: true },
+        {
+          $pull: { favorites: req.params.id }
+        }
+      );
     })
     .catch(dbErr => res.status(500).send(dbErr));
 });
 
+router.delete("/remove-user-like/:id", (req, res) => {
+  userModel
+    .findByIdAndDelete(req.params.id)
+    .then(dbRes => {
+      res.status(200).send(dbRes);
+    })
+    .catch(dbErr => {
+      res.status(500).send(dbErr);
+    });
+});
 module.exports = router;
