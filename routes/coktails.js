@@ -65,18 +65,18 @@ router.get("/", (req, res) => {
     });
 });
 
-// router.get("/userpro-cocktail", (req, res) => {
-//   cocktailModel
-//     .find({
-//       UserProID: req.params.id
-//     })
-//     .then(dbRes => {
-//       res.status(200).send(dbRes);
-//     })
-//     .catch(dbErr => {
-//       res.status(500).send(dbErr);
-//     });
-// });
+router.get("/userpro-cocktail/:id", (req, res) => {
+  cocktailModel
+    .find({
+      UserProID: req.params.id
+    })
+    .then(dbRes => {
+      res.status(200).send(dbRes);
+    })
+    .catch(dbErr => {
+      res.status(500).send(dbErr);
+    });
+});
 
 // router.get("/userFav", (req, res) => {
 //   const userId = req.session.currentUser;
@@ -148,7 +148,6 @@ router.patch(
   uploadCloud.single("Image"),
 
   (req, res) => {
-    console.log("coucou ici");
     if (req.file) req.body.Image = req.file.secure_url;
     cocktailModel
       .findByIdAndUpdate(req.params.id, req.body, { new: true })
@@ -201,6 +200,7 @@ router.patch("/addLike/:id", (req, res) => {
 
 // Remove like
 router.patch("/removeLike/:id", (req, res) => {
+  console.log(req.session.currentUser);
   cocktailModel
     .findByIdAndUpdate(req.params.id, { $inc: { Like: -1 } }, { new: true })
     .then(dbRes => {
