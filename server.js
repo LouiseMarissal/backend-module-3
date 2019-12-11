@@ -38,7 +38,8 @@ app.use(
 // // LOGIN
 
 function loggedIn(req, res, next) {
-  req.session.currentUser = "5dee1baa0c0f7a1fcdef5f9a";
+  // console.log(req.session);
+  // req.session.currentUser = "5dee34c75479272a5c579514";
   // Boolean(req.session.currentUser);
   next();
 }

@@ -61,7 +61,6 @@ router.post("/signin", (req, res, next) => {
       if (bcrypt.compareSync(user.password, dbRes.password)) {
         // encryption says : password match success
         req.session.currentUser = dbRes; // user is now in session... until session.destroy
-
         //create sendable user;
         return res.status(200).send(dbRes);
         // return res.redirect("/pro");

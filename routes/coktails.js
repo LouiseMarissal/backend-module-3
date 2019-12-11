@@ -38,18 +38,25 @@ router.get("/", (req, res) => {
     .populate("tags")
     .then(dbRes => {
       let cocktailsWithFavorites = [];
+      let isUser = false;
+      let allCocktails = dbRes;
+      let allCocktailsSorted = allCocktails.sort((a, b) => {
+        return b.Like - a.Like;
+      });
       if (req.session.currentUser) {
+        isUser = true;
         const userId = req.session.currentUser;
         userModel.findById(userId).then(dbRes2 => {
           const user = dbRes2;
-          const allCocktails = dbRes;
           if (user) {
-            cocktailsWithFavorites = allCocktails.filter(cocktail => {
+            cocktailsWithFavorites = allCocktailsSorted.filter(cocktail => {
               return user.favorites.includes(cocktail._id);
             });
           }
-          res.send({ dbRes, cocktailsWithFavorites });
+          res.send({ allCocktailsSorted, cocktailsWithFavorites, isUser });
         });
+      } else {
+        res.send({ allCocktailsSorted, cocktailsWithFavorites, isUser });
       }
     })
     .catch(dbErr => {
