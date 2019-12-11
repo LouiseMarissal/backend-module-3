@@ -23,6 +23,7 @@ router.get("/", (req, res) => {
 // Show User Profil
 router.get("/:id", (req, res) => {
   UserModel.findById(req.params.id)
+    .populate("favorites")
     .then(dbRes => {
       res.status(200).send(dbRes);
     })

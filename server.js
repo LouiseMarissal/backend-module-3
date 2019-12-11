@@ -12,24 +12,33 @@ const cookieParser = require("cookie-parser");
 
 // Server configuration
 const app = express();
-app.use(cors([process.env.FRONT_URL]));
+// app.use(cors([process.env.FRONT_URL]));
 
 // Allow server to parse body from POST Request
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(cors("*"));
+
+app.use(cookieParser());
 
 // Session
 app.use(
   session({
     secret: process.env.SESSION_SECRET,
     cookie: { maxAge: 60000 }, // in millisec
-    store: new MongoStore({
-      mongooseConnection: mongoose.connection,
-      ttl: 24 * 60 * 60 // 1 day
-    }),
+    // store: new MongoStore({
+    //   mongooseConnection: mongoose.connection,
+    //   ttl: 24 * 60 * 60 // 1 day
+    // }),
     saveUninitialized: true,
     resave: true
+  })
+);
+
+app.use(
+  cors({
+    origin: [process.env.FRONTEND_URL],
+    credentials: true,
+    optionsSuccessStatus: 200
   })
 );
 
@@ -38,11 +47,13 @@ app.use(
 // // LOGIN
 
 function loggedIn(req, res, next) {
-  req.session.currentUser = "5dee1baa0c0f7a1fcdef5f9a";
+  // req.session.currentUser = "5dee1baa0c0f7a1fcdef5f9a";
+  console.log("yata ?");
+  console.log(req.session.currentUser);
   // Boolean(req.session.currentUser);
   next();
 }
-app.use(loggedIn);
+// app.use(loggedIn);
 
 // function checkloginStatus(req, res, next) {
 //   res.locals.user = req.session.currentUser ? req.session.currentUser : null;
