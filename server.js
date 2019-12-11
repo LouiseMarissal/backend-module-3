@@ -33,38 +33,39 @@ app.use(
   })
 );
 
-app.locals.site_url = process.env.SITE_URL;
+// app.locals.site_url = process.env.SITE_URL;
 
 // // LOGIN
 
 function loggedIn(req, res, next) {
-  req.session.currentUser = "5de90f2e4197e7f60c2eec42";
+  req.session.currentUser = "5dee1baa0c0f7a1fcdef5f9a";
   // Boolean(req.session.currentUser);
   next();
 }
 app.use(loggedIn);
 
-function checkloginStatus(req, res, next) {
-  res.locals.user = req.session.currentUser ? req.session.currentUser : null;
-  // access this value @ {{user}} or {{user.pro}} in .hbs
-  // res.locals.isLoggedIn = Boolean(req.session.currentUser);
-  res.locals.isLoggedIn = true;
-  // access this value @ {{isLoggedIn}} in .hbs
-  next(); // continue to the requested route
-}
-app.use(checkloginStatus);
+// function checkloginStatus(req, res, next) {
+//   res.locals.user = req.session.currentUser ? req.session.currentUser : null;
+//   // access this value @ {{user}} or {{user.pro}} in .hbs
+//   // res.locals.isLoggedIn = Boolean(req.session.currentUser);
+//   res.locals.isLoggedIn = true;
+//   // access this value @ {{isLoggedIn}} in .hbs
+//   next(); // continue to the requested route
+// }
+// app.use(checkloginStatus);
 
 //Routing
 const authRouter = require("./routes/auth-routes");
 const cocktails = require("./routes/coktails");
 const comments = require("./routes/comment");
 const tags = require("./routes/tags");
+const userProfile = require("./routes/users");
 
 app.use("/auth-routes", authRouter);
 app.use("/cocktail", cocktails);
 app.use("/comment", comments);
 app.use("/tags", tags);
-
+app.use("/userProfile", userProfile);
 //Getting/Usings Router
 app.listen(process.env.PORT, () => {
   console.log("Server listening on port http://localhost:" + process.env.PORT);
