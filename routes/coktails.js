@@ -45,11 +45,11 @@ router.get("/", (req, res) => {
           const user = dbRes2;
           const allCocktails = dbRes;
           // console.log(user);
-          cocktailsWithFavorites = allCocktails.filter(cocktail => {
-            return user.favorites.includes(cocktail._id);
-          });
-          console.log("cocktailsWithFavorites");
-          console.log(cocktailsWithFavorites);
+          if (user) {
+            cocktailsWithFavorites = allCocktails.filter(cocktail => {
+              return user.favorites.includes(cocktail._id);
+            });
+          }
           res.send({ dbRes, cocktailsWithFavorites });
           // res.status(200).send("todo");
         });
