@@ -35,23 +35,20 @@ router.get("/", (req, res) => {
         { Ingredients: { $regex: `.*${req.query.query}.*`, $options: "i" } }
       ]
     })
-    .populate("tag")
+    .populate("tags")
     .then(dbRes => {
-      let favAndSearch = {};
       let cocktailsWithFavorites = [];
       if (req.session.currentUser) {
         const userId = req.session.currentUser;
         userModel.findById(userId).then(dbRes2 => {
           const user = dbRes2;
           const allCocktails = dbRes;
-          // console.log(user);
           if (user) {
             cocktailsWithFavorites = allCocktails.filter(cocktail => {
               return user.favorites.includes(cocktail._id);
             });
           }
           res.send({ dbRes, cocktailsWithFavorites });
-          // res.status(200).send("todo");
         });
       }
     })
