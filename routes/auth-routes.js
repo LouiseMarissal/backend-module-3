@@ -78,7 +78,8 @@ router.post("/signin", (req, res, next) => {
 router.get("/is-loggedin", (req, res) => {
   console.log(req.session);
 
-  if (req.session.currentUser) return res.status(200).json("oki poto");
+  if (req.session.currentUser)
+    return res.status(200).json({ currentUser: req.session.currentUser });
   res.status(403).json("Unauthorized");
 });
 
