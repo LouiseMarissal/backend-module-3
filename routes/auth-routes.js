@@ -66,13 +66,20 @@ router.post("/signin", (req, res, next) => {
         // return res.redirect("/pro");
       } else {
         // encryption says : password match failde
-        return res.status(400).send("Wrong password");
+        return res.status(403).send("Wrong password");
       }
     })
     .catch(dbErr => {
       console.log(dbErr);
       res.status(500).send("Something went wrong");
     });
+});
+
+router.get("/is-loggedin", (req, res) => {
+  console.log(req.session);
+
+  if (req.session.currentUser) return res.status(200).json("oki poto");
+  res.status(403).json("Unauthorized");
 });
 
 router.get("/profile/:id", (req, res) => {
@@ -90,8 +97,6 @@ router.get("/profile/:id", (req, res) => {
 
 router.get("/logout", (req, res) => {
   req.session.destroy(err => {
-    res.locals.isLoggedIn = undefined;
-    res.locals.isAdmin = undefined;
     res.status(200).send("Succesfully logged out");
   });
 });

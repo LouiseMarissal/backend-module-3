@@ -17,10 +17,7 @@ router.get("/", (req, res) => {
 router.get("/cocktail/:id", (req, res) => {
   CommentModel.find({ cocktail: req.params.id })
     .then(dbRes => {
-      const reversedbRes = dbRes.sort((a, b) => {
-        return b.created - a.created;
-      });
-      res.status(200).send(reversedbRes);
+      res.status(200).send(dbRes);
     })
     .catch(dbErr => {
       res.status(200).send(dbErr);
