@@ -96,7 +96,7 @@ router.get("/profile/:id", (req, res) => {
     });
 });
 
-router.get("/logout", (req, res) => {
+router.post("/logout", (req, res) => {
   req.session.destroy(err => {
     res.status(200).send("Succesfully logged out");
   });
