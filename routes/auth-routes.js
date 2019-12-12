@@ -78,7 +78,6 @@ router.post("/signin", (req, res, next) => {
 router.get("/is-loggedin", (req, res) => {
   if (req.session.currentUser)
     return res.status(200).json({ currentUser: req.session.currentUser });
-  console.log("je suis là", req.session.currentUser);
   res.status(403).json("Unauthorized");
 });
 
