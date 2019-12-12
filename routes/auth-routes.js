@@ -76,7 +76,7 @@ router.post("/signin", (req, res, next) => {
 });
 
 router.get("/is-loggedin", (req, res) => {
-  console.log(req.session);
+  console.log(req.session.currentUser);
 
   if (req.session.currentUser)
     return res.status(200).json({ currentUser: req.session.currentUser });
