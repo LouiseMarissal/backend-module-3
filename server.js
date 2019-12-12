@@ -7,7 +7,6 @@ const express = require("express");
 const session = require("express-session");
 const cors = require("cors");
 const MongoStore = require("connect-mongo")(session);
-const mongoose = require("mongoose");
 const cookieParser = require("cookie-parser");
 
 // Server configuration
@@ -18,19 +17,15 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.use(cookieParser());
+// app.use(cookieParser());
 
 // Session
 app.use(
   session({
-    secret: process.env.SESSION_SECRET,
-    cookie: { maxAge: 60000000 }, // in millisec
-    // store: new MongoStore({
-    //   mongooseConnection: mongoose.connection,
-    //   ttl: 24 * 60 * 60 // 1 day
-    // }),
+    cookie: { secure: false, maxAge: 4 * 60 * 60 * 1000 }, // 4 hours
+    resave: true,
     saveUninitialized: true,
-    resave: true
+    secret: process.env.SESSION_SECRET
   })
 );
 
@@ -42,28 +37,16 @@ app.use(
   })
 );
 
-// app.locals.site_url = process.env.SITE_URL;
-
 // // LOGIN
 
 function loggedIn(req, res, next) {
   // // req.session.currentUser = "5dee1baa0c0f7a1fcdef5f9a";
-  // console.log("yata ?");
-  // console.log(req.session.currentUser);
+  console.log("yata ?");
+  console.log(req.session.currentUser);
   // Boolean(req.session.currentUser);
   next();
 }
-// app.use(loggedIn);
-
-// function checkloginStatus(req, res, next) {
-//   res.locals.user = req.session.currentUser ? req.session.currentUser : null;
-//   // access this value @ {{user}} or {{user.pro}} in .hbs
-//   // res.locals.isLoggedIn = Boolean(req.session.currentUser);
-//   res.locals.isLoggedIn = true;
-//   // access this value @ {{isLoggedIn}} in .hbs
-//   next(); // continue to the requested route
-// }
-// app.use(checkloginStatus);
+app.use(loggedIn);
 
 //Routing
 const authRouter = require("./routes/auth-routes");

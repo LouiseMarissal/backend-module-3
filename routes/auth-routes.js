@@ -30,7 +30,7 @@ router.post("/signup", uploadCloud.single("photo"), (req, res, next) => {
           .create(user)
           .then(createdUser => {
             //
-            res.status(201).send(createdUser);
+            res.status(201).json(createdUser);
           })
           .catch(dbErr => res.status(500).send("Something went wrong"));
       })
@@ -62,7 +62,7 @@ router.post("/signin", (req, res, next) => {
         // encryption says : password match success
         req.session.currentUser = dbRes; // user is now in session... until session.destroy
         //create sendable user;
-        return res.status(200).send(dbRes);
+        return res.status(200).json(dbRes);
         // return res.redirect("/pro");
       } else {
         // encryption says : password match failde
@@ -76,7 +76,7 @@ router.post("/signin", (req, res, next) => {
 });
 
 router.get("/is-loggedin", (req, res) => {
-  console.log(req.session.currentUser);
+  console.log("is logged in ?", Boolean(req.session.currentUser));
 
   if (req.session.currentUser)
     return res.status(200).json({ currentUser: req.session.currentUser });
@@ -96,18 +96,10 @@ router.get("/profile/:id", (req, res) => {
     });
 });
 
-router.get("/logout", (req, res) => {
+router.post("/logout", (req, res) => {
   req.session.destroy(err => {
     res.status(200).send("Succesfully logged out");
   });
-});
-
-//Tags creation
-router.post("/tag", (req, res) => {
-  TagModel.create(req.body)
-    .then(dbRes => res.status(200).send(dbRes))
-    // console.log(dbRes))
-    .catch(dbErr => console.log(dbErr));
 });
 
 module.exports = router;

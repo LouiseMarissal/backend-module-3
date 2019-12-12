@@ -127,13 +127,22 @@ router.get("/profile/edit-cocktail/:id", (req, res) => {
 
 // Create one Cocktail
 router.post("/", uploadCloud.single("Image"), (req, res) => {
+  // console.log("yo", req.session.currentUser);
+  const newCocktail = { ...req.body, UserProID: req.session.currentUser };
+
   if (req.file) {
-    req.body.Image = req.file.secure_url;
+    newCocktail.Image = req.file.secure_url;
   }
-  const newCocktail = { ...req.body, UserProID: req.params.id };
+
+  console.log(newCocktail);
+
+  res.send("todo");
+
   cocktailModel
     .create(newCocktail)
     .then(dbRes => {
+      console.log(eq.session.currentUser);
+      console.log("Cocktail successfully created");
       res.status(201).send(dbRes);
     })
     .catch(dbErr => {
