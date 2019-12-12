@@ -45,7 +45,7 @@ router.get("/", (req, res) => {
       });
       // console.log(req.session);
       if (req.session.currentUser) {
-        // console.log("je suis bien là");
+        console.log("je suis bien là");
         isUser = true;
         const userId = req.session.currentUser._id;
         userModel.findById(userId).then(dbRes2 => {
@@ -126,15 +126,18 @@ router.get("/profile/edit-cocktail/:id", (req, res) => {
 
 // Create one Cocktail
 router.post("/", uploadCloud.single("Image"), (req, res) => {
+  // console.log("yo", req.session.currentUser);
   const newCocktail = { ...req.body, UserProID: req.session.currentUser };
 
   if (req.file) {
     newCocktail.Image = req.file.secure_url;
   }
+  res.send("todo");
+
   cocktailModel
     .create(newCocktail)
     .then(dbRes => {
-      console.log(req.session.currentUser);
+      // console.log(eq.session.currentUser);
       console.log("Cocktail successfully created");
       res.status(201).send(dbRes);
     })
@@ -144,7 +147,7 @@ router.post("/", uploadCloud.single("Image"), (req, res) => {
   // res.send("Ok");
 });
 
-// findbyId cocktail and update
+// // findbyId cocktail and update
 router.patch(
   "/profile/edit-cocktail/:id",
   uploadCloud.single("Image"),
