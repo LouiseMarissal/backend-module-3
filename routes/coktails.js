@@ -43,9 +43,10 @@ router.get("/", (req, res) => {
       let allCocktailsSorted = allCocktails.sort((a, b) => {
         return b.Like - a.Like;
       });
-      if (req.session.currentUser) {
+      console.log("session", req.session);
+      if (req.session._id) {
         isUser = true;
-        const userId = req.session.currentUser;
+        const userId = req.session._id;
         userModel.findById(userId).then(dbRes2 => {
           const user = dbRes2;
           if (user) {
@@ -64,38 +65,6 @@ router.get("/", (req, res) => {
       res.status(500).send(dbErr);
     });
 });
-
-// router.get("/userpro-cocktail", (req, res) => {
-//   cocktailModel
-//     .find({
-//       UserProID: req.params.id
-//     })
-//     .then(dbRes => {
-//       res.status(200).send(dbRes);
-//     })
-//     .catch(dbErr => {
-//       res.status(500).send(dbErr);
-//     });
-// });
-
-// router.get("/userFav", (req, res) => {
-//   const userId = req.session.currentUser;
-//   userModel
-//     .findById(userId)
-//     .then(dbRes => {
-//       const user = dbRes;
-//       cocktailModel.find().then(dbRes => {
-//         const allCocktails = dbRes;
-//         const coktailsWithFavorites = allCocktails.map(cocktail => {
-//           const copy = cocktail.toJSON();
-//           copy.isFavorite = user.Favorites && user.Favorites.includes(copy._id);
-//           console.log(copy);
-//           return copy;
-//         });
-//       });
-//     })
-//     .catch(dbErr => console.log(dbErr));
-// });
 
 // Show One Cocktail
 router.get("/:id", (req, res) => {
