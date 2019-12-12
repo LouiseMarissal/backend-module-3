@@ -43,9 +43,11 @@ router.get("/", (req, res) => {
       let allCocktailsSorted = allCocktails.sort((a, b) => {
         return b.Like - a.Like;
       });
+      // console.log(req.session);
       if (req.session.currentUser) {
+        // console.log("je suis bien là");
         isUser = true;
-        const userId = req.session.currentUser;
+        const userId = req.session.currentUser._id;
         userModel.findById(userId).then(dbRes2 => {
           const user = dbRes2;
           if (user) {
@@ -60,7 +62,6 @@ router.get("/", (req, res) => {
       }
     })
     .catch(dbErr => {
-      console.log(dbErr);
       res.status(500).send(dbErr);
     });
 });
@@ -116,11 +117,9 @@ router.get("/profile/edit-cocktail/:id", (req, res) => {
     .findById(req.params.id)
     .populate("cocktail")
     .then(dbRes => {
-      console.log(dbRes);
       res.status(200).send(dbRes);
     })
     .catch(dbErr => {
-      console.log(dbErr);
       res.status(500).send(dbErr);
     });
 });
@@ -191,9 +190,9 @@ router.patch("/addLike/:id", (req, res) => {
   cocktailModel
     .findByIdAndUpdate(req.params.id, { $inc: { Like: +1 } }, { new: true })
     .then(dbRes => {
-      res.status(200).send(dbRes);
+      // res.status(200).send(dbRes);
       userModel
-        .findByIdAndUpdate(req.session.currentUser, {
+        .findByIdAndUpdate(req.session.currentUser._id, {
           $addToSet: { favorites: req.params.id }
         })
         .then(dbRes2 => res.status(200).send(dbRes));
@@ -206,15 +205,12 @@ router.patch("/removeLike/:id", (req, res) => {
   cocktailModel
     .findByIdAndUpdate(req.params.id, { $inc: { Like: -1 } }, { new: true })
     .then(dbRes => {
-      console.log(req.session.currentUser);
       res.status(200).send(dbRes);
-      userModel.findByIdAndUpdate(
-        { currentUser: req.session.currentUser },
-        { new: true },
-        {
+      userModel
+        .findByIdAndUpdate(req.session.currentUser._id, {
           $pull: { favorites: req.params.id }
-        }
-      );
+        })
+        .then(dbRes2 => res.status(200).send(dbRes));
     })
     .catch(dbErr => res.status(500).send(dbErr));
 });
