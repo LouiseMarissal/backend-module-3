@@ -11,7 +11,7 @@ const uploadCloud = require("../config/cloudinary");
 //Signup User
 router.post("/signup", uploadCloud.single("photo"), (req, res, next) => {
   const user = req.body; // req.body contains the submited informations (out of post request)
-  console.log(user);
+  req.session.currentUser = user;
   if (req.file) user.photo = req.file.secure_url;
   if (!user.email || !user.password) {
     res.status(400).send("information incomplete");
@@ -36,7 +36,7 @@ router.post("/signup", uploadCloud.single("photo"), (req, res, next) => {
       })
       .catch(dbErr => next(dbErr));
   }
-  console.log(user);
+  // console.log(user);
 });
 
 // Login
@@ -76,10 +76,11 @@ router.post("/signin", (req, res, next) => {
 });
 
 router.get("/is-loggedin", (req, res) => {
-  console.log(req.session);
+  // console.log(req.session);
 
   if (req.session.currentUser)
     return res.status(200).json({ currentUser: req.session.currentUser });
+  console.log("je suis là", req.session.currentUser);
   res.status(403).json("Unauthorized");
 });
 

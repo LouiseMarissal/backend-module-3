@@ -43,10 +43,9 @@ router.get("/", (req, res) => {
       let allCocktailsSorted = allCocktails.sort((a, b) => {
         return b.Like - a.Like;
       });
-      console.log("session", req.session);
-      if (req.session._id) {
+      if (req.session.currentUser) {
         isUser = true;
-        const userId = req.session._id;
+        const userId = req.session.currentUser._id;
         userModel.findById(userId).then(dbRes2 => {
           const user = dbRes2;
           if (user) {
@@ -61,7 +60,6 @@ router.get("/", (req, res) => {
       }
     })
     .catch(dbErr => {
-      console.log(dbErr);
       res.status(500).send(dbErr);
     });
 });
@@ -85,11 +83,9 @@ router.get("/profile/edit-cocktail/:id", (req, res) => {
     .findById(req.params.id)
     .populate("cocktail")
     .then(dbRes => {
-      console.log(dbRes);
       res.status(200).send(dbRes);
     })
     .catch(dbErr => {
-      console.log(dbErr);
       res.status(500).send(dbErr);
     });
 });
@@ -99,14 +95,13 @@ router.post("/", uploadCloud.single("Image"), (req, res) => {
   if (req.file) {
     req.body.Image = req.file.secure_url;
   }
-  const newCocktail = { ...req.body, UserProID: req.session.currentUser };
+  const newCocktail = { ...req.body, UserProID: req.session.currentUser._id };
   cocktailModel
     .create(newCocktail)
     .then(dbRes => {
       res.status(201).send(dbRes);
     })
     .catch(dbErr => {
-      console.log(dbErr);
       res.status(500).send(dbErr);
     });
   // res.send("Ok");
@@ -117,7 +112,6 @@ router.patch(
   uploadCloud.single("Image"),
 
   (req, res) => {
-    console.log("coucou ici");
     if (req.file) req.body.Image = req.file.secure_url;
     cocktailModel
       .findByIdAndUpdate(req.params.id, req.body, { new: true })
@@ -160,7 +154,7 @@ router.patch("/addLike/:id", (req, res) => {
     .then(dbRes => {
       //res.status(200).send(dbRes);
       userModel
-        .findByIdAndUpdate(req.session.currentUser, {
+        .findByIdAndUpdate(req.session.currentUser._id, {
           $addToSet: { favorites: req.params.id }
         })
         .then(dbRes2 => res.status(200).send(dbRes));
@@ -174,7 +168,7 @@ router.patch("/removeLike/:id", (req, res) => {
     .findByIdAndUpdate(req.params.id, { $inc: { Like: -1 } }, { new: true })
     .then(dbRes => {
       res.status(200).send(dbRes);
-      userModel.findByIdAndUpdate(req.session.currentUser, {
+      userModel.findByIdAndUpdate(req.session.currentUser._id, {
         $pull: { favorites: req.params.id }
       });
     })
