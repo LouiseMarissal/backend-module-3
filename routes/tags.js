@@ -27,4 +27,12 @@ router.post("/cocktail/removeTag/:id", (req, res) => {
     .catch(dbErr => console.log(dbErr));
 });
 
+//Tags creation
+router.post("/tag", (req, res) => {
+  TagModel.create(req.body)
+    .then(dbRes => res.status(200).send(dbRes))
+    // console.log(dbRes))
+    .catch(dbErr => console.log(dbErr));
+});
+
 module.exports = router;

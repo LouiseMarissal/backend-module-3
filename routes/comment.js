@@ -26,6 +26,8 @@ router.get("/cocktail/:id", (req, res) => {
 });
 
 router.post("/", (req, res) => {
+  console.log("comment", req.session.currentUser);
+
   CommentModel.create(req.body)
     .then(dbRes => {
       res.status(201).send(dbRes);
