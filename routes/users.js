@@ -32,6 +32,17 @@ router.get("/:id", (req, res) => {
     });
 });
 
+router.patch("/edit-favorites/:id", (req, res) => {
+  UserModel.findByIdAndUpdate(req.params.id)
+    .populate("favorites")
+    .then(dbRes => {
+      res.status(200).send(dbRes);
+    })
+    .catch(dbErr => {
+      res.status(500).send(dbErr);
+    });
+});
+
 // Modify User Profile
 router.patch("/:id", (req, res) => {
   if (req.file) {
