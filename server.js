@@ -38,7 +38,6 @@ app.use(
 );
 
 // // LOGIN
-
 function loggedIn(req, res, next) {
   // // req.session.currentUser = "5dee1baa0c0f7a1fcdef5f9a";
   // console.log("yata ?");
@@ -60,6 +59,7 @@ app.use("/cocktail", cocktails);
 app.use("/comment", comments);
 app.use("/tags", tags);
 app.use("/userProfile", userProfile);
+
 //Getting/Usings Router
 app.listen(process.env.PORT, () => {
   console.log("Server listening on port http://localhost:" + process.env.PORT);
