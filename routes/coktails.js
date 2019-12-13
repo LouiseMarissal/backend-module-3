@@ -45,7 +45,6 @@ router.get("/", (req, res) => {
       });
       // console.log(req.session);
       if (req.session.currentUser) {
-        console.log("je suis bien là");
         isUser = true;
         const userId = req.session.currentUser._id;
         userModel.findById(userId).then(dbRes2 => {
