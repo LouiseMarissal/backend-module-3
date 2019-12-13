@@ -48,6 +48,7 @@ function loggedIn(req, res, next) {
 app.use(loggedIn);
 
 //Routing
+// res.header("Access-Control-Allow-Origin", "*");
 const authRouter = require("./routes/auth-routes");
 const cocktails = require("./routes/coktails");
 const comments = require("./routes/comment");

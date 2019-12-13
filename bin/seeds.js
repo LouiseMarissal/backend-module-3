@@ -10175,7 +10175,7 @@ const cocktails = [
   }
 ];
 mongoose
-  .connect("mongodb://localhost:27017/module-3-project", {
+  .connect(process.env.MONGODB_URI, {
     useNewUrlParser: true
   })
   .then(() => {
