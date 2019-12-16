@@ -101,7 +101,7 @@ router.get("/userpro-cocktail/:id", (req, res) => {
 router.get("/:id", (req, res) => {
   cocktailModel
     .findById(req.params.id)
-    .populate("tag")
+    .populate("tags")
     .then(dbRes => {
       res.status(200).send(dbRes);
     })
@@ -114,9 +114,13 @@ router.get("/:id", (req, res) => {
 router.get("/profile/edit-cocktail/:id", (req, res) => {
   cocktailModel
     .findById(req.params.id)
-    .populate("cocktail")
+    .populate("tags")
     .then(dbRes => {
-      res.status(200).send(dbRes);
+      let fullCocktail = dbRes;
+      TagModel.find().then(dbRes2 => {
+        const fullTags = dbRes2;
+        res.status(200).send({ fullCocktail, fullTags });
+      });
     })
     .catch(dbErr => {
       res.status(500).send(dbErr);
@@ -150,7 +154,6 @@ router.post("/", uploadCloud.single("Image"), (req, res) => {
 router.patch(
   "/profile/edit-cocktail/:id",
   uploadCloud.single("Image"),
-
   (req, res) => {
     if (req.file) req.body.Image = req.file.secure_url;
     cocktailModel
